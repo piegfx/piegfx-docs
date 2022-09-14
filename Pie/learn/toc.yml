@@ -1,0 +1,12 @@
+- name: Learn Pie
+  items:
+    - name: Welcome
+      href: welcome/welcome.md
+    - name: Why Pie?
+      href: welcome/why-pie.md
+- name: Chapter 1
+  items:
+    - name: 1 - Creating a Window
+      href: c1/1-creating-a-window.md
+    - name: 2 - Hello... Quad?
+      href: c1/2-drawing-a-quad.md

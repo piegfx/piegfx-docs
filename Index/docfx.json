@@ -1,0 +1,31 @@
+{
+  "build": {
+    "content": [
+      {
+        "files": [
+          "toc.yml",
+          "*.md"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "images/**"
+        ]
+      }
+    ],
+    "dest": "..\\SITE",
+    "globalMetadataFiles": [],
+    "fileMetadataFiles": [],
+    "template": [
+      "default"
+    ],
+    "postProcessors": [],
+    "markdownEngineName": "markdig",
+    "noLangKeyword": false,
+    "keepFileLink": false,
+    "cleanupCacheHistory": false,
+    "disableGitFeatures": false
+  }
+}

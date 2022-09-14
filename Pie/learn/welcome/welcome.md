@@ -1,0 +1,2 @@
+# Welcome
+Welcome to Learn Pie, the official pie guide. This guide is a translation of the [LearnOpenGL](https://learnopengl.com/) guide and beyond, so you can learn the ins and outs of graphics programming using pie.

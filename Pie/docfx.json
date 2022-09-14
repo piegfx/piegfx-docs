@@ -1,0 +1,71 @@
+{
+  "metadata": [
+    {
+      "src": [
+        {
+          "files": [
+            "**/*.csproj"
+          ]
+        }
+      ],
+      "dest": "api",
+      "disableGitFeatures": false,
+      "disableDefaultFilter": false
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": [
+          "api/**.yml",
+          "api/index.md"
+        ]
+      },
+      {
+        "files": [
+          "learn/**.md",
+          "learn/**/toc.yml",
+          "reference/**.md",
+          "reference/**/toc.yml",
+          "toc.yml",
+          "*.md"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "images/**"
+        ]
+      }
+    ],
+    "overwrite": [
+      {
+        "files": [
+          "apidoc/**.md"
+        ],
+        "exclude": [
+          "obj/**",
+          "..\\pie/**"
+        ]
+      }
+    ],
+    "dest": "..\\SITE\\pie",
+    "globalMetadataFiles": [],
+    "fileMetadataFiles": [],
+    "template": [
+      "default"
+    ],
+    "postProcessors": [],
+    "markdownEngineName": "markdig",
+    "noLangKeyword": false,
+    "keepFileLink": false,
+    "cleanupCacheHistory": false,
+    "disableGitFeatures": true,
+    "globalMetadata": {
+      "_appTitle": "Pie Docs",
+      "_enableSearch": true,
+      "_appFooter": "© piegfx 2022"
+    }
+  }
+}
