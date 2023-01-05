@@ -48,7 +48,7 @@
         ]
       }
     ],
-    "dest": "..\\easel",
+    "dest": "../SITE/easel",
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
     "template": [
