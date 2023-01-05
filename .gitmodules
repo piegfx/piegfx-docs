@@ -1,0 +1,3 @@
+[submodule "Easel/src/Easel"]
+	path = Easel/src/Easel
+	url = https://github.com/piegfx/Easel
