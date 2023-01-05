@@ -1,2 +1,4 @@
 - name: Getting Started
-  href: getting-started.md
+  items:
+    - name: 1 - Getting Started
+      href: getting-started/1-getting-started.md
