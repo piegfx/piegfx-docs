@@ -1,0 +1,130 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Why Pie? (Or any graphics abstraction) | Pie Docs </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Why Pie? (Or any graphics abstraction) | Pie Docs ">
+    <meta name="generator" content="docfx 2.59.3.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
+    
+    <meta property="docfx:rel" content="../../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="why-pie-or-any-graphics-abstraction">Why Pie? (Or any graphics abstraction)</h1>
+
+<p>There are a few graphics APIs you can choose from nowadays: DirectX, the de facto standard for graphics programming on Windows. OpenGL, the baseline standard for cross-platform graphics programming that runs on pretty much everything. Vulkan, the new standard for high performance truly modern graphics programming. And finally, metal, which is for mac and only works on mac.</p>
+<p>Let's compare these APIs.</p>
+<ul>
+<li><strong>DirectX (specifically Direct3D 11)</strong> - Nice, comfortable object-oriented API, but only works on Windows. (Natively, we'll discuss that more later.)</li>
+<li><strong>OpenGL</strong> - Cross-platform, dated API, rather slow, especially on Windows where Microsoft purposefully throttle its performance.</li>
+<li><strong>Vulkan</strong> - Powerful, cross-platform, difficult to use.</li>
+<li><strong>Metal</strong> - Pointless outside of macOS development and even then MoltenVK exists to make Metal even more pointless, although apparently it has a nice API.</li>
+</ul>
+<p>So based on these descriptions, it sounds like DirectX is the nicest API to use. While this is a subjective opinion, many people will agree that DirectX has a nice API. However, it is limited to Windows only, which is a problem for cross-platform applications. While layers such as DXVK exist to help with this, you still need to jump through hoops to get it to work.</p>
+<p>So what about OpenGL, or Vulkan? OpenGL has a dated API that a lot of people struggle to get used to, it is a big state machine and has many faults with both its API and implementation, a big one being the differences in driver implementations. Each driver has a slightly different OpenGL implementation, something that works with one driver might not work with another. On top of this, Microsoft purposefull throttles OpenGL performance on Windows, so it does not work nearly as fast as Direct3D would while rendering the same scenes. Vulkan is quickly replacing OpenGL, however it is hard to learn, especially without knowing graphics programming already, it is very verbose, and it also may not run on older graphics systems.</p>
+<p>So it sounds like the best solution would be to have a cross platform DirectX, right? Correct! This is what Pie aims to do. Pie purposefully has a similar API to DirectX, while working cross-platform. It has both a DirectX implementation for Windows, so you can get the best possible performance, while still having an OpenGL implementation for Linux and macOS, which, thanks to a lack of Microsoft, is not throttled like it is on Windows.</p>
+<p>A Vulkan implementation is planned eventually, however will probably not see the light of day for a while, since Vulkan works in a rather different way to OpenGL and DirectX, and would most likely require major changes to the API to remain performant. Vulkan support will most likely come in version 2, unless something changes and it can be implemented without changing the current API.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            © piegfx 2022
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

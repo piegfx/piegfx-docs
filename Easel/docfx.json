@@ -5,6 +5,10 @@
         {
           "files": [
             "src/**.csproj"
+          ],
+          "exclude": [
+              "src/Easel/BulletSharpPInvoke/**/**.csproj",
+              "src/Easel.Tests/**/**.csproj"
           ]
         }
       ],

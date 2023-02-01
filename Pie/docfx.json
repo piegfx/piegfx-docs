@@ -50,7 +50,7 @@
         ]
       }
     ],
-    "dest": "..\\SITE\\pie",
+    "dest": "../SITE/pie",
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
     "template": [

@@ -8,7 +8,7 @@ These sets of tutorials will assume you have at least basic knowledge of C# and 
 
 ## Creating our project
 Before we can get started, you'll need a few things installed on your system:
-* [.NET 6 SDK or above](https://dotnet.microsoft.com/)
+* [.NET 7 SDK or above](https://dotnet.microsoft.com/)
 * [git CLI](https://git-scm.com/)
 
 > [!Note]
@@ -29,7 +29,9 @@ Let's install Easel into our project!
 
 The simplest way is to clone Easel into a parent directory.
 
-`cd` into the parent directory of your project's directory, and run `git clone --recurse-submodules https://github.com/piegfx/Easel` to clone it.
+`cd` into the parent directory of your project's directory, and run `git clone -b renderer-revamp --recurse-submodules https://github.com/piegfx/Easel` to clone it.
+
+Then, `cd` into the newly created Easel directory, and run `dotnet build`, to ensure everything is built and up-to-date.
 
 Next, `cd` back into your project's directory and run `dotnet add reference ../Easel/Easel/Easel.csproj`. This adds a reference to Easel's project file (which is buried in directories also called "Easel") which we'll need to be able to use it.
 
