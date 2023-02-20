@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pie.Extensions.SilkWindowing
+  commentId: N:Pie.Extensions.SilkWindowing
+  id: Pie.Extensions.SilkWindowing
+  children:
+  - Pie.Extensions.SilkWindowing.SilkPie
+  langs:
+  - csharp
+  - vb
+  name: Pie.Extensions.SilkWindowing
+  nameWithType: Pie.Extensions.SilkWindowing
+  fullName: Pie.Extensions.SilkWindowing
+  type: Namespace
+  assemblies:
+  - Pie.Extensions.SilkWindowing
+references:
+- uid: Pie.Extensions.SilkWindowing.SilkPie
+  commentId: T:Pie.Extensions.SilkWindowing.SilkPie
+  name: SilkPie
+  nameWithType: SilkPie
+  fullName: Pie.Extensions.SilkWindowing.SilkPie

@@ -1,0 +1,595 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pie.Freetype.Native.FT_Open_Args
+  commentId: T:Pie.Freetype.Native.FT_Open_Args
+  id: FT_Open_Args
+  parent: Pie.Freetype.Native
+  children:
+  - Pie.Freetype.Native.FT_Open_Args.Driver
+  - Pie.Freetype.Native.FT_Open_Args.Flags
+  - Pie.Freetype.Native.FT_Open_Args.MemoryBase
+  - Pie.Freetype.Native.FT_Open_Args.MemorySize
+  - Pie.Freetype.Native.FT_Open_Args.NumParams
+  - Pie.Freetype.Native.FT_Open_Args.Params
+  - Pie.Freetype.Native.FT_Open_Args.PathName
+  - Pie.Freetype.Native.FT_Open_Args.Stream
+  langs:
+  - csharp
+  - vb
+  name: FT_Open_Args
+  nameWithType: FT_Open_Args
+  fullName: Pie.Freetype.Native.FT_Open_Args
+  type: Struct
+  source:
+    remote:
+      path: Pie.Freetype/Native/FT_Open_Args.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: FT_Open_Args
+    path: src/Pie/Pie.Freetype/Native/FT_Open_Args.cs
+    startLine: 5
+  assemblies:
+  - Pie.Freetype
+  namespace: Pie.Freetype.Native
+  syntax:
+    content: public struct FT_Open_Args
+    content.vb: Public Structure FT_Open_Args
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: Pie.Freetype.Native.FT_Open_Args.Flags
+  commentId: F:Pie.Freetype.Native.FT_Open_Args.Flags
+  id: Flags
+  parent: Pie.Freetype.Native.FT_Open_Args
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: FT_Open_Args.Flags
+  fullName: Pie.Freetype.Native.FT_Open_Args.Flags
+  type: Field
+  source:
+    remote:
+      path: Pie.Freetype/Native/FT_Open_Args.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Flags
+    path: src/Pie/Pie.Freetype/Native/FT_Open_Args.cs
+    startLine: 8
+  assemblies:
+  - Pie.Freetype
+  namespace: Pie.Freetype.Native
+  syntax:
+    content: public uint Flags
+    return:
+      type: System.UInt32
+    content.vb: Public Flags As UInteger
+- uid: Pie.Freetype.Native.FT_Open_Args.MemoryBase
+  commentId: F:Pie.Freetype.Native.FT_Open_Args.MemoryBase
+  id: MemoryBase
+  parent: Pie.Freetype.Native.FT_Open_Args
+  langs:
+  - csharp
+  - vb
+  name: MemoryBase
+  nameWithType: FT_Open_Args.MemoryBase
+  fullName: Pie.Freetype.Native.FT_Open_Args.MemoryBase
+  type: Field
+  source:
+    remote:
+      path: Pie.Freetype/Native/FT_Open_Args.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: MemoryBase
+    path: src/Pie/Pie.Freetype/Native/FT_Open_Args.cs
+    startLine: 9
+  assemblies:
+  - Pie.Freetype
+  namespace: Pie.Freetype.Native
+  syntax:
+    content: public byte* MemoryBase
+    return:
+      type: System.Byte*
+    content.vb: Public MemoryBase As Byte*
+- uid: Pie.Freetype.Native.FT_Open_Args.MemorySize
+  commentId: F:Pie.Freetype.Native.FT_Open_Args.MemorySize
+  id: MemorySize
+  parent: Pie.Freetype.Native.FT_Open_Args
+  langs:
+  - csharp
+  - vb
+  name: MemorySize
+  nameWithType: FT_Open_Args.MemorySize
+  fullName: Pie.Freetype.Native.FT_Open_Args.MemorySize
+  type: Field
+  source:
+    remote:
+      path: Pie.Freetype/Native/FT_Open_Args.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: MemorySize
+    path: src/Pie/Pie.Freetype/Native/FT_Open_Args.cs
+    startLine: 10
+  assemblies:
+  - Pie.Freetype
+  namespace: Pie.Freetype.Native
+  syntax:
+    content: public CLong MemorySize
+    return:
+      type: System.Runtime.InteropServices.CLong
+    content.vb: Public MemorySize As CLong
+- uid: Pie.Freetype.Native.FT_Open_Args.PathName
+  commentId: F:Pie.Freetype.Native.FT_Open_Args.PathName
+  id: PathName
+  parent: Pie.Freetype.Native.FT_Open_Args
+  langs:
+  - csharp
+  - vb
+  name: PathName
+  nameWithType: FT_Open_Args.PathName
+  fullName: Pie.Freetype.Native.FT_Open_Args.PathName
+  type: Field
+  source:
+    remote:
+      path: Pie.Freetype/Native/FT_Open_Args.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: PathName
+    path: src/Pie/Pie.Freetype/Native/FT_Open_Args.cs
+    startLine: 11
+  assemblies:
+  - Pie.Freetype
+  namespace: Pie.Freetype.Native
+  syntax:
+    content: public sbyte* PathName
+    return:
+      type: System.SByte*
+    content.vb: Public PathName As SByte*
+- uid: Pie.Freetype.Native.FT_Open_Args.Stream
+  commentId: F:Pie.Freetype.Native.FT_Open_Args.Stream
+  id: Stream
+  parent: Pie.Freetype.Native.FT_Open_Args
+  langs:
+  - csharp
+  - vb
+  name: Stream
+  nameWithType: FT_Open_Args.Stream
+  fullName: Pie.Freetype.Native.FT_Open_Args.Stream
+  type: Field
+  source:
+    remote:
+      path: Pie.Freetype/Native/FT_Open_Args.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Stream
+    path: src/Pie/Pie.Freetype/Native/FT_Open_Args.cs
+    startLine: 12
+  assemblies:
+  - Pie.Freetype
+  namespace: Pie.Freetype.Native
+  syntax:
+    content: public FT_Stream* Stream
+    return:
+      type: Pie.Freetype.Native.FT_Stream*
+    content.vb: Public Stream As FT_Stream*
+- uid: Pie.Freetype.Native.FT_Open_Args.Driver
+  commentId: F:Pie.Freetype.Native.FT_Open_Args.Driver
+  id: Driver
+  parent: Pie.Freetype.Native.FT_Open_Args
+  langs:
+  - csharp
+  - vb
+  name: Driver
+  nameWithType: FT_Open_Args.Driver
+  fullName: Pie.Freetype.Native.FT_Open_Args.Driver
+  type: Field
+  source:
+    remote:
+      path: Pie.Freetype/Native/FT_Open_Args.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Driver
+    path: src/Pie/Pie.Freetype/Native/FT_Open_Args.cs
+    startLine: 13
+  assemblies:
+  - Pie.Freetype
+  namespace: Pie.Freetype.Native
+  syntax:
+    content: public IntPtr Driver
+    return:
+      type: System.IntPtr
+    content.vb: Public Driver As IntPtr
+- uid: Pie.Freetype.Native.FT_Open_Args.NumParams
+  commentId: F:Pie.Freetype.Native.FT_Open_Args.NumParams
+  id: NumParams
+  parent: Pie.Freetype.Native.FT_Open_Args
+  langs:
+  - csharp
+  - vb
+  name: NumParams
+  nameWithType: FT_Open_Args.NumParams
+  fullName: Pie.Freetype.Native.FT_Open_Args.NumParams
+  type: Field
+  source:
+    remote:
+      path: Pie.Freetype/Native/FT_Open_Args.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: NumParams
+    path: src/Pie/Pie.Freetype/Native/FT_Open_Args.cs
+    startLine: 14
+  assemblies:
+  - Pie.Freetype
+  namespace: Pie.Freetype.Native
+  syntax:
+    content: public int NumParams
+    return:
+      type: System.Int32
+    content.vb: Public NumParams As Integer
+- uid: Pie.Freetype.Native.FT_Open_Args.Params
+  commentId: F:Pie.Freetype.Native.FT_Open_Args.Params
+  id: Params
+  parent: Pie.Freetype.Native.FT_Open_Args
+  langs:
+  - csharp
+  - vb
+  name: Params
+  nameWithType: FT_Open_Args.Params
+  fullName: Pie.Freetype.Native.FT_Open_Args.Params
+  type: Field
+  source:
+    remote:
+      path: Pie.Freetype/Native/FT_Open_Args.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Params
+    path: src/Pie/Pie.Freetype/Native/FT_Open_Args.cs
+    startLine: 15
+  assemblies:
+  - Pie.Freetype
+  namespace: Pie.Freetype.Native
+  syntax:
+    content: public FT_Parameter* Params
+    return:
+      type: Pie.Freetype.Native.FT_Parameter*
+    content.vb: Public Params As FT_Parameter*
+references:
+- uid: Pie.Freetype.Native
+  commentId: N:Pie.Freetype.Native
+  name: Pie.Freetype.Native
+  nameWithType: Pie.Freetype.Native
+  fullName: Pie.Freetype.Native
+  spec.csharp:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Freetype
+    name: Freetype
+  - name: .
+  - uid: Pie.Freetype.Native
+    name: Native
+  spec.vb:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Freetype
+    name: Freetype
+  - name: .
+  - uid: Pie.Freetype.Native
+    name: Native
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: System.Byte*
+  isExternal: true
+  name: byte*
+  nameWithType: byte*
+  fullName: byte*
+  nameWithType.vb: Byte*
+  fullName.vb: Byte*
+  name.vb: Byte*
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '*'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: '*'
+- uid: System.Runtime.InteropServices.CLong
+  commentId: T:System.Runtime.InteropServices.CLong
+  parent: System.Runtime.InteropServices
+  isExternal: true
+  name: CLong
+  nameWithType: CLong
+  fullName: System.Runtime.InteropServices.CLong
+- uid: System.Runtime.InteropServices
+  commentId: N:System.Runtime.InteropServices
+  isExternal: true
+  name: System.Runtime.InteropServices
+  nameWithType: System.Runtime.InteropServices
+  fullName: System.Runtime.InteropServices
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Runtime
+    name: Runtime
+    isExternal: true
+  - name: .
+  - uid: System.Runtime.InteropServices
+    name: InteropServices
+    isExternal: true
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Runtime
+    name: Runtime
+    isExternal: true
+  - name: .
+  - uid: System.Runtime.InteropServices
+    name: InteropServices
+    isExternal: true
+- uid: System.SByte*
+  isExternal: true
+  name: sbyte*
+  nameWithType: sbyte*
+  fullName: sbyte*
+  nameWithType.vb: SByte*
+  fullName.vb: SByte*
+  name.vb: SByte*
+  spec.csharp:
+  - uid: System.SByte
+    name: sbyte
+    isExternal: true
+  - name: '*'
+  spec.vb:
+  - uid: System.SByte
+    name: SByte
+    isExternal: true
+  - name: '*'
+- uid: Pie.Freetype.Native.FT_Stream*
+  isExternal: true
+  name: FT_Stream*
+  nameWithType: FT_Stream*
+  fullName: Pie.Freetype.Native.FT_Stream*
+  spec.csharp:
+  - uid: Pie.Freetype.Native.FT_Stream
+    name: FT_Stream
+  - name: '*'
+  spec.vb:
+  - uid: Pie.Freetype.Native.FT_Stream
+    name: FT_Stream
+  - name: '*'
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Pie.Freetype.Native.FT_Parameter*
+  isExternal: true
+  name: FT_Parameter*
+  nameWithType: FT_Parameter*
+  fullName: Pie.Freetype.Native.FT_Parameter*
+  spec.csharp:
+  - uid: Pie.Freetype.Native.FT_Parameter
+    name: FT_Parameter
+  - name: '*'
+  spec.vb:
+  - uid: Pie.Freetype.Native.FT_Parameter
+    name: FT_Parameter
+  - name: '*'

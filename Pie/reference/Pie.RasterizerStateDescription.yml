@@ -1,0 +1,852 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pie.RasterizerStateDescription
+  commentId: T:Pie.RasterizerStateDescription
+  id: RasterizerStateDescription
+  parent: Pie
+  children:
+  - Pie.RasterizerStateDescription.#ctor(Pie.CullFace,Pie.CullDirection,Pie.FillMode,System.Boolean)
+  - Pie.RasterizerStateDescription.CullClockwise
+  - Pie.RasterizerStateDescription.CullCounterClockwise
+  - Pie.RasterizerStateDescription.CullDirection
+  - Pie.RasterizerStateDescription.CullFace
+  - Pie.RasterizerStateDescription.CullNone
+  - Pie.RasterizerStateDescription.Equals(Pie.RasterizerStateDescription)
+  - Pie.RasterizerStateDescription.Equals(System.Object)
+  - Pie.RasterizerStateDescription.FillMode
+  - Pie.RasterizerStateDescription.GetHashCode
+  - Pie.RasterizerStateDescription.op_Equality(Pie.RasterizerStateDescription,Pie.RasterizerStateDescription)
+  - Pie.RasterizerStateDescription.op_Inequality(Pie.RasterizerStateDescription,Pie.RasterizerStateDescription)
+  - Pie.RasterizerStateDescription.ScissorTest
+  langs:
+  - csharp
+  - vb
+  name: RasterizerStateDescription
+  nameWithType: RasterizerStateDescription
+  fullName: Pie.RasterizerStateDescription
+  type: Struct
+  source:
+    remote:
+      path: Pie/RasterizerStateDescription.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: RasterizerStateDescription
+    path: src/Pie/Pie/RasterizerStateDescription.cs
+    startLine: 7
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nDescribes a <xref href=\"Pie.RasterizerState\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: 'public struct RasterizerStateDescription : IEquatable<RasterizerStateDescription>'
+    content.vb: Public Structure RasterizerStateDescription Implements IEquatable(Of RasterizerStateDescription)
+  implements:
+  - System.IEquatable{Pie.RasterizerStateDescription}
+  inheritedMembers:
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: Pie.RasterizerStateDescription.CullNone
+  commentId: F:Pie.RasterizerStateDescription.CullNone
+  id: CullNone
+  parent: Pie.RasterizerStateDescription
+  langs:
+  - csharp
+  - vb
+  name: CullNone
+  nameWithType: RasterizerStateDescription.CullNone
+  fullName: Pie.RasterizerStateDescription.CullNone
+  type: Field
+  source:
+    remote:
+      path: Pie/RasterizerStateDescription.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: CullNone
+    path: src/Pie/Pie/RasterizerStateDescription.cs
+    startLine: 12
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nNo culling whatsoever, with a solid <xref href=\"Pie.FillMode\" data-throw-if-not-resolved=\"false\"></xref>, and with the scissor test disabled.\n"
+  example: []
+  syntax:
+    content: public static readonly RasterizerStateDescription CullNone
+    return:
+      type: Pie.RasterizerStateDescription
+    content.vb: Public Shared ReadOnly CullNone As RasterizerStateDescription
+- uid: Pie.RasterizerStateDescription.CullClockwise
+  commentId: F:Pie.RasterizerStateDescription.CullClockwise
+  id: CullClockwise
+  parent: Pie.RasterizerStateDescription
+  langs:
+  - csharp
+  - vb
+  name: CullClockwise
+  nameWithType: RasterizerStateDescription.CullClockwise
+  fullName: Pie.RasterizerStateDescription.CullClockwise
+  type: Field
+  source:
+    remote:
+      path: Pie/RasterizerStateDescription.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: CullClockwise
+    path: src/Pie/Pie/RasterizerStateDescription.cs
+    startLine: 18
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nCull back faces in the clockwise direction, with a solid <xref href=\"Pie.FillMode\" data-throw-if-not-resolved=\"false\"></xref>, and with the scissor test disabled.\n"
+  example: []
+  syntax:
+    content: public static readonly RasterizerStateDescription CullClockwise
+    return:
+      type: Pie.RasterizerStateDescription
+    content.vb: Public Shared ReadOnly CullClockwise As RasterizerStateDescription
+- uid: Pie.RasterizerStateDescription.CullCounterClockwise
+  commentId: F:Pie.RasterizerStateDescription.CullCounterClockwise
+  id: CullCounterClockwise
+  parent: Pie.RasterizerStateDescription
+  langs:
+  - csharp
+  - vb
+  name: CullCounterClockwise
+  nameWithType: RasterizerStateDescription.CullCounterClockwise
+  fullName: Pie.RasterizerStateDescription.CullCounterClockwise
+  type: Field
+  source:
+    remote:
+      path: Pie/RasterizerStateDescription.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: CullCounterClockwise
+    path: src/Pie/Pie/RasterizerStateDescription.cs
+    startLine: 24
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nCull back faces in the counter-clockwise direction, with a solid <xref href=\"Pie.FillMode\" data-throw-if-not-resolved=\"false\"></xref>, and with the scissor test disabled.\n"
+  example: []
+  syntax:
+    content: public static readonly RasterizerStateDescription CullCounterClockwise
+    return:
+      type: Pie.RasterizerStateDescription
+    content.vb: Public Shared ReadOnly CullCounterClockwise As RasterizerStateDescription
+- uid: Pie.RasterizerStateDescription.CullFace
+  commentId: F:Pie.RasterizerStateDescription.CullFace
+  id: CullFace
+  parent: Pie.RasterizerStateDescription
+  langs:
+  - csharp
+  - vb
+  name: CullFace
+  nameWithType: RasterizerStateDescription.CullFace
+  fullName: Pie.RasterizerStateDescription.CullFace
+  type: Field
+  source:
+    remote:
+      path: Pie/RasterizerStateDescription.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: CullFace
+    path: src/Pie/Pie/RasterizerStateDescription.cs
+    startLine: 30
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nThe face to cull.\n"
+  example: []
+  syntax:
+    content: public CullFace CullFace
+    return:
+      type: Pie.CullFace
+    content.vb: Public CullFace As CullFace
+- uid: Pie.RasterizerStateDescription.CullDirection
+  commentId: F:Pie.RasterizerStateDescription.CullDirection
+  id: CullDirection
+  parent: Pie.RasterizerStateDescription
+  langs:
+  - csharp
+  - vb
+  name: CullDirection
+  nameWithType: RasterizerStateDescription.CullDirection
+  fullName: Pie.RasterizerStateDescription.CullDirection
+  type: Field
+  source:
+    remote:
+      path: Pie/RasterizerStateDescription.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: CullDirection
+    path: src/Pie/Pie/RasterizerStateDescription.cs
+    startLine: 35
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nThe winding order of the vertices. This sets the front face&apos;s direction.\n"
+  example: []
+  syntax:
+    content: public CullDirection CullDirection
+    return:
+      type: Pie.CullDirection
+    content.vb: Public CullDirection As CullDirection
+- uid: Pie.RasterizerStateDescription.FillMode
+  commentId: F:Pie.RasterizerStateDescription.FillMode
+  id: FillMode
+  parent: Pie.RasterizerStateDescription
+  langs:
+  - csharp
+  - vb
+  name: FillMode
+  nameWithType: RasterizerStateDescription.FillMode
+  fullName: Pie.RasterizerStateDescription.FillMode
+  type: Field
+  source:
+    remote:
+      path: Pie/RasterizerStateDescription.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: FillMode
+    path: src/Pie/Pie/RasterizerStateDescription.cs
+    startLine: 40
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nThe <xref href=\"Pie.FillMode\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public FillMode FillMode
+    return:
+      type: Pie.FillMode
+    content.vb: Public FillMode As FillMode
+- uid: Pie.RasterizerStateDescription.ScissorTest
+  commentId: F:Pie.RasterizerStateDescription.ScissorTest
+  id: ScissorTest
+  parent: Pie.RasterizerStateDescription
+  langs:
+  - csharp
+  - vb
+  name: ScissorTest
+  nameWithType: RasterizerStateDescription.ScissorTest
+  fullName: Pie.RasterizerStateDescription.ScissorTest
+  type: Field
+  source:
+    remote:
+      path: Pie/RasterizerStateDescription.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: ScissorTest
+    path: src/Pie/Pie/RasterizerStateDescription.cs
+    startLine: 45
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nWhether or not the scissor test is enabled.\n"
+  example: []
+  syntax:
+    content: public bool ScissorTest
+    return:
+      type: System.Boolean
+    content.vb: Public ScissorTest As Boolean
+- uid: Pie.RasterizerStateDescription.#ctor(Pie.CullFace,Pie.CullDirection,Pie.FillMode,System.Boolean)
+  commentId: M:Pie.RasterizerStateDescription.#ctor(Pie.CullFace,Pie.CullDirection,Pie.FillMode,System.Boolean)
+  id: '#ctor(Pie.CullFace,Pie.CullDirection,Pie.FillMode,System.Boolean)'
+  parent: Pie.RasterizerStateDescription
+  langs:
+  - csharp
+  - vb
+  name: RasterizerStateDescription(CullFace, CullDirection, FillMode, bool)
+  nameWithType: RasterizerStateDescription.RasterizerStateDescription(CullFace, CullDirection, FillMode, bool)
+  fullName: Pie.RasterizerStateDescription.RasterizerStateDescription(Pie.CullFace, Pie.CullDirection, Pie.FillMode, bool)
+  type: Constructor
+  source:
+    remote:
+      path: Pie/RasterizerStateDescription.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: .ctor
+    path: src/Pie/Pie/RasterizerStateDescription.cs
+    startLine: 54
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nCreate a new <xref href=\"Pie.RasterizerStateDescription\" data-throw-if-not-resolved=\"false\"></xref> with the given parameters.\n"
+  example: []
+  syntax:
+    content: public RasterizerStateDescription(CullFace cullFace, CullDirection cullDirection, FillMode fillMode, bool scissorTest)
+    parameters:
+    - id: cullFace
+      type: Pie.CullFace
+      description: The face to cull.
+    - id: cullDirection
+      type: Pie.CullDirection
+      description: The winding order of the vertices. This sets the front face&apos;s direction.
+    - id: fillMode
+      type: Pie.FillMode
+      description: The <xref href="Pie.FillMode" data-throw-if-not-resolved="false"></xref>.
+    - id: scissorTest
+      type: System.Boolean
+      description: Whether or not the scissor test is enabled.
+    content.vb: Public Sub New(cullFace As CullFace, cullDirection As CullDirection, fillMode As FillMode, scissorTest As Boolean)
+  overload: Pie.RasterizerStateDescription.#ctor*
+  nameWithType.vb: RasterizerStateDescription.New(CullFace, CullDirection, FillMode, Boolean)
+  fullName.vb: Pie.RasterizerStateDescription.New(Pie.CullFace, Pie.CullDirection, Pie.FillMode, Boolean)
+  name.vb: New(CullFace, CullDirection, FillMode, Boolean)
+- uid: Pie.RasterizerStateDescription.Equals(Pie.RasterizerStateDescription)
+  commentId: M:Pie.RasterizerStateDescription.Equals(Pie.RasterizerStateDescription)
+  id: Equals(Pie.RasterizerStateDescription)
+  parent: Pie.RasterizerStateDescription
+  langs:
+  - csharp
+  - vb
+  name: Equals(RasterizerStateDescription)
+  nameWithType: RasterizerStateDescription.Equals(RasterizerStateDescription)
+  fullName: Pie.RasterizerStateDescription.Equals(Pie.RasterizerStateDescription)
+  type: Method
+  source:
+    remote:
+      path: Pie/RasterizerStateDescription.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Equals
+    path: src/Pie/Pie/RasterizerStateDescription.cs
+    startLine: 62
+  assemblies:
+  - Pie
+  namespace: Pie
+  syntax:
+    content: public bool Equals(RasterizerStateDescription other)
+    parameters:
+    - id: other
+      type: Pie.RasterizerStateDescription
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As RasterizerStateDescription) As Boolean
+  overload: Pie.RasterizerStateDescription.Equals*
+  implements:
+  - System.IEquatable{Pie.RasterizerStateDescription}.Equals(Pie.RasterizerStateDescription)
+- uid: Pie.RasterizerStateDescription.Equals(System.Object)
+  commentId: M:Pie.RasterizerStateDescription.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: Pie.RasterizerStateDescription
+  langs:
+  - csharp
+  - vb
+  name: Equals(object)
+  nameWithType: RasterizerStateDescription.Equals(object)
+  fullName: Pie.RasterizerStateDescription.Equals(object)
+  type: Method
+  source:
+    remote:
+      path: Pie/RasterizerStateDescription.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Equals
+    path: src/Pie/Pie/RasterizerStateDescription.cs
+    startLine: 67
+  assemblies:
+  - Pie
+  namespace: Pie
+  syntax:
+    content: public override bool Equals(object obj)
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.ValueType.Equals(System.Object)
+  overload: Pie.RasterizerStateDescription.Equals*
+  nameWithType.vb: RasterizerStateDescription.Equals(Object)
+  fullName.vb: Pie.RasterizerStateDescription.Equals(Object)
+  name.vb: Equals(Object)
+- uid: Pie.RasterizerStateDescription.GetHashCode
+  commentId: M:Pie.RasterizerStateDescription.GetHashCode
+  id: GetHashCode
+  parent: Pie.RasterizerStateDescription
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: RasterizerStateDescription.GetHashCode()
+  fullName: Pie.RasterizerStateDescription.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: Pie/RasterizerStateDescription.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: GetHashCode
+    path: src/Pie/Pie/RasterizerStateDescription.cs
+    startLine: 72
+  assemblies:
+  - Pie
+  namespace: Pie
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.ValueType.GetHashCode
+  overload: Pie.RasterizerStateDescription.GetHashCode*
+- uid: Pie.RasterizerStateDescription.op_Equality(Pie.RasterizerStateDescription,Pie.RasterizerStateDescription)
+  commentId: M:Pie.RasterizerStateDescription.op_Equality(Pie.RasterizerStateDescription,Pie.RasterizerStateDescription)
+  id: op_Equality(Pie.RasterizerStateDescription,Pie.RasterizerStateDescription)
+  parent: Pie.RasterizerStateDescription
+  langs:
+  - csharp
+  - vb
+  name: operator ==(RasterizerStateDescription, RasterizerStateDescription)
+  nameWithType: RasterizerStateDescription.operator ==(RasterizerStateDescription, RasterizerStateDescription)
+  fullName: Pie.RasterizerStateDescription.operator ==(Pie.RasterizerStateDescription, Pie.RasterizerStateDescription)
+  type: Operator
+  source:
+    remote:
+      path: Pie/RasterizerStateDescription.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: op_Equality
+    path: src/Pie/Pie/RasterizerStateDescription.cs
+    startLine: 77
+  assemblies:
+  - Pie
+  namespace: Pie
+  syntax:
+    content: public static bool operator ==(RasterizerStateDescription left, RasterizerStateDescription right)
+    parameters:
+    - id: left
+      type: Pie.RasterizerStateDescription
+    - id: right
+      type: Pie.RasterizerStateDescription
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator =(left As RasterizerStateDescription, right As RasterizerStateDescription) As Boolean
+  overload: Pie.RasterizerStateDescription.op_Equality*
+  nameWithType.vb: RasterizerStateDescription.=(RasterizerStateDescription, RasterizerStateDescription)
+  fullName.vb: Pie.RasterizerStateDescription.=(Pie.RasterizerStateDescription, Pie.RasterizerStateDescription)
+  name.vb: =(RasterizerStateDescription, RasterizerStateDescription)
+- uid: Pie.RasterizerStateDescription.op_Inequality(Pie.RasterizerStateDescription,Pie.RasterizerStateDescription)
+  commentId: M:Pie.RasterizerStateDescription.op_Inequality(Pie.RasterizerStateDescription,Pie.RasterizerStateDescription)
+  id: op_Inequality(Pie.RasterizerStateDescription,Pie.RasterizerStateDescription)
+  parent: Pie.RasterizerStateDescription
+  langs:
+  - csharp
+  - vb
+  name: operator !=(RasterizerStateDescription, RasterizerStateDescription)
+  nameWithType: RasterizerStateDescription.operator !=(RasterizerStateDescription, RasterizerStateDescription)
+  fullName: Pie.RasterizerStateDescription.operator !=(Pie.RasterizerStateDescription, Pie.RasterizerStateDescription)
+  type: Operator
+  source:
+    remote:
+      path: Pie/RasterizerStateDescription.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: op_Inequality
+    path: src/Pie/Pie/RasterizerStateDescription.cs
+    startLine: 82
+  assemblies:
+  - Pie
+  namespace: Pie
+  syntax:
+    content: public static bool operator !=(RasterizerStateDescription left, RasterizerStateDescription right)
+    parameters:
+    - id: left
+      type: Pie.RasterizerStateDescription
+    - id: right
+      type: Pie.RasterizerStateDescription
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator <>(left As RasterizerStateDescription, right As RasterizerStateDescription) As Boolean
+  overload: Pie.RasterizerStateDescription.op_Inequality*
+  nameWithType.vb: RasterizerStateDescription.<>(RasterizerStateDescription, RasterizerStateDescription)
+  fullName.vb: Pie.RasterizerStateDescription.<>(Pie.RasterizerStateDescription, Pie.RasterizerStateDescription)
+  name.vb: <>(RasterizerStateDescription, RasterizerStateDescription)
+references:
+- uid: Pie.RasterizerState
+  commentId: T:Pie.RasterizerState
+  parent: Pie
+  name: RasterizerState
+  nameWithType: RasterizerState
+  fullName: Pie.RasterizerState
+- uid: Pie
+  commentId: N:Pie
+  name: Pie
+  nameWithType: Pie
+  fullName: Pie
+- uid: System.IEquatable{Pie.RasterizerStateDescription}
+  commentId: T:System.IEquatable{Pie.RasterizerStateDescription}
+  parent: System
+  definition: System.IEquatable`1
+  name: IEquatable<RasterizerStateDescription>
+  nameWithType: IEquatable<RasterizerStateDescription>
+  fullName: System.IEquatable<Pie.RasterizerStateDescription>
+  nameWithType.vb: IEquatable(Of RasterizerStateDescription)
+  fullName.vb: System.IEquatable(Of Pie.RasterizerStateDescription)
+  name.vb: IEquatable(Of RasterizerStateDescription)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+  - name: <
+  - uid: Pie.RasterizerStateDescription
+    name: RasterizerStateDescription
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Pie.RasterizerStateDescription
+    name: RasterizerStateDescription
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Pie.FillMode
+  commentId: T:Pie.FillMode
+  parent: Pie
+  name: FillMode
+  nameWithType: FillMode
+  fullName: Pie.FillMode
+- uid: Pie.RasterizerStateDescription
+  commentId: T:Pie.RasterizerStateDescription
+  parent: Pie
+  name: RasterizerStateDescription
+  nameWithType: RasterizerStateDescription
+  fullName: Pie.RasterizerStateDescription
+- uid: Pie.CullFace
+  commentId: T:Pie.CullFace
+  parent: Pie
+  name: CullFace
+  nameWithType: CullFace
+  fullName: Pie.CullFace
+- uid: Pie.CullDirection
+  commentId: T:Pie.CullDirection
+  parent: Pie
+  name: CullDirection
+  nameWithType: CullDirection
+  fullName: Pie.CullDirection
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Pie.RasterizerStateDescription.#ctor*
+  commentId: Overload:Pie.RasterizerStateDescription.#ctor
+  name: RasterizerStateDescription
+  nameWithType: RasterizerStateDescription.RasterizerStateDescription
+  fullName: Pie.RasterizerStateDescription.RasterizerStateDescription
+  nameWithType.vb: RasterizerStateDescription.New
+  fullName.vb: Pie.RasterizerStateDescription.New
+  name.vb: New
+- uid: Pie.RasterizerStateDescription.Equals*
+  commentId: Overload:Pie.RasterizerStateDescription.Equals
+  name: Equals
+  nameWithType: RasterizerStateDescription.Equals
+  fullName: Pie.RasterizerStateDescription.Equals
+- uid: System.IEquatable{Pie.RasterizerStateDescription}.Equals(Pie.RasterizerStateDescription)
+  commentId: M:System.IEquatable{Pie.RasterizerStateDescription}.Equals(Pie.RasterizerStateDescription)
+  parent: System.IEquatable{Pie.RasterizerStateDescription}
+  definition: System.IEquatable`1.Equals(`0)
+  name: Equals(RasterizerStateDescription)
+  nameWithType: IEquatable<RasterizerStateDescription>.Equals(RasterizerStateDescription)
+  fullName: System.IEquatable<Pie.RasterizerStateDescription>.Equals(Pie.RasterizerStateDescription)
+  nameWithType.vb: IEquatable(Of RasterizerStateDescription).Equals(RasterizerStateDescription)
+  fullName.vb: System.IEquatable(Of Pie.RasterizerStateDescription).Equals(Pie.RasterizerStateDescription)
+  spec.csharp:
+  - uid: System.IEquatable{Pie.RasterizerStateDescription}.Equals(Pie.RasterizerStateDescription)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: Pie.RasterizerStateDescription
+    name: RasterizerStateDescription
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{Pie.RasterizerStateDescription}.Equals(Pie.RasterizerStateDescription)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: Pie.RasterizerStateDescription
+    name: RasterizerStateDescription
+  - name: )
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+- uid: Pie.RasterizerStateDescription.GetHashCode*
+  commentId: Overload:Pie.RasterizerStateDescription.GetHashCode
+  name: GetHashCode
+  nameWithType: RasterizerStateDescription.GetHashCode
+  fullName: Pie.RasterizerStateDescription.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Pie.RasterizerStateDescription.op_Equality*
+  commentId: Overload:Pie.RasterizerStateDescription.op_Equality
+  name: operator ==
+  nameWithType: RasterizerStateDescription.operator ==
+  fullName: Pie.RasterizerStateDescription.operator ==
+  nameWithType.vb: RasterizerStateDescription.=
+  fullName.vb: Pie.RasterizerStateDescription.=
+  name.vb: =
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: Pie.RasterizerStateDescription.op_Equality*
+    name: ==
+- uid: Pie.RasterizerStateDescription.op_Inequality*
+  commentId: Overload:Pie.RasterizerStateDescription.op_Inequality
+  name: operator !=
+  nameWithType: RasterizerStateDescription.operator !=
+  fullName: Pie.RasterizerStateDescription.operator !=
+  nameWithType.vb: RasterizerStateDescription.<>
+  fullName.vb: Pie.RasterizerStateDescription.<>
+  name.vb: <>
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: Pie.RasterizerStateDescription.op_Inequality*
+    name: '!='

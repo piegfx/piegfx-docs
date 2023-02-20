@@ -1,0 +1,53 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pie.ShaderCompiler
+  commentId: N:Pie.ShaderCompiler
+  id: Pie.ShaderCompiler
+  children:
+  - Pie.ShaderCompiler.Compiler
+  - Pie.ShaderCompiler.CompilerResult
+  - Pie.ShaderCompiler.Extensions
+  langs:
+  - csharp
+  - vb
+  name: Pie.ShaderCompiler
+  nameWithType: Pie.ShaderCompiler
+  fullName: Pie.ShaderCompiler
+  type: Namespace
+  assemblies:
+  - Pie.ShaderCompiler
+references:
+- uid: Pie.ShaderCompiler.Compiler
+  commentId: T:Pie.ShaderCompiler.Compiler
+  name: Compiler
+  nameWithType: Compiler
+  fullName: Pie.ShaderCompiler.Compiler
+- uid: Pie.ShaderCompiler.CompilerResult
+  commentId: T:Pie.ShaderCompiler.CompilerResult
+  parent: Pie.ShaderCompiler
+  name: CompilerResult
+  nameWithType: CompilerResult
+  fullName: Pie.ShaderCompiler.CompilerResult
+- uid: Pie.ShaderCompiler.Extensions
+  commentId: T:Pie.ShaderCompiler.Extensions
+  parent: Pie.ShaderCompiler
+  name: Extensions
+  nameWithType: Extensions
+  fullName: Pie.ShaderCompiler.Extensions
+- uid: Pie.ShaderCompiler
+  commentId: N:Pie.ShaderCompiler
+  name: Pie.ShaderCompiler
+  nameWithType: Pie.ShaderCompiler
+  fullName: Pie.ShaderCompiler
+  spec.csharp:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.ShaderCompiler
+    name: ShaderCompiler
+  spec.vb:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.ShaderCompiler
+    name: ShaderCompiler

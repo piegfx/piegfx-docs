@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pie.CullFace
+  commentId: T:Pie.CullFace
+  id: CullFace
+  parent: Pie
+  children:
+  - Pie.CullFace.Back
+  - Pie.CullFace.Front
+  - Pie.CullFace.None
+  langs:
+  - csharp
+  - vb
+  name: CullFace
+  nameWithType: CullFace
+  fullName: Pie.CullFace
+  type: Enum
+  source:
+    remote:
+      path: Pie/CullFace.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: CullFace
+    path: src/Pie/Pie/CullFace.cs
+    startLine: 5
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nThe face to cull.\n"
+  example: []
+  syntax:
+    content: public enum CullFace
+    content.vb: Public Enum CullFace
+- uid: Pie.CullFace.None
+  commentId: F:Pie.CullFace.None
+  id: None
+  parent: Pie.CullFace
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: CullFace.None
+  fullName: Pie.CullFace.None
+  type: Field
+  source:
+    remote:
+      path: Pie/CullFace.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: None
+    path: src/Pie/Pie/CullFace.cs
+    startLine: 10
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nDisable face culling.\n"
+  example: []
+  syntax:
+    content: None = 0
+    return:
+      type: Pie.CullFace
+- uid: Pie.CullFace.Front
+  commentId: F:Pie.CullFace.Front
+  id: Front
+  parent: Pie.CullFace
+  langs:
+  - csharp
+  - vb
+  name: Front
+  nameWithType: CullFace.Front
+  fullName: Pie.CullFace.Front
+  type: Field
+  source:
+    remote:
+      path: Pie/CullFace.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Front
+    path: src/Pie/Pie/CullFace.cs
+    startLine: 15
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nCull front faces.\n"
+  example: []
+  syntax:
+    content: Front = 1
+    return:
+      type: Pie.CullFace
+- uid: Pie.CullFace.Back
+  commentId: F:Pie.CullFace.Back
+  id: Back
+  parent: Pie.CullFace
+  langs:
+  - csharp
+  - vb
+  name: Back
+  nameWithType: CullFace.Back
+  fullName: Pie.CullFace.Back
+  type: Field
+  source:
+    remote:
+      path: Pie/CullFace.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Back
+    path: src/Pie/Pie/CullFace.cs
+    startLine: 20
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nCull back faces.\n"
+  example: []
+  syntax:
+    content: Back = 2
+    return:
+      type: Pie.CullFace
+references:
+- uid: Pie
+  commentId: N:Pie
+  name: Pie
+  nameWithType: Pie
+  fullName: Pie
+- uid: Pie.CullFace
+  commentId: T:Pie.CullFace
+  parent: Pie
+  name: CullFace
+  nameWithType: CullFace
+  fullName: Pie.CullFace

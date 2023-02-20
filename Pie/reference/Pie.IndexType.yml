@@ -1,0 +1,100 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pie.IndexType
+  commentId: T:Pie.IndexType
+  id: IndexType
+  parent: Pie
+  children:
+  - Pie.IndexType.UInt
+  - Pie.IndexType.UShort
+  langs:
+  - csharp
+  - vb
+  name: IndexType
+  nameWithType: IndexType
+  fullName: Pie.IndexType
+  type: Enum
+  source:
+    remote:
+      path: Pie/IndexType.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: IndexType
+    path: src/Pie/Pie/IndexType.cs
+    startLine: 5
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nThe data type of the indices used when drawing.\n"
+  example: []
+  syntax:
+    content: public enum IndexType
+    content.vb: Public Enum IndexType
+- uid: Pie.IndexType.UShort
+  commentId: F:Pie.IndexType.UShort
+  id: UShort
+  parent: Pie.IndexType
+  langs:
+  - csharp
+  - vb
+  name: UShort
+  nameWithType: IndexType.UShort
+  fullName: Pie.IndexType.UShort
+  type: Field
+  source:
+    remote:
+      path: Pie/IndexType.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: UShort
+    path: src/Pie/Pie/IndexType.cs
+    startLine: 10
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nThese indices are an unsigned 16-bit integer.\n"
+  example: []
+  syntax:
+    content: UShort = 0
+    return:
+      type: Pie.IndexType
+- uid: Pie.IndexType.UInt
+  commentId: F:Pie.IndexType.UInt
+  id: UInt
+  parent: Pie.IndexType
+  langs:
+  - csharp
+  - vb
+  name: UInt
+  nameWithType: IndexType.UInt
+  fullName: Pie.IndexType.UInt
+  type: Field
+  source:
+    remote:
+      path: Pie/IndexType.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: UInt
+    path: src/Pie/Pie/IndexType.cs
+    startLine: 15
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nThese indices are an unsigned 32-bit integer.\n"
+  example: []
+  syntax:
+    content: UInt = 1
+    return:
+      type: Pie.IndexType
+references:
+- uid: Pie
+  commentId: N:Pie
+  name: Pie
+  nameWithType: Pie
+  fullName: Pie
+- uid: Pie.IndexType
+  commentId: T:Pie.IndexType
+  parent: Pie
+  name: IndexType
+  nameWithType: IndexType
+  fullName: Pie.IndexType

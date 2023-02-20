@@ -1,0 +1,254 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pie.Windowing
+  commentId: N:Pie.Windowing
+  id: Pie.Windowing
+  children:
+  - Pie.Windowing.Icon
+  - Pie.Windowing.InputState
+  - Pie.Windowing.Key
+  - Pie.Windowing.Monitor
+  - Pie.Windowing.MouseButton
+  - Pie.Windowing.MouseState
+  - Pie.Windowing.VideoMode
+  - Pie.Windowing.Window
+  - Pie.Windowing.Window.OnKeyDown
+  - Pie.Windowing.Window.OnKeyUp
+  - Pie.Windowing.Window.OnMouseButtonDown
+  - Pie.Windowing.Window.OnMouseButtonUp
+  - Pie.Windowing.Window.OnMouseMove
+  - Pie.Windowing.Window.OnResize
+  - Pie.Windowing.Window.OnScroll
+  - Pie.Windowing.Window.OnTextInput
+  - Pie.Windowing.WindowBorder
+  - Pie.Windowing.WindowSettings
+  langs:
+  - csharp
+  - vb
+  name: Pie.Windowing
+  nameWithType: Pie.Windowing
+  fullName: Pie.Windowing
+  type: Namespace
+  assemblies:
+  - Pie.Windowing
+references:
+- uid: Pie.Windowing.Icon
+  commentId: T:Pie.Windowing.Icon
+  name: Icon
+  nameWithType: Icon
+  fullName: Pie.Windowing.Icon
+- uid: Pie.Windowing.InputState
+  commentId: T:Pie.Windowing.InputState
+  parent: Pie.Windowing
+  name: InputState
+  nameWithType: InputState
+  fullName: Pie.Windowing.InputState
+- uid: Pie.Windowing.Key
+  commentId: T:Pie.Windowing.Key
+  parent: Pie.Windowing
+  name: Key
+  nameWithType: Key
+  fullName: Pie.Windowing.Key
+- uid: Pie.Windowing.Monitor
+  commentId: T:Pie.Windowing.Monitor
+  parent: Pie.Windowing
+  name: Monitor
+  nameWithType: Monitor
+  fullName: Pie.Windowing.Monitor
+- uid: Pie.Windowing.MouseButton
+  commentId: T:Pie.Windowing.MouseButton
+  parent: Pie.Windowing
+  name: MouseButton
+  nameWithType: MouseButton
+  fullName: Pie.Windowing.MouseButton
+- uid: Pie.Windowing.MouseState
+  commentId: T:Pie.Windowing.MouseState
+  parent: Pie.Windowing
+  name: MouseState
+  nameWithType: MouseState
+  fullName: Pie.Windowing.MouseState
+- uid: Pie.Windowing.VideoMode
+  commentId: T:Pie.Windowing.VideoMode
+  parent: Pie.Windowing
+  name: VideoMode
+  nameWithType: VideoMode
+  fullName: Pie.Windowing.VideoMode
+- uid: Pie.Windowing.Window
+  commentId: T:Pie.Windowing.Window
+  parent: Pie.Windowing
+  name: Window
+  nameWithType: Window
+  fullName: Pie.Windowing.Window
+- uid: Pie.Windowing.Window.OnResize
+  commentId: T:Pie.Windowing.Window.OnResize
+  parent: Pie.Windowing
+  name: Window.OnResize
+  nameWithType: Window.OnResize
+  fullName: Pie.Windowing.Window.OnResize
+  spec.csharp:
+  - uid: Pie.Windowing.Window
+    name: Window
+  - name: .
+  - uid: Pie.Windowing.Window.OnResize
+    name: OnResize
+  spec.vb:
+  - uid: Pie.Windowing.Window
+    name: Window
+  - name: .
+  - uid: Pie.Windowing.Window.OnResize
+    name: OnResize
+- uid: Pie.Windowing.Window.OnKeyDown
+  commentId: T:Pie.Windowing.Window.OnKeyDown
+  parent: Pie.Windowing
+  name: Window.OnKeyDown
+  nameWithType: Window.OnKeyDown
+  fullName: Pie.Windowing.Window.OnKeyDown
+  spec.csharp:
+  - uid: Pie.Windowing.Window
+    name: Window
+  - name: .
+  - uid: Pie.Windowing.Window.OnKeyDown
+    name: OnKeyDown
+  spec.vb:
+  - uid: Pie.Windowing.Window
+    name: Window
+  - name: .
+  - uid: Pie.Windowing.Window.OnKeyDown
+    name: OnKeyDown
+- uid: Pie.Windowing.Window.OnKeyUp
+  commentId: T:Pie.Windowing.Window.OnKeyUp
+  parent: Pie.Windowing
+  name: Window.OnKeyUp
+  nameWithType: Window.OnKeyUp
+  fullName: Pie.Windowing.Window.OnKeyUp
+  spec.csharp:
+  - uid: Pie.Windowing.Window
+    name: Window
+  - name: .
+  - uid: Pie.Windowing.Window.OnKeyUp
+    name: OnKeyUp
+  spec.vb:
+  - uid: Pie.Windowing.Window
+    name: Window
+  - name: .
+  - uid: Pie.Windowing.Window.OnKeyUp
+    name: OnKeyUp
+- uid: Pie.Windowing.Window.OnTextInput
+  commentId: T:Pie.Windowing.Window.OnTextInput
+  parent: Pie.Windowing
+  name: Window.OnTextInput
+  nameWithType: Window.OnTextInput
+  fullName: Pie.Windowing.Window.OnTextInput
+  spec.csharp:
+  - uid: Pie.Windowing.Window
+    name: Window
+  - name: .
+  - uid: Pie.Windowing.Window.OnTextInput
+    name: OnTextInput
+  spec.vb:
+  - uid: Pie.Windowing.Window
+    name: Window
+  - name: .
+  - uid: Pie.Windowing.Window.OnTextInput
+    name: OnTextInput
+- uid: Pie.Windowing.Window.OnMouseButtonDown
+  commentId: T:Pie.Windowing.Window.OnMouseButtonDown
+  parent: Pie.Windowing
+  name: Window.OnMouseButtonDown
+  nameWithType: Window.OnMouseButtonDown
+  fullName: Pie.Windowing.Window.OnMouseButtonDown
+  spec.csharp:
+  - uid: Pie.Windowing.Window
+    name: Window
+  - name: .
+  - uid: Pie.Windowing.Window.OnMouseButtonDown
+    name: OnMouseButtonDown
+  spec.vb:
+  - uid: Pie.Windowing.Window
+    name: Window
+  - name: .
+  - uid: Pie.Windowing.Window.OnMouseButtonDown
+    name: OnMouseButtonDown
+- uid: Pie.Windowing.Window.OnMouseButtonUp
+  commentId: T:Pie.Windowing.Window.OnMouseButtonUp
+  parent: Pie.Windowing
+  name: Window.OnMouseButtonUp
+  nameWithType: Window.OnMouseButtonUp
+  fullName: Pie.Windowing.Window.OnMouseButtonUp
+  spec.csharp:
+  - uid: Pie.Windowing.Window
+    name: Window
+  - name: .
+  - uid: Pie.Windowing.Window.OnMouseButtonUp
+    name: OnMouseButtonUp
+  spec.vb:
+  - uid: Pie.Windowing.Window
+    name: Window
+  - name: .
+  - uid: Pie.Windowing.Window.OnMouseButtonUp
+    name: OnMouseButtonUp
+- uid: Pie.Windowing.Window.OnMouseMove
+  commentId: T:Pie.Windowing.Window.OnMouseMove
+  parent: Pie.Windowing
+  name: Window.OnMouseMove
+  nameWithType: Window.OnMouseMove
+  fullName: Pie.Windowing.Window.OnMouseMove
+  spec.csharp:
+  - uid: Pie.Windowing.Window
+    name: Window
+  - name: .
+  - uid: Pie.Windowing.Window.OnMouseMove
+    name: OnMouseMove
+  spec.vb:
+  - uid: Pie.Windowing.Window
+    name: Window
+  - name: .
+  - uid: Pie.Windowing.Window.OnMouseMove
+    name: OnMouseMove
+- uid: Pie.Windowing.Window.OnScroll
+  commentId: T:Pie.Windowing.Window.OnScroll
+  parent: Pie.Windowing
+  name: Window.OnScroll
+  nameWithType: Window.OnScroll
+  fullName: Pie.Windowing.Window.OnScroll
+  spec.csharp:
+  - uid: Pie.Windowing.Window
+    name: Window
+  - name: .
+  - uid: Pie.Windowing.Window.OnScroll
+    name: OnScroll
+  spec.vb:
+  - uid: Pie.Windowing.Window
+    name: Window
+  - name: .
+  - uid: Pie.Windowing.Window.OnScroll
+    name: OnScroll
+- uid: Pie.Windowing.WindowBorder
+  commentId: T:Pie.Windowing.WindowBorder
+  parent: Pie.Windowing
+  name: WindowBorder
+  nameWithType: WindowBorder
+  fullName: Pie.Windowing.WindowBorder
+- uid: Pie.Windowing.WindowSettings
+  commentId: T:Pie.Windowing.WindowSettings
+  parent: Pie.Windowing
+  name: WindowSettings
+  nameWithType: WindowSettings
+  fullName: Pie.Windowing.WindowSettings
+- uid: Pie.Windowing
+  commentId: N:Pie.Windowing
+  name: Pie.Windowing
+  nameWithType: Pie.Windowing
+  fullName: Pie.Windowing
+  spec.csharp:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Windowing
+    name: Windowing
+  spec.vb:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Windowing
+    name: Windowing

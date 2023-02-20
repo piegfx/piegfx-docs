@@ -1,0 +1,55 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pie.Windowing.Window.OnMouseButtonUp
+  commentId: T:Pie.Windowing.Window.OnMouseButtonUp
+  id: Window.OnMouseButtonUp
+  parent: Pie.Windowing
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: Window.OnMouseButtonUp
+  nameWithType: Window.OnMouseButtonUp
+  fullName: Pie.Windowing.Window.OnMouseButtonUp
+  type: Delegate
+  source:
+    remote:
+      path: Pie.Windowing/Window.Events.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: OnMouseButtonUp
+    path: src/Pie/Pie.Windowing/Window.Events.cs
+    startLine: 100
+  assemblies:
+  - Pie.Windowing
+  namespace: Pie.Windowing
+  syntax:
+    content: public delegate void Window.OnMouseButtonUp(MouseButton button)
+    parameters:
+    - id: button
+      type: Pie.Windowing.MouseButton
+    content.vb: Public Delegate Sub Window.OnMouseButtonUp(button As MouseButton)
+references:
+- uid: Pie.Windowing
+  commentId: N:Pie.Windowing
+  name: Pie.Windowing
+  nameWithType: Pie.Windowing
+  fullName: Pie.Windowing
+  spec.csharp:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Windowing
+    name: Windowing
+  spec.vb:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Windowing
+    name: Windowing
+- uid: Pie.Windowing.MouseButton
+  commentId: T:Pie.Windowing.MouseButton
+  parent: Pie.Windowing
+  name: MouseButton
+  nameWithType: MouseButton
+  fullName: Pie.Windowing.MouseButton

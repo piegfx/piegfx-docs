@@ -1,0 +1,158 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pie.TextureAddress
+  commentId: T:Pie.TextureAddress
+  id: TextureAddress
+  parent: Pie
+  children:
+  - Pie.TextureAddress.ClampToBorder
+  - Pie.TextureAddress.ClampToEdge
+  - Pie.TextureAddress.Mirror
+  - Pie.TextureAddress.Repeat
+  langs:
+  - csharp
+  - vb
+  name: TextureAddress
+  nameWithType: TextureAddress
+  fullName: Pie.TextureAddress
+  type: Enum
+  source:
+    remote:
+      path: Pie/TextureAddress.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: TextureAddress
+    path: src/Pie/Pie/TextureAddress.cs
+    startLine: 5
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nUsed to define what is sampled when the texture coordinates go outside the 0-1 range.\n"
+  example: []
+  syntax:
+    content: public enum TextureAddress
+    content.vb: Public Enum TextureAddress
+- uid: Pie.TextureAddress.Repeat
+  commentId: F:Pie.TextureAddress.Repeat
+  id: Repeat
+  parent: Pie.TextureAddress
+  langs:
+  - csharp
+  - vb
+  name: Repeat
+  nameWithType: TextureAddress.Repeat
+  fullName: Pie.TextureAddress.Repeat
+  type: Field
+  source:
+    remote:
+      path: Pie/TextureAddress.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Repeat
+    path: src/Pie/Pie/TextureAddress.cs
+    startLine: 10
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nThe texture will repeat.\n"
+  example: []
+  syntax:
+    content: Repeat = 0
+    return:
+      type: Pie.TextureAddress
+- uid: Pie.TextureAddress.Mirror
+  commentId: F:Pie.TextureAddress.Mirror
+  id: Mirror
+  parent: Pie.TextureAddress
+  langs:
+  - csharp
+  - vb
+  name: Mirror
+  nameWithType: TextureAddress.Mirror
+  fullName: Pie.TextureAddress.Mirror
+  type: Field
+  source:
+    remote:
+      path: Pie/TextureAddress.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Mirror
+    path: src/Pie/Pie/TextureAddress.cs
+    startLine: 15
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nThe texture will mirror.\n"
+  example: []
+  syntax:
+    content: Mirror = 1
+    return:
+      type: Pie.TextureAddress
+- uid: Pie.TextureAddress.ClampToEdge
+  commentId: F:Pie.TextureAddress.ClampToEdge
+  id: ClampToEdge
+  parent: Pie.TextureAddress
+  langs:
+  - csharp
+  - vb
+  name: ClampToEdge
+  nameWithType: TextureAddress.ClampToEdge
+  fullName: Pie.TextureAddress.ClampToEdge
+  type: Field
+  source:
+    remote:
+      path: Pie/TextureAddress.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: ClampToEdge
+    path: src/Pie/Pie/TextureAddress.cs
+    startLine: 20
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nThe texture will clamp to the edge (the last row of pixels).\n"
+  example: []
+  syntax:
+    content: ClampToEdge = 2
+    return:
+      type: Pie.TextureAddress
+- uid: Pie.TextureAddress.ClampToBorder
+  commentId: F:Pie.TextureAddress.ClampToBorder
+  id: ClampToBorder
+  parent: Pie.TextureAddress
+  langs:
+  - csharp
+  - vb
+  name: ClampToBorder
+  nameWithType: TextureAddress.ClampToBorder
+  fullName: Pie.TextureAddress.ClampToBorder
+  type: Field
+  source:
+    remote:
+      path: Pie/TextureAddress.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: ClampToBorder
+    path: src/Pie/Pie/TextureAddress.cs
+    startLine: 25
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nThe texture will clamp to a border color.\n"
+  example: []
+  syntax:
+    content: ClampToBorder = 3
+    return:
+      type: Pie.TextureAddress
+references:
+- uid: Pie
+  commentId: N:Pie
+  name: Pie
+  nameWithType: Pie
+  fullName: Pie
+- uid: Pie.TextureAddress
+  commentId: T:Pie.TextureAddress
+  parent: Pie
+  name: TextureAddress
+  nameWithType: TextureAddress
+  fullName: Pie.TextureAddress

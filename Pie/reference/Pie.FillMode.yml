@@ -1,0 +1,100 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pie.FillMode
+  commentId: T:Pie.FillMode
+  id: FillMode
+  parent: Pie
+  children:
+  - Pie.FillMode.Solid
+  - Pie.FillMode.Wireframe
+  langs:
+  - csharp
+  - vb
+  name: FillMode
+  nameWithType: FillMode
+  fullName: Pie.FillMode
+  type: Enum
+  source:
+    remote:
+      path: Pie/FillMode.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: FillMode
+    path: src/Pie/Pie/FillMode.cs
+    startLine: 5
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nDefines how polygons should be filled and drawn by the graphics device.\n"
+  example: []
+  syntax:
+    content: public enum FillMode
+    content.vb: Public Enum FillMode
+- uid: Pie.FillMode.Solid
+  commentId: F:Pie.FillMode.Solid
+  id: Solid
+  parent: Pie.FillMode
+  langs:
+  - csharp
+  - vb
+  name: Solid
+  nameWithType: FillMode.Solid
+  fullName: Pie.FillMode.Solid
+  type: Field
+  source:
+    remote:
+      path: Pie/FillMode.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Solid
+    path: src/Pie/Pie/FillMode.cs
+    startLine: 10
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nPolygons will be completely filled.\n"
+  example: []
+  syntax:
+    content: Solid = 0
+    return:
+      type: Pie.FillMode
+- uid: Pie.FillMode.Wireframe
+  commentId: F:Pie.FillMode.Wireframe
+  id: Wireframe
+  parent: Pie.FillMode
+  langs:
+  - csharp
+  - vb
+  name: Wireframe
+  nameWithType: FillMode.Wireframe
+  fullName: Pie.FillMode.Wireframe
+  type: Field
+  source:
+    remote:
+      path: Pie/FillMode.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Wireframe
+    path: src/Pie/Pie/FillMode.cs
+    startLine: 15
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nPolygons will be drawn in wireframe.\n"
+  example: []
+  syntax:
+    content: Wireframe = 1
+    return:
+      type: Pie.FillMode
+references:
+- uid: Pie
+  commentId: N:Pie
+  name: Pie
+  nameWithType: Pie
+  fullName: Pie
+- uid: Pie.FillMode
+  commentId: T:Pie.FillMode
+  parent: Pie
+  name: FillMode
+  nameWithType: FillMode
+  fullName: Pie.FillMode

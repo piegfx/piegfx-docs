@@ -1,0 +1,303 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pie.TextureFilter
+  commentId: T:Pie.TextureFilter
+  id: TextureFilter
+  parent: Pie
+  children:
+  - Pie.TextureFilter.Anisotropic
+  - Pie.TextureFilter.MinLinearMagMipPoint
+  - Pie.TextureFilter.MinLinearMagPointMipLinear
+  - Pie.TextureFilter.MinMagLinearMipPoint
+  - Pie.TextureFilter.MinMagMipLinear
+  - Pie.TextureFilter.MinMagMipPoint
+  - Pie.TextureFilter.MinMagPointMipLinear
+  - Pie.TextureFilter.MinPointMagLinearMipPoint
+  - Pie.TextureFilter.MinPointMagMipLinear
+  langs:
+  - csharp
+  - vb
+  name: TextureFilter
+  nameWithType: TextureFilter
+  fullName: Pie.TextureFilter
+  type: Enum
+  source:
+    remote:
+      path: Pie/TextureFilter.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: TextureFilter
+    path: src/Pie/Pie/TextureFilter.cs
+    startLine: 12
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nRepresents various ways a texture can be filtered.\n"
+  example: []
+  syntax:
+    content: public enum TextureFilter
+    content.vb: Public Enum TextureFilter
+- uid: Pie.TextureFilter.Anisotropic
+  commentId: F:Pie.TextureFilter.Anisotropic
+  id: Anisotropic
+  parent: Pie.TextureFilter
+  langs:
+  - csharp
+  - vb
+  name: Anisotropic
+  nameWithType: TextureFilter.Anisotropic
+  fullName: Pie.TextureFilter.Anisotropic
+  type: Field
+  source:
+    remote:
+      path: Pie/TextureFilter.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Anisotropic
+    path: src/Pie/Pie/TextureFilter.cs
+    startLine: 17
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nUse anisotropic filtering.\n"
+  example: []
+  syntax:
+    content: Anisotropic = 0
+    return:
+      type: Pie.TextureFilter
+- uid: Pie.TextureFilter.MinMagMipPoint
+  commentId: F:Pie.TextureFilter.MinMagMipPoint
+  id: MinMagMipPoint
+  parent: Pie.TextureFilter
+  langs:
+  - csharp
+  - vb
+  name: MinMagMipPoint
+  nameWithType: TextureFilter.MinMagMipPoint
+  fullName: Pie.TextureFilter.MinMagMipPoint
+  type: Field
+  source:
+    remote:
+      path: Pie/TextureFilter.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: MinMagMipPoint
+    path: src/Pie/Pie/TextureFilter.cs
+    startLine: 22
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nUse point filtering for the min, mag, and mip filters.\n"
+  example: []
+  syntax:
+    content: MinMagMipPoint = 1
+    return:
+      type: Pie.TextureFilter
+- uid: Pie.TextureFilter.MinMagPointMipLinear
+  commentId: F:Pie.TextureFilter.MinMagPointMipLinear
+  id: MinMagPointMipLinear
+  parent: Pie.TextureFilter
+  langs:
+  - csharp
+  - vb
+  name: MinMagPointMipLinear
+  nameWithType: TextureFilter.MinMagPointMipLinear
+  fullName: Pie.TextureFilter.MinMagPointMipLinear
+  type: Field
+  source:
+    remote:
+      path: Pie/TextureFilter.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: MinMagPointMipLinear
+    path: src/Pie/Pie/TextureFilter.cs
+    startLine: 30
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nUse point filtering for the min and mag filters, and linear filtering for the mip filters.\n"
+  example: []
+  syntax:
+    content: MinMagPointMipLinear = 2
+    return:
+      type: Pie.TextureFilter
+- uid: Pie.TextureFilter.MinPointMagLinearMipPoint
+  commentId: F:Pie.TextureFilter.MinPointMagLinearMipPoint
+  id: MinPointMagLinearMipPoint
+  parent: Pie.TextureFilter
+  langs:
+  - csharp
+  - vb
+  name: MinPointMagLinearMipPoint
+  nameWithType: TextureFilter.MinPointMagLinearMipPoint
+  fullName: Pie.TextureFilter.MinPointMagLinearMipPoint
+  type: Field
+  source:
+    remote:
+      path: Pie/TextureFilter.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: MinPointMagLinearMipPoint
+    path: src/Pie/Pie/TextureFilter.cs
+    startLine: 35
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nUse point filtering for the min and mip filters, and use linear filtering for the mag filter.\n"
+  example: []
+  syntax:
+    content: MinPointMagLinearMipPoint = 3
+    return:
+      type: Pie.TextureFilter
+- uid: Pie.TextureFilter.MinPointMagMipLinear
+  commentId: F:Pie.TextureFilter.MinPointMagMipLinear
+  id: MinPointMagMipLinear
+  parent: Pie.TextureFilter
+  langs:
+  - csharp
+  - vb
+  name: MinPointMagMipLinear
+  nameWithType: TextureFilter.MinPointMagMipLinear
+  fullName: Pie.TextureFilter.MinPointMagMipLinear
+  type: Field
+  source:
+    remote:
+      path: Pie/TextureFilter.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: MinPointMagMipLinear
+    path: src/Pie/Pie/TextureFilter.cs
+    startLine: 40
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nUse point filtering for the min filter, and linear filtering for the mag and mip filters.\n"
+  example: []
+  syntax:
+    content: MinPointMagMipLinear = 4
+    return:
+      type: Pie.TextureFilter
+- uid: Pie.TextureFilter.MinLinearMagMipPoint
+  commentId: F:Pie.TextureFilter.MinLinearMagMipPoint
+  id: MinLinearMagMipPoint
+  parent: Pie.TextureFilter
+  langs:
+  - csharp
+  - vb
+  name: MinLinearMagMipPoint
+  nameWithType: TextureFilter.MinLinearMagMipPoint
+  fullName: Pie.TextureFilter.MinLinearMagMipPoint
+  type: Field
+  source:
+    remote:
+      path: Pie/TextureFilter.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: MinLinearMagMipPoint
+    path: src/Pie/Pie/TextureFilter.cs
+    startLine: 45
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nUse linear filtering for the min filter, and point filtering for the mag and mip filters.\n"
+  example: []
+  syntax:
+    content: MinLinearMagMipPoint = 5
+    return:
+      type: Pie.TextureFilter
+- uid: Pie.TextureFilter.MinLinearMagPointMipLinear
+  commentId: F:Pie.TextureFilter.MinLinearMagPointMipLinear
+  id: MinLinearMagPointMipLinear
+  parent: Pie.TextureFilter
+  langs:
+  - csharp
+  - vb
+  name: MinLinearMagPointMipLinear
+  nameWithType: TextureFilter.MinLinearMagPointMipLinear
+  fullName: Pie.TextureFilter.MinLinearMagPointMipLinear
+  type: Field
+  source:
+    remote:
+      path: Pie/TextureFilter.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: MinLinearMagPointMipLinear
+    path: src/Pie/Pie/TextureFilter.cs
+    startLine: 50
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nUse linear filtering for the min and mip filters, and point filtering for the mag filter.\n"
+  example: []
+  syntax:
+    content: MinLinearMagPointMipLinear = 6
+    return:
+      type: Pie.TextureFilter
+- uid: Pie.TextureFilter.MinMagLinearMipPoint
+  commentId: F:Pie.TextureFilter.MinMagLinearMipPoint
+  id: MinMagLinearMipPoint
+  parent: Pie.TextureFilter
+  langs:
+  - csharp
+  - vb
+  name: MinMagLinearMipPoint
+  nameWithType: TextureFilter.MinMagLinearMipPoint
+  fullName: Pie.TextureFilter.MinMagLinearMipPoint
+  type: Field
+  source:
+    remote:
+      path: Pie/TextureFilter.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: MinMagLinearMipPoint
+    path: src/Pie/Pie/TextureFilter.cs
+    startLine: 55
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nUse linear filtering for the min and mag filters, and point filtering for the mip filter.\n"
+  example: []
+  syntax:
+    content: MinMagLinearMipPoint = 7
+    return:
+      type: Pie.TextureFilter
+- uid: Pie.TextureFilter.MinMagMipLinear
+  commentId: F:Pie.TextureFilter.MinMagMipLinear
+  id: MinMagMipLinear
+  parent: Pie.TextureFilter
+  langs:
+  - csharp
+  - vb
+  name: MinMagMipLinear
+  nameWithType: TextureFilter.MinMagMipLinear
+  fullName: Pie.TextureFilter.MinMagMipLinear
+  type: Field
+  source:
+    remote:
+      path: Pie/TextureFilter.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: MinMagMipLinear
+    path: src/Pie/Pie/TextureFilter.cs
+    startLine: 60
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nUse linear filtering for the min, mag, and mip filters.\n"
+  example: []
+  syntax:
+    content: MinMagMipLinear = 8
+    return:
+      type: Pie.TextureFilter
+references:
+- uid: Pie
+  commentId: N:Pie
+  name: Pie
+  nameWithType: Pie
+  fullName: Pie
+- uid: Pie.TextureFilter
+  commentId: T:Pie.TextureFilter
+  parent: Pie
+  name: TextureFilter
+  nameWithType: TextureFilter
+  fullName: Pie.TextureFilter

@@ -1,0 +1,159 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pie.TextureType
+  commentId: T:Pie.TextureType
+  id: TextureType
+  parent: Pie
+  children:
+  - Pie.TextureType.Cubemap
+  - Pie.TextureType.Texture1D
+  - Pie.TextureType.Texture2D
+  - Pie.TextureType.Texture3D
+  langs:
+  - csharp
+  - vb
+  name: TextureType
+  nameWithType: TextureType
+  fullName: Pie.TextureType
+  type: Enum
+  source:
+    remote:
+      path: Pie/TextureType.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: TextureType
+    path: src/Pie/Pie/TextureType.cs
+    startLine: 6
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nVarious supported types of texture creation.\n"
+  remarks: You may note items such as Texture2DArray are missing. These are implicitly used when using an ArraySize of >1
+  example: []
+  syntax:
+    content: public enum TextureType
+    content.vb: Public Enum TextureType
+- uid: Pie.TextureType.Texture1D
+  commentId: F:Pie.TextureType.Texture1D
+  id: Texture1D
+  parent: Pie.TextureType
+  langs:
+  - csharp
+  - vb
+  name: Texture1D
+  nameWithType: TextureType.Texture1D
+  fullName: Pie.TextureType.Texture1D
+  type: Field
+  source:
+    remote:
+      path: Pie/TextureType.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Texture1D
+    path: src/Pie/Pie/TextureType.cs
+    startLine: 11
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nThis texture is a 1D texture (width only).\n"
+  example: []
+  syntax:
+    content: Texture1D = 0
+    return:
+      type: Pie.TextureType
+- uid: Pie.TextureType.Texture2D
+  commentId: F:Pie.TextureType.Texture2D
+  id: Texture2D
+  parent: Pie.TextureType
+  langs:
+  - csharp
+  - vb
+  name: Texture2D
+  nameWithType: TextureType.Texture2D
+  fullName: Pie.TextureType.Texture2D
+  type: Field
+  source:
+    remote:
+      path: Pie/TextureType.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Texture2D
+    path: src/Pie/Pie/TextureType.cs
+    startLine: 16
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nThis texture is a 2D texture (width and height).\n"
+  example: []
+  syntax:
+    content: Texture2D = 1
+    return:
+      type: Pie.TextureType
+- uid: Pie.TextureType.Texture3D
+  commentId: F:Pie.TextureType.Texture3D
+  id: Texture3D
+  parent: Pie.TextureType
+  langs:
+  - csharp
+  - vb
+  name: Texture3D
+  nameWithType: TextureType.Texture3D
+  fullName: Pie.TextureType.Texture3D
+  type: Field
+  source:
+    remote:
+      path: Pie/TextureType.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Texture3D
+    path: src/Pie/Pie/TextureType.cs
+    startLine: 21
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nThis texture is a 3D texture (width, height, and depth).\n"
+  example: []
+  syntax:
+    content: Texture3D = 2
+    return:
+      type: Pie.TextureType
+- uid: Pie.TextureType.Cubemap
+  commentId: F:Pie.TextureType.Cubemap
+  id: Cubemap
+  parent: Pie.TextureType
+  langs:
+  - csharp
+  - vb
+  name: Cubemap
+  nameWithType: TextureType.Cubemap
+  fullName: Pie.TextureType.Cubemap
+  type: Field
+  source:
+    remote:
+      path: Pie/TextureType.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Cubemap
+    path: src/Pie/Pie/TextureType.cs
+    startLine: 26
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nThis texture is a cubemap (width and height, with an implicitly defined ArraySize of 6 * ArraySize.\n"
+  example: []
+  syntax:
+    content: Cubemap = 3
+    return:
+      type: Pie.TextureType
+references:
+- uid: Pie
+  commentId: N:Pie
+  name: Pie
+  nameWithType: Pie
+  fullName: Pie
+- uid: Pie.TextureType
+  commentId: T:Pie.TextureType
+  parent: Pie
+  name: TextureType
+  nameWithType: TextureType
+  fullName: Pie.TextureType

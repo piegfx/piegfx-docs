@@ -1,0 +1,591 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pie.Windowing.WindowSettings
+  commentId: T:Pie.Windowing.WindowSettings
+  id: WindowSettings
+  parent: Pie.Windowing
+  children:
+  - Pie.Windowing.WindowSettings.#ctor
+  - Pie.Windowing.WindowSettings.Border
+  - Pie.Windowing.WindowSettings.EventDriven
+  - Pie.Windowing.WindowSettings.Icons
+  - Pie.Windowing.WindowSettings.Size
+  - Pie.Windowing.WindowSettings.StartingMonitor
+  - Pie.Windowing.WindowSettings.StartVisible
+  - Pie.Windowing.WindowSettings.Title
+  langs:
+  - csharp
+  - vb
+  name: WindowSettings
+  nameWithType: WindowSettings
+  fullName: Pie.Windowing.WindowSettings
+  type: Struct
+  source:
+    remote:
+      path: Pie.Windowing/WindowSettings.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: WindowSettings
+    path: src/Pie/Pie.Windowing/WindowSettings.cs
+    startLine: 4
+  assemblies:
+  - Pie.Windowing
+  namespace: Pie.Windowing
+  syntax:
+    content: public struct WindowSettings
+    content.vb: Public Structure WindowSettings
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: Pie.Windowing.WindowSettings.Size
+  commentId: F:Pie.Windowing.WindowSettings.Size
+  id: Size
+  parent: Pie.Windowing.WindowSettings
+  langs:
+  - csharp
+  - vb
+  name: Size
+  nameWithType: WindowSettings.Size
+  fullName: Pie.Windowing.WindowSettings.Size
+  type: Field
+  source:
+    remote:
+      path: Pie.Windowing/WindowSettings.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Size
+    path: src/Pie/Pie.Windowing/WindowSettings.cs
+    startLine: 6
+  assemblies:
+  - Pie.Windowing
+  namespace: Pie.Windowing
+  syntax:
+    content: public Size Size
+    return:
+      type: System.Drawing.Size
+    content.vb: Public Size As Size
+- uid: Pie.Windowing.WindowSettings.Title
+  commentId: F:Pie.Windowing.WindowSettings.Title
+  id: Title
+  parent: Pie.Windowing.WindowSettings
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: WindowSettings.Title
+  fullName: Pie.Windowing.WindowSettings.Title
+  type: Field
+  source:
+    remote:
+      path: Pie.Windowing/WindowSettings.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Title
+    path: src/Pie/Pie.Windowing/WindowSettings.cs
+    startLine: 8
+  assemblies:
+  - Pie.Windowing
+  namespace: Pie.Windowing
+  syntax:
+    content: public string Title
+    return:
+      type: System.String
+    content.vb: Public Title As String
+- uid: Pie.Windowing.WindowSettings.Border
+  commentId: F:Pie.Windowing.WindowSettings.Border
+  id: Border
+  parent: Pie.Windowing.WindowSettings
+  langs:
+  - csharp
+  - vb
+  name: Border
+  nameWithType: WindowSettings.Border
+  fullName: Pie.Windowing.WindowSettings.Border
+  type: Field
+  source:
+    remote:
+      path: Pie.Windowing/WindowSettings.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Border
+    path: src/Pie/Pie.Windowing/WindowSettings.cs
+    startLine: 10
+  assemblies:
+  - Pie.Windowing
+  namespace: Pie.Windowing
+  syntax:
+    content: public WindowBorder Border
+    return:
+      type: Pie.Windowing.WindowBorder
+    content.vb: Public Border As WindowBorder
+- uid: Pie.Windowing.WindowSettings.EventDriven
+  commentId: F:Pie.Windowing.WindowSettings.EventDriven
+  id: EventDriven
+  parent: Pie.Windowing.WindowSettings
+  langs:
+  - csharp
+  - vb
+  name: EventDriven
+  nameWithType: WindowSettings.EventDriven
+  fullName: Pie.Windowing.WindowSettings.EventDriven
+  type: Field
+  source:
+    remote:
+      path: Pie.Windowing/WindowSettings.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: EventDriven
+    path: src/Pie/Pie.Windowing/WindowSettings.cs
+    startLine: 12
+  assemblies:
+  - Pie.Windowing
+  namespace: Pie.Windowing
+  syntax:
+    content: public bool EventDriven
+    return:
+      type: System.Boolean
+    content.vb: Public EventDriven As Boolean
+- uid: Pie.Windowing.WindowSettings.Icons
+  commentId: F:Pie.Windowing.WindowSettings.Icons
+  id: Icons
+  parent: Pie.Windowing.WindowSettings
+  langs:
+  - csharp
+  - vb
+  name: Icons
+  nameWithType: WindowSettings.Icons
+  fullName: Pie.Windowing.WindowSettings.Icons
+  type: Field
+  source:
+    remote:
+      path: Pie.Windowing/WindowSettings.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Icons
+    path: src/Pie/Pie.Windowing/WindowSettings.cs
+    startLine: 14
+  assemblies:
+  - Pie.Windowing
+  namespace: Pie.Windowing
+  syntax:
+    content: public Icon[] Icons
+    return:
+      type: Pie.Windowing.Icon[]
+    content.vb: Public Icons As Icon()
+- uid: Pie.Windowing.WindowSettings.StartVisible
+  commentId: F:Pie.Windowing.WindowSettings.StartVisible
+  id: StartVisible
+  parent: Pie.Windowing.WindowSettings
+  langs:
+  - csharp
+  - vb
+  name: StartVisible
+  nameWithType: WindowSettings.StartVisible
+  fullName: Pie.Windowing.WindowSettings.StartVisible
+  type: Field
+  source:
+    remote:
+      path: Pie.Windowing/WindowSettings.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: StartVisible
+    path: src/Pie/Pie.Windowing/WindowSettings.cs
+    startLine: 16
+  assemblies:
+  - Pie.Windowing
+  namespace: Pie.Windowing
+  syntax:
+    content: public bool StartVisible
+    return:
+      type: System.Boolean
+    content.vb: Public StartVisible As Boolean
+- uid: Pie.Windowing.WindowSettings.StartingMonitor
+  commentId: F:Pie.Windowing.WindowSettings.StartingMonitor
+  id: StartingMonitor
+  parent: Pie.Windowing.WindowSettings
+  langs:
+  - csharp
+  - vb
+  name: StartingMonitor
+  nameWithType: WindowSettings.StartingMonitor
+  fullName: Pie.Windowing.WindowSettings.StartingMonitor
+  type: Field
+  source:
+    remote:
+      path: Pie.Windowing/WindowSettings.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: StartingMonitor
+    path: src/Pie/Pie.Windowing/WindowSettings.cs
+    startLine: 18
+  assemblies:
+  - Pie.Windowing
+  namespace: Pie.Windowing
+  syntax:
+    content: public int? StartingMonitor
+    return:
+      type: System.Nullable{System.Int32}
+    content.vb: Public StartingMonitor As Integer?
+- uid: Pie.Windowing.WindowSettings.#ctor
+  commentId: M:Pie.Windowing.WindowSettings.#ctor
+  id: '#ctor'
+  parent: Pie.Windowing.WindowSettings
+  langs:
+  - csharp
+  - vb
+  name: WindowSettings()
+  nameWithType: WindowSettings.WindowSettings()
+  fullName: Pie.Windowing.WindowSettings.WindowSettings()
+  type: Constructor
+  source:
+    remote:
+      path: Pie.Windowing/WindowSettings.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: .ctor
+    path: src/Pie/Pie.Windowing/WindowSettings.cs
+    startLine: 20
+  assemblies:
+  - Pie.Windowing
+  namespace: Pie.Windowing
+  syntax:
+    content: public WindowSettings()
+    content.vb: Public Sub New()
+  overload: Pie.Windowing.WindowSettings.#ctor*
+  nameWithType.vb: WindowSettings.New()
+  fullName.vb: Pie.Windowing.WindowSettings.New()
+  name.vb: New()
+references:
+- uid: Pie.Windowing
+  commentId: N:Pie.Windowing
+  name: Pie.Windowing
+  nameWithType: Pie.Windowing
+  fullName: Pie.Windowing
+  spec.csharp:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Windowing
+    name: Windowing
+  spec.vb:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Windowing
+    name: Windowing
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Drawing.Size
+  commentId: T:System.Drawing.Size
+  parent: System.Drawing
+  isExternal: true
+  name: Size
+  nameWithType: Size
+  fullName: System.Drawing.Size
+- uid: System.Drawing
+  commentId: N:System.Drawing
+  isExternal: true
+  name: System.Drawing
+  nameWithType: System.Drawing
+  fullName: System.Drawing
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Drawing
+    name: Drawing
+    isExternal: true
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Drawing
+    name: Drawing
+    isExternal: true
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Pie.Windowing.WindowBorder
+  commentId: T:Pie.Windowing.WindowBorder
+  parent: Pie.Windowing
+  name: WindowBorder
+  nameWithType: WindowBorder
+  fullName: Pie.Windowing.WindowBorder
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Pie.Windowing.Icon[]
+  isExternal: true
+  name: Icon[]
+  nameWithType: Icon[]
+  fullName: Pie.Windowing.Icon[]
+  nameWithType.vb: Icon()
+  fullName.vb: Pie.Windowing.Icon()
+  name.vb: Icon()
+  spec.csharp:
+  - uid: Pie.Windowing.Icon
+    name: Icon
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: Pie.Windowing.Icon
+    name: Icon
+  - name: (
+  - name: )
+- uid: System.Nullable{System.Int32}
+  commentId: T:System.Nullable{System.Int32}
+  parent: System
+  definition: System.Nullable`1
+  name: int?
+  nameWithType: int?
+  fullName: int?
+  nameWithType.vb: Integer?
+  fullName.vb: Integer?
+  name.vb: Integer?
+  spec.csharp:
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: '?'
+  spec.vb:
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Pie.Windowing.WindowSettings.#ctor*
+  commentId: Overload:Pie.Windowing.WindowSettings.#ctor
+  name: WindowSettings
+  nameWithType: WindowSettings.WindowSettings
+  fullName: Pie.Windowing.WindowSettings.WindowSettings
+  nameWithType.vb: WindowSettings.New
+  fullName.vb: Pie.Windowing.WindowSettings.New
+  name.vb: New

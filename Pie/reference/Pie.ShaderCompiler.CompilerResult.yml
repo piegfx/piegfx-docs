@@ -1,0 +1,519 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pie.ShaderCompiler.CompilerResult
+  commentId: T:Pie.ShaderCompiler.CompilerResult
+  id: CompilerResult
+  parent: Pie.ShaderCompiler
+  children:
+  - Pie.ShaderCompiler.CompilerResult.#ctor(System.Byte[],System.Boolean,System.String,System.Nullable{Pie.ReflectionInfo},Pie.ShaderStage)
+  - Pie.ShaderCompiler.CompilerResult.Error
+  - Pie.ShaderCompiler.CompilerResult.ReflectionInfo
+  - Pie.ShaderCompiler.CompilerResult.Result
+  - Pie.ShaderCompiler.CompilerResult.Stage
+  - Pie.ShaderCompiler.CompilerResult.Success
+  langs:
+  - csharp
+  - vb
+  name: CompilerResult
+  nameWithType: CompilerResult
+  fullName: Pie.ShaderCompiler.CompilerResult
+  type: Struct
+  source:
+    remote:
+      path: Pie.ShaderCompiler/CompilerResult.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: CompilerResult
+    path: src/Pie/Pie.ShaderCompiler/CompilerResult.cs
+    startLine: 4
+  assemblies:
+  - Pie.ShaderCompiler
+  namespace: Pie.ShaderCompiler
+  syntax:
+    content: public struct CompilerResult
+    content.vb: Public Structure CompilerResult
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: Pie.ShaderCompiler.CompilerResult.Result
+  commentId: F:Pie.ShaderCompiler.CompilerResult.Result
+  id: Result
+  parent: Pie.ShaderCompiler.CompilerResult
+  langs:
+  - csharp
+  - vb
+  name: Result
+  nameWithType: CompilerResult.Result
+  fullName: Pie.ShaderCompiler.CompilerResult.Result
+  type: Field
+  source:
+    remote:
+      path: Pie.ShaderCompiler/CompilerResult.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Result
+    path: src/Pie/Pie.ShaderCompiler/CompilerResult.cs
+    startLine: 6
+  assemblies:
+  - Pie.ShaderCompiler
+  namespace: Pie.ShaderCompiler
+  syntax:
+    content: public readonly byte[] Result
+    return:
+      type: System.Byte[]
+    content.vb: Public ReadOnly Result As Byte()
+- uid: Pie.ShaderCompiler.CompilerResult.Success
+  commentId: F:Pie.ShaderCompiler.CompilerResult.Success
+  id: Success
+  parent: Pie.ShaderCompiler.CompilerResult
+  langs:
+  - csharp
+  - vb
+  name: Success
+  nameWithType: CompilerResult.Success
+  fullName: Pie.ShaderCompiler.CompilerResult.Success
+  type: Field
+  source:
+    remote:
+      path: Pie.ShaderCompiler/CompilerResult.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Success
+    path: src/Pie/Pie.ShaderCompiler/CompilerResult.cs
+    startLine: 8
+  assemblies:
+  - Pie.ShaderCompiler
+  namespace: Pie.ShaderCompiler
+  syntax:
+    content: public readonly bool Success
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Success As Boolean
+- uid: Pie.ShaderCompiler.CompilerResult.Error
+  commentId: F:Pie.ShaderCompiler.CompilerResult.Error
+  id: Error
+  parent: Pie.ShaderCompiler.CompilerResult
+  langs:
+  - csharp
+  - vb
+  name: Error
+  nameWithType: CompilerResult.Error
+  fullName: Pie.ShaderCompiler.CompilerResult.Error
+  type: Field
+  source:
+    remote:
+      path: Pie.ShaderCompiler/CompilerResult.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Error
+    path: src/Pie/Pie.ShaderCompiler/CompilerResult.cs
+    startLine: 10
+  assemblies:
+  - Pie.ShaderCompiler
+  namespace: Pie.ShaderCompiler
+  syntax:
+    content: public readonly string Error
+    return:
+      type: System.String
+    content.vb: Public ReadOnly [Error] As String
+- uid: Pie.ShaderCompiler.CompilerResult.ReflectionInfo
+  commentId: F:Pie.ShaderCompiler.CompilerResult.ReflectionInfo
+  id: ReflectionInfo
+  parent: Pie.ShaderCompiler.CompilerResult
+  langs:
+  - csharp
+  - vb
+  name: ReflectionInfo
+  nameWithType: CompilerResult.ReflectionInfo
+  fullName: Pie.ShaderCompiler.CompilerResult.ReflectionInfo
+  type: Field
+  source:
+    remote:
+      path: Pie.ShaderCompiler/CompilerResult.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: ReflectionInfo
+    path: src/Pie/Pie.ShaderCompiler/CompilerResult.cs
+    startLine: 12
+  assemblies:
+  - Pie.ShaderCompiler
+  namespace: Pie.ShaderCompiler
+  syntax:
+    content: public ReflectionInfo? ReflectionInfo
+    return:
+      type: System.Nullable{Pie.ReflectionInfo}
+    content.vb: Public ReflectionInfo As ReflectionInfo?
+- uid: Pie.ShaderCompiler.CompilerResult.Stage
+  commentId: F:Pie.ShaderCompiler.CompilerResult.Stage
+  id: Stage
+  parent: Pie.ShaderCompiler.CompilerResult
+  langs:
+  - csharp
+  - vb
+  name: Stage
+  nameWithType: CompilerResult.Stage
+  fullName: Pie.ShaderCompiler.CompilerResult.Stage
+  type: Field
+  source:
+    remote:
+      path: Pie.ShaderCompiler/CompilerResult.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Stage
+    path: src/Pie/Pie.ShaderCompiler/CompilerResult.cs
+    startLine: 14
+  assemblies:
+  - Pie.ShaderCompiler
+  namespace: Pie.ShaderCompiler
+  syntax:
+    content: public ShaderStage Stage
+    return:
+      type: Pie.ShaderStage
+    content.vb: Public Stage As ShaderStage
+- uid: Pie.ShaderCompiler.CompilerResult.#ctor(System.Byte[],System.Boolean,System.String,System.Nullable{Pie.ReflectionInfo},Pie.ShaderStage)
+  commentId: M:Pie.ShaderCompiler.CompilerResult.#ctor(System.Byte[],System.Boolean,System.String,System.Nullable{Pie.ReflectionInfo},Pie.ShaderStage)
+  id: '#ctor(System.Byte[],System.Boolean,System.String,System.Nullable{Pie.ReflectionInfo},Pie.ShaderStage)'
+  parent: Pie.ShaderCompiler.CompilerResult
+  langs:
+  - csharp
+  - vb
+  name: CompilerResult(byte[], bool, string, ReflectionInfo?, ShaderStage)
+  nameWithType: CompilerResult.CompilerResult(byte[], bool, string, ReflectionInfo?, ShaderStage)
+  fullName: Pie.ShaderCompiler.CompilerResult.CompilerResult(byte[], bool, string, Pie.ReflectionInfo?, Pie.ShaderStage)
+  type: Constructor
+  source:
+    remote:
+      path: Pie.ShaderCompiler/CompilerResult.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: .ctor
+    path: src/Pie/Pie.ShaderCompiler/CompilerResult.cs
+    startLine: 16
+  assemblies:
+  - Pie.ShaderCompiler
+  namespace: Pie.ShaderCompiler
+  syntax:
+    content: public CompilerResult(byte[] result, bool success, string error, ReflectionInfo? reflectionInfo, ShaderStage stage)
+    parameters:
+    - id: result
+      type: System.Byte[]
+    - id: success
+      type: System.Boolean
+    - id: error
+      type: System.String
+    - id: reflectionInfo
+      type: System.Nullable{Pie.ReflectionInfo}
+    - id: stage
+      type: Pie.ShaderStage
+    content.vb: Public Sub New(result As Byte(), success As Boolean, [error] As String, reflectionInfo As ReflectionInfo?, stage As ShaderStage)
+  overload: Pie.ShaderCompiler.CompilerResult.#ctor*
+  nameWithType.vb: CompilerResult.New(Byte(), Boolean, String, ReflectionInfo?, ShaderStage)
+  fullName.vb: Pie.ShaderCompiler.CompilerResult.New(Byte(), Boolean, String, Pie.ReflectionInfo?, Pie.ShaderStage)
+  name.vb: New(Byte(), Boolean, String, ReflectionInfo?, ShaderStage)
+references:
+- uid: Pie.ShaderCompiler
+  commentId: N:Pie.ShaderCompiler
+  name: Pie.ShaderCompiler
+  nameWithType: Pie.ShaderCompiler
+  fullName: Pie.ShaderCompiler
+  spec.csharp:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.ShaderCompiler
+    name: ShaderCompiler
+  spec.vb:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.ShaderCompiler
+    name: ShaderCompiler
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Byte[]
+  isExternal: true
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Nullable{Pie.ReflectionInfo}
+  commentId: T:System.Nullable{Pie.ReflectionInfo}
+  parent: System
+  definition: System.Nullable`1
+  name: ReflectionInfo?
+  nameWithType: ReflectionInfo?
+  fullName: Pie.ReflectionInfo?
+  spec.csharp:
+  - uid: Pie.ReflectionInfo
+    name: ReflectionInfo
+  - name: '?'
+  spec.vb:
+  - uid: Pie.ReflectionInfo
+    name: ReflectionInfo
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Pie.ShaderStage
+  commentId: T:Pie.ShaderStage
+  parent: Pie
+  name: ShaderStage
+  nameWithType: ShaderStage
+  fullName: Pie.ShaderStage
+- uid: Pie
+  commentId: N:Pie
+  name: Pie
+  nameWithType: Pie
+  fullName: Pie
+- uid: Pie.ShaderCompiler.CompilerResult.#ctor*
+  commentId: Overload:Pie.ShaderCompiler.CompilerResult.#ctor
+  name: CompilerResult
+  nameWithType: CompilerResult.CompilerResult
+  fullName: Pie.ShaderCompiler.CompilerResult.CompilerResult
+  nameWithType.vb: CompilerResult.New
+  fullName.vb: Pie.ShaderCompiler.CompilerResult.New
+  name.vb: New

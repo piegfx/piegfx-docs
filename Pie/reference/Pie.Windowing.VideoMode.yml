@@ -1,0 +1,433 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pie.Windowing.VideoMode
+  commentId: T:Pie.Windowing.VideoMode
+  id: VideoMode
+  parent: Pie.Windowing
+  children:
+  - Pie.Windowing.VideoMode.#ctor(System.Drawing.Size,System.Int32)
+  - Pie.Windowing.VideoMode.AccurateAspectRatio
+  - Pie.Windowing.VideoMode.AspectRatio
+  - Pie.Windowing.VideoMode.RefreshRate
+  - Pie.Windowing.VideoMode.Size
+  langs:
+  - csharp
+  - vb
+  name: VideoMode
+  nameWithType: VideoMode
+  fullName: Pie.Windowing.VideoMode
+  type: Struct
+  source:
+    remote:
+      path: Pie.Windowing/VideoMode.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: VideoMode
+    path: src/Pie/Pie.Windowing/VideoMode.cs
+    startLine: 5
+  assemblies:
+  - Pie.Windowing
+  namespace: Pie.Windowing
+  syntax:
+    content: public struct VideoMode
+    content.vb: Public Structure VideoMode
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: Pie.Windowing.VideoMode.Size
+  commentId: F:Pie.Windowing.VideoMode.Size
+  id: Size
+  parent: Pie.Windowing.VideoMode
+  langs:
+  - csharp
+  - vb
+  name: Size
+  nameWithType: VideoMode.Size
+  fullName: Pie.Windowing.VideoMode.Size
+  type: Field
+  source:
+    remote:
+      path: Pie.Windowing/VideoMode.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Size
+    path: src/Pie/Pie.Windowing/VideoMode.cs
+    startLine: 7
+  assemblies:
+  - Pie.Windowing
+  namespace: Pie.Windowing
+  syntax:
+    content: public readonly Size Size
+    return:
+      type: System.Drawing.Size
+    content.vb: Public ReadOnly Size As Size
+- uid: Pie.Windowing.VideoMode.RefreshRate
+  commentId: F:Pie.Windowing.VideoMode.RefreshRate
+  id: RefreshRate
+  parent: Pie.Windowing.VideoMode
+  langs:
+  - csharp
+  - vb
+  name: RefreshRate
+  nameWithType: VideoMode.RefreshRate
+  fullName: Pie.Windowing.VideoMode.RefreshRate
+  type: Field
+  source:
+    remote:
+      path: Pie.Windowing/VideoMode.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: RefreshRate
+    path: src/Pie/Pie.Windowing/VideoMode.cs
+    startLine: 9
+  assemblies:
+  - Pie.Windowing
+  namespace: Pie.Windowing
+  syntax:
+    content: public readonly int RefreshRate
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly RefreshRate As Integer
+- uid: Pie.Windowing.VideoMode.AccurateAspectRatio
+  commentId: F:Pie.Windowing.VideoMode.AccurateAspectRatio
+  id: AccurateAspectRatio
+  parent: Pie.Windowing.VideoMode
+  langs:
+  - csharp
+  - vb
+  name: AccurateAspectRatio
+  nameWithType: VideoMode.AccurateAspectRatio
+  fullName: Pie.Windowing.VideoMode.AccurateAspectRatio
+  type: Field
+  source:
+    remote:
+      path: Pie.Windowing/VideoMode.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: AccurateAspectRatio
+    path: src/Pie/Pie.Windowing/VideoMode.cs
+    startLine: 11
+  assemblies:
+  - Pie.Windowing
+  namespace: Pie.Windowing
+  syntax:
+    content: public readonly Size AccurateAspectRatio
+    return:
+      type: System.Drawing.Size
+    content.vb: Public ReadOnly AccurateAspectRatio As Size
+- uid: Pie.Windowing.VideoMode.AspectRatio
+  commentId: F:Pie.Windowing.VideoMode.AspectRatio
+  id: AspectRatio
+  parent: Pie.Windowing.VideoMode
+  langs:
+  - csharp
+  - vb
+  name: AspectRatio
+  nameWithType: VideoMode.AspectRatio
+  fullName: Pie.Windowing.VideoMode.AspectRatio
+  type: Field
+  source:
+    remote:
+      path: Pie.Windowing/VideoMode.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: AspectRatio
+    path: src/Pie/Pie.Windowing/VideoMode.cs
+    startLine: 13
+  assemblies:
+  - Pie.Windowing
+  namespace: Pie.Windowing
+  syntax:
+    content: public readonly Size AspectRatio
+    return:
+      type: System.Drawing.Size
+    content.vb: Public ReadOnly AspectRatio As Size
+- uid: Pie.Windowing.VideoMode.#ctor(System.Drawing.Size,System.Int32)
+  commentId: M:Pie.Windowing.VideoMode.#ctor(System.Drawing.Size,System.Int32)
+  id: '#ctor(System.Drawing.Size,System.Int32)'
+  parent: Pie.Windowing.VideoMode
+  langs:
+  - csharp
+  - vb
+  name: VideoMode(Size, int)
+  nameWithType: VideoMode.VideoMode(Size, int)
+  fullName: Pie.Windowing.VideoMode.VideoMode(System.Drawing.Size, int)
+  type: Constructor
+  source:
+    remote:
+      path: Pie.Windowing/VideoMode.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: .ctor
+    path: src/Pie/Pie.Windowing/VideoMode.cs
+    startLine: 15
+  assemblies:
+  - Pie.Windowing
+  namespace: Pie.Windowing
+  syntax:
+    content: public VideoMode(Size size, int refreshRate = -1)
+    parameters:
+    - id: size
+      type: System.Drawing.Size
+    - id: refreshRate
+      type: System.Int32
+    content.vb: Public Sub New(size As Size, refreshRate As Integer = -1)
+  overload: Pie.Windowing.VideoMode.#ctor*
+  nameWithType.vb: VideoMode.New(Size, Integer)
+  fullName.vb: Pie.Windowing.VideoMode.New(System.Drawing.Size, Integer)
+  name.vb: New(Size, Integer)
+references:
+- uid: Pie.Windowing
+  commentId: N:Pie.Windowing
+  name: Pie.Windowing
+  nameWithType: Pie.Windowing
+  fullName: Pie.Windowing
+  spec.csharp:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Windowing
+    name: Windowing
+  spec.vb:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Windowing
+    name: Windowing
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Drawing.Size
+  commentId: T:System.Drawing.Size
+  parent: System.Drawing
+  isExternal: true
+  name: Size
+  nameWithType: Size
+  fullName: System.Drawing.Size
+- uid: System.Drawing
+  commentId: N:System.Drawing
+  isExternal: true
+  name: System.Drawing
+  nameWithType: System.Drawing
+  fullName: System.Drawing
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Drawing
+    name: Drawing
+    isExternal: true
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Drawing
+    name: Drawing
+    isExternal: true
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Pie.Windowing.VideoMode.#ctor*
+  commentId: Overload:Pie.Windowing.VideoMode.#ctor
+  name: VideoMode
+  nameWithType: VideoMode.VideoMode
+  fullName: Pie.Windowing.VideoMode.VideoMode
+  nameWithType.vb: VideoMode.New
+  fullName.vb: Pie.Windowing.VideoMode.New
+  name.vb: New

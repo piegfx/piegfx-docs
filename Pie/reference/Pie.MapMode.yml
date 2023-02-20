@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pie.MapMode
+  commentId: T:Pie.MapMode
+  id: MapMode
+  parent: Pie
+  children:
+  - Pie.MapMode.Read
+  - Pie.MapMode.ReadWrite
+  - Pie.MapMode.Write
+  langs:
+  - csharp
+  - vb
+  name: MapMode
+  nameWithType: MapMode
+  fullName: Pie.MapMode
+  type: Enum
+  source:
+    remote:
+      path: Pie/MapMode.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: MapMode
+    path: src/Pie/Pie/MapMode.cs
+    startLine: 5
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nThe mode for which a buffer will be mapped.\n"
+  example: []
+  syntax:
+    content: public enum MapMode
+    content.vb: Public Enum MapMode
+- uid: Pie.MapMode.Read
+  commentId: F:Pie.MapMode.Read
+  id: Read
+  parent: Pie.MapMode
+  langs:
+  - csharp
+  - vb
+  name: Read
+  nameWithType: MapMode.Read
+  fullName: Pie.MapMode.Read
+  type: Field
+  source:
+    remote:
+      path: Pie/MapMode.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Read
+    path: src/Pie/Pie/MapMode.cs
+    startLine: 10
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nThe buffer will be mapped for reading only.\n"
+  example: []
+  syntax:
+    content: Read = 0
+    return:
+      type: Pie.MapMode
+- uid: Pie.MapMode.Write
+  commentId: F:Pie.MapMode.Write
+  id: Write
+  parent: Pie.MapMode
+  langs:
+  - csharp
+  - vb
+  name: Write
+  nameWithType: MapMode.Write
+  fullName: Pie.MapMode.Write
+  type: Field
+  source:
+    remote:
+      path: Pie/MapMode.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Write
+    path: src/Pie/Pie/MapMode.cs
+    startLine: 15
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nThe buffer will be mapped for writing only.\n"
+  example: []
+  syntax:
+    content: Write = 1
+    return:
+      type: Pie.MapMode
+- uid: Pie.MapMode.ReadWrite
+  commentId: F:Pie.MapMode.ReadWrite
+  id: ReadWrite
+  parent: Pie.MapMode
+  langs:
+  - csharp
+  - vb
+  name: ReadWrite
+  nameWithType: MapMode.ReadWrite
+  fullName: Pie.MapMode.ReadWrite
+  type: Field
+  source:
+    remote:
+      path: Pie/MapMode.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: ReadWrite
+    path: src/Pie/Pie/MapMode.cs
+    startLine: 20
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nThe buffer will be mapped for both reading and writing.\n"
+  example: []
+  syntax:
+    content: ReadWrite = 2
+    return:
+      type: Pie.MapMode
+references:
+- uid: Pie
+  commentId: N:Pie
+  name: Pie
+  nameWithType: Pie
+  fullName: Pie
+- uid: Pie.MapMode
+  commentId: T:Pie.MapMode
+  parent: Pie
+  name: MapMode
+  nameWithType: MapMode
+  fullName: Pie.MapMode

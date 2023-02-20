@@ -1,0 +1,133 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pie.Windowing.MouseState
+  commentId: T:Pie.Windowing.MouseState
+  id: MouseState
+  parent: Pie.Windowing
+  children:
+  - Pie.Windowing.MouseState.Hidden
+  - Pie.Windowing.MouseState.Locked
+  - Pie.Windowing.MouseState.Visible
+  langs:
+  - csharp
+  - vb
+  name: MouseState
+  nameWithType: MouseState
+  fullName: Pie.Windowing.MouseState
+  type: Enum
+  source:
+    remote:
+      path: Pie.Windowing/MouseState.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: MouseState
+    path: src/Pie/Pie.Windowing/MouseState.cs
+    startLine: 2
+  assemblies:
+  - Pie.Windowing
+  namespace: Pie.Windowing
+  syntax:
+    content: public enum MouseState
+    content.vb: Public Enum MouseState
+- uid: Pie.Windowing.MouseState.Visible
+  commentId: F:Pie.Windowing.MouseState.Visible
+  id: Visible
+  parent: Pie.Windowing.MouseState
+  langs:
+  - csharp
+  - vb
+  name: Visible
+  nameWithType: MouseState.Visible
+  fullName: Pie.Windowing.MouseState.Visible
+  type: Field
+  source:
+    remote:
+      path: Pie.Windowing/MouseState.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Visible
+    path: src/Pie/Pie.Windowing/MouseState.cs
+    startLine: 4
+  assemblies:
+  - Pie.Windowing
+  namespace: Pie.Windowing
+  syntax:
+    content: Visible = 0
+    return:
+      type: Pie.Windowing.MouseState
+- uid: Pie.Windowing.MouseState.Hidden
+  commentId: F:Pie.Windowing.MouseState.Hidden
+  id: Hidden
+  parent: Pie.Windowing.MouseState
+  langs:
+  - csharp
+  - vb
+  name: Hidden
+  nameWithType: MouseState.Hidden
+  fullName: Pie.Windowing.MouseState.Hidden
+  type: Field
+  source:
+    remote:
+      path: Pie.Windowing/MouseState.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Hidden
+    path: src/Pie/Pie.Windowing/MouseState.cs
+    startLine: 5
+  assemblies:
+  - Pie.Windowing
+  namespace: Pie.Windowing
+  syntax:
+    content: Hidden = 1
+    return:
+      type: Pie.Windowing.MouseState
+- uid: Pie.Windowing.MouseState.Locked
+  commentId: F:Pie.Windowing.MouseState.Locked
+  id: Locked
+  parent: Pie.Windowing.MouseState
+  langs:
+  - csharp
+  - vb
+  name: Locked
+  nameWithType: MouseState.Locked
+  fullName: Pie.Windowing.MouseState.Locked
+  type: Field
+  source:
+    remote:
+      path: Pie.Windowing/MouseState.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Locked
+    path: src/Pie/Pie.Windowing/MouseState.cs
+    startLine: 6
+  assemblies:
+  - Pie.Windowing
+  namespace: Pie.Windowing
+  syntax:
+    content: Locked = 2
+    return:
+      type: Pie.Windowing.MouseState
+references:
+- uid: Pie.Windowing
+  commentId: N:Pie.Windowing
+  name: Pie.Windowing
+  nameWithType: Pie.Windowing
+  fullName: Pie.Windowing
+  spec.csharp:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Windowing
+    name: Windowing
+  spec.vb:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Windowing
+    name: Windowing
+- uid: Pie.Windowing.MouseState
+  commentId: T:Pie.Windowing.MouseState
+  parent: Pie.Windowing
+  name: MouseState
+  nameWithType: MouseState
+  fullName: Pie.Windowing.MouseState

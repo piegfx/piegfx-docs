@@ -1,0 +1,496 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pie.ReflectionInfo.UBOInfo
+  commentId: T:Pie.ReflectionInfo.UBOInfo
+  id: ReflectionInfo.UBOInfo
+  parent: Pie
+  children:
+  - Pie.ReflectionInfo.UBOInfo.#ctor(System.String,System.String,System.Int32,System.Int32,System.Int32)
+  - Pie.ReflectionInfo.UBOInfo.Binding
+  - Pie.ReflectionInfo.UBOInfo.BlockSize
+  - Pie.ReflectionInfo.UBOInfo.Name
+  - Pie.ReflectionInfo.UBOInfo.Set
+  - Pie.ReflectionInfo.UBOInfo.Type
+  langs:
+  - csharp
+  - vb
+  name: ReflectionInfo.UBOInfo
+  nameWithType: ReflectionInfo.UBOInfo
+  fullName: Pie.ReflectionInfo.UBOInfo
+  type: Struct
+  source:
+    remote:
+      path: Pie/ReflectionInfo.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: UBOInfo
+    path: src/Pie/Pie/ReflectionInfo.cs
+    startLine: 108
+  assemblies:
+  - Pie
+  namespace: Pie
+  syntax:
+    content: public struct ReflectionInfo.UBOInfo
+    content.vb: Public Structure ReflectionInfo.UBOInfo
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: Pie.ReflectionInfo.UBOInfo.Type
+  commentId: F:Pie.ReflectionInfo.UBOInfo.Type
+  id: Type
+  parent: Pie.ReflectionInfo.UBOInfo
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: ReflectionInfo.UBOInfo.Type
+  fullName: Pie.ReflectionInfo.UBOInfo.Type
+  type: Field
+  source:
+    remote:
+      path: Pie/ReflectionInfo.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Type
+    path: src/Pie/Pie/ReflectionInfo.cs
+    startLine: 110
+  assemblies:
+  - Pie
+  namespace: Pie
+  syntax:
+    content: >-
+      [JsonPropertyName("type")]
+
+      public string Type
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonPropertyName("type")>
+
+      Public Type As String
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: {}
+- uid: Pie.ReflectionInfo.UBOInfo.Name
+  commentId: F:Pie.ReflectionInfo.UBOInfo.Name
+  id: Name
+  parent: Pie.ReflectionInfo.UBOInfo
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: ReflectionInfo.UBOInfo.Name
+  fullName: Pie.ReflectionInfo.UBOInfo.Name
+  type: Field
+  source:
+    remote:
+      path: Pie/ReflectionInfo.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Name
+    path: src/Pie/Pie/ReflectionInfo.cs
+    startLine: 112
+  assemblies:
+  - Pie
+  namespace: Pie
+  syntax:
+    content: >-
+      [JsonPropertyName("name")]
+
+      public string Name
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonPropertyName("name")>
+
+      Public Name As String
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: {}
+- uid: Pie.ReflectionInfo.UBOInfo.BlockSize
+  commentId: F:Pie.ReflectionInfo.UBOInfo.BlockSize
+  id: BlockSize
+  parent: Pie.ReflectionInfo.UBOInfo
+  langs:
+  - csharp
+  - vb
+  name: BlockSize
+  nameWithType: ReflectionInfo.UBOInfo.BlockSize
+  fullName: Pie.ReflectionInfo.UBOInfo.BlockSize
+  type: Field
+  source:
+    remote:
+      path: Pie/ReflectionInfo.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: BlockSize
+    path: src/Pie/Pie/ReflectionInfo.cs
+    startLine: 114
+  assemblies:
+  - Pie
+  namespace: Pie
+  syntax:
+    content: >-
+      [JsonPropertyName("block_size")]
+
+      public int BlockSize
+    return:
+      type: System.Int32
+    content.vb: >-
+      <JsonPropertyName("block_size")>
+
+      Public BlockSize As Integer
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: {}
+- uid: Pie.ReflectionInfo.UBOInfo.Set
+  commentId: F:Pie.ReflectionInfo.UBOInfo.Set
+  id: Set
+  parent: Pie.ReflectionInfo.UBOInfo
+  langs:
+  - csharp
+  - vb
+  name: Set
+  nameWithType: ReflectionInfo.UBOInfo.Set
+  fullName: Pie.ReflectionInfo.UBOInfo.Set
+  type: Field
+  source:
+    remote:
+      path: Pie/ReflectionInfo.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Set
+    path: src/Pie/Pie/ReflectionInfo.cs
+    startLine: 116
+  assemblies:
+  - Pie
+  namespace: Pie
+  syntax:
+    content: >-
+      [JsonPropertyName("set")]
+
+      public int Set
+    return:
+      type: System.Int32
+    content.vb: >-
+      <JsonPropertyName("set")>
+
+      Public [Set] As Integer
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: {}
+- uid: Pie.ReflectionInfo.UBOInfo.Binding
+  commentId: F:Pie.ReflectionInfo.UBOInfo.Binding
+  id: Binding
+  parent: Pie.ReflectionInfo.UBOInfo
+  langs:
+  - csharp
+  - vb
+  name: Binding
+  nameWithType: ReflectionInfo.UBOInfo.Binding
+  fullName: Pie.ReflectionInfo.UBOInfo.Binding
+  type: Field
+  source:
+    remote:
+      path: Pie/ReflectionInfo.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Binding
+    path: src/Pie/Pie/ReflectionInfo.cs
+    startLine: 118
+  assemblies:
+  - Pie
+  namespace: Pie
+  syntax:
+    content: >-
+      [JsonPropertyName("binding")]
+
+      public int Binding
+    return:
+      type: System.Int32
+    content.vb: >-
+      <JsonPropertyName("binding")>
+
+      Public Binding As Integer
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: {}
+- uid: Pie.ReflectionInfo.UBOInfo.#ctor(System.String,System.String,System.Int32,System.Int32,System.Int32)
+  commentId: M:Pie.ReflectionInfo.UBOInfo.#ctor(System.String,System.String,System.Int32,System.Int32,System.Int32)
+  id: '#ctor(System.String,System.String,System.Int32,System.Int32,System.Int32)'
+  parent: Pie.ReflectionInfo.UBOInfo
+  langs:
+  - csharp
+  - vb
+  name: UBOInfo(string, string, int, int, int)
+  nameWithType: ReflectionInfo.UBOInfo.UBOInfo(string, string, int, int, int)
+  fullName: Pie.ReflectionInfo.UBOInfo.UBOInfo(string, string, int, int, int)
+  type: Constructor
+  source:
+    remote:
+      path: Pie/ReflectionInfo.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: .ctor
+    path: src/Pie/Pie/ReflectionInfo.cs
+    startLine: 120
+  assemblies:
+  - Pie
+  namespace: Pie
+  syntax:
+    content: public UBOInfo(string type, string name, int blockSize, int set, int binding)
+    parameters:
+    - id: type
+      type: System.String
+    - id: name
+      type: System.String
+    - id: blockSize
+      type: System.Int32
+    - id: set
+      type: System.Int32
+    - id: binding
+      type: System.Int32
+    content.vb: Public Sub New(type As String, name As String, blockSize As Integer, [set] As Integer, binding As Integer)
+  overload: Pie.ReflectionInfo.UBOInfo.#ctor*
+  nameWithType.vb: ReflectionInfo.UBOInfo.New(String, String, Integer, Integer, Integer)
+  fullName.vb: Pie.ReflectionInfo.UBOInfo.New(String, String, Integer, Integer, Integer)
+  name.vb: New(String, String, Integer, Integer, Integer)
+references:
+- uid: Pie
+  commentId: N:Pie
+  name: Pie
+  nameWithType: Pie
+  fullName: Pie
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Pie.ReflectionInfo.UBOInfo.#ctor*
+  commentId: Overload:Pie.ReflectionInfo.UBOInfo.#ctor
+  name: UBOInfo
+  nameWithType: ReflectionInfo.UBOInfo.UBOInfo
+  fullName: Pie.ReflectionInfo.UBOInfo.UBOInfo
+  nameWithType.vb: ReflectionInfo.UBOInfo.New
+  fullName.vb: Pie.ReflectionInfo.UBOInfo.New
+  name.vb: New

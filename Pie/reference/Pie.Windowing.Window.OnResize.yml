@@ -1,0 +1,78 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pie.Windowing.Window.OnResize
+  commentId: T:Pie.Windowing.Window.OnResize
+  id: Window.OnResize
+  parent: Pie.Windowing
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: Window.OnResize
+  nameWithType: Window.OnResize
+  fullName: Pie.Windowing.Window.OnResize
+  type: Delegate
+  source:
+    remote:
+      path: Pie.Windowing/Window.Events.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: OnResize
+    path: src/Pie/Pie.Windowing/Window.Events.cs
+    startLine: 90
+  assemblies:
+  - Pie.Windowing
+  namespace: Pie.Windowing
+  syntax:
+    content: public delegate void Window.OnResize(Size size)
+    parameters:
+    - id: size
+      type: System.Drawing.Size
+    content.vb: Public Delegate Sub Window.OnResize(size As Size)
+references:
+- uid: Pie.Windowing
+  commentId: N:Pie.Windowing
+  name: Pie.Windowing
+  nameWithType: Pie.Windowing
+  fullName: Pie.Windowing
+  spec.csharp:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Windowing
+    name: Windowing
+  spec.vb:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Windowing
+    name: Windowing
+- uid: System.Drawing.Size
+  commentId: T:System.Drawing.Size
+  parent: System.Drawing
+  isExternal: true
+  name: Size
+  nameWithType: Size
+  fullName: System.Drawing.Size
+- uid: System.Drawing
+  commentId: N:System.Drawing
+  isExternal: true
+  name: System.Drawing
+  nameWithType: System.Drawing
+  fullName: System.Drawing
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Drawing
+    name: Drawing
+    isExternal: true
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Drawing
+    name: Drawing
+    isExternal: true

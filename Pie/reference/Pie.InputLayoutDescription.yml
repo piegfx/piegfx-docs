@@ -1,0 +1,709 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pie.InputLayoutDescription
+  commentId: T:Pie.InputLayoutDescription
+  id: InputLayoutDescription
+  parent: Pie
+  children:
+  - Pie.InputLayoutDescription.#ctor(System.String,Pie.Format,System.UInt32,System.UInt32,Pie.InputType)
+  - Pie.InputLayoutDescription.Equals(Pie.InputLayoutDescription)
+  - Pie.InputLayoutDescription.Equals(System.Object)
+  - Pie.InputLayoutDescription.Format
+  - Pie.InputLayoutDescription.GetHashCode
+  - Pie.InputLayoutDescription.InputType
+  - Pie.InputLayoutDescription.Name
+  - Pie.InputLayoutDescription.Offset
+  - Pie.InputLayoutDescription.Slot
+  langs:
+  - csharp
+  - vb
+  name: InputLayoutDescription
+  nameWithType: InputLayoutDescription
+  fullName: Pie.InputLayoutDescription
+  type: Struct
+  source:
+    remote:
+      path: Pie/InputLayoutDescription.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: InputLayoutDescription
+    path: src/Pie/Pie/InputLayoutDescription.cs
+    startLine: 7
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nDescribes how an <xref href=\"Pie.InputLayout\" data-throw-if-not-resolved=\"false\"></xref> should behave.\n"
+  example: []
+  syntax:
+    content: 'public struct InputLayoutDescription : IEquatable<InputLayoutDescription>'
+    content.vb: Public Structure InputLayoutDescription Implements IEquatable(Of InputLayoutDescription)
+  implements:
+  - System.IEquatable{Pie.InputLayoutDescription}
+  inheritedMembers:
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: Pie.InputLayoutDescription.Name
+  commentId: F:Pie.InputLayoutDescription.Name
+  id: Name
+  parent: Pie.InputLayoutDescription
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: InputLayoutDescription.Name
+  fullName: Pie.InputLayoutDescription.Name
+  type: Field
+  source:
+    remote:
+      path: Pie/InputLayoutDescription.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Name
+    path: src/Pie/Pie/InputLayoutDescription.cs
+    startLine: 12
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nThe name of this attribute.\n"
+  example: []
+  syntax:
+    content: public readonly string Name
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Name As String
+- uid: Pie.InputLayoutDescription.Format
+  commentId: F:Pie.InputLayoutDescription.Format
+  id: Format
+  parent: Pie.InputLayoutDescription
+  langs:
+  - csharp
+  - vb
+  name: Format
+  nameWithType: InputLayoutDescription.Format
+  fullName: Pie.InputLayoutDescription.Format
+  type: Field
+  source:
+    remote:
+      path: Pie/InputLayoutDescription.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Format
+    path: src/Pie/Pie/InputLayoutDescription.cs
+    startLine: 17
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nThe format of this attribute.\n"
+  example: []
+  syntax:
+    content: public readonly Format Format
+    return:
+      type: Pie.Format
+    content.vb: Public ReadOnly Format As Format
+- uid: Pie.InputLayoutDescription.Offset
+  commentId: F:Pie.InputLayoutDescription.Offset
+  id: Offset
+  parent: Pie.InputLayoutDescription
+  langs:
+  - csharp
+  - vb
+  name: Offset
+  nameWithType: InputLayoutDescription.Offset
+  fullName: Pie.InputLayoutDescription.Offset
+  type: Field
+  source:
+    remote:
+      path: Pie/InputLayoutDescription.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Offset
+    path: src/Pie/Pie/InputLayoutDescription.cs
+    startLine: 22
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nThe offset, in bytes, of this attribute.\n"
+  example: []
+  syntax:
+    content: public readonly uint Offset
+    return:
+      type: System.UInt32
+    content.vb: Public ReadOnly Offset As UInteger
+- uid: Pie.InputLayoutDescription.Slot
+  commentId: F:Pie.InputLayoutDescription.Slot
+  id: Slot
+  parent: Pie.InputLayoutDescription
+  langs:
+  - csharp
+  - vb
+  name: Slot
+  nameWithType: InputLayoutDescription.Slot
+  fullName: Pie.InputLayoutDescription.Slot
+  type: Field
+  source:
+    remote:
+      path: Pie/InputLayoutDescription.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Slot
+    path: src/Pie/Pie/InputLayoutDescription.cs
+    startLine: 27
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nThe vertex buffer slot of this attribute.\n"
+  example: []
+  syntax:
+    content: public uint Slot
+    return:
+      type: System.UInt32
+    content.vb: Public Slot As UInteger
+- uid: Pie.InputLayoutDescription.InputType
+  commentId: F:Pie.InputLayoutDescription.InputType
+  id: InputType
+  parent: Pie.InputLayoutDescription
+  langs:
+  - csharp
+  - vb
+  name: InputType
+  nameWithType: InputLayoutDescription.InputType
+  fullName: Pie.InputLayoutDescription.InputType
+  type: Field
+  source:
+    remote:
+      path: Pie/InputLayoutDescription.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: InputType
+    path: src/Pie/Pie/InputLayoutDescription.cs
+    startLine: 32
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nThe input type of this attribute.\n"
+  example: []
+  syntax:
+    content: public InputType InputType
+    return:
+      type: Pie.InputType
+    content.vb: Public InputType As InputType
+- uid: Pie.InputLayoutDescription.#ctor(System.String,Pie.Format,System.UInt32,System.UInt32,Pie.InputType)
+  commentId: M:Pie.InputLayoutDescription.#ctor(System.String,Pie.Format,System.UInt32,System.UInt32,Pie.InputType)
+  id: '#ctor(System.String,Pie.Format,System.UInt32,System.UInt32,Pie.InputType)'
+  parent: Pie.InputLayoutDescription
+  langs:
+  - csharp
+  - vb
+  name: InputLayoutDescription(string, Format, uint, uint, InputType)
+  nameWithType: InputLayoutDescription.InputLayoutDescription(string, Format, uint, uint, InputType)
+  fullName: Pie.InputLayoutDescription.InputLayoutDescription(string, Pie.Format, uint, uint, Pie.InputType)
+  type: Constructor
+  source:
+    remote:
+      path: Pie/InputLayoutDescription.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: .ctor
+    path: src/Pie/Pie/InputLayoutDescription.cs
+    startLine: 42
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nCreate a new input layout description for use with an <xref href=\"Pie.InputLayout\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public InputLayoutDescription(string name, Format format, uint offset, uint slot, InputType inputType)
+    parameters:
+    - id: name
+      type: System.String
+      description: The name of this attribute.
+    - id: format
+      type: Pie.Format
+      description: The format of this attribute.
+    - id: offset
+      type: System.UInt32
+      description: The offset, in bytes, of this attribute.
+    - id: slot
+      type: System.UInt32
+      description: The vertex buffer slot of this attribute.
+    - id: inputType
+      type: Pie.InputType
+      description: The input type of this attribute.
+    content.vb: Public Sub New(name As String, format As Format, offset As UInteger, slot As UInteger, inputType As InputType)
+  overload: Pie.InputLayoutDescription.#ctor*
+  nameWithType.vb: InputLayoutDescription.New(String, Format, UInteger, UInteger, InputType)
+  fullName.vb: Pie.InputLayoutDescription.New(String, Pie.Format, UInteger, UInteger, Pie.InputType)
+  name.vb: New(String, Format, UInteger, UInteger, InputType)
+- uid: Pie.InputLayoutDescription.Equals(Pie.InputLayoutDescription)
+  commentId: M:Pie.InputLayoutDescription.Equals(Pie.InputLayoutDescription)
+  id: Equals(Pie.InputLayoutDescription)
+  parent: Pie.InputLayoutDescription
+  langs:
+  - csharp
+  - vb
+  name: Equals(InputLayoutDescription)
+  nameWithType: InputLayoutDescription.Equals(InputLayoutDescription)
+  fullName: Pie.InputLayoutDescription.Equals(Pie.InputLayoutDescription)
+  type: Method
+  source:
+    remote:
+      path: Pie/InputLayoutDescription.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Equals
+    path: src/Pie/Pie/InputLayoutDescription.cs
+    startLine: 51
+  assemblies:
+  - Pie
+  namespace: Pie
+  syntax:
+    content: public bool Equals(InputLayoutDescription other)
+    parameters:
+    - id: other
+      type: Pie.InputLayoutDescription
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As InputLayoutDescription) As Boolean
+  overload: Pie.InputLayoutDescription.Equals*
+  implements:
+  - System.IEquatable{Pie.InputLayoutDescription}.Equals(Pie.InputLayoutDescription)
+- uid: Pie.InputLayoutDescription.Equals(System.Object)
+  commentId: M:Pie.InputLayoutDescription.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: Pie.InputLayoutDescription
+  langs:
+  - csharp
+  - vb
+  name: Equals(object)
+  nameWithType: InputLayoutDescription.Equals(object)
+  fullName: Pie.InputLayoutDescription.Equals(object)
+  type: Method
+  source:
+    remote:
+      path: Pie/InputLayoutDescription.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Equals
+    path: src/Pie/Pie/InputLayoutDescription.cs
+    startLine: 56
+  assemblies:
+  - Pie
+  namespace: Pie
+  syntax:
+    content: public override bool Equals(object obj)
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.ValueType.Equals(System.Object)
+  overload: Pie.InputLayoutDescription.Equals*
+  nameWithType.vb: InputLayoutDescription.Equals(Object)
+  fullName.vb: Pie.InputLayoutDescription.Equals(Object)
+  name.vb: Equals(Object)
+- uid: Pie.InputLayoutDescription.GetHashCode
+  commentId: M:Pie.InputLayoutDescription.GetHashCode
+  id: GetHashCode
+  parent: Pie.InputLayoutDescription
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: InputLayoutDescription.GetHashCode()
+  fullName: Pie.InputLayoutDescription.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: Pie/InputLayoutDescription.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: GetHashCode
+    path: src/Pie/Pie/InputLayoutDescription.cs
+    startLine: 61
+  assemblies:
+  - Pie
+  namespace: Pie
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.ValueType.GetHashCode
+  overload: Pie.InputLayoutDescription.GetHashCode*
+references:
+- uid: Pie.InputLayout
+  commentId: T:Pie.InputLayout
+  parent: Pie
+  name: InputLayout
+  nameWithType: InputLayout
+  fullName: Pie.InputLayout
+- uid: Pie
+  commentId: N:Pie
+  name: Pie
+  nameWithType: Pie
+  fullName: Pie
+- uid: System.IEquatable{Pie.InputLayoutDescription}
+  commentId: T:System.IEquatable{Pie.InputLayoutDescription}
+  parent: System
+  definition: System.IEquatable`1
+  name: IEquatable<InputLayoutDescription>
+  nameWithType: IEquatable<InputLayoutDescription>
+  fullName: System.IEquatable<Pie.InputLayoutDescription>
+  nameWithType.vb: IEquatable(Of InputLayoutDescription)
+  fullName.vb: System.IEquatable(Of Pie.InputLayoutDescription)
+  name.vb: IEquatable(Of InputLayoutDescription)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+  - name: <
+  - uid: Pie.InputLayoutDescription
+    name: InputLayoutDescription
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Pie.InputLayoutDescription
+    name: InputLayoutDescription
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Pie.Format
+  commentId: T:Pie.Format
+  parent: Pie
+  name: Format
+  nameWithType: Format
+  fullName: Pie.Format
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: Pie.InputType
+  commentId: T:Pie.InputType
+  parent: Pie
+  name: InputType
+  nameWithType: InputType
+  fullName: Pie.InputType
+- uid: Pie.InputLayoutDescription.#ctor*
+  commentId: Overload:Pie.InputLayoutDescription.#ctor
+  name: InputLayoutDescription
+  nameWithType: InputLayoutDescription.InputLayoutDescription
+  fullName: Pie.InputLayoutDescription.InputLayoutDescription
+  nameWithType.vb: InputLayoutDescription.New
+  fullName.vb: Pie.InputLayoutDescription.New
+  name.vb: New
+- uid: Pie.InputLayoutDescription.Equals*
+  commentId: Overload:Pie.InputLayoutDescription.Equals
+  name: Equals
+  nameWithType: InputLayoutDescription.Equals
+  fullName: Pie.InputLayoutDescription.Equals
+- uid: System.IEquatable{Pie.InputLayoutDescription}.Equals(Pie.InputLayoutDescription)
+  commentId: M:System.IEquatable{Pie.InputLayoutDescription}.Equals(Pie.InputLayoutDescription)
+  parent: System.IEquatable{Pie.InputLayoutDescription}
+  definition: System.IEquatable`1.Equals(`0)
+  name: Equals(InputLayoutDescription)
+  nameWithType: IEquatable<InputLayoutDescription>.Equals(InputLayoutDescription)
+  fullName: System.IEquatable<Pie.InputLayoutDescription>.Equals(Pie.InputLayoutDescription)
+  nameWithType.vb: IEquatable(Of InputLayoutDescription).Equals(InputLayoutDescription)
+  fullName.vb: System.IEquatable(Of Pie.InputLayoutDescription).Equals(Pie.InputLayoutDescription)
+  spec.csharp:
+  - uid: System.IEquatable{Pie.InputLayoutDescription}.Equals(Pie.InputLayoutDescription)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: Pie.InputLayoutDescription
+    name: InputLayoutDescription
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{Pie.InputLayoutDescription}.Equals(Pie.InputLayoutDescription)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: Pie.InputLayoutDescription
+    name: InputLayoutDescription
+  - name: )
+- uid: Pie.InputLayoutDescription
+  commentId: T:Pie.InputLayoutDescription
+  parent: Pie
+  name: InputLayoutDescription
+  nameWithType: InputLayoutDescription
+  fullName: Pie.InputLayoutDescription
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+- uid: Pie.InputLayoutDescription.GetHashCode*
+  commentId: Overload:Pie.InputLayoutDescription.GetHashCode
+  name: GetHashCode
+  nameWithType: InputLayoutDescription.GetHashCode
+  fullName: Pie.InputLayoutDescription.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer

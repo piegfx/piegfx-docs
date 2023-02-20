@@ -1,0 +1,505 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pie.Windowing.Monitor
+  commentId: T:Pie.Windowing.Monitor
+  id: Monitor
+  parent: Pie.Windowing
+  children:
+  - Pie.Windowing.Monitor.AvailableModes
+  - Pie.Windowing.Monitor.Bounds
+  - Pie.Windowing.Monitor.ConnectedMonitors
+  - Pie.Windowing.Monitor.Location
+  - Pie.Windowing.Monitor.PrimaryMonitor
+  - Pie.Windowing.Monitor.VideoMode
+  langs:
+  - csharp
+  - vb
+  name: Monitor
+  nameWithType: Monitor
+  fullName: Pie.Windowing.Monitor
+  type: Struct
+  source:
+    remote:
+      path: Pie.Windowing/Monitor.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Monitor
+    path: src/Pie/Pie.Windowing/Monitor.cs
+    startLine: 8
+  assemblies:
+  - Pie.Windowing
+  namespace: Pie.Windowing
+  syntax:
+    content: public struct Monitor
+    content.vb: Public Structure Monitor
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: Pie.Windowing.Monitor.Bounds
+  commentId: F:Pie.Windowing.Monitor.Bounds
+  id: Bounds
+  parent: Pie.Windowing.Monitor
+  langs:
+  - csharp
+  - vb
+  name: Bounds
+  nameWithType: Monitor.Bounds
+  fullName: Pie.Windowing.Monitor.Bounds
+  type: Field
+  source:
+    remote:
+      path: Pie.Windowing/Monitor.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Bounds
+    path: src/Pie/Pie.Windowing/Monitor.cs
+    startLine: 10
+  assemblies:
+  - Pie.Windowing
+  namespace: Pie.Windowing
+  syntax:
+    content: public readonly Rectangle Bounds
+    return:
+      type: System.Drawing.Rectangle
+    content.vb: Public ReadOnly Bounds As Rectangle
+- uid: Pie.Windowing.Monitor.Location
+  commentId: F:Pie.Windowing.Monitor.Location
+  id: Location
+  parent: Pie.Windowing.Monitor
+  langs:
+  - csharp
+  - vb
+  name: Location
+  nameWithType: Monitor.Location
+  fullName: Pie.Windowing.Monitor.Location
+  type: Field
+  source:
+    remote:
+      path: Pie.Windowing/Monitor.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Location
+    path: src/Pie/Pie.Windowing/Monitor.cs
+    startLine: 12
+  assemblies:
+  - Pie.Windowing
+  namespace: Pie.Windowing
+  syntax:
+    content: public readonly Point Location
+    return:
+      type: System.Drawing.Point
+    content.vb: Public ReadOnly Location As Point
+- uid: Pie.Windowing.Monitor.VideoMode
+  commentId: F:Pie.Windowing.Monitor.VideoMode
+  id: VideoMode
+  parent: Pie.Windowing.Monitor
+  langs:
+  - csharp
+  - vb
+  name: VideoMode
+  nameWithType: Monitor.VideoMode
+  fullName: Pie.Windowing.Monitor.VideoMode
+  type: Field
+  source:
+    remote:
+      path: Pie.Windowing/Monitor.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: VideoMode
+    path: src/Pie/Pie.Windowing/Monitor.cs
+    startLine: 14
+  assemblies:
+  - Pie.Windowing
+  namespace: Pie.Windowing
+  syntax:
+    content: public readonly VideoMode VideoMode
+    return:
+      type: Pie.Windowing.VideoMode
+    content.vb: Public ReadOnly VideoMode As VideoMode
+- uid: Pie.Windowing.Monitor.AvailableModes
+  commentId: F:Pie.Windowing.Monitor.AvailableModes
+  id: AvailableModes
+  parent: Pie.Windowing.Monitor
+  langs:
+  - csharp
+  - vb
+  name: AvailableModes
+  nameWithType: Monitor.AvailableModes
+  fullName: Pie.Windowing.Monitor.AvailableModes
+  type: Field
+  source:
+    remote:
+      path: Pie.Windowing/Monitor.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: AvailableModes
+    path: src/Pie/Pie.Windowing/Monitor.cs
+    startLine: 16
+  assemblies:
+  - Pie.Windowing
+  namespace: Pie.Windowing
+  syntax:
+    content: public readonly VideoMode[] AvailableModes
+    return:
+      type: Pie.Windowing.VideoMode[]
+    content.vb: Public ReadOnly AvailableModes As VideoMode()
+- uid: Pie.Windowing.Monitor.PrimaryMonitor
+  commentId: P:Pie.Windowing.Monitor.PrimaryMonitor
+  id: PrimaryMonitor
+  parent: Pie.Windowing.Monitor
+  langs:
+  - csharp
+  - vb
+  name: PrimaryMonitor
+  nameWithType: Monitor.PrimaryMonitor
+  fullName: Pie.Windowing.Monitor.PrimaryMonitor
+  type: Property
+  source:
+    remote:
+      path: Pie.Windowing/Monitor.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: PrimaryMonitor
+    path: src/Pie/Pie.Windowing/Monitor.cs
+    startLine: 28
+  assemblies:
+  - Pie.Windowing
+  namespace: Pie.Windowing
+  syntax:
+    content: public static Monitor PrimaryMonitor { get; }
+    parameters: []
+    return:
+      type: Pie.Windowing.Monitor
+    content.vb: Public Shared ReadOnly Property PrimaryMonitor As Monitor
+  overload: Pie.Windowing.Monitor.PrimaryMonitor*
+- uid: Pie.Windowing.Monitor.ConnectedMonitors
+  commentId: P:Pie.Windowing.Monitor.ConnectedMonitors
+  id: ConnectedMonitors
+  parent: Pie.Windowing.Monitor
+  langs:
+  - csharp
+  - vb
+  name: ConnectedMonitors
+  nameWithType: Monitor.ConnectedMonitors
+  fullName: Pie.Windowing.Monitor.ConnectedMonitors
+  type: Property
+  source:
+    remote:
+      path: Pie.Windowing/Monitor.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: ConnectedMonitors
+    path: src/Pie/Pie.Windowing/Monitor.cs
+    startLine: 30
+  assemblies:
+  - Pie.Windowing
+  namespace: Pie.Windowing
+  syntax:
+    content: public static Monitor[] ConnectedMonitors { get; }
+    parameters: []
+    return:
+      type: Pie.Windowing.Monitor[]
+    content.vb: Public Shared ReadOnly Property ConnectedMonitors As Monitor()
+  overload: Pie.Windowing.Monitor.ConnectedMonitors*
+references:
+- uid: Pie.Windowing
+  commentId: N:Pie.Windowing
+  name: Pie.Windowing
+  nameWithType: Pie.Windowing
+  fullName: Pie.Windowing
+  spec.csharp:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Windowing
+    name: Windowing
+  spec.vb:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Windowing
+    name: Windowing
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Drawing.Rectangle
+  commentId: T:System.Drawing.Rectangle
+  parent: System.Drawing
+  isExternal: true
+  name: Rectangle
+  nameWithType: Rectangle
+  fullName: System.Drawing.Rectangle
+- uid: System.Drawing
+  commentId: N:System.Drawing
+  isExternal: true
+  name: System.Drawing
+  nameWithType: System.Drawing
+  fullName: System.Drawing
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Drawing
+    name: Drawing
+    isExternal: true
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Drawing
+    name: Drawing
+    isExternal: true
+- uid: System.Drawing.Point
+  commentId: T:System.Drawing.Point
+  parent: System.Drawing
+  isExternal: true
+  name: Point
+  nameWithType: Point
+  fullName: System.Drawing.Point
+- uid: Pie.Windowing.VideoMode
+  commentId: T:Pie.Windowing.VideoMode
+  parent: Pie.Windowing
+  name: VideoMode
+  nameWithType: VideoMode
+  fullName: Pie.Windowing.VideoMode
+- uid: Pie.Windowing.VideoMode[]
+  isExternal: true
+  name: VideoMode[]
+  nameWithType: VideoMode[]
+  fullName: Pie.Windowing.VideoMode[]
+  nameWithType.vb: VideoMode()
+  fullName.vb: Pie.Windowing.VideoMode()
+  name.vb: VideoMode()
+  spec.csharp:
+  - uid: Pie.Windowing.VideoMode
+    name: VideoMode
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: Pie.Windowing.VideoMode
+    name: VideoMode
+  - name: (
+  - name: )
+- uid: Pie.Windowing.Monitor.PrimaryMonitor*
+  commentId: Overload:Pie.Windowing.Monitor.PrimaryMonitor
+  name: PrimaryMonitor
+  nameWithType: Monitor.PrimaryMonitor
+  fullName: Pie.Windowing.Monitor.PrimaryMonitor
+- uid: Pie.Windowing.Monitor
+  commentId: T:Pie.Windowing.Monitor
+  parent: Pie.Windowing
+  name: Monitor
+  nameWithType: Monitor
+  fullName: Pie.Windowing.Monitor
+- uid: Pie.Windowing.Monitor.ConnectedMonitors*
+  commentId: Overload:Pie.Windowing.Monitor.ConnectedMonitors
+  name: ConnectedMonitors
+  nameWithType: Monitor.ConnectedMonitors
+  fullName: Pie.Windowing.Monitor.ConnectedMonitors
+- uid: Pie.Windowing.Monitor[]
+  isExternal: true
+  name: Monitor[]
+  nameWithType: Monitor[]
+  fullName: Pie.Windowing.Monitor[]
+  nameWithType.vb: Monitor()
+  fullName.vb: Pie.Windowing.Monitor()
+  name.vb: Monitor()
+  spec.csharp:
+  - uid: Pie.Windowing.Monitor
+    name: Monitor
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: Pie.Windowing.Monitor
+    name: Monitor
+  - name: (
+  - name: )

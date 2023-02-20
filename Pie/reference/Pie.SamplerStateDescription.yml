@@ -1,0 +1,793 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pie.SamplerStateDescription
+  commentId: T:Pie.SamplerStateDescription
+  id: SamplerStateDescription
+  parent: Pie
+  children:
+  - Pie.SamplerStateDescription.#ctor(Pie.TextureFilter,Pie.TextureAddress,Pie.TextureAddress,Pie.TextureAddress,System.Int32,System.Drawing.Color,System.Single,System.Single)
+  - Pie.SamplerStateDescription.AddressU
+  - Pie.SamplerStateDescription.AddressV
+  - Pie.SamplerStateDescription.AddressW
+  - Pie.SamplerStateDescription.AnisotropicClamp
+  - Pie.SamplerStateDescription.AnisotropicRepeat
+  - Pie.SamplerStateDescription.BorderColor
+  - Pie.SamplerStateDescription.Filter
+  - Pie.SamplerStateDescription.LinearClamp
+  - Pie.SamplerStateDescription.LinearRepeat
+  - Pie.SamplerStateDescription.MaxAnisotropy
+  - Pie.SamplerStateDescription.MaxLOD
+  - Pie.SamplerStateDescription.MinLOD
+  - Pie.SamplerStateDescription.PointClamp
+  - Pie.SamplerStateDescription.PointRepeat
+  langs:
+  - csharp
+  - vb
+  name: SamplerStateDescription
+  nameWithType: SamplerStateDescription
+  fullName: Pie.SamplerStateDescription
+  type: Struct
+  source:
+    remote:
+      path: Pie/SamplerStateDescription.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: SamplerStateDescription
+    path: src/Pie/Pie/SamplerStateDescription.cs
+    startLine: 7
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nDescribes a <xref href=\"Pie.SamplerState\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public struct SamplerStateDescription
+    content.vb: Public Structure SamplerStateDescription
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: Pie.SamplerStateDescription.AnisotropicClamp
+  commentId: F:Pie.SamplerStateDescription.AnisotropicClamp
+  id: AnisotropicClamp
+  parent: Pie.SamplerStateDescription
+  langs:
+  - csharp
+  - vb
+  name: AnisotropicClamp
+  nameWithType: SamplerStateDescription.AnisotropicClamp
+  fullName: Pie.SamplerStateDescription.AnisotropicClamp
+  type: Field
+  source:
+    remote:
+      path: Pie/SamplerStateDescription.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: AnisotropicClamp
+    path: src/Pie/Pie/SamplerStateDescription.cs
+    startLine: 12
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nUse anisotropic filtering (with <xref href=\"Pie.SamplerState.MaxAnisotropicLevels\" data-throw-if-not-resolved=\"false\"></xref> levels), with clamping to edge.\n"
+  example: []
+  syntax:
+    content: public static readonly SamplerStateDescription AnisotropicClamp
+    return:
+      type: Pie.SamplerStateDescription
+    content.vb: Public Shared ReadOnly AnisotropicClamp As SamplerStateDescription
+- uid: Pie.SamplerStateDescription.AnisotropicRepeat
+  commentId: F:Pie.SamplerStateDescription.AnisotropicRepeat
+  id: AnisotropicRepeat
+  parent: Pie.SamplerStateDescription
+  langs:
+  - csharp
+  - vb
+  name: AnisotropicRepeat
+  nameWithType: SamplerStateDescription.AnisotropicRepeat
+  fullName: Pie.SamplerStateDescription.AnisotropicRepeat
+  type: Field
+  source:
+    remote:
+      path: Pie/SamplerStateDescription.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: AnisotropicRepeat
+    path: src/Pie/Pie/SamplerStateDescription.cs
+    startLine: 19
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nUse anisotropic filtering (with <xref href=\"Pie.SamplerState.MaxAnisotropicLevels\" data-throw-if-not-resolved=\"false\"></xref> levels), with repeat.\n"
+  example: []
+  syntax:
+    content: public static readonly SamplerStateDescription AnisotropicRepeat
+    return:
+      type: Pie.SamplerStateDescription
+    content.vb: Public Shared ReadOnly AnisotropicRepeat As SamplerStateDescription
+- uid: Pie.SamplerStateDescription.LinearClamp
+  commentId: F:Pie.SamplerStateDescription.LinearClamp
+  id: LinearClamp
+  parent: Pie.SamplerStateDescription
+  langs:
+  - csharp
+  - vb
+  name: LinearClamp
+  nameWithType: SamplerStateDescription.LinearClamp
+  fullName: Pie.SamplerStateDescription.LinearClamp
+  type: Field
+  source:
+    remote:
+      path: Pie/SamplerStateDescription.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: LinearClamp
+    path: src/Pie/Pie/SamplerStateDescription.cs
+    startLine: 26
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nUse linear filtering with clamping to edge.\n"
+  example: []
+  syntax:
+    content: public static readonly SamplerStateDescription LinearClamp
+    return:
+      type: Pie.SamplerStateDescription
+    content.vb: Public Shared ReadOnly LinearClamp As SamplerStateDescription
+- uid: Pie.SamplerStateDescription.LinearRepeat
+  commentId: F:Pie.SamplerStateDescription.LinearRepeat
+  id: LinearRepeat
+  parent: Pie.SamplerStateDescription
+  langs:
+  - csharp
+  - vb
+  name: LinearRepeat
+  nameWithType: SamplerStateDescription.LinearRepeat
+  fullName: Pie.SamplerStateDescription.LinearRepeat
+  type: Field
+  source:
+    remote:
+      path: Pie/SamplerStateDescription.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: LinearRepeat
+    path: src/Pie/Pie/SamplerStateDescription.cs
+    startLine: 33
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nUse linear filtering with repeat.\n"
+  example: []
+  syntax:
+    content: public static readonly SamplerStateDescription LinearRepeat
+    return:
+      type: Pie.SamplerStateDescription
+    content.vb: Public Shared ReadOnly LinearRepeat As SamplerStateDescription
+- uid: Pie.SamplerStateDescription.PointClamp
+  commentId: F:Pie.SamplerStateDescription.PointClamp
+  id: PointClamp
+  parent: Pie.SamplerStateDescription
+  langs:
+  - csharp
+  - vb
+  name: PointClamp
+  nameWithType: SamplerStateDescription.PointClamp
+  fullName: Pie.SamplerStateDescription.PointClamp
+  type: Field
+  source:
+    remote:
+      path: Pie/SamplerStateDescription.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: PointClamp
+    path: src/Pie/Pie/SamplerStateDescription.cs
+    startLine: 40
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nUse point filtering with clamping to edge.\n"
+  example: []
+  syntax:
+    content: public static readonly SamplerStateDescription PointClamp
+    return:
+      type: Pie.SamplerStateDescription
+    content.vb: Public Shared ReadOnly PointClamp As SamplerStateDescription
+- uid: Pie.SamplerStateDescription.PointRepeat
+  commentId: F:Pie.SamplerStateDescription.PointRepeat
+  id: PointRepeat
+  parent: Pie.SamplerStateDescription
+  langs:
+  - csharp
+  - vb
+  name: PointRepeat
+  nameWithType: SamplerStateDescription.PointRepeat
+  fullName: Pie.SamplerStateDescription.PointRepeat
+  type: Field
+  source:
+    remote:
+      path: Pie/SamplerStateDescription.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: PointRepeat
+    path: src/Pie/Pie/SamplerStateDescription.cs
+    startLine: 47
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nUse point filtering with repeat.\n"
+  example: []
+  syntax:
+    content: public static readonly SamplerStateDescription PointRepeat
+    return:
+      type: Pie.SamplerStateDescription
+    content.vb: Public Shared ReadOnly PointRepeat As SamplerStateDescription
+- uid: Pie.SamplerStateDescription.Filter
+  commentId: F:Pie.SamplerStateDescription.Filter
+  id: Filter
+  parent: Pie.SamplerStateDescription
+  langs:
+  - csharp
+  - vb
+  name: Filter
+  nameWithType: SamplerStateDescription.Filter
+  fullName: Pie.SamplerStateDescription.Filter
+  type: Field
+  source:
+    remote:
+      path: Pie/SamplerStateDescription.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Filter
+    path: src/Pie/Pie/SamplerStateDescription.cs
+    startLine: 54
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nThe filter to use.\n"
+  example: []
+  syntax:
+    content: public TextureFilter Filter
+    return:
+      type: Pie.TextureFilter
+    content.vb: Public Filter As TextureFilter
+- uid: Pie.SamplerStateDescription.AddressU
+  commentId: F:Pie.SamplerStateDescription.AddressU
+  id: AddressU
+  parent: Pie.SamplerStateDescription
+  langs:
+  - csharp
+  - vb
+  name: AddressU
+  nameWithType: SamplerStateDescription.AddressU
+  fullName: Pie.SamplerStateDescription.AddressU
+  type: Field
+  source:
+    remote:
+      path: Pie/SamplerStateDescription.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: AddressU
+    path: src/Pie/Pie/SamplerStateDescription.cs
+    startLine: 59
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nThe texture address of the U-coordinates (S).\n"
+  example: []
+  syntax:
+    content: public TextureAddress AddressU
+    return:
+      type: Pie.TextureAddress
+    content.vb: Public AddressU As TextureAddress
+- uid: Pie.SamplerStateDescription.AddressV
+  commentId: F:Pie.SamplerStateDescription.AddressV
+  id: AddressV
+  parent: Pie.SamplerStateDescription
+  langs:
+  - csharp
+  - vb
+  name: AddressV
+  nameWithType: SamplerStateDescription.AddressV
+  fullName: Pie.SamplerStateDescription.AddressV
+  type: Field
+  source:
+    remote:
+      path: Pie/SamplerStateDescription.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: AddressV
+    path: src/Pie/Pie/SamplerStateDescription.cs
+    startLine: 64
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nThe texture address of the V-coordinates (T).\n"
+  example: []
+  syntax:
+    content: public TextureAddress AddressV
+    return:
+      type: Pie.TextureAddress
+    content.vb: Public AddressV As TextureAddress
+- uid: Pie.SamplerStateDescription.AddressW
+  commentId: F:Pie.SamplerStateDescription.AddressW
+  id: AddressW
+  parent: Pie.SamplerStateDescription
+  langs:
+  - csharp
+  - vb
+  name: AddressW
+  nameWithType: SamplerStateDescription.AddressW
+  fullName: Pie.SamplerStateDescription.AddressW
+  type: Field
+  source:
+    remote:
+      path: Pie/SamplerStateDescription.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: AddressW
+    path: src/Pie/Pie/SamplerStateDescription.cs
+    startLine: 69
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nThe texture address of the W-coordinates (R).\n"
+  example: []
+  syntax:
+    content: public TextureAddress AddressW
+    return:
+      type: Pie.TextureAddress
+    content.vb: Public AddressW As TextureAddress
+- uid: Pie.SamplerStateDescription.MaxAnisotropy
+  commentId: F:Pie.SamplerStateDescription.MaxAnisotropy
+  id: MaxAnisotropy
+  parent: Pie.SamplerStateDescription
+  langs:
+  - csharp
+  - vb
+  name: MaxAnisotropy
+  nameWithType: SamplerStateDescription.MaxAnisotropy
+  fullName: Pie.SamplerStateDescription.MaxAnisotropy
+  type: Field
+  source:
+    remote:
+      path: Pie/SamplerStateDescription.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: MaxAnisotropy
+    path: src/Pie/Pie/SamplerStateDescription.cs
+    startLine: 74
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nThe maximum number of anisotropic levels. (Max: <xref href=\"Pie.SamplerState.MaxAnisotropicLevels\" data-throw-if-not-resolved=\"false\"></xref>).\n"
+  example: []
+  syntax:
+    content: public int MaxAnisotropy
+    return:
+      type: System.Int32
+    content.vb: Public MaxAnisotropy As Integer
+- uid: Pie.SamplerStateDescription.BorderColor
+  commentId: F:Pie.SamplerStateDescription.BorderColor
+  id: BorderColor
+  parent: Pie.SamplerStateDescription
+  langs:
+  - csharp
+  - vb
+  name: BorderColor
+  nameWithType: SamplerStateDescription.BorderColor
+  fullName: Pie.SamplerStateDescription.BorderColor
+  type: Field
+  source:
+    remote:
+      path: Pie/SamplerStateDescription.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: BorderColor
+    path: src/Pie/Pie/SamplerStateDescription.cs
+    startLine: 79
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nThe color of the border, when using <xref href=\"Pie.TextureAddress.ClampToBorder\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public Color BorderColor
+    return:
+      type: System.Drawing.Color
+    content.vb: Public BorderColor As Color
+- uid: Pie.SamplerStateDescription.MinLOD
+  commentId: F:Pie.SamplerStateDescription.MinLOD
+  id: MinLOD
+  parent: Pie.SamplerStateDescription
+  langs:
+  - csharp
+  - vb
+  name: MinLOD
+  nameWithType: SamplerStateDescription.MinLOD
+  fullName: Pie.SamplerStateDescription.MinLOD
+  type: Field
+  source:
+    remote:
+      path: Pie/SamplerStateDescription.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: MinLOD
+    path: src/Pie/Pie/SamplerStateDescription.cs
+    startLine: 84
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nThe minimum LOD of the <xref href=\"Pie.SamplerState\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public float MinLOD
+    return:
+      type: System.Single
+    content.vb: Public MinLOD As Single
+- uid: Pie.SamplerStateDescription.MaxLOD
+  commentId: F:Pie.SamplerStateDescription.MaxLOD
+  id: MaxLOD
+  parent: Pie.SamplerStateDescription
+  langs:
+  - csharp
+  - vb
+  name: MaxLOD
+  nameWithType: SamplerStateDescription.MaxLOD
+  fullName: Pie.SamplerStateDescription.MaxLOD
+  type: Field
+  source:
+    remote:
+      path: Pie/SamplerStateDescription.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: MaxLOD
+    path: src/Pie/Pie/SamplerStateDescription.cs
+    startLine: 89
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nThe maximum LOD of the <xref href=\"Pie.SamplerState\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public float MaxLOD
+    return:
+      type: System.Single
+    content.vb: Public MaxLOD As Single
+- uid: Pie.SamplerStateDescription.#ctor(Pie.TextureFilter,Pie.TextureAddress,Pie.TextureAddress,Pie.TextureAddress,System.Int32,System.Drawing.Color,System.Single,System.Single)
+  commentId: M:Pie.SamplerStateDescription.#ctor(Pie.TextureFilter,Pie.TextureAddress,Pie.TextureAddress,Pie.TextureAddress,System.Int32,System.Drawing.Color,System.Single,System.Single)
+  id: '#ctor(Pie.TextureFilter,Pie.TextureAddress,Pie.TextureAddress,Pie.TextureAddress,System.Int32,System.Drawing.Color,System.Single,System.Single)'
+  parent: Pie.SamplerStateDescription
+  langs:
+  - csharp
+  - vb
+  name: SamplerStateDescription(TextureFilter, TextureAddress, TextureAddress, TextureAddress, int, Color, float, float)
+  nameWithType: SamplerStateDescription.SamplerStateDescription(TextureFilter, TextureAddress, TextureAddress, TextureAddress, int, Color, float, float)
+  fullName: Pie.SamplerStateDescription.SamplerStateDescription(Pie.TextureFilter, Pie.TextureAddress, Pie.TextureAddress, Pie.TextureAddress, int, System.Drawing.Color, float, float)
+  type: Constructor
+  source:
+    remote:
+      path: Pie/SamplerStateDescription.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: .ctor
+    path: src/Pie/Pie/SamplerStateDescription.cs
+    startLine: 102
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nCreate a new <xref href=\"Pie.SamplerStateDescription\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public SamplerStateDescription(TextureFilter filter, TextureAddress addressU, TextureAddress addressV, TextureAddress addressW, int maxAnisotropy, Color borderColor, float minLod, float maxLod)
+    parameters:
+    - id: filter
+      type: Pie.TextureFilter
+      description: The filter to use.
+    - id: addressU
+      type: Pie.TextureAddress
+      description: The texture address of the U-coordinates (S).
+    - id: addressV
+      type: Pie.TextureAddress
+      description: The texture address of the V-coordinates (T).
+    - id: addressW
+      type: Pie.TextureAddress
+      description: The texture address of the W-coordinates (R).
+    - id: maxAnisotropy
+      type: System.Int32
+      description: 'The maximum number of anisotropic levels. (Max: <xref href="Pie.SamplerState.MaxAnisotropicLevels" data-throw-if-not-resolved="false"></xref>).'
+    - id: borderColor
+      type: System.Drawing.Color
+      description: The color of the border, when using <xref href="Pie.TextureAddress.ClampToBorder" data-throw-if-not-resolved="false"></xref>.
+    - id: minLod
+      type: System.Single
+      description: The minimum LOD of the <xref href="Pie.SamplerState" data-throw-if-not-resolved="false"></xref>.
+    - id: maxLod
+      type: System.Single
+      description: The maximum LOD of the <xref href="Pie.SamplerState" data-throw-if-not-resolved="false"></xref>.
+    content.vb: Public Sub New(filter As TextureFilter, addressU As TextureAddress, addressV As TextureAddress, addressW As TextureAddress, maxAnisotropy As Integer, borderColor As Color, minLod As Single, maxLod As Single)
+  overload: Pie.SamplerStateDescription.#ctor*
+  nameWithType.vb: SamplerStateDescription.New(TextureFilter, TextureAddress, TextureAddress, TextureAddress, Integer, Color, Single, Single)
+  fullName.vb: Pie.SamplerStateDescription.New(Pie.TextureFilter, Pie.TextureAddress, Pie.TextureAddress, Pie.TextureAddress, Integer, System.Drawing.Color, Single, Single)
+  name.vb: New(TextureFilter, TextureAddress, TextureAddress, TextureAddress, Integer, Color, Single, Single)
+references:
+- uid: Pie.SamplerState
+  commentId: T:Pie.SamplerState
+  parent: Pie
+  name: SamplerState
+  nameWithType: SamplerState
+  fullName: Pie.SamplerState
+- uid: Pie
+  commentId: N:Pie
+  name: Pie
+  nameWithType: Pie
+  fullName: Pie
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Pie.SamplerState.MaxAnisotropicLevels
+  commentId: F:Pie.SamplerState.MaxAnisotropicLevels
+  isExternal: true
+- uid: Pie.SamplerStateDescription
+  commentId: T:Pie.SamplerStateDescription
+  parent: Pie
+  name: SamplerStateDescription
+  nameWithType: SamplerStateDescription
+  fullName: Pie.SamplerStateDescription
+- uid: Pie.TextureFilter
+  commentId: T:Pie.TextureFilter
+  parent: Pie
+  name: TextureFilter
+  nameWithType: TextureFilter
+  fullName: Pie.TextureFilter
+- uid: Pie.TextureAddress
+  commentId: T:Pie.TextureAddress
+  parent: Pie
+  name: TextureAddress
+  nameWithType: TextureAddress
+  fullName: Pie.TextureAddress
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Pie.TextureAddress.ClampToBorder
+  commentId: F:Pie.TextureAddress.ClampToBorder
+  isExternal: true
+- uid: System.Drawing.Color
+  commentId: T:System.Drawing.Color
+  parent: System.Drawing
+  isExternal: true
+  name: Color
+  nameWithType: Color
+  fullName: System.Drawing.Color
+- uid: System.Drawing
+  commentId: N:System.Drawing
+  isExternal: true
+  name: System.Drawing
+  nameWithType: System.Drawing
+  fullName: System.Drawing
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Drawing
+    name: Drawing
+    isExternal: true
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Drawing
+    name: Drawing
+    isExternal: true
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: Pie.SamplerStateDescription.#ctor*
+  commentId: Overload:Pie.SamplerStateDescription.#ctor
+  name: SamplerStateDescription
+  nameWithType: SamplerStateDescription.SamplerStateDescription
+  fullName: Pie.SamplerStateDescription.SamplerStateDescription
+  nameWithType.vb: SamplerStateDescription.New
+  fullName.vb: Pie.SamplerStateDescription.New
+  name.vb: New

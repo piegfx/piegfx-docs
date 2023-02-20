@@ -1,0 +1,66 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pie.Freetype
+  commentId: N:Pie.Freetype
+  id: Pie.Freetype
+  children:
+  - Pie.Freetype.Character
+  - Pie.Freetype.CharacterCollection
+  - Pie.Freetype.Face
+  - Pie.Freetype.FreeType
+  - Pie.Freetype.FT_ListNode
+  langs:
+  - csharp
+  - vb
+  name: Pie.Freetype
+  nameWithType: Pie.Freetype
+  fullName: Pie.Freetype
+  type: Namespace
+  assemblies:
+  - Pie.Freetype
+references:
+- uid: Pie.Freetype.Character
+  commentId: T:Pie.Freetype.Character
+  parent: Pie.Freetype
+  name: Character
+  nameWithType: Character
+  fullName: Pie.Freetype.Character
+- uid: Pie.Freetype.CharacterCollection
+  commentId: T:Pie.Freetype.CharacterCollection
+  parent: Pie.Freetype
+  name: CharacterCollection
+  nameWithType: CharacterCollection
+  fullName: Pie.Freetype.CharacterCollection
+- uid: Pie.Freetype.Face
+  commentId: T:Pie.Freetype.Face
+  parent: Pie.Freetype
+  name: Face
+  nameWithType: Face
+  fullName: Pie.Freetype.Face
+- uid: Pie.Freetype.FreeType
+  commentId: T:Pie.Freetype.FreeType
+  name: FreeType
+  nameWithType: FreeType
+  fullName: Pie.Freetype.FreeType
+- uid: Pie.Freetype.FT_ListNode
+  commentId: T:Pie.Freetype.FT_ListNode
+  name: FT_ListNode
+  nameWithType: FT_ListNode
+  fullName: Pie.Freetype.FT_ListNode
+- uid: Pie.Freetype
+  commentId: N:Pie.Freetype
+  name: Pie.Freetype
+  nameWithType: Pie.Freetype
+  fullName: Pie.Freetype
+  spec.csharp:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Freetype
+    name: Freetype
+  spec.vb:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Freetype
+    name: Freetype

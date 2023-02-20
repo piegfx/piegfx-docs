@@ -1,0 +1,338 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pie.Freetype.Native.FT_Generic
+  commentId: T:Pie.Freetype.Native.FT_Generic
+  id: FT_Generic
+  parent: Pie.Freetype.Native
+  children:
+  - Pie.Freetype.Native.FT_Generic.Data
+  - Pie.Freetype.Native.FT_Generic.Finalizer
+  langs:
+  - csharp
+  - vb
+  name: FT_Generic
+  nameWithType: FT_Generic
+  fullName: Pie.Freetype.Native.FT_Generic
+  type: Struct
+  source:
+    remote:
+      path: Pie.Freetype/Native/FT_Generic.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: FT_Generic
+    path: src/Pie/Pie.Freetype/Native/FT_Generic.cs
+    startLine: 4
+  assemblies:
+  - Pie.Freetype
+  namespace: Pie.Freetype.Native
+  syntax:
+    content: public struct FT_Generic
+    content.vb: Public Structure FT_Generic
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: Pie.Freetype.Native.FT_Generic.Data
+  commentId: F:Pie.Freetype.Native.FT_Generic.Data
+  id: Data
+  parent: Pie.Freetype.Native.FT_Generic
+  langs:
+  - csharp
+  - vb
+  name: Data
+  nameWithType: FT_Generic.Data
+  fullName: Pie.Freetype.Native.FT_Generic.Data
+  type: Field
+  source:
+    remote:
+      path: Pie.Freetype/Native/FT_Generic.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Data
+    path: src/Pie/Pie.Freetype/Native/FT_Generic.cs
+    startLine: 7
+  assemblies:
+  - Pie.Freetype
+  namespace: Pie.Freetype.Native
+  syntax:
+    content: public void* Data
+    return:
+      type: System.Void*
+    content.vb: Public Data As Void*
+- uid: Pie.Freetype.Native.FT_Generic.Finalizer
+  commentId: F:Pie.Freetype.Native.FT_Generic.Finalizer
+  id: Finalizer
+  parent: Pie.Freetype.Native.FT_Generic
+  langs:
+  - csharp
+  - vb
+  name: Finalizer
+  nameWithType: FT_Generic.Finalizer
+  fullName: Pie.Freetype.Native.FT_Generic.Finalizer
+  type: Field
+  source:
+    remote:
+      path: Pie.Freetype/Native/FT_Generic.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Finalizer
+    path: src/Pie/Pie.Freetype/Native/FT_Generic.cs
+    startLine: 8
+  assemblies:
+  - Pie.Freetype
+  namespace: Pie.Freetype.Native
+  syntax:
+    content: public delegate*<void*, void> Finalizer
+    return:
+      type: delegate*<void*, void>
+    content.vb: 'Public Finalizer As '
+references:
+- uid: Pie.Freetype.Native
+  commentId: N:Pie.Freetype.Native
+  name: Pie.Freetype.Native
+  nameWithType: Pie.Freetype.Native
+  fullName: Pie.Freetype.Native
+  spec.csharp:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Freetype
+    name: Freetype
+  - name: .
+  - uid: Pie.Freetype.Native
+    name: Native
+  spec.vb:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Freetype
+    name: Freetype
+  - name: .
+  - uid: Pie.Freetype.Native
+    name: Native
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Void*
+  isExternal: true
+  name: void*
+  nameWithType: void*
+  fullName: void*
+  nameWithType.vb: Void*
+  fullName.vb: Void*
+  name.vb: Void*
+  spec.csharp:
+  - uid: System.Void
+    name: void
+    isExternal: true
+  - name: '*'
+  spec.vb:
+  - uid: System.Void
+    name: Void
+    isExternal: true
+  - name: '*'
+- uid: delegate*<void*, void>
+  isExternal: true
+  name: delegate*<void*, void>
+  nameWithType: delegate*<void*, void>
+  fullName: delegate*<void*, void>
+  spec.csharp:
+  - name: delegate
+  - name: '*'
+  - name: <
+  - uid: System.Void
+    name: void
+    isExternal: true
+  - name: '*'
+  - name: ','
+  - name: " "
+  - uid: System.Void
+    name: void
+    isExternal: true
+  - name: '>'

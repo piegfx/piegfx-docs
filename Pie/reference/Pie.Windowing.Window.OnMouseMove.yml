@@ -1,0 +1,78 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pie.Windowing.Window.OnMouseMove
+  commentId: T:Pie.Windowing.Window.OnMouseMove
+  id: Window.OnMouseMove
+  parent: Pie.Windowing
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: Window.OnMouseMove
+  nameWithType: Window.OnMouseMove
+  fullName: Pie.Windowing.Window.OnMouseMove
+  type: Delegate
+  source:
+    remote:
+      path: Pie.Windowing/Window.Events.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: OnMouseMove
+    path: src/Pie/Pie.Windowing/Window.Events.cs
+    startLine: 102
+  assemblies:
+  - Pie.Windowing
+  namespace: Pie.Windowing
+  syntax:
+    content: public delegate void Window.OnMouseMove(Vector2 position)
+    parameters:
+    - id: position
+      type: System.Numerics.Vector2
+    content.vb: Public Delegate Sub Window.OnMouseMove(position As Vector2)
+references:
+- uid: Pie.Windowing
+  commentId: N:Pie.Windowing
+  name: Pie.Windowing
+  nameWithType: Pie.Windowing
+  fullName: Pie.Windowing
+  spec.csharp:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Windowing
+    name: Windowing
+  spec.vb:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Windowing
+    name: Windowing
+- uid: System.Numerics.Vector2
+  commentId: T:System.Numerics.Vector2
+  parent: System.Numerics
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: System.Numerics.Vector2
+- uid: System.Numerics
+  commentId: N:System.Numerics
+  isExternal: true
+  name: System.Numerics
+  nameWithType: System.Numerics
+  fullName: System.Numerics
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Numerics
+    name: Numerics
+    isExternal: true
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Numerics
+    name: Numerics
+    isExternal: true

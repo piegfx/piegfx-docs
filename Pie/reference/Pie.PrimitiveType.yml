@@ -1,0 +1,303 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pie.PrimitiveType
+  commentId: T:Pie.PrimitiveType
+  id: PrimitiveType
+  parent: Pie
+  children:
+  - Pie.PrimitiveType.LineList
+  - Pie.PrimitiveType.LineListAdjacency
+  - Pie.PrimitiveType.LineStrip
+  - Pie.PrimitiveType.LineStripAdjacency
+  - Pie.PrimitiveType.PointList
+  - Pie.PrimitiveType.TriangleList
+  - Pie.PrimitiveType.TriangleListAdjacency
+  - Pie.PrimitiveType.TriangleStrip
+  - Pie.PrimitiveType.TriangleStripAdjacency
+  langs:
+  - csharp
+  - vb
+  name: PrimitiveType
+  nameWithType: PrimitiveType
+  fullName: Pie.PrimitiveType
+  type: Enum
+  source:
+    remote:
+      path: Pie/PrimitiveType.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: PrimitiveType
+    path: src/Pie/Pie/PrimitiveType.cs
+    startLine: 5
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nVarious input primitive types, used for rendering.\n"
+  example: []
+  syntax:
+    content: public enum PrimitiveType
+    content.vb: Public Enum PrimitiveType
+- uid: Pie.PrimitiveType.TriangleList
+  commentId: F:Pie.PrimitiveType.TriangleList
+  id: TriangleList
+  parent: Pie.PrimitiveType
+  langs:
+  - csharp
+  - vb
+  name: TriangleList
+  nameWithType: PrimitiveType.TriangleList
+  fullName: Pie.PrimitiveType.TriangleList
+  type: Field
+  source:
+    remote:
+      path: Pie/PrimitiveType.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: TriangleList
+    path: src/Pie/Pie/PrimitiveType.cs
+    startLine: 10
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nThese primitives are a triangle list.\n"
+  example: []
+  syntax:
+    content: TriangleList = 0
+    return:
+      type: Pie.PrimitiveType
+- uid: Pie.PrimitiveType.TriangleStrip
+  commentId: F:Pie.PrimitiveType.TriangleStrip
+  id: TriangleStrip
+  parent: Pie.PrimitiveType
+  langs:
+  - csharp
+  - vb
+  name: TriangleStrip
+  nameWithType: PrimitiveType.TriangleStrip
+  fullName: Pie.PrimitiveType.TriangleStrip
+  type: Field
+  source:
+    remote:
+      path: Pie/PrimitiveType.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: TriangleStrip
+    path: src/Pie/Pie/PrimitiveType.cs
+    startLine: 15
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nThese primitives are a triangle strip.\n"
+  example: []
+  syntax:
+    content: TriangleStrip = 1
+    return:
+      type: Pie.PrimitiveType
+- uid: Pie.PrimitiveType.LineList
+  commentId: F:Pie.PrimitiveType.LineList
+  id: LineList
+  parent: Pie.PrimitiveType
+  langs:
+  - csharp
+  - vb
+  name: LineList
+  nameWithType: PrimitiveType.LineList
+  fullName: Pie.PrimitiveType.LineList
+  type: Field
+  source:
+    remote:
+      path: Pie/PrimitiveType.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: LineList
+    path: src/Pie/Pie/PrimitiveType.cs
+    startLine: 20
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nThese primitives are a line list.\n"
+  example: []
+  syntax:
+    content: LineList = 2
+    return:
+      type: Pie.PrimitiveType
+- uid: Pie.PrimitiveType.LineStrip
+  commentId: F:Pie.PrimitiveType.LineStrip
+  id: LineStrip
+  parent: Pie.PrimitiveType
+  langs:
+  - csharp
+  - vb
+  name: LineStrip
+  nameWithType: PrimitiveType.LineStrip
+  fullName: Pie.PrimitiveType.LineStrip
+  type: Field
+  source:
+    remote:
+      path: Pie/PrimitiveType.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: LineStrip
+    path: src/Pie/Pie/PrimitiveType.cs
+    startLine: 25
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nThese primitives are a line strip.\n"
+  example: []
+  syntax:
+    content: LineStrip = 3
+    return:
+      type: Pie.PrimitiveType
+- uid: Pie.PrimitiveType.PointList
+  commentId: F:Pie.PrimitiveType.PointList
+  id: PointList
+  parent: Pie.PrimitiveType
+  langs:
+  - csharp
+  - vb
+  name: PointList
+  nameWithType: PrimitiveType.PointList
+  fullName: Pie.PrimitiveType.PointList
+  type: Field
+  source:
+    remote:
+      path: Pie/PrimitiveType.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: PointList
+    path: src/Pie/Pie/PrimitiveType.cs
+    startLine: 30
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nThese primitives are a point list.\n"
+  example: []
+  syntax:
+    content: PointList = 4
+    return:
+      type: Pie.PrimitiveType
+- uid: Pie.PrimitiveType.TriangleListAdjacency
+  commentId: F:Pie.PrimitiveType.TriangleListAdjacency
+  id: TriangleListAdjacency
+  parent: Pie.PrimitiveType
+  langs:
+  - csharp
+  - vb
+  name: TriangleListAdjacency
+  nameWithType: PrimitiveType.TriangleListAdjacency
+  fullName: Pie.PrimitiveType.TriangleListAdjacency
+  type: Field
+  source:
+    remote:
+      path: Pie/PrimitiveType.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: TriangleListAdjacency
+    path: src/Pie/Pie/PrimitiveType.cs
+    startLine: 35
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nThese primitives are a triangle list, with adjacency.\n"
+  example: []
+  syntax:
+    content: TriangleListAdjacency = 5
+    return:
+      type: Pie.PrimitiveType
+- uid: Pie.PrimitiveType.TriangleStripAdjacency
+  commentId: F:Pie.PrimitiveType.TriangleStripAdjacency
+  id: TriangleStripAdjacency
+  parent: Pie.PrimitiveType
+  langs:
+  - csharp
+  - vb
+  name: TriangleStripAdjacency
+  nameWithType: PrimitiveType.TriangleStripAdjacency
+  fullName: Pie.PrimitiveType.TriangleStripAdjacency
+  type: Field
+  source:
+    remote:
+      path: Pie/PrimitiveType.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: TriangleStripAdjacency
+    path: src/Pie/Pie/PrimitiveType.cs
+    startLine: 40
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nThese primitives are a triangle strip, with adjacency.\n"
+  example: []
+  syntax:
+    content: TriangleStripAdjacency = 6
+    return:
+      type: Pie.PrimitiveType
+- uid: Pie.PrimitiveType.LineListAdjacency
+  commentId: F:Pie.PrimitiveType.LineListAdjacency
+  id: LineListAdjacency
+  parent: Pie.PrimitiveType
+  langs:
+  - csharp
+  - vb
+  name: LineListAdjacency
+  nameWithType: PrimitiveType.LineListAdjacency
+  fullName: Pie.PrimitiveType.LineListAdjacency
+  type: Field
+  source:
+    remote:
+      path: Pie/PrimitiveType.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: LineListAdjacency
+    path: src/Pie/Pie/PrimitiveType.cs
+    startLine: 45
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nThese primitives are a line list, with adjacency.\n"
+  example: []
+  syntax:
+    content: LineListAdjacency = 7
+    return:
+      type: Pie.PrimitiveType
+- uid: Pie.PrimitiveType.LineStripAdjacency
+  commentId: F:Pie.PrimitiveType.LineStripAdjacency
+  id: LineStripAdjacency
+  parent: Pie.PrimitiveType
+  langs:
+  - csharp
+  - vb
+  name: LineStripAdjacency
+  nameWithType: PrimitiveType.LineStripAdjacency
+  fullName: Pie.PrimitiveType.LineStripAdjacency
+  type: Field
+  source:
+    remote:
+      path: Pie/PrimitiveType.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: LineStripAdjacency
+    path: src/Pie/Pie/PrimitiveType.cs
+    startLine: 50
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nThese primitives are a line strip, with adjacency.\n"
+  example: []
+  syntax:
+    content: LineStripAdjacency = 8
+    return:
+      type: Pie.PrimitiveType
+references:
+- uid: Pie
+  commentId: N:Pie
+  name: Pie
+  nameWithType: Pie
+  fullName: Pie
+- uid: Pie.PrimitiveType
+  commentId: T:Pie.PrimitiveType
+  parent: Pie
+  name: PrimitiveType
+  nameWithType: PrimitiveType
+  fullName: Pie.PrimitiveType

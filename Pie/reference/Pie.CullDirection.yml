@@ -1,0 +1,132 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pie.CullDirection
+  commentId: T:Pie.CullDirection
+  id: CullDirection
+  parent: Pie
+  children:
+  - Pie.CullDirection.AntiClockwise
+  - Pie.CullDirection.Clockwise
+  - Pie.CullDirection.CounterClockwise
+  langs:
+  - csharp
+  - vb
+  name: CullDirection
+  nameWithType: CullDirection
+  fullName: Pie.CullDirection
+  type: Enum
+  source:
+    remote:
+      path: Pie/CullDirection.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: CullDirection
+    path: src/Pie/Pie/CullDirection.cs
+    startLine: 5
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nThe direction to use during culling. This is typically equal to the winding order of the vertices.\n"
+  example: []
+  syntax:
+    content: public enum CullDirection
+    content.vb: Public Enum CullDirection
+- uid: Pie.CullDirection.Clockwise
+  commentId: F:Pie.CullDirection.Clockwise
+  id: Clockwise
+  parent: Pie.CullDirection
+  langs:
+  - csharp
+  - vb
+  name: Clockwise
+  nameWithType: CullDirection.Clockwise
+  fullName: Pie.CullDirection.Clockwise
+  type: Field
+  source:
+    remote:
+      path: Pie/CullDirection.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Clockwise
+    path: src/Pie/Pie/CullDirection.cs
+    startLine: 10
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nCull clockwise.\n"
+  example: []
+  syntax:
+    content: Clockwise = 0
+    return:
+      type: Pie.CullDirection
+- uid: Pie.CullDirection.CounterClockwise
+  commentId: F:Pie.CullDirection.CounterClockwise
+  id: CounterClockwise
+  parent: Pie.CullDirection
+  langs:
+  - csharp
+  - vb
+  name: CounterClockwise
+  nameWithType: CullDirection.CounterClockwise
+  fullName: Pie.CullDirection.CounterClockwise
+  type: Field
+  source:
+    remote:
+      path: Pie/CullDirection.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: CounterClockwise
+    path: src/Pie/Pie/CullDirection.cs
+    startLine: 15
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nCull counter clockwise. (Equivalent to <xref href=\"Pie.CullDirection.AntiClockwise\" data-throw-if-not-resolved=\"false\"></xref>.)\n"
+  example: []
+  syntax:
+    content: CounterClockwise = 1
+    return:
+      type: Pie.CullDirection
+- uid: Pie.CullDirection.AntiClockwise
+  commentId: F:Pie.CullDirection.AntiClockwise
+  id: AntiClockwise
+  parent: Pie.CullDirection
+  langs:
+  - csharp
+  - vb
+  name: AntiClockwise
+  nameWithType: CullDirection.AntiClockwise
+  fullName: Pie.CullDirection.AntiClockwise
+  type: Field
+  source:
+    remote:
+      path: Pie/CullDirection.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: AntiClockwise
+    path: src/Pie/Pie/CullDirection.cs
+    startLine: 20
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nCull anti clockwise. (Equivalent to <xref href=\"Pie.CullDirection.AntiClockwise\" data-throw-if-not-resolved=\"false\"></xref>.)\n"
+  example: []
+  syntax:
+    content: AntiClockwise = 1
+    return:
+      type: Pie.CullDirection
+references:
+- uid: Pie
+  commentId: N:Pie
+  name: Pie
+  nameWithType: Pie
+  fullName: Pie
+- uid: Pie.CullDirection
+  commentId: T:Pie.CullDirection
+  parent: Pie
+  name: CullDirection
+  nameWithType: CullDirection
+  fullName: Pie.CullDirection
+- uid: Pie.CullDirection.AntiClockwise
+  commentId: F:Pie.CullDirection.AntiClockwise
+  isExternal: true

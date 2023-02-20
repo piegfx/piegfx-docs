@@ -1,0 +1,432 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pie.Freetype.Native.FT_Bitmap_Size
+  commentId: T:Pie.Freetype.Native.FT_Bitmap_Size
+  id: FT_Bitmap_Size
+  parent: Pie.Freetype.Native
+  children:
+  - Pie.Freetype.Native.FT_Bitmap_Size.Height
+  - Pie.Freetype.Native.FT_Bitmap_Size.Size
+  - Pie.Freetype.Native.FT_Bitmap_Size.Width
+  - Pie.Freetype.Native.FT_Bitmap_Size.Xppem
+  - Pie.Freetype.Native.FT_Bitmap_Size.Yppem
+  langs:
+  - csharp
+  - vb
+  name: FT_Bitmap_Size
+  nameWithType: FT_Bitmap_Size
+  fullName: Pie.Freetype.Native.FT_Bitmap_Size
+  type: Struct
+  source:
+    remote:
+      path: Pie.Freetype/Native/FT_Bitmap_Size.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: FT_Bitmap_Size
+    path: src/Pie/Pie.Freetype/Native/FT_Bitmap_Size.cs
+    startLine: 4
+  assemblies:
+  - Pie.Freetype
+  namespace: Pie.Freetype.Native
+  syntax:
+    content: public struct FT_Bitmap_Size
+    content.vb: Public Structure FT_Bitmap_Size
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: Pie.Freetype.Native.FT_Bitmap_Size.Height
+  commentId: F:Pie.Freetype.Native.FT_Bitmap_Size.Height
+  id: Height
+  parent: Pie.Freetype.Native.FT_Bitmap_Size
+  langs:
+  - csharp
+  - vb
+  name: Height
+  nameWithType: FT_Bitmap_Size.Height
+  fullName: Pie.Freetype.Native.FT_Bitmap_Size.Height
+  type: Field
+  source:
+    remote:
+      path: Pie.Freetype/Native/FT_Bitmap_Size.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Height
+    path: src/Pie/Pie.Freetype/Native/FT_Bitmap_Size.cs
+    startLine: 7
+  assemblies:
+  - Pie.Freetype
+  namespace: Pie.Freetype.Native
+  syntax:
+    content: public short Height
+    return:
+      type: System.Int16
+    content.vb: Public Height As Short
+- uid: Pie.Freetype.Native.FT_Bitmap_Size.Width
+  commentId: F:Pie.Freetype.Native.FT_Bitmap_Size.Width
+  id: Width
+  parent: Pie.Freetype.Native.FT_Bitmap_Size
+  langs:
+  - csharp
+  - vb
+  name: Width
+  nameWithType: FT_Bitmap_Size.Width
+  fullName: Pie.Freetype.Native.FT_Bitmap_Size.Width
+  type: Field
+  source:
+    remote:
+      path: Pie.Freetype/Native/FT_Bitmap_Size.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Width
+    path: src/Pie/Pie.Freetype/Native/FT_Bitmap_Size.cs
+    startLine: 8
+  assemblies:
+  - Pie.Freetype
+  namespace: Pie.Freetype.Native
+  syntax:
+    content: public short Width
+    return:
+      type: System.Int16
+    content.vb: Public Width As Short
+- uid: Pie.Freetype.Native.FT_Bitmap_Size.Size
+  commentId: F:Pie.Freetype.Native.FT_Bitmap_Size.Size
+  id: Size
+  parent: Pie.Freetype.Native.FT_Bitmap_Size
+  langs:
+  - csharp
+  - vb
+  name: Size
+  nameWithType: FT_Bitmap_Size.Size
+  fullName: Pie.Freetype.Native.FT_Bitmap_Size.Size
+  type: Field
+  source:
+    remote:
+      path: Pie.Freetype/Native/FT_Bitmap_Size.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Size
+    path: src/Pie/Pie.Freetype/Native/FT_Bitmap_Size.cs
+    startLine: 10
+  assemblies:
+  - Pie.Freetype
+  namespace: Pie.Freetype.Native
+  syntax:
+    content: public CLong Size
+    return:
+      type: System.Runtime.InteropServices.CLong
+    content.vb: Public Size As CLong
+- uid: Pie.Freetype.Native.FT_Bitmap_Size.Xppem
+  commentId: F:Pie.Freetype.Native.FT_Bitmap_Size.Xppem
+  id: Xppem
+  parent: Pie.Freetype.Native.FT_Bitmap_Size
+  langs:
+  - csharp
+  - vb
+  name: Xppem
+  nameWithType: FT_Bitmap_Size.Xppem
+  fullName: Pie.Freetype.Native.FT_Bitmap_Size.Xppem
+  type: Field
+  source:
+    remote:
+      path: Pie.Freetype/Native/FT_Bitmap_Size.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Xppem
+    path: src/Pie/Pie.Freetype/Native/FT_Bitmap_Size.cs
+    startLine: 12
+  assemblies:
+  - Pie.Freetype
+  namespace: Pie.Freetype.Native
+  syntax:
+    content: public CLong Xppem
+    return:
+      type: System.Runtime.InteropServices.CLong
+    content.vb: Public Xppem As CLong
+- uid: Pie.Freetype.Native.FT_Bitmap_Size.Yppem
+  commentId: F:Pie.Freetype.Native.FT_Bitmap_Size.Yppem
+  id: Yppem
+  parent: Pie.Freetype.Native.FT_Bitmap_Size
+  langs:
+  - csharp
+  - vb
+  name: Yppem
+  nameWithType: FT_Bitmap_Size.Yppem
+  fullName: Pie.Freetype.Native.FT_Bitmap_Size.Yppem
+  type: Field
+  source:
+    remote:
+      path: Pie.Freetype/Native/FT_Bitmap_Size.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Yppem
+    path: src/Pie/Pie.Freetype/Native/FT_Bitmap_Size.cs
+    startLine: 13
+  assemblies:
+  - Pie.Freetype
+  namespace: Pie.Freetype.Native
+  syntax:
+    content: public CLong Yppem
+    return:
+      type: System.Runtime.InteropServices.CLong
+    content.vb: Public Yppem As CLong
+references:
+- uid: Pie.Freetype.Native
+  commentId: N:Pie.Freetype.Native
+  name: Pie.Freetype.Native
+  nameWithType: Pie.Freetype.Native
+  fullName: Pie.Freetype.Native
+  spec.csharp:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Freetype
+    name: Freetype
+  - name: .
+  - uid: Pie.Freetype.Native
+    name: Native
+  spec.vb:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Freetype
+    name: Freetype
+  - name: .
+  - uid: Pie.Freetype.Native
+    name: Native
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: short
+  nameWithType: short
+  fullName: short
+  nameWithType.vb: Short
+  fullName.vb: Short
+  name.vb: Short
+- uid: System.Runtime.InteropServices.CLong
+  commentId: T:System.Runtime.InteropServices.CLong
+  parent: System.Runtime.InteropServices
+  isExternal: true
+  name: CLong
+  nameWithType: CLong
+  fullName: System.Runtime.InteropServices.CLong
+- uid: System.Runtime.InteropServices
+  commentId: N:System.Runtime.InteropServices
+  isExternal: true
+  name: System.Runtime.InteropServices
+  nameWithType: System.Runtime.InteropServices
+  fullName: System.Runtime.InteropServices
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Runtime
+    name: Runtime
+    isExternal: true
+  - name: .
+  - uid: System.Runtime.InteropServices
+    name: InteropServices
+    isExternal: true
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Runtime
+    name: Runtime
+    isExternal: true
+  - name: .
+  - uid: System.Runtime.InteropServices
+    name: InteropServices
+    isExternal: true

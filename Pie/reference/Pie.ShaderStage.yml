@@ -1,0 +1,199 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pie.ShaderStage
+  commentId: T:Pie.ShaderStage
+  id: ShaderStage
+  parent: Pie
+  children:
+  - Pie.ShaderStage.Compute
+  - Pie.ShaderStage.Fragment
+  - Pie.ShaderStage.Geometry
+  - Pie.ShaderStage.Pixel
+  - Pie.ShaderStage.Vertex
+  langs:
+  - csharp
+  - vb
+  name: ShaderStage
+  nameWithType: ShaderStage
+  fullName: Pie.ShaderStage
+  type: Enum
+  source:
+    remote:
+      path: Pie/ShaderStage.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: ShaderStage
+    path: src/Pie/Pie/ShaderStage.cs
+    startLine: 6
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nThe stage of shader code. These are often combined, for example Vertex and Fragment shaders are often used in one\n<xref href=\"Pie.Shader\" data-throw-if-not-resolved=\"false\"></xref> object.\n"
+  example: []
+  syntax:
+    content: public enum ShaderStage
+    content.vb: Public Enum ShaderStage
+- uid: Pie.ShaderStage.Vertex
+  commentId: F:Pie.ShaderStage.Vertex
+  id: Vertex
+  parent: Pie.ShaderStage
+  langs:
+  - csharp
+  - vb
+  name: Vertex
+  nameWithType: ShaderStage.Vertex
+  fullName: Pie.ShaderStage.Vertex
+  type: Field
+  source:
+    remote:
+      path: Pie/ShaderStage.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Vertex
+    path: src/Pie/Pie/ShaderStage.cs
+    startLine: 11
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nThis shader is a vertex shader.\n"
+  example: []
+  syntax:
+    content: Vertex = 0
+    return:
+      type: Pie.ShaderStage
+- uid: Pie.ShaderStage.Fragment
+  commentId: F:Pie.ShaderStage.Fragment
+  id: Fragment
+  parent: Pie.ShaderStage
+  langs:
+  - csharp
+  - vb
+  name: Fragment
+  nameWithType: ShaderStage.Fragment
+  fullName: Pie.ShaderStage.Fragment
+  type: Field
+  source:
+    remote:
+      path: Pie/ShaderStage.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Fragment
+    path: src/Pie/Pie/ShaderStage.cs
+    startLine: 16
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nThis shader is a fragment shader. (Equivalent to <xref href=\"Pie.ShaderStage.Pixel\" data-throw-if-not-resolved=\"false\"></xref>.)\n"
+  example: []
+  syntax:
+    content: Fragment = 1
+    return:
+      type: Pie.ShaderStage
+- uid: Pie.ShaderStage.Pixel
+  commentId: F:Pie.ShaderStage.Pixel
+  id: Pixel
+  parent: Pie.ShaderStage
+  langs:
+  - csharp
+  - vb
+  name: Pixel
+  nameWithType: ShaderStage.Pixel
+  fullName: Pie.ShaderStage.Pixel
+  type: Field
+  source:
+    remote:
+      path: Pie/ShaderStage.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Pixel
+    path: src/Pie/Pie/ShaderStage.cs
+    startLine: 21
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nThis shader is a pixel shader. (Equivalent to <xref href=\"Pie.ShaderStage.Fragment\" data-throw-if-not-resolved=\"false\"></xref>.)\n"
+  example: []
+  syntax:
+    content: Pixel = 1
+    return:
+      type: Pie.ShaderStage
+- uid: Pie.ShaderStage.Geometry
+  commentId: F:Pie.ShaderStage.Geometry
+  id: Geometry
+  parent: Pie.ShaderStage
+  langs:
+  - csharp
+  - vb
+  name: Geometry
+  nameWithType: ShaderStage.Geometry
+  fullName: Pie.ShaderStage.Geometry
+  type: Field
+  source:
+    remote:
+      path: Pie/ShaderStage.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Geometry
+    path: src/Pie/Pie/ShaderStage.cs
+    startLine: 26
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nThis shader is a geometry shader.\n"
+  example: []
+  syntax:
+    content: Geometry = 2
+    return:
+      type: Pie.ShaderStage
+- uid: Pie.ShaderStage.Compute
+  commentId: F:Pie.ShaderStage.Compute
+  id: Compute
+  parent: Pie.ShaderStage
+  langs:
+  - csharp
+  - vb
+  name: Compute
+  nameWithType: ShaderStage.Compute
+  fullName: Pie.ShaderStage.Compute
+  type: Field
+  source:
+    remote:
+      path: Pie/ShaderStage.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Compute
+    path: src/Pie/Pie/ShaderStage.cs
+    startLine: 31
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nThis shader is a compute shader.\n"
+  example: []
+  syntax:
+    content: Compute = 3
+    return:
+      type: Pie.ShaderStage
+references:
+- uid: Pie.Shader
+  commentId: T:Pie.Shader
+  parent: Pie
+  name: Shader
+  nameWithType: Shader
+  fullName: Pie.Shader
+- uid: Pie
+  commentId: N:Pie
+  name: Pie
+  nameWithType: Pie
+  fullName: Pie
+- uid: Pie.ShaderStage
+  commentId: T:Pie.ShaderStage
+  parent: Pie
+  name: ShaderStage
+  nameWithType: ShaderStage
+  fullName: Pie.ShaderStage
+- uid: Pie.ShaderStage.Pixel
+  commentId: F:Pie.ShaderStage.Pixel
+  isExternal: true
+- uid: Pie.ShaderStage.Fragment
+  commentId: F:Pie.ShaderStage.Fragment
+  isExternal: true

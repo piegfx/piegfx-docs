@@ -1,0 +1,987 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pie.Freetype.Native.FT_GlyphSlot
+  commentId: T:Pie.Freetype.Native.FT_GlyphSlot
+  id: FT_GlyphSlot
+  parent: Pie.Freetype.Native
+  children:
+  - Pie.Freetype.Native.FT_GlyphSlot.Advance
+  - Pie.Freetype.Native.FT_GlyphSlot.Bitmap
+  - Pie.Freetype.Native.FT_GlyphSlot.BitmapLeft
+  - Pie.Freetype.Native.FT_GlyphSlot.BitmapTop
+  - Pie.Freetype.Native.FT_GlyphSlot.ControlData
+  - Pie.Freetype.Native.FT_GlyphSlot.ControlLen
+  - Pie.Freetype.Native.FT_GlyphSlot.Face
+  - Pie.Freetype.Native.FT_GlyphSlot.Format
+  - Pie.Freetype.Native.FT_GlyphSlot.Generic
+  - Pie.Freetype.Native.FT_GlyphSlot.GlyphIndex
+  - Pie.Freetype.Native.FT_GlyphSlot.Library
+  - Pie.Freetype.Native.FT_GlyphSlot.LinearHoriAdvance
+  - Pie.Freetype.Native.FT_GlyphSlot.LinearVertAdvance
+  - Pie.Freetype.Native.FT_GlyphSlot.LsbDelta
+  - Pie.Freetype.Native.FT_GlyphSlot.Metrics
+  - Pie.Freetype.Native.FT_GlyphSlot.Next
+  - Pie.Freetype.Native.FT_GlyphSlot.NumSubglyphs
+  - Pie.Freetype.Native.FT_GlyphSlot.Other
+  - Pie.Freetype.Native.FT_GlyphSlot.Outline
+  - Pie.Freetype.Native.FT_GlyphSlot.RsbDelta
+  - Pie.Freetype.Native.FT_GlyphSlot.Subglyphs
+  langs:
+  - csharp
+  - vb
+  name: FT_GlyphSlot
+  nameWithType: FT_GlyphSlot
+  fullName: Pie.Freetype.Native.FT_GlyphSlot
+  type: Struct
+  source:
+    remote:
+      path: Pie.Freetype/Native/FT_GlyphSlot.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: FT_GlyphSlot
+    path: src/Pie/Pie.Freetype/Native/FT_GlyphSlot.cs
+    startLine: 5
+  assemblies:
+  - Pie.Freetype
+  namespace: Pie.Freetype.Native
+  syntax:
+    content: public struct FT_GlyphSlot
+    content.vb: Public Structure FT_GlyphSlot
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: Pie.Freetype.Native.FT_GlyphSlot.Library
+  commentId: F:Pie.Freetype.Native.FT_GlyphSlot.Library
+  id: Library
+  parent: Pie.Freetype.Native.FT_GlyphSlot
+  langs:
+  - csharp
+  - vb
+  name: Library
+  nameWithType: FT_GlyphSlot.Library
+  fullName: Pie.Freetype.Native.FT_GlyphSlot.Library
+  type: Field
+  source:
+    remote:
+      path: Pie.Freetype/Native/FT_GlyphSlot.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Library
+    path: src/Pie/Pie.Freetype/Native/FT_GlyphSlot.cs
+    startLine: 8
+  assemblies:
+  - Pie.Freetype
+  namespace: Pie.Freetype.Native
+  syntax:
+    content: public IntPtr Library
+    return:
+      type: System.IntPtr
+    content.vb: Public Library As IntPtr
+- uid: Pie.Freetype.Native.FT_GlyphSlot.Face
+  commentId: F:Pie.Freetype.Native.FT_GlyphSlot.Face
+  id: Face
+  parent: Pie.Freetype.Native.FT_GlyphSlot
+  langs:
+  - csharp
+  - vb
+  name: Face
+  nameWithType: FT_GlyphSlot.Face
+  fullName: Pie.Freetype.Native.FT_GlyphSlot.Face
+  type: Field
+  source:
+    remote:
+      path: Pie.Freetype/Native/FT_GlyphSlot.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Face
+    path: src/Pie/Pie.Freetype/Native/FT_GlyphSlot.cs
+    startLine: 9
+  assemblies:
+  - Pie.Freetype
+  namespace: Pie.Freetype.Native
+  syntax:
+    content: public FT_Face* Face
+    return:
+      type: Pie.Freetype.Native.FT_Face*
+    content.vb: Public Face As FT_Face*
+- uid: Pie.Freetype.Native.FT_GlyphSlot.Next
+  commentId: F:Pie.Freetype.Native.FT_GlyphSlot.Next
+  id: Next
+  parent: Pie.Freetype.Native.FT_GlyphSlot
+  langs:
+  - csharp
+  - vb
+  name: Next
+  nameWithType: FT_GlyphSlot.Next
+  fullName: Pie.Freetype.Native.FT_GlyphSlot.Next
+  type: Field
+  source:
+    remote:
+      path: Pie.Freetype/Native/FT_GlyphSlot.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Next
+    path: src/Pie/Pie.Freetype/Native/FT_GlyphSlot.cs
+    startLine: 10
+  assemblies:
+  - Pie.Freetype
+  namespace: Pie.Freetype.Native
+  syntax:
+    content: public FT_GlyphSlot* Next
+    return:
+      type: Pie.Freetype.Native.FT_GlyphSlot*
+    content.vb: Public [Next] As FT_GlyphSlot*
+- uid: Pie.Freetype.Native.FT_GlyphSlot.GlyphIndex
+  commentId: F:Pie.Freetype.Native.FT_GlyphSlot.GlyphIndex
+  id: GlyphIndex
+  parent: Pie.Freetype.Native.FT_GlyphSlot
+  langs:
+  - csharp
+  - vb
+  name: GlyphIndex
+  nameWithType: FT_GlyphSlot.GlyphIndex
+  fullName: Pie.Freetype.Native.FT_GlyphSlot.GlyphIndex
+  type: Field
+  source:
+    remote:
+      path: Pie.Freetype/Native/FT_GlyphSlot.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: GlyphIndex
+    path: src/Pie/Pie.Freetype/Native/FT_GlyphSlot.cs
+    startLine: 11
+  assemblies:
+  - Pie.Freetype
+  namespace: Pie.Freetype.Native
+  syntax:
+    content: public uint GlyphIndex
+    return:
+      type: System.UInt32
+    content.vb: Public GlyphIndex As UInteger
+- uid: Pie.Freetype.Native.FT_GlyphSlot.Generic
+  commentId: F:Pie.Freetype.Native.FT_GlyphSlot.Generic
+  id: Generic
+  parent: Pie.Freetype.Native.FT_GlyphSlot
+  langs:
+  - csharp
+  - vb
+  name: Generic
+  nameWithType: FT_GlyphSlot.Generic
+  fullName: Pie.Freetype.Native.FT_GlyphSlot.Generic
+  type: Field
+  source:
+    remote:
+      path: Pie.Freetype/Native/FT_GlyphSlot.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Generic
+    path: src/Pie/Pie.Freetype/Native/FT_GlyphSlot.cs
+    startLine: 12
+  assemblies:
+  - Pie.Freetype
+  namespace: Pie.Freetype.Native
+  syntax:
+    content: public FT_Generic Generic
+    return:
+      type: Pie.Freetype.Native.FT_Generic
+    content.vb: Public Generic As FT_Generic
+- uid: Pie.Freetype.Native.FT_GlyphSlot.Metrics
+  commentId: F:Pie.Freetype.Native.FT_GlyphSlot.Metrics
+  id: Metrics
+  parent: Pie.Freetype.Native.FT_GlyphSlot
+  langs:
+  - csharp
+  - vb
+  name: Metrics
+  nameWithType: FT_GlyphSlot.Metrics
+  fullName: Pie.Freetype.Native.FT_GlyphSlot.Metrics
+  type: Field
+  source:
+    remote:
+      path: Pie.Freetype/Native/FT_GlyphSlot.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Metrics
+    path: src/Pie/Pie.Freetype/Native/FT_GlyphSlot.cs
+    startLine: 14
+  assemblies:
+  - Pie.Freetype
+  namespace: Pie.Freetype.Native
+  syntax:
+    content: public FT_Glyph_Metrics Metrics
+    return:
+      type: Pie.Freetype.Native.FT_Glyph_Metrics
+    content.vb: Public Metrics As FT_Glyph_Metrics
+- uid: Pie.Freetype.Native.FT_GlyphSlot.LinearHoriAdvance
+  commentId: F:Pie.Freetype.Native.FT_GlyphSlot.LinearHoriAdvance
+  id: LinearHoriAdvance
+  parent: Pie.Freetype.Native.FT_GlyphSlot
+  langs:
+  - csharp
+  - vb
+  name: LinearHoriAdvance
+  nameWithType: FT_GlyphSlot.LinearHoriAdvance
+  fullName: Pie.Freetype.Native.FT_GlyphSlot.LinearHoriAdvance
+  type: Field
+  source:
+    remote:
+      path: Pie.Freetype/Native/FT_GlyphSlot.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: LinearHoriAdvance
+    path: src/Pie/Pie.Freetype/Native/FT_GlyphSlot.cs
+    startLine: 15
+  assemblies:
+  - Pie.Freetype
+  namespace: Pie.Freetype.Native
+  syntax:
+    content: public CLong LinearHoriAdvance
+    return:
+      type: System.Runtime.InteropServices.CLong
+    content.vb: Public LinearHoriAdvance As CLong
+- uid: Pie.Freetype.Native.FT_GlyphSlot.LinearVertAdvance
+  commentId: F:Pie.Freetype.Native.FT_GlyphSlot.LinearVertAdvance
+  id: LinearVertAdvance
+  parent: Pie.Freetype.Native.FT_GlyphSlot
+  langs:
+  - csharp
+  - vb
+  name: LinearVertAdvance
+  nameWithType: FT_GlyphSlot.LinearVertAdvance
+  fullName: Pie.Freetype.Native.FT_GlyphSlot.LinearVertAdvance
+  type: Field
+  source:
+    remote:
+      path: Pie.Freetype/Native/FT_GlyphSlot.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: LinearVertAdvance
+    path: src/Pie/Pie.Freetype/Native/FT_GlyphSlot.cs
+    startLine: 16
+  assemblies:
+  - Pie.Freetype
+  namespace: Pie.Freetype.Native
+  syntax:
+    content: public CLong LinearVertAdvance
+    return:
+      type: System.Runtime.InteropServices.CLong
+    content.vb: Public LinearVertAdvance As CLong
+- uid: Pie.Freetype.Native.FT_GlyphSlot.Advance
+  commentId: F:Pie.Freetype.Native.FT_GlyphSlot.Advance
+  id: Advance
+  parent: Pie.Freetype.Native.FT_GlyphSlot
+  langs:
+  - csharp
+  - vb
+  name: Advance
+  nameWithType: FT_GlyphSlot.Advance
+  fullName: Pie.Freetype.Native.FT_GlyphSlot.Advance
+  type: Field
+  source:
+    remote:
+      path: Pie.Freetype/Native/FT_GlyphSlot.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Advance
+    path: src/Pie/Pie.Freetype/Native/FT_GlyphSlot.cs
+    startLine: 17
+  assemblies:
+  - Pie.Freetype
+  namespace: Pie.Freetype.Native
+  syntax:
+    content: public FT_Vector Advance
+    return:
+      type: Pie.Freetype.Native.FT_Vector
+    content.vb: Public Advance As FT_Vector
+- uid: Pie.Freetype.Native.FT_GlyphSlot.Format
+  commentId: F:Pie.Freetype.Native.FT_GlyphSlot.Format
+  id: Format
+  parent: Pie.Freetype.Native.FT_GlyphSlot
+  langs:
+  - csharp
+  - vb
+  name: Format
+  nameWithType: FT_GlyphSlot.Format
+  fullName: Pie.Freetype.Native.FT_GlyphSlot.Format
+  type: Field
+  source:
+    remote:
+      path: Pie.Freetype/Native/FT_GlyphSlot.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Format
+    path: src/Pie/Pie.Freetype/Native/FT_GlyphSlot.cs
+    startLine: 19
+  assemblies:
+  - Pie.Freetype
+  namespace: Pie.Freetype.Native
+  syntax:
+    content: public FT_Glyph_Format Format
+    return:
+      type: Pie.Freetype.Native.FT_Glyph_Format
+    content.vb: Public Format As FT_Glyph_Format
+- uid: Pie.Freetype.Native.FT_GlyphSlot.Bitmap
+  commentId: F:Pie.Freetype.Native.FT_GlyphSlot.Bitmap
+  id: Bitmap
+  parent: Pie.Freetype.Native.FT_GlyphSlot
+  langs:
+  - csharp
+  - vb
+  name: Bitmap
+  nameWithType: FT_GlyphSlot.Bitmap
+  fullName: Pie.Freetype.Native.FT_GlyphSlot.Bitmap
+  type: Field
+  source:
+    remote:
+      path: Pie.Freetype/Native/FT_GlyphSlot.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Bitmap
+    path: src/Pie/Pie.Freetype/Native/FT_GlyphSlot.cs
+    startLine: 21
+  assemblies:
+  - Pie.Freetype
+  namespace: Pie.Freetype.Native
+  syntax:
+    content: public FT_Bitmap Bitmap
+    return:
+      type: Pie.Freetype.Native.FT_Bitmap
+    content.vb: Public Bitmap As FT_Bitmap
+- uid: Pie.Freetype.Native.FT_GlyphSlot.BitmapLeft
+  commentId: F:Pie.Freetype.Native.FT_GlyphSlot.BitmapLeft
+  id: BitmapLeft
+  parent: Pie.Freetype.Native.FT_GlyphSlot
+  langs:
+  - csharp
+  - vb
+  name: BitmapLeft
+  nameWithType: FT_GlyphSlot.BitmapLeft
+  fullName: Pie.Freetype.Native.FT_GlyphSlot.BitmapLeft
+  type: Field
+  source:
+    remote:
+      path: Pie.Freetype/Native/FT_GlyphSlot.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: BitmapLeft
+    path: src/Pie/Pie.Freetype/Native/FT_GlyphSlot.cs
+    startLine: 22
+  assemblies:
+  - Pie.Freetype
+  namespace: Pie.Freetype.Native
+  syntax:
+    content: public int BitmapLeft
+    return:
+      type: System.Int32
+    content.vb: Public BitmapLeft As Integer
+- uid: Pie.Freetype.Native.FT_GlyphSlot.BitmapTop
+  commentId: F:Pie.Freetype.Native.FT_GlyphSlot.BitmapTop
+  id: BitmapTop
+  parent: Pie.Freetype.Native.FT_GlyphSlot
+  langs:
+  - csharp
+  - vb
+  name: BitmapTop
+  nameWithType: FT_GlyphSlot.BitmapTop
+  fullName: Pie.Freetype.Native.FT_GlyphSlot.BitmapTop
+  type: Field
+  source:
+    remote:
+      path: Pie.Freetype/Native/FT_GlyphSlot.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: BitmapTop
+    path: src/Pie/Pie.Freetype/Native/FT_GlyphSlot.cs
+    startLine: 23
+  assemblies:
+  - Pie.Freetype
+  namespace: Pie.Freetype.Native
+  syntax:
+    content: public int BitmapTop
+    return:
+      type: System.Int32
+    content.vb: Public BitmapTop As Integer
+- uid: Pie.Freetype.Native.FT_GlyphSlot.Outline
+  commentId: F:Pie.Freetype.Native.FT_GlyphSlot.Outline
+  id: Outline
+  parent: Pie.Freetype.Native.FT_GlyphSlot
+  langs:
+  - csharp
+  - vb
+  name: Outline
+  nameWithType: FT_GlyphSlot.Outline
+  fullName: Pie.Freetype.Native.FT_GlyphSlot.Outline
+  type: Field
+  source:
+    remote:
+      path: Pie.Freetype/Native/FT_GlyphSlot.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Outline
+    path: src/Pie/Pie.Freetype/Native/FT_GlyphSlot.cs
+    startLine: 25
+  assemblies:
+  - Pie.Freetype
+  namespace: Pie.Freetype.Native
+  syntax:
+    content: public FT_Outline Outline
+    return:
+      type: Pie.Freetype.Native.FT_Outline
+    content.vb: Public Outline As FT_Outline
+- uid: Pie.Freetype.Native.FT_GlyphSlot.NumSubglyphs
+  commentId: F:Pie.Freetype.Native.FT_GlyphSlot.NumSubglyphs
+  id: NumSubglyphs
+  parent: Pie.Freetype.Native.FT_GlyphSlot
+  langs:
+  - csharp
+  - vb
+  name: NumSubglyphs
+  nameWithType: FT_GlyphSlot.NumSubglyphs
+  fullName: Pie.Freetype.Native.FT_GlyphSlot.NumSubglyphs
+  type: Field
+  source:
+    remote:
+      path: Pie.Freetype/Native/FT_GlyphSlot.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: NumSubglyphs
+    path: src/Pie/Pie.Freetype/Native/FT_GlyphSlot.cs
+    startLine: 27
+  assemblies:
+  - Pie.Freetype
+  namespace: Pie.Freetype.Native
+  syntax:
+    content: public uint NumSubglyphs
+    return:
+      type: System.UInt32
+    content.vb: Public NumSubglyphs As UInteger
+- uid: Pie.Freetype.Native.FT_GlyphSlot.Subglyphs
+  commentId: F:Pie.Freetype.Native.FT_GlyphSlot.Subglyphs
+  id: Subglyphs
+  parent: Pie.Freetype.Native.FT_GlyphSlot
+  langs:
+  - csharp
+  - vb
+  name: Subglyphs
+  nameWithType: FT_GlyphSlot.Subglyphs
+  fullName: Pie.Freetype.Native.FT_GlyphSlot.Subglyphs
+  type: Field
+  source:
+    remote:
+      path: Pie.Freetype/Native/FT_GlyphSlot.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Subglyphs
+    path: src/Pie/Pie.Freetype/Native/FT_GlyphSlot.cs
+    startLine: 28
+  assemblies:
+  - Pie.Freetype
+  namespace: Pie.Freetype.Native
+  syntax:
+    content: public IntPtr Subglyphs
+    return:
+      type: System.IntPtr
+    content.vb: Public Subglyphs As IntPtr
+- uid: Pie.Freetype.Native.FT_GlyphSlot.ControlData
+  commentId: F:Pie.Freetype.Native.FT_GlyphSlot.ControlData
+  id: ControlData
+  parent: Pie.Freetype.Native.FT_GlyphSlot
+  langs:
+  - csharp
+  - vb
+  name: ControlData
+  nameWithType: FT_GlyphSlot.ControlData
+  fullName: Pie.Freetype.Native.FT_GlyphSlot.ControlData
+  type: Field
+  source:
+    remote:
+      path: Pie.Freetype/Native/FT_GlyphSlot.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: ControlData
+    path: src/Pie/Pie.Freetype/Native/FT_GlyphSlot.cs
+    startLine: 30
+  assemblies:
+  - Pie.Freetype
+  namespace: Pie.Freetype.Native
+  syntax:
+    content: public void* ControlData
+    return:
+      type: System.Void*
+    content.vb: Public ControlData As Void*
+- uid: Pie.Freetype.Native.FT_GlyphSlot.ControlLen
+  commentId: F:Pie.Freetype.Native.FT_GlyphSlot.ControlLen
+  id: ControlLen
+  parent: Pie.Freetype.Native.FT_GlyphSlot
+  langs:
+  - csharp
+  - vb
+  name: ControlLen
+  nameWithType: FT_GlyphSlot.ControlLen
+  fullName: Pie.Freetype.Native.FT_GlyphSlot.ControlLen
+  type: Field
+  source:
+    remote:
+      path: Pie.Freetype/Native/FT_GlyphSlot.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: ControlLen
+    path: src/Pie/Pie.Freetype/Native/FT_GlyphSlot.cs
+    startLine: 31
+  assemblies:
+  - Pie.Freetype
+  namespace: Pie.Freetype.Native
+  syntax:
+    content: public long ControlLen
+    return:
+      type: System.Int64
+    content.vb: Public ControlLen As Long
+- uid: Pie.Freetype.Native.FT_GlyphSlot.LsbDelta
+  commentId: F:Pie.Freetype.Native.FT_GlyphSlot.LsbDelta
+  id: LsbDelta
+  parent: Pie.Freetype.Native.FT_GlyphSlot
+  langs:
+  - csharp
+  - vb
+  name: LsbDelta
+  nameWithType: FT_GlyphSlot.LsbDelta
+  fullName: Pie.Freetype.Native.FT_GlyphSlot.LsbDelta
+  type: Field
+  source:
+    remote:
+      path: Pie.Freetype/Native/FT_GlyphSlot.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: LsbDelta
+    path: src/Pie/Pie.Freetype/Native/FT_GlyphSlot.cs
+    startLine: 33
+  assemblies:
+  - Pie.Freetype
+  namespace: Pie.Freetype.Native
+  syntax:
+    content: public CLong LsbDelta
+    return:
+      type: System.Runtime.InteropServices.CLong
+    content.vb: Public LsbDelta As CLong
+- uid: Pie.Freetype.Native.FT_GlyphSlot.RsbDelta
+  commentId: F:Pie.Freetype.Native.FT_GlyphSlot.RsbDelta
+  id: RsbDelta
+  parent: Pie.Freetype.Native.FT_GlyphSlot
+  langs:
+  - csharp
+  - vb
+  name: RsbDelta
+  nameWithType: FT_GlyphSlot.RsbDelta
+  fullName: Pie.Freetype.Native.FT_GlyphSlot.RsbDelta
+  type: Field
+  source:
+    remote:
+      path: Pie.Freetype/Native/FT_GlyphSlot.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: RsbDelta
+    path: src/Pie/Pie.Freetype/Native/FT_GlyphSlot.cs
+    startLine: 34
+  assemblies:
+  - Pie.Freetype
+  namespace: Pie.Freetype.Native
+  syntax:
+    content: public CLong RsbDelta
+    return:
+      type: System.Runtime.InteropServices.CLong
+    content.vb: Public RsbDelta As CLong
+- uid: Pie.Freetype.Native.FT_GlyphSlot.Other
+  commentId: F:Pie.Freetype.Native.FT_GlyphSlot.Other
+  id: Other
+  parent: Pie.Freetype.Native.FT_GlyphSlot
+  langs:
+  - csharp
+  - vb
+  name: Other
+  nameWithType: FT_GlyphSlot.Other
+  fullName: Pie.Freetype.Native.FT_GlyphSlot.Other
+  type: Field
+  source:
+    remote:
+      path: Pie.Freetype/Native/FT_GlyphSlot.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Other
+    path: src/Pie/Pie.Freetype/Native/FT_GlyphSlot.cs
+    startLine: 36
+  assemblies:
+  - Pie.Freetype
+  namespace: Pie.Freetype.Native
+  syntax:
+    content: public void* Other
+    return:
+      type: System.Void*
+    content.vb: Public Other As Void*
+references:
+- uid: Pie.Freetype.Native
+  commentId: N:Pie.Freetype.Native
+  name: Pie.Freetype.Native
+  nameWithType: Pie.Freetype.Native
+  fullName: Pie.Freetype.Native
+  spec.csharp:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Freetype
+    name: Freetype
+  - name: .
+  - uid: Pie.Freetype.Native
+    name: Native
+  spec.vb:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Freetype
+    name: Freetype
+  - name: .
+  - uid: Pie.Freetype.Native
+    name: Native
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr
+- uid: Pie.Freetype.Native.FT_Face*
+  isExternal: true
+  name: FT_Face*
+  nameWithType: FT_Face*
+  fullName: Pie.Freetype.Native.FT_Face*
+  spec.csharp:
+  - uid: Pie.Freetype.Native.FT_Face
+    name: FT_Face
+  - name: '*'
+  spec.vb:
+  - uid: Pie.Freetype.Native.FT_Face
+    name: FT_Face
+  - name: '*'
+- uid: Pie.Freetype.Native.FT_GlyphSlot*
+  isExternal: true
+  name: FT_GlyphSlot*
+  nameWithType: FT_GlyphSlot*
+  fullName: Pie.Freetype.Native.FT_GlyphSlot*
+  spec.csharp:
+  - uid: Pie.Freetype.Native.FT_GlyphSlot
+    name: FT_GlyphSlot
+  - name: '*'
+  spec.vb:
+  - uid: Pie.Freetype.Native.FT_GlyphSlot
+    name: FT_GlyphSlot
+  - name: '*'
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: Pie.Freetype.Native.FT_Generic
+  commentId: T:Pie.Freetype.Native.FT_Generic
+  parent: Pie.Freetype.Native
+  name: FT_Generic
+  nameWithType: FT_Generic
+  fullName: Pie.Freetype.Native.FT_Generic
+- uid: Pie.Freetype.Native.FT_Glyph_Metrics
+  commentId: T:Pie.Freetype.Native.FT_Glyph_Metrics
+  parent: Pie.Freetype.Native
+  name: FT_Glyph_Metrics
+  nameWithType: FT_Glyph_Metrics
+  fullName: Pie.Freetype.Native.FT_Glyph_Metrics
+- uid: System.Runtime.InteropServices.CLong
+  commentId: T:System.Runtime.InteropServices.CLong
+  parent: System.Runtime.InteropServices
+  isExternal: true
+  name: CLong
+  nameWithType: CLong
+  fullName: System.Runtime.InteropServices.CLong
+- uid: System.Runtime.InteropServices
+  commentId: N:System.Runtime.InteropServices
+  isExternal: true
+  name: System.Runtime.InteropServices
+  nameWithType: System.Runtime.InteropServices
+  fullName: System.Runtime.InteropServices
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Runtime
+    name: Runtime
+    isExternal: true
+  - name: .
+  - uid: System.Runtime.InteropServices
+    name: InteropServices
+    isExternal: true
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Runtime
+    name: Runtime
+    isExternal: true
+  - name: .
+  - uid: System.Runtime.InteropServices
+    name: InteropServices
+    isExternal: true
+- uid: Pie.Freetype.Native.FT_Vector
+  commentId: T:Pie.Freetype.Native.FT_Vector
+  parent: Pie.Freetype.Native
+  name: FT_Vector
+  nameWithType: FT_Vector
+  fullName: Pie.Freetype.Native.FT_Vector
+- uid: Pie.Freetype.Native.FT_Glyph_Format
+  commentId: T:Pie.Freetype.Native.FT_Glyph_Format
+  parent: Pie.Freetype.Native
+  name: FT_Glyph_Format
+  nameWithType: FT_Glyph_Format
+  fullName: Pie.Freetype.Native.FT_Glyph_Format
+- uid: Pie.Freetype.Native.FT_Bitmap
+  commentId: T:Pie.Freetype.Native.FT_Bitmap
+  parent: Pie.Freetype.Native
+  name: FT_Bitmap
+  nameWithType: FT_Bitmap
+  fullName: Pie.Freetype.Native.FT_Bitmap
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Pie.Freetype.Native.FT_Outline
+  commentId: T:Pie.Freetype.Native.FT_Outline
+  parent: Pie.Freetype.Native
+  name: FT_Outline
+  nameWithType: FT_Outline
+  fullName: Pie.Freetype.Native.FT_Outline
+- uid: System.Void*
+  isExternal: true
+  name: void*
+  nameWithType: void*
+  fullName: void*
+  nameWithType.vb: Void*
+  fullName.vb: Void*
+  name.vb: Void*
+  spec.csharp:
+  - uid: System.Void
+    name: void
+    isExternal: true
+  - name: '*'
+  spec.vb:
+  - uid: System.Void
+    name: Void
+    isExternal: true
+  - name: '*'
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: long
+  nameWithType: long
+  fullName: long
+  nameWithType.vb: Long
+  fullName.vb: Long
+  name.vb: Long

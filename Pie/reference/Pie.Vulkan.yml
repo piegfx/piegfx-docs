@@ -1,0 +1,77 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pie.Vulkan
+  commentId: N:Pie.Vulkan
+  id: Pie.Vulkan
+  children:
+  - Pie.Vulkan.VkHelper
+  - Pie.Vulkan.VkHelper.QueueFamilyIndices
+  - Pie.Vulkan.VkHelper.SwapchainSupportDetails
+  langs:
+  - csharp
+  - vb
+  name: Pie.Vulkan
+  nameWithType: Pie.Vulkan
+  fullName: Pie.Vulkan
+  type: Namespace
+  assemblies:
+  - Pie
+references:
+- uid: Pie.Vulkan.VkHelper
+  commentId: T:Pie.Vulkan.VkHelper
+  name: VkHelper
+  nameWithType: VkHelper
+  fullName: Pie.Vulkan.VkHelper
+- uid: Pie.Vulkan.VkHelper.QueueFamilyIndices
+  commentId: T:Pie.Vulkan.VkHelper.QueueFamilyIndices
+  parent: Pie.Vulkan
+  name: VkHelper.QueueFamilyIndices
+  nameWithType: VkHelper.QueueFamilyIndices
+  fullName: Pie.Vulkan.VkHelper.QueueFamilyIndices
+  spec.csharp:
+  - uid: Pie.Vulkan.VkHelper
+    name: VkHelper
+  - name: .
+  - uid: Pie.Vulkan.VkHelper.QueueFamilyIndices
+    name: QueueFamilyIndices
+  spec.vb:
+  - uid: Pie.Vulkan.VkHelper
+    name: VkHelper
+  - name: .
+  - uid: Pie.Vulkan.VkHelper.QueueFamilyIndices
+    name: QueueFamilyIndices
+- uid: Pie.Vulkan.VkHelper.SwapchainSupportDetails
+  commentId: T:Pie.Vulkan.VkHelper.SwapchainSupportDetails
+  parent: Pie.Vulkan
+  name: VkHelper.SwapchainSupportDetails
+  nameWithType: VkHelper.SwapchainSupportDetails
+  fullName: Pie.Vulkan.VkHelper.SwapchainSupportDetails
+  spec.csharp:
+  - uid: Pie.Vulkan.VkHelper
+    name: VkHelper
+  - name: .
+  - uid: Pie.Vulkan.VkHelper.SwapchainSupportDetails
+    name: SwapchainSupportDetails
+  spec.vb:
+  - uid: Pie.Vulkan.VkHelper
+    name: VkHelper
+  - name: .
+  - uid: Pie.Vulkan.VkHelper.SwapchainSupportDetails
+    name: SwapchainSupportDetails
+- uid: Pie.Vulkan
+  commentId: N:Pie.Vulkan
+  name: Pie.Vulkan
+  nameWithType: Pie.Vulkan
+  fullName: Pie.Vulkan
+  spec.csharp:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Vulkan
+    name: Vulkan
+  spec.vb:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Vulkan
+    name: Vulkan

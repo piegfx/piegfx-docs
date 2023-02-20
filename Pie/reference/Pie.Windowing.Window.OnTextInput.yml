@@ -1,0 +1,65 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pie.Windowing.Window.OnTextInput
+  commentId: T:Pie.Windowing.Window.OnTextInput
+  id: Window.OnTextInput
+  parent: Pie.Windowing
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: Window.OnTextInput
+  nameWithType: Window.OnTextInput
+  fullName: Pie.Windowing.Window.OnTextInput
+  type: Delegate
+  source:
+    remote:
+      path: Pie.Windowing/Window.Events.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: OnTextInput
+    path: src/Pie/Pie.Windowing/Window.Events.cs
+    startLine: 96
+  assemblies:
+  - Pie.Windowing
+  namespace: Pie.Windowing
+  syntax:
+    content: public delegate void Window.OnTextInput(char c)
+    parameters:
+    - id: c
+      type: System.Char
+    content.vb: Public Delegate Sub Window.OnTextInput(c As Char)
+references:
+- uid: Pie.Windowing
+  commentId: N:Pie.Windowing
+  name: Pie.Windowing
+  nameWithType: Pie.Windowing
+  fullName: Pie.Windowing
+  spec.csharp:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Windowing
+    name: Windowing
+  spec.vb:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Windowing
+    name: Windowing
+- uid: System.Char
+  commentId: T:System.Char
+  parent: System
+  isExternal: true
+  name: char
+  nameWithType: char
+  fullName: char
+  nameWithType.vb: Char
+  fullName.vb: Char
+  name.vb: Char
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

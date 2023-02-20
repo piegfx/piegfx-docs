@@ -1,0 +1,1813 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pie.Format
+  commentId: T:Pie.Format
+  id: Format
+  parent: Pie
+  children:
+  - Pie.Format.B8G8R8A8_UNorm
+  - Pie.Format.B8G8R8A8_UNorm_SRgb
+  - Pie.Format.BC1_UNorm
+  - Pie.Format.BC1_UNorm_SRgb
+  - Pie.Format.BC2_UNorm
+  - Pie.Format.BC2_UNorm_SRgb
+  - Pie.Format.BC3_UNorm
+  - Pie.Format.BC3_UNorm_SRgb
+  - Pie.Format.BC4_SNorm
+  - Pie.Format.BC4_UNorm
+  - Pie.Format.BC5_SNorm
+  - Pie.Format.BC5_UNorm
+  - Pie.Format.BC6H_SF16
+  - Pie.Format.BC6H_UF16
+  - Pie.Format.BC7_UNorm
+  - Pie.Format.BC7_UNorm_SRgb
+  - Pie.Format.D16_UNorm
+  - Pie.Format.D24_UNorm_S8_UInt
+  - Pie.Format.D32_Float
+  - Pie.Format.R16_Float
+  - Pie.Format.R16_SInt
+  - Pie.Format.R16_SNorm
+  - Pie.Format.R16_UInt
+  - Pie.Format.R16_UNorm
+  - Pie.Format.R16G16_Float
+  - Pie.Format.R16G16_SInt
+  - Pie.Format.R16G16_SNorm
+  - Pie.Format.R16G16_UInt
+  - Pie.Format.R16G16_UNorm
+  - Pie.Format.R16G16B16A16_Float
+  - Pie.Format.R16G16B16A16_SInt
+  - Pie.Format.R16G16B16A16_SNorm
+  - Pie.Format.R16G16B16A16_UInt
+  - Pie.Format.R16G16B16A16_UNorm
+  - Pie.Format.R32_Float
+  - Pie.Format.R32_SInt
+  - Pie.Format.R32_UInt
+  - Pie.Format.R32G32_Float
+  - Pie.Format.R32G32_SInt
+  - Pie.Format.R32G32_UInt
+  - Pie.Format.R32G32B32_Float
+  - Pie.Format.R32G32B32_SInt
+  - Pie.Format.R32G32B32_UInt
+  - Pie.Format.R32G32B32A32_Float
+  - Pie.Format.R32G32B32A32_SInt
+  - Pie.Format.R32G32B32A32_UInt
+  - Pie.Format.R8_SInt
+  - Pie.Format.R8_SNorm
+  - Pie.Format.R8_UInt
+  - Pie.Format.R8_UNorm
+  - Pie.Format.R8G8_SInt
+  - Pie.Format.R8G8_SNorm
+  - Pie.Format.R8G8_UInt
+  - Pie.Format.R8G8_UNorm
+  - Pie.Format.R8G8B8A8_SInt
+  - Pie.Format.R8G8B8A8_SNorm
+  - Pie.Format.R8G8B8A8_UInt
+  - Pie.Format.R8G8B8A8_UNorm
+  - Pie.Format.R8G8B8A8_UNorm_SRgb
+  langs:
+  - csharp
+  - vb
+  name: Format
+  nameWithType: Format
+  fullName: Pie.Format
+  type: Enum
+  source:
+    remote:
+      path: Pie/Format.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Format
+    path: src/Pie/Pie/Format.cs
+    startLine: 6
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nUsed to describe the type of input data passed to an object. Used in <xref href=\"Pie.Texture\" data-throw-if-not-resolved=\"false\"></xref>s and <xref href=\"Pie.InputLayout\" data-throw-if-not-resolved=\"false\"></xref>s.\n"
+  example: []
+  syntax:
+    content: public enum Format
+    content.vb: Public Enum Format
+  extensionMethods:
+  - Pie.Format.Pie.PieUtils.BitsPerPixel
+- uid: Pie.Format.R8_UNorm
+  commentId: F:Pie.Format.R8_UNorm
+  id: R8_UNorm
+  parent: Pie.Format
+  langs:
+  - csharp
+  - vb
+  name: R8_UNorm
+  nameWithType: Format.R8_UNorm
+  fullName: Pie.Format.R8_UNorm
+  type: Field
+  source:
+    remote:
+      path: Pie/Format.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: R8_UNorm
+    path: src/Pie/Pie/Format.cs
+    startLine: 11
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\n1-component unsigned byte, that is normalized to 0-1 when passed to the object.\n"
+  example: []
+  syntax:
+    content: R8_UNorm = 0
+    return:
+      type: Pie.Format
+- uid: Pie.Format.R8_SNorm
+  commentId: F:Pie.Format.R8_SNorm
+  id: R8_SNorm
+  parent: Pie.Format
+  langs:
+  - csharp
+  - vb
+  name: R8_SNorm
+  nameWithType: Format.R8_SNorm
+  fullName: Pie.Format.R8_SNorm
+  type: Field
+  source:
+    remote:
+      path: Pie/Format.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: R8_SNorm
+    path: src/Pie/Pie/Format.cs
+    startLine: 16
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\n1-component signed byte, that is normalized to 0-1 when passed to the object.\n"
+  example: []
+  syntax:
+    content: R8_SNorm = 1
+    return:
+      type: Pie.Format
+- uid: Pie.Format.R8_SInt
+  commentId: F:Pie.Format.R8_SInt
+  id: R8_SInt
+  parent: Pie.Format
+  langs:
+  - csharp
+  - vb
+  name: R8_SInt
+  nameWithType: Format.R8_SInt
+  fullName: Pie.Format.R8_SInt
+  type: Field
+  source:
+    remote:
+      path: Pie/Format.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: R8_SInt
+    path: src/Pie/Pie/Format.cs
+    startLine: 21
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\n1-component signed byte.\n"
+  example: []
+  syntax:
+    content: R8_SInt = 2
+    return:
+      type: Pie.Format
+- uid: Pie.Format.R8_UInt
+  commentId: F:Pie.Format.R8_UInt
+  id: R8_UInt
+  parent: Pie.Format
+  langs:
+  - csharp
+  - vb
+  name: R8_UInt
+  nameWithType: Format.R8_UInt
+  fullName: Pie.Format.R8_UInt
+  type: Field
+  source:
+    remote:
+      path: Pie/Format.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: R8_UInt
+    path: src/Pie/Pie/Format.cs
+    startLine: 26
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\n1-component unsigned byte.\n"
+  example: []
+  syntax:
+    content: R8_UInt = 3
+    return:
+      type: Pie.Format
+- uid: Pie.Format.R8G8_UNorm
+  commentId: F:Pie.Format.R8G8_UNorm
+  id: R8G8_UNorm
+  parent: Pie.Format
+  langs:
+  - csharp
+  - vb
+  name: R8G8_UNorm
+  nameWithType: Format.R8G8_UNorm
+  fullName: Pie.Format.R8G8_UNorm
+  type: Field
+  source:
+    remote:
+      path: Pie/Format.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: R8G8_UNorm
+    path: src/Pie/Pie/Format.cs
+    startLine: 31
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\n2-component unsigned byte, that is normalized to 0-1 when passed to the object.\n"
+  example: []
+  syntax:
+    content: R8G8_UNorm = 4
+    return:
+      type: Pie.Format
+- uid: Pie.Format.R8G8_SNorm
+  commentId: F:Pie.Format.R8G8_SNorm
+  id: R8G8_SNorm
+  parent: Pie.Format
+  langs:
+  - csharp
+  - vb
+  name: R8G8_SNorm
+  nameWithType: Format.R8G8_SNorm
+  fullName: Pie.Format.R8G8_SNorm
+  type: Field
+  source:
+    remote:
+      path: Pie/Format.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: R8G8_SNorm
+    path: src/Pie/Pie/Format.cs
+    startLine: 36
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\n1-component signed byte, that is normalized to 0-1 when passed to the object.\n"
+  example: []
+  syntax:
+    content: R8G8_SNorm = 5
+    return:
+      type: Pie.Format
+- uid: Pie.Format.R8G8_SInt
+  commentId: F:Pie.Format.R8G8_SInt
+  id: R8G8_SInt
+  parent: Pie.Format
+  langs:
+  - csharp
+  - vb
+  name: R8G8_SInt
+  nameWithType: Format.R8G8_SInt
+  fullName: Pie.Format.R8G8_SInt
+  type: Field
+  source:
+    remote:
+      path: Pie/Format.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: R8G8_SInt
+    path: src/Pie/Pie/Format.cs
+    startLine: 41
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\n2-component signed byte.\n"
+  example: []
+  syntax:
+    content: R8G8_SInt = 6
+    return:
+      type: Pie.Format
+- uid: Pie.Format.R8G8_UInt
+  commentId: F:Pie.Format.R8G8_UInt
+  id: R8G8_UInt
+  parent: Pie.Format
+  langs:
+  - csharp
+  - vb
+  name: R8G8_UInt
+  nameWithType: Format.R8G8_UInt
+  fullName: Pie.Format.R8G8_UInt
+  type: Field
+  source:
+    remote:
+      path: Pie/Format.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: R8G8_UInt
+    path: src/Pie/Pie/Format.cs
+    startLine: 46
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\n1-component unsigned byte.\n"
+  example: []
+  syntax:
+    content: R8G8_UInt = 7
+    return:
+      type: Pie.Format
+- uid: Pie.Format.R8G8B8A8_UNorm
+  commentId: F:Pie.Format.R8G8B8A8_UNorm
+  id: R8G8B8A8_UNorm
+  parent: Pie.Format
+  langs:
+  - csharp
+  - vb
+  name: R8G8B8A8_UNorm
+  nameWithType: Format.R8G8B8A8_UNorm
+  fullName: Pie.Format.R8G8B8A8_UNorm
+  type: Field
+  source:
+    remote:
+      path: Pie/Format.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: R8G8B8A8_UNorm
+    path: src/Pie/Pie/Format.cs
+    startLine: 51
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\n4-component unsigned byte, that is normalized to 0-1 when passed to the object.\n"
+  example: []
+  syntax:
+    content: R8G8B8A8_UNorm = 8
+    return:
+      type: Pie.Format
+- uid: Pie.Format.R8G8B8A8_UNorm_SRgb
+  commentId: F:Pie.Format.R8G8B8A8_UNorm_SRgb
+  id: R8G8B8A8_UNorm_SRgb
+  parent: Pie.Format
+  langs:
+  - csharp
+  - vb
+  name: R8G8B8A8_UNorm_SRgb
+  nameWithType: Format.R8G8B8A8_UNorm_SRgb
+  fullName: Pie.Format.R8G8B8A8_UNorm_SRgb
+  type: Field
+  source:
+    remote:
+      path: Pie/Format.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: R8G8B8A8_UNorm_SRgb
+    path: src/Pie/Pie/Format.cs
+    startLine: 56
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\n4-component unsigned byte, in sRGB color space, that is normalized to 0-1 when passed to the object.\n"
+  example: []
+  syntax:
+    content: R8G8B8A8_UNorm_SRgb = 9
+    return:
+      type: Pie.Format
+- uid: Pie.Format.R8G8B8A8_SNorm
+  commentId: F:Pie.Format.R8G8B8A8_SNorm
+  id: R8G8B8A8_SNorm
+  parent: Pie.Format
+  langs:
+  - csharp
+  - vb
+  name: R8G8B8A8_SNorm
+  nameWithType: Format.R8G8B8A8_SNorm
+  fullName: Pie.Format.R8G8B8A8_SNorm
+  type: Field
+  source:
+    remote:
+      path: Pie/Format.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: R8G8B8A8_SNorm
+    path: src/Pie/Pie/Format.cs
+    startLine: 61
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\n4-component signed byte, that is normalized to 0-1 when passed to the object.\n"
+  example: []
+  syntax:
+    content: R8G8B8A8_SNorm = 10
+    return:
+      type: Pie.Format
+- uid: Pie.Format.R8G8B8A8_SInt
+  commentId: F:Pie.Format.R8G8B8A8_SInt
+  id: R8G8B8A8_SInt
+  parent: Pie.Format
+  langs:
+  - csharp
+  - vb
+  name: R8G8B8A8_SInt
+  nameWithType: Format.R8G8B8A8_SInt
+  fullName: Pie.Format.R8G8B8A8_SInt
+  type: Field
+  source:
+    remote:
+      path: Pie/Format.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: R8G8B8A8_SInt
+    path: src/Pie/Pie/Format.cs
+    startLine: 66
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\n4-component signed byte.\n"
+  example: []
+  syntax:
+    content: R8G8B8A8_SInt = 11
+    return:
+      type: Pie.Format
+- uid: Pie.Format.R8G8B8A8_UInt
+  commentId: F:Pie.Format.R8G8B8A8_UInt
+  id: R8G8B8A8_UInt
+  parent: Pie.Format
+  langs:
+  - csharp
+  - vb
+  name: R8G8B8A8_UInt
+  nameWithType: Format.R8G8B8A8_UInt
+  fullName: Pie.Format.R8G8B8A8_UInt
+  type: Field
+  source:
+    remote:
+      path: Pie/Format.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: R8G8B8A8_UInt
+    path: src/Pie/Pie/Format.cs
+    startLine: 71
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\n4-component unsigned byte.\n"
+  example: []
+  syntax:
+    content: R8G8B8A8_UInt = 12
+    return:
+      type: Pie.Format
+- uid: Pie.Format.B8G8R8A8_UNorm
+  commentId: F:Pie.Format.B8G8R8A8_UNorm
+  id: B8G8R8A8_UNorm
+  parent: Pie.Format
+  langs:
+  - csharp
+  - vb
+  name: B8G8R8A8_UNorm
+  nameWithType: Format.B8G8R8A8_UNorm
+  fullName: Pie.Format.B8G8R8A8_UNorm
+  type: Field
+  source:
+    remote:
+      path: Pie/Format.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: B8G8R8A8_UNorm
+    path: src/Pie/Pie/Format.cs
+    startLine: 76
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\n4-component unsigned byte, that is normalized to 0-1 when passed to the object. The data will be in BGRA format.\n"
+  example: []
+  syntax:
+    content: B8G8R8A8_UNorm = 13
+    return:
+      type: Pie.Format
+- uid: Pie.Format.B8G8R8A8_UNorm_SRgb
+  commentId: F:Pie.Format.B8G8R8A8_UNorm_SRgb
+  id: B8G8R8A8_UNorm_SRgb
+  parent: Pie.Format
+  langs:
+  - csharp
+  - vb
+  name: B8G8R8A8_UNorm_SRgb
+  nameWithType: Format.B8G8R8A8_UNorm_SRgb
+  fullName: Pie.Format.B8G8R8A8_UNorm_SRgb
+  type: Field
+  source:
+    remote:
+      path: Pie/Format.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: B8G8R8A8_UNorm_SRgb
+    path: src/Pie/Pie/Format.cs
+    startLine: 81
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\n4-component unsigned byte, in sRGB color space, that is normalized to 0-1 when passed to the object. The data will be in BGRA format.\n"
+  example: []
+  syntax:
+    content: B8G8R8A8_UNorm_SRgb = 14
+    return:
+      type: Pie.Format
+- uid: Pie.Format.R16_UNorm
+  commentId: F:Pie.Format.R16_UNorm
+  id: R16_UNorm
+  parent: Pie.Format
+  langs:
+  - csharp
+  - vb
+  name: R16_UNorm
+  nameWithType: Format.R16_UNorm
+  fullName: Pie.Format.R16_UNorm
+  type: Field
+  source:
+    remote:
+      path: Pie/Format.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: R16_UNorm
+    path: src/Pie/Pie/Format.cs
+    startLine: 86
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\n1-component unsigned short, that is normalized to 0-1 when passed to the object.\n"
+  example: []
+  syntax:
+    content: R16_UNorm = 15
+    return:
+      type: Pie.Format
+- uid: Pie.Format.R16_SNorm
+  commentId: F:Pie.Format.R16_SNorm
+  id: R16_SNorm
+  parent: Pie.Format
+  langs:
+  - csharp
+  - vb
+  name: R16_SNorm
+  nameWithType: Format.R16_SNorm
+  fullName: Pie.Format.R16_SNorm
+  type: Field
+  source:
+    remote:
+      path: Pie/Format.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: R16_SNorm
+    path: src/Pie/Pie/Format.cs
+    startLine: 91
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\n1-component signed short, that is normalized to 0-1 when passed to the object.\n"
+  example: []
+  syntax:
+    content: R16_SNorm = 16
+    return:
+      type: Pie.Format
+- uid: Pie.Format.R16_SInt
+  commentId: F:Pie.Format.R16_SInt
+  id: R16_SInt
+  parent: Pie.Format
+  langs:
+  - csharp
+  - vb
+  name: R16_SInt
+  nameWithType: Format.R16_SInt
+  fullName: Pie.Format.R16_SInt
+  type: Field
+  source:
+    remote:
+      path: Pie/Format.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: R16_SInt
+    path: src/Pie/Pie/Format.cs
+    startLine: 96
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\n1-component signed short.\n"
+  example: []
+  syntax:
+    content: R16_SInt = 17
+    return:
+      type: Pie.Format
+- uid: Pie.Format.R16_UInt
+  commentId: F:Pie.Format.R16_UInt
+  id: R16_UInt
+  parent: Pie.Format
+  langs:
+  - csharp
+  - vb
+  name: R16_UInt
+  nameWithType: Format.R16_UInt
+  fullName: Pie.Format.R16_UInt
+  type: Field
+  source:
+    remote:
+      path: Pie/Format.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: R16_UInt
+    path: src/Pie/Pie/Format.cs
+    startLine: 101
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\n1-component unsigned short.\n"
+  example: []
+  syntax:
+    content: R16_UInt = 18
+    return:
+      type: Pie.Format
+- uid: Pie.Format.R16_Float
+  commentId: F:Pie.Format.R16_Float
+  id: R16_Float
+  parent: Pie.Format
+  langs:
+  - csharp
+  - vb
+  name: R16_Float
+  nameWithType: Format.R16_Float
+  fullName: Pie.Format.R16_Float
+  type: Field
+  source:
+    remote:
+      path: Pie/Format.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: R16_Float
+    path: src/Pie/Pie/Format.cs
+    startLine: 106
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\n1-component half float.\n"
+  example: []
+  syntax:
+    content: R16_Float = 19
+    return:
+      type: Pie.Format
+- uid: Pie.Format.R16G16_UNorm
+  commentId: F:Pie.Format.R16G16_UNorm
+  id: R16G16_UNorm
+  parent: Pie.Format
+  langs:
+  - csharp
+  - vb
+  name: R16G16_UNorm
+  nameWithType: Format.R16G16_UNorm
+  fullName: Pie.Format.R16G16_UNorm
+  type: Field
+  source:
+    remote:
+      path: Pie/Format.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: R16G16_UNorm
+    path: src/Pie/Pie/Format.cs
+    startLine: 111
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\n2-component unsigned short, that is normalized to 0-1 when passed to the object.\n"
+  example: []
+  syntax:
+    content: R16G16_UNorm = 20
+    return:
+      type: Pie.Format
+- uid: Pie.Format.R16G16_SNorm
+  commentId: F:Pie.Format.R16G16_SNorm
+  id: R16G16_SNorm
+  parent: Pie.Format
+  langs:
+  - csharp
+  - vb
+  name: R16G16_SNorm
+  nameWithType: Format.R16G16_SNorm
+  fullName: Pie.Format.R16G16_SNorm
+  type: Field
+  source:
+    remote:
+      path: Pie/Format.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: R16G16_SNorm
+    path: src/Pie/Pie/Format.cs
+    startLine: 116
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\n2-component signed short, that is normalized to 0-1 when passed to the object.\n"
+  example: []
+  syntax:
+    content: R16G16_SNorm = 21
+    return:
+      type: Pie.Format
+- uid: Pie.Format.R16G16_SInt
+  commentId: F:Pie.Format.R16G16_SInt
+  id: R16G16_SInt
+  parent: Pie.Format
+  langs:
+  - csharp
+  - vb
+  name: R16G16_SInt
+  nameWithType: Format.R16G16_SInt
+  fullName: Pie.Format.R16G16_SInt
+  type: Field
+  source:
+    remote:
+      path: Pie/Format.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: R16G16_SInt
+    path: src/Pie/Pie/Format.cs
+    startLine: 121
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\n2-component signed short.\n"
+  example: []
+  syntax:
+    content: R16G16_SInt = 22
+    return:
+      type: Pie.Format
+- uid: Pie.Format.R16G16_UInt
+  commentId: F:Pie.Format.R16G16_UInt
+  id: R16G16_UInt
+  parent: Pie.Format
+  langs:
+  - csharp
+  - vb
+  name: R16G16_UInt
+  nameWithType: Format.R16G16_UInt
+  fullName: Pie.Format.R16G16_UInt
+  type: Field
+  source:
+    remote:
+      path: Pie/Format.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: R16G16_UInt
+    path: src/Pie/Pie/Format.cs
+    startLine: 126
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\n2-component unsigned short.\n"
+  example: []
+  syntax:
+    content: R16G16_UInt = 23
+    return:
+      type: Pie.Format
+- uid: Pie.Format.R16G16_Float
+  commentId: F:Pie.Format.R16G16_Float
+  id: R16G16_Float
+  parent: Pie.Format
+  langs:
+  - csharp
+  - vb
+  name: R16G16_Float
+  nameWithType: Format.R16G16_Float
+  fullName: Pie.Format.R16G16_Float
+  type: Field
+  source:
+    remote:
+      path: Pie/Format.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: R16G16_Float
+    path: src/Pie/Pie/Format.cs
+    startLine: 131
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\n2-component half float.\n"
+  example: []
+  syntax:
+    content: R16G16_Float = 24
+    return:
+      type: Pie.Format
+- uid: Pie.Format.R16G16B16A16_UNorm
+  commentId: F:Pie.Format.R16G16B16A16_UNorm
+  id: R16G16B16A16_UNorm
+  parent: Pie.Format
+  langs:
+  - csharp
+  - vb
+  name: R16G16B16A16_UNorm
+  nameWithType: Format.R16G16B16A16_UNorm
+  fullName: Pie.Format.R16G16B16A16_UNorm
+  type: Field
+  source:
+    remote:
+      path: Pie/Format.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: R16G16B16A16_UNorm
+    path: src/Pie/Pie/Format.cs
+    startLine: 136
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\n4-component unsigned short, that is normalized to 0-1 when passed to the object.\n"
+  example: []
+  syntax:
+    content: R16G16B16A16_UNorm = 25
+    return:
+      type: Pie.Format
+- uid: Pie.Format.R16G16B16A16_SNorm
+  commentId: F:Pie.Format.R16G16B16A16_SNorm
+  id: R16G16B16A16_SNorm
+  parent: Pie.Format
+  langs:
+  - csharp
+  - vb
+  name: R16G16B16A16_SNorm
+  nameWithType: Format.R16G16B16A16_SNorm
+  fullName: Pie.Format.R16G16B16A16_SNorm
+  type: Field
+  source:
+    remote:
+      path: Pie/Format.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: R16G16B16A16_SNorm
+    path: src/Pie/Pie/Format.cs
+    startLine: 141
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\n4-component signed short, that is normalized to 0-1 when passed to the object.\n"
+  example: []
+  syntax:
+    content: R16G16B16A16_SNorm = 26
+    return:
+      type: Pie.Format
+- uid: Pie.Format.R16G16B16A16_SInt
+  commentId: F:Pie.Format.R16G16B16A16_SInt
+  id: R16G16B16A16_SInt
+  parent: Pie.Format
+  langs:
+  - csharp
+  - vb
+  name: R16G16B16A16_SInt
+  nameWithType: Format.R16G16B16A16_SInt
+  fullName: Pie.Format.R16G16B16A16_SInt
+  type: Field
+  source:
+    remote:
+      path: Pie/Format.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: R16G16B16A16_SInt
+    path: src/Pie/Pie/Format.cs
+    startLine: 146
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\n4-component signed short.\n"
+  example: []
+  syntax:
+    content: R16G16B16A16_SInt = 27
+    return:
+      type: Pie.Format
+- uid: Pie.Format.R16G16B16A16_UInt
+  commentId: F:Pie.Format.R16G16B16A16_UInt
+  id: R16G16B16A16_UInt
+  parent: Pie.Format
+  langs:
+  - csharp
+  - vb
+  name: R16G16B16A16_UInt
+  nameWithType: Format.R16G16B16A16_UInt
+  fullName: Pie.Format.R16G16B16A16_UInt
+  type: Field
+  source:
+    remote:
+      path: Pie/Format.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: R16G16B16A16_UInt
+    path: src/Pie/Pie/Format.cs
+    startLine: 151
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\n4-component unsigned short.\n"
+  example: []
+  syntax:
+    content: R16G16B16A16_UInt = 28
+    return:
+      type: Pie.Format
+- uid: Pie.Format.R16G16B16A16_Float
+  commentId: F:Pie.Format.R16G16B16A16_Float
+  id: R16G16B16A16_Float
+  parent: Pie.Format
+  langs:
+  - csharp
+  - vb
+  name: R16G16B16A16_Float
+  nameWithType: Format.R16G16B16A16_Float
+  fullName: Pie.Format.R16G16B16A16_Float
+  type: Field
+  source:
+    remote:
+      path: Pie/Format.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: R16G16B16A16_Float
+    path: src/Pie/Pie/Format.cs
+    startLine: 156
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\n4-component half float.\n"
+  example: []
+  syntax:
+    content: R16G16B16A16_Float = 29
+    return:
+      type: Pie.Format
+- uid: Pie.Format.R32_SInt
+  commentId: F:Pie.Format.R32_SInt
+  id: R32_SInt
+  parent: Pie.Format
+  langs:
+  - csharp
+  - vb
+  name: R32_SInt
+  nameWithType: Format.R32_SInt
+  fullName: Pie.Format.R32_SInt
+  type: Field
+  source:
+    remote:
+      path: Pie/Format.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: R32_SInt
+    path: src/Pie/Pie/Format.cs
+    startLine: 161
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\n1-component signed 32-bit integer.\n"
+  example: []
+  syntax:
+    content: R32_SInt = 30
+    return:
+      type: Pie.Format
+- uid: Pie.Format.R32_UInt
+  commentId: F:Pie.Format.R32_UInt
+  id: R32_UInt
+  parent: Pie.Format
+  langs:
+  - csharp
+  - vb
+  name: R32_UInt
+  nameWithType: Format.R32_UInt
+  fullName: Pie.Format.R32_UInt
+  type: Field
+  source:
+    remote:
+      path: Pie/Format.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: R32_UInt
+    path: src/Pie/Pie/Format.cs
+    startLine: 166
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\n1-component unsigned 32-bit integer.\n"
+  example: []
+  syntax:
+    content: R32_UInt = 31
+    return:
+      type: Pie.Format
+- uid: Pie.Format.R32_Float
+  commentId: F:Pie.Format.R32_Float
+  id: R32_Float
+  parent: Pie.Format
+  langs:
+  - csharp
+  - vb
+  name: R32_Float
+  nameWithType: Format.R32_Float
+  fullName: Pie.Format.R32_Float
+  type: Field
+  source:
+    remote:
+      path: Pie/Format.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: R32_Float
+    path: src/Pie/Pie/Format.cs
+    startLine: 171
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\n1-component 32-bit float.\n"
+  example: []
+  syntax:
+    content: R32_Float = 32
+    return:
+      type: Pie.Format
+- uid: Pie.Format.R32G32_SInt
+  commentId: F:Pie.Format.R32G32_SInt
+  id: R32G32_SInt
+  parent: Pie.Format
+  langs:
+  - csharp
+  - vb
+  name: R32G32_SInt
+  nameWithType: Format.R32G32_SInt
+  fullName: Pie.Format.R32G32_SInt
+  type: Field
+  source:
+    remote:
+      path: Pie/Format.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: R32G32_SInt
+    path: src/Pie/Pie/Format.cs
+    startLine: 176
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\n2-component signed 32-bit integer.\n"
+  example: []
+  syntax:
+    content: R32G32_SInt = 33
+    return:
+      type: Pie.Format
+- uid: Pie.Format.R32G32_UInt
+  commentId: F:Pie.Format.R32G32_UInt
+  id: R32G32_UInt
+  parent: Pie.Format
+  langs:
+  - csharp
+  - vb
+  name: R32G32_UInt
+  nameWithType: Format.R32G32_UInt
+  fullName: Pie.Format.R32G32_UInt
+  type: Field
+  source:
+    remote:
+      path: Pie/Format.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: R32G32_UInt
+    path: src/Pie/Pie/Format.cs
+    startLine: 181
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\n2-component unsigned 32-bit integer.\n"
+  example: []
+  syntax:
+    content: R32G32_UInt = 34
+    return:
+      type: Pie.Format
+- uid: Pie.Format.R32G32_Float
+  commentId: F:Pie.Format.R32G32_Float
+  id: R32G32_Float
+  parent: Pie.Format
+  langs:
+  - csharp
+  - vb
+  name: R32G32_Float
+  nameWithType: Format.R32G32_Float
+  fullName: Pie.Format.R32G32_Float
+  type: Field
+  source:
+    remote:
+      path: Pie/Format.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: R32G32_Float
+    path: src/Pie/Pie/Format.cs
+    startLine: 186
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\n2-component 32-bit float.\n"
+  example: []
+  syntax:
+    content: R32G32_Float = 35
+    return:
+      type: Pie.Format
+- uid: Pie.Format.R32G32B32_SInt
+  commentId: F:Pie.Format.R32G32B32_SInt
+  id: R32G32B32_SInt
+  parent: Pie.Format
+  langs:
+  - csharp
+  - vb
+  name: R32G32B32_SInt
+  nameWithType: Format.R32G32B32_SInt
+  fullName: Pie.Format.R32G32B32_SInt
+  type: Field
+  source:
+    remote:
+      path: Pie/Format.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: R32G32B32_SInt
+    path: src/Pie/Pie/Format.cs
+    startLine: 191
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\n3-component signed 32-bit integer.\n"
+  example: []
+  syntax:
+    content: R32G32B32_SInt = 36
+    return:
+      type: Pie.Format
+- uid: Pie.Format.R32G32B32_UInt
+  commentId: F:Pie.Format.R32G32B32_UInt
+  id: R32G32B32_UInt
+  parent: Pie.Format
+  langs:
+  - csharp
+  - vb
+  name: R32G32B32_UInt
+  nameWithType: Format.R32G32B32_UInt
+  fullName: Pie.Format.R32G32B32_UInt
+  type: Field
+  source:
+    remote:
+      path: Pie/Format.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: R32G32B32_UInt
+    path: src/Pie/Pie/Format.cs
+    startLine: 196
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\n3-component unsigned 32-bit integer.\n"
+  example: []
+  syntax:
+    content: R32G32B32_UInt = 37
+    return:
+      type: Pie.Format
+- uid: Pie.Format.R32G32B32_Float
+  commentId: F:Pie.Format.R32G32B32_Float
+  id: R32G32B32_Float
+  parent: Pie.Format
+  langs:
+  - csharp
+  - vb
+  name: R32G32B32_Float
+  nameWithType: Format.R32G32B32_Float
+  fullName: Pie.Format.R32G32B32_Float
+  type: Field
+  source:
+    remote:
+      path: Pie/Format.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: R32G32B32_Float
+    path: src/Pie/Pie/Format.cs
+    startLine: 201
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\n3-component 32-bit float.\n"
+  example: []
+  syntax:
+    content: R32G32B32_Float = 38
+    return:
+      type: Pie.Format
+- uid: Pie.Format.R32G32B32A32_SInt
+  commentId: F:Pie.Format.R32G32B32A32_SInt
+  id: R32G32B32A32_SInt
+  parent: Pie.Format
+  langs:
+  - csharp
+  - vb
+  name: R32G32B32A32_SInt
+  nameWithType: Format.R32G32B32A32_SInt
+  fullName: Pie.Format.R32G32B32A32_SInt
+  type: Field
+  source:
+    remote:
+      path: Pie/Format.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: R32G32B32A32_SInt
+    path: src/Pie/Pie/Format.cs
+    startLine: 206
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\n4-component signed 32-bit integer.\n"
+  example: []
+  syntax:
+    content: R32G32B32A32_SInt = 39
+    return:
+      type: Pie.Format
+- uid: Pie.Format.R32G32B32A32_UInt
+  commentId: F:Pie.Format.R32G32B32A32_UInt
+  id: R32G32B32A32_UInt
+  parent: Pie.Format
+  langs:
+  - csharp
+  - vb
+  name: R32G32B32A32_UInt
+  nameWithType: Format.R32G32B32A32_UInt
+  fullName: Pie.Format.R32G32B32A32_UInt
+  type: Field
+  source:
+    remote:
+      path: Pie/Format.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: R32G32B32A32_UInt
+    path: src/Pie/Pie/Format.cs
+    startLine: 211
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\n4-component unsigned 32-bit integer.\n"
+  example: []
+  syntax:
+    content: R32G32B32A32_UInt = 40
+    return:
+      type: Pie.Format
+- uid: Pie.Format.R32G32B32A32_Float
+  commentId: F:Pie.Format.R32G32B32A32_Float
+  id: R32G32B32A32_Float
+  parent: Pie.Format
+  langs:
+  - csharp
+  - vb
+  name: R32G32B32A32_Float
+  nameWithType: Format.R32G32B32A32_Float
+  fullName: Pie.Format.R32G32B32A32_Float
+  type: Field
+  source:
+    remote:
+      path: Pie/Format.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: R32G32B32A32_Float
+    path: src/Pie/Pie/Format.cs
+    startLine: 216
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\n4-component 32-bit float.\n"
+  example: []
+  syntax:
+    content: R32G32B32A32_Float = 41
+    return:
+      type: Pie.Format
+- uid: Pie.Format.D24_UNorm_S8_UInt
+  commentId: F:Pie.Format.D24_UNorm_S8_UInt
+  id: D24_UNorm_S8_UInt
+  parent: Pie.Format
+  langs:
+  - csharp
+  - vb
+  name: D24_UNorm_S8_UInt
+  nameWithType: Format.D24_UNorm_S8_UInt
+  fullName: Pie.Format.D24_UNorm_S8_UInt
+  type: Field
+  source:
+    remote:
+      path: Pie/Format.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: D24_UNorm_S8_UInt
+    path: src/Pie/Pie/Format.cs
+    startLine: 221
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\n24 bits for the depth, 8 bits for the stencil.\n"
+  example: []
+  syntax:
+    content: D24_UNorm_S8_UInt = 42
+    return:
+      type: Pie.Format
+- uid: Pie.Format.D32_Float
+  commentId: F:Pie.Format.D32_Float
+  id: D32_Float
+  parent: Pie.Format
+  langs:
+  - csharp
+  - vb
+  name: D32_Float
+  nameWithType: Format.D32_Float
+  fullName: Pie.Format.D32_Float
+  type: Field
+  source:
+    remote:
+      path: Pie/Format.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: D32_Float
+    path: src/Pie/Pie/Format.cs
+    startLine: 226
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\n32-bit depth.\n"
+  example: []
+  syntax:
+    content: D32_Float = 43
+    return:
+      type: Pie.Format
+- uid: Pie.Format.D16_UNorm
+  commentId: F:Pie.Format.D16_UNorm
+  id: D16_UNorm
+  parent: Pie.Format
+  langs:
+  - csharp
+  - vb
+  name: D16_UNorm
+  nameWithType: Format.D16_UNorm
+  fullName: Pie.Format.D16_UNorm
+  type: Field
+  source:
+    remote:
+      path: Pie/Format.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: D16_UNorm
+    path: src/Pie/Pie/Format.cs
+    startLine: 231
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\n16-bit depth, that is normalized to 0-1 when passed to the object.\n"
+  example: []
+  syntax:
+    content: D16_UNorm = 44
+    return:
+      type: Pie.Format
+- uid: Pie.Format.BC1_UNorm
+  commentId: F:Pie.Format.BC1_UNorm
+  id: BC1_UNorm
+  parent: Pie.Format
+  langs:
+  - csharp
+  - vb
+  name: BC1_UNorm
+  nameWithType: Format.BC1_UNorm
+  fullName: Pie.Format.BC1_UNorm
+  type: Field
+  source:
+    remote:
+      path: Pie/Format.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: BC1_UNorm
+    path: src/Pie/Pie/Format.cs
+    startLine: 236
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nBC1 (DXT1) compression.\n"
+  example: []
+  syntax:
+    content: BC1_UNorm = 45
+    return:
+      type: Pie.Format
+- uid: Pie.Format.BC1_UNorm_SRgb
+  commentId: F:Pie.Format.BC1_UNorm_SRgb
+  id: BC1_UNorm_SRgb
+  parent: Pie.Format
+  langs:
+  - csharp
+  - vb
+  name: BC1_UNorm_SRgb
+  nameWithType: Format.BC1_UNorm_SRgb
+  fullName: Pie.Format.BC1_UNorm_SRgb
+  type: Field
+  source:
+    remote:
+      path: Pie/Format.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: BC1_UNorm_SRgb
+    path: src/Pie/Pie/Format.cs
+    startLine: 241
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nBC1 (DXT1) compression, with sRGB.\n"
+  example: []
+  syntax:
+    content: BC1_UNorm_SRgb = 46
+    return:
+      type: Pie.Format
+- uid: Pie.Format.BC2_UNorm
+  commentId: F:Pie.Format.BC2_UNorm
+  id: BC2_UNorm
+  parent: Pie.Format
+  langs:
+  - csharp
+  - vb
+  name: BC2_UNorm
+  nameWithType: Format.BC2_UNorm
+  fullName: Pie.Format.BC2_UNorm
+  type: Field
+  source:
+    remote:
+      path: Pie/Format.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: BC2_UNorm
+    path: src/Pie/Pie/Format.cs
+    startLine: 246
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nBC2 (DXT3) compression.\n"
+  example: []
+  syntax:
+    content: BC2_UNorm = 47
+    return:
+      type: Pie.Format
+- uid: Pie.Format.BC2_UNorm_SRgb
+  commentId: F:Pie.Format.BC2_UNorm_SRgb
+  id: BC2_UNorm_SRgb
+  parent: Pie.Format
+  langs:
+  - csharp
+  - vb
+  name: BC2_UNorm_SRgb
+  nameWithType: Format.BC2_UNorm_SRgb
+  fullName: Pie.Format.BC2_UNorm_SRgb
+  type: Field
+  source:
+    remote:
+      path: Pie/Format.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: BC2_UNorm_SRgb
+    path: src/Pie/Pie/Format.cs
+    startLine: 251
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nBC2 (DXT3) compression, with sRGB.\n"
+  example: []
+  syntax:
+    content: BC2_UNorm_SRgb = 48
+    return:
+      type: Pie.Format
+- uid: Pie.Format.BC3_UNorm
+  commentId: F:Pie.Format.BC3_UNorm
+  id: BC3_UNorm
+  parent: Pie.Format
+  langs:
+  - csharp
+  - vb
+  name: BC3_UNorm
+  nameWithType: Format.BC3_UNorm
+  fullName: Pie.Format.BC3_UNorm
+  type: Field
+  source:
+    remote:
+      path: Pie/Format.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: BC3_UNorm
+    path: src/Pie/Pie/Format.cs
+    startLine: 256
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nBC3 (DXT5) compression.\n"
+  example: []
+  syntax:
+    content: BC3_UNorm = 49
+    return:
+      type: Pie.Format
+- uid: Pie.Format.BC3_UNorm_SRgb
+  commentId: F:Pie.Format.BC3_UNorm_SRgb
+  id: BC3_UNorm_SRgb
+  parent: Pie.Format
+  langs:
+  - csharp
+  - vb
+  name: BC3_UNorm_SRgb
+  nameWithType: Format.BC3_UNorm_SRgb
+  fullName: Pie.Format.BC3_UNorm_SRgb
+  type: Field
+  source:
+    remote:
+      path: Pie/Format.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: BC3_UNorm_SRgb
+    path: src/Pie/Pie/Format.cs
+    startLine: 261
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nBC3 (DXT5) compression, with sRGB.\n"
+  example: []
+  syntax:
+    content: BC3_UNorm_SRgb = 50
+    return:
+      type: Pie.Format
+- uid: Pie.Format.BC4_UNorm
+  commentId: F:Pie.Format.BC4_UNorm
+  id: BC4_UNorm
+  parent: Pie.Format
+  langs:
+  - csharp
+  - vb
+  name: BC4_UNorm
+  nameWithType: Format.BC4_UNorm
+  fullName: Pie.Format.BC4_UNorm
+  type: Field
+  source:
+    remote:
+      path: Pie/Format.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: BC4_UNorm
+    path: src/Pie/Pie/Format.cs
+    startLine: 266
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nBC4 compression.\n"
+  example: []
+  syntax:
+    content: BC4_UNorm = 51
+    return:
+      type: Pie.Format
+- uid: Pie.Format.BC4_SNorm
+  commentId: F:Pie.Format.BC4_SNorm
+  id: BC4_SNorm
+  parent: Pie.Format
+  langs:
+  - csharp
+  - vb
+  name: BC4_SNorm
+  nameWithType: Format.BC4_SNorm
+  fullName: Pie.Format.BC4_SNorm
+  type: Field
+  source:
+    remote:
+      path: Pie/Format.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: BC4_SNorm
+    path: src/Pie/Pie/Format.cs
+    startLine: 271
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nBC4 compression.\n"
+  example: []
+  syntax:
+    content: BC4_SNorm = 52
+    return:
+      type: Pie.Format
+- uid: Pie.Format.BC5_UNorm
+  commentId: F:Pie.Format.BC5_UNorm
+  id: BC5_UNorm
+  parent: Pie.Format
+  langs:
+  - csharp
+  - vb
+  name: BC5_UNorm
+  nameWithType: Format.BC5_UNorm
+  fullName: Pie.Format.BC5_UNorm
+  type: Field
+  source:
+    remote:
+      path: Pie/Format.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: BC5_UNorm
+    path: src/Pie/Pie/Format.cs
+    startLine: 276
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nBC5 compression.\n"
+  example: []
+  syntax:
+    content: BC5_UNorm = 53
+    return:
+      type: Pie.Format
+- uid: Pie.Format.BC5_SNorm
+  commentId: F:Pie.Format.BC5_SNorm
+  id: BC5_SNorm
+  parent: Pie.Format
+  langs:
+  - csharp
+  - vb
+  name: BC5_SNorm
+  nameWithType: Format.BC5_SNorm
+  fullName: Pie.Format.BC5_SNorm
+  type: Field
+  source:
+    remote:
+      path: Pie/Format.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: BC5_SNorm
+    path: src/Pie/Pie/Format.cs
+    startLine: 281
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nBC5 compression.\n"
+  example: []
+  syntax:
+    content: BC5_SNorm = 54
+    return:
+      type: Pie.Format
+- uid: Pie.Format.BC6H_UF16
+  commentId: F:Pie.Format.BC6H_UF16
+  id: BC6H_UF16
+  parent: Pie.Format
+  langs:
+  - csharp
+  - vb
+  name: BC6H_UF16
+  nameWithType: Format.BC6H_UF16
+  fullName: Pie.Format.BC6H_UF16
+  type: Field
+  source:
+    remote:
+      path: Pie/Format.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: BC6H_UF16
+    path: src/Pie/Pie/Format.cs
+    startLine: 286
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nBC6H compression.\n"
+  example: []
+  syntax:
+    content: BC6H_UF16 = 55
+    return:
+      type: Pie.Format
+- uid: Pie.Format.BC6H_SF16
+  commentId: F:Pie.Format.BC6H_SF16
+  id: BC6H_SF16
+  parent: Pie.Format
+  langs:
+  - csharp
+  - vb
+  name: BC6H_SF16
+  nameWithType: Format.BC6H_SF16
+  fullName: Pie.Format.BC6H_SF16
+  type: Field
+  source:
+    remote:
+      path: Pie/Format.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: BC6H_SF16
+    path: src/Pie/Pie/Format.cs
+    startLine: 291
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nBC6H compression.\n"
+  example: []
+  syntax:
+    content: BC6H_SF16 = 56
+    return:
+      type: Pie.Format
+- uid: Pie.Format.BC7_UNorm
+  commentId: F:Pie.Format.BC7_UNorm
+  id: BC7_UNorm
+  parent: Pie.Format
+  langs:
+  - csharp
+  - vb
+  name: BC7_UNorm
+  nameWithType: Format.BC7_UNorm
+  fullName: Pie.Format.BC7_UNorm
+  type: Field
+  source:
+    remote:
+      path: Pie/Format.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: BC7_UNorm
+    path: src/Pie/Pie/Format.cs
+    startLine: 296
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nBC7 compression.\n"
+  example: []
+  syntax:
+    content: BC7_UNorm = 57
+    return:
+      type: Pie.Format
+- uid: Pie.Format.BC7_UNorm_SRgb
+  commentId: F:Pie.Format.BC7_UNorm_SRgb
+  id: BC7_UNorm_SRgb
+  parent: Pie.Format
+  langs:
+  - csharp
+  - vb
+  name: BC7_UNorm_SRgb
+  nameWithType: Format.BC7_UNorm_SRgb
+  fullName: Pie.Format.BC7_UNorm_SRgb
+  type: Field
+  source:
+    remote:
+      path: Pie/Format.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: BC7_UNorm_SRgb
+    path: src/Pie/Pie/Format.cs
+    startLine: 301
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nBC7 compression, with sRGB.\n"
+  example: []
+  syntax:
+    content: BC7_UNorm_SRgb = 58
+    return:
+      type: Pie.Format
+references:
+- uid: Pie.Texture
+  commentId: T:Pie.Texture
+  parent: Pie
+  name: Texture
+  nameWithType: Texture
+  fullName: Pie.Texture
+- uid: Pie.InputLayout
+  commentId: T:Pie.InputLayout
+  parent: Pie
+  name: InputLayout
+  nameWithType: InputLayout
+  fullName: Pie.InputLayout
+- uid: Pie
+  commentId: N:Pie
+  name: Pie
+  nameWithType: Pie
+  fullName: Pie
+- uid: Pie.Format.Pie.PieUtils.BitsPerPixel
+  commentId: M:Pie.PieUtils.BitsPerPixel(Pie.Format)
+  parent: Pie.PieUtils
+  definition: Pie.PieUtils.BitsPerPixel(Pie.Format)
+  name: BitsPerPixel(Format)
+  nameWithType: PieUtils.BitsPerPixel(Format)
+  fullName: Pie.PieUtils.BitsPerPixel(Pie.Format)
+  spec.csharp:
+  - uid: Pie.PieUtils.BitsPerPixel(Pie.Format)
+    name: BitsPerPixel
+  - name: (
+  - uid: Pie.Format
+    name: Format
+  - name: )
+  spec.vb:
+  - uid: Pie.PieUtils.BitsPerPixel(Pie.Format)
+    name: BitsPerPixel
+  - name: (
+  - uid: Pie.Format
+    name: Format
+  - name: )
+- uid: Pie.PieUtils.BitsPerPixel(Pie.Format)
+  commentId: M:Pie.PieUtils.BitsPerPixel(Pie.Format)
+  name: BitsPerPixel(Format)
+  nameWithType: PieUtils.BitsPerPixel(Format)
+  fullName: Pie.PieUtils.BitsPerPixel(Pie.Format)
+  spec.csharp:
+  - uid: Pie.PieUtils.BitsPerPixel(Pie.Format)
+    name: BitsPerPixel
+  - name: (
+  - uid: Pie.Format
+    name: Format
+  - name: )
+  spec.vb:
+  - uid: Pie.PieUtils.BitsPerPixel(Pie.Format)
+    name: BitsPerPixel
+  - name: (
+  - uid: Pie.Format
+    name: Format
+  - name: )
+- uid: Pie.PieUtils
+  commentId: T:Pie.PieUtils
+  parent: Pie
+  name: PieUtils
+  nameWithType: PieUtils
+  fullName: Pie.PieUtils
+- uid: Pie.Format
+  commentId: T:Pie.Format
+  parent: Pie
+  name: Format
+  nameWithType: Format
+  fullName: Pie.Format

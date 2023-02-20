@@ -1,0 +1,234 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pie.BufferType
+  commentId: T:Pie.BufferType
+  id: BufferType
+  parent: Pie
+  children:
+  - Pie.BufferType.ConstantBuffer
+  - Pie.BufferType.IndexBuffer
+  - Pie.BufferType.ShaderStorageBuffer
+  - Pie.BufferType.StructuredBuffer
+  - Pie.BufferType.UniformBuffer
+  - Pie.BufferType.VertexBuffer
+  langs:
+  - csharp
+  - vb
+  name: BufferType
+  nameWithType: BufferType
+  fullName: Pie.BufferType
+  type: Enum
+  source:
+    remote:
+      path: Pie/BufferType.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: BufferType
+    path: src/Pie/Pie/BufferType.cs
+    startLine: 5
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nThe type of a <xref href=\"Pie.GraphicsBuffer\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public enum BufferType
+    content.vb: Public Enum BufferType
+- uid: Pie.BufferType.VertexBuffer
+  commentId: F:Pie.BufferType.VertexBuffer
+  id: VertexBuffer
+  parent: Pie.BufferType
+  langs:
+  - csharp
+  - vb
+  name: VertexBuffer
+  nameWithType: BufferType.VertexBuffer
+  fullName: Pie.BufferType.VertexBuffer
+  type: Field
+  source:
+    remote:
+      path: Pie/BufferType.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: VertexBuffer
+    path: src/Pie/Pie/BufferType.cs
+    startLine: 10
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nThis buffer should be a vertex buffer.\n"
+  example: []
+  syntax:
+    content: VertexBuffer = 0
+    return:
+      type: Pie.BufferType
+- uid: Pie.BufferType.IndexBuffer
+  commentId: F:Pie.BufferType.IndexBuffer
+  id: IndexBuffer
+  parent: Pie.BufferType
+  langs:
+  - csharp
+  - vb
+  name: IndexBuffer
+  nameWithType: BufferType.IndexBuffer
+  fullName: Pie.BufferType.IndexBuffer
+  type: Field
+  source:
+    remote:
+      path: Pie/BufferType.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: IndexBuffer
+    path: src/Pie/Pie/BufferType.cs
+    startLine: 15
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nThis buffer should be an index buffer.\n"
+  example: []
+  syntax:
+    content: IndexBuffer = 1
+    return:
+      type: Pie.BufferType
+- uid: Pie.BufferType.UniformBuffer
+  commentId: F:Pie.BufferType.UniformBuffer
+  id: UniformBuffer
+  parent: Pie.BufferType
+  langs:
+  - csharp
+  - vb
+  name: UniformBuffer
+  nameWithType: BufferType.UniformBuffer
+  fullName: Pie.BufferType.UniformBuffer
+  type: Field
+  source:
+    remote:
+      path: Pie/BufferType.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: UniformBuffer
+    path: src/Pie/Pie/BufferType.cs
+    startLine: 20
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nThis buffer should be a uniform buffer. (Equivalent to <xref href=\"Pie.BufferType.ConstantBuffer\" data-throw-if-not-resolved=\"false\"></xref>)\n"
+  example: []
+  syntax:
+    content: UniformBuffer = 2
+    return:
+      type: Pie.BufferType
+- uid: Pie.BufferType.ConstantBuffer
+  commentId: F:Pie.BufferType.ConstantBuffer
+  id: ConstantBuffer
+  parent: Pie.BufferType
+  langs:
+  - csharp
+  - vb
+  name: ConstantBuffer
+  nameWithType: BufferType.ConstantBuffer
+  fullName: Pie.BufferType.ConstantBuffer
+  type: Field
+  source:
+    remote:
+      path: Pie/BufferType.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: ConstantBuffer
+    path: src/Pie/Pie/BufferType.cs
+    startLine: 25
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nThis buffer should be a constant buffer. (Equivalent to <xref href=\"Pie.BufferType.UniformBuffer\" data-throw-if-not-resolved=\"false\"></xref>)\n"
+  example: []
+  syntax:
+    content: ConstantBuffer = 2
+    return:
+      type: Pie.BufferType
+- uid: Pie.BufferType.ShaderStorageBuffer
+  commentId: F:Pie.BufferType.ShaderStorageBuffer
+  id: ShaderStorageBuffer
+  parent: Pie.BufferType
+  langs:
+  - csharp
+  - vb
+  name: ShaderStorageBuffer
+  nameWithType: BufferType.ShaderStorageBuffer
+  fullName: Pie.BufferType.ShaderStorageBuffer
+  type: Field
+  source:
+    remote:
+      path: Pie/BufferType.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: ShaderStorageBuffer
+    path: src/Pie/Pie/BufferType.cs
+    startLine: 30
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nThis buffer should be a shader storage buffer. (Equivalent to <xref href=\"Pie.BufferType.StructuredBuffer\" data-throw-if-not-resolved=\"false\"></xref>)\n"
+  example: []
+  syntax:
+    content: ShaderStorageBuffer = 3
+    return:
+      type: Pie.BufferType
+- uid: Pie.BufferType.StructuredBuffer
+  commentId: F:Pie.BufferType.StructuredBuffer
+  id: StructuredBuffer
+  parent: Pie.BufferType
+  langs:
+  - csharp
+  - vb
+  name: StructuredBuffer
+  nameWithType: BufferType.StructuredBuffer
+  fullName: Pie.BufferType.StructuredBuffer
+  type: Field
+  source:
+    remote:
+      path: Pie/BufferType.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: StructuredBuffer
+    path: src/Pie/Pie/BufferType.cs
+    startLine: 35
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nThis buffer should be a structured buffer. (Equivalent to <xref href=\"Pie.BufferType.ShaderStorageBuffer\" data-throw-if-not-resolved=\"false\"></xref>)\n"
+  example: []
+  syntax:
+    content: StructuredBuffer = 3
+    return:
+      type: Pie.BufferType
+references:
+- uid: Pie.GraphicsBuffer
+  commentId: T:Pie.GraphicsBuffer
+  parent: Pie
+  name: GraphicsBuffer
+  nameWithType: GraphicsBuffer
+  fullName: Pie.GraphicsBuffer
+- uid: Pie
+  commentId: N:Pie
+  name: Pie
+  nameWithType: Pie
+  fullName: Pie
+- uid: Pie.BufferType
+  commentId: T:Pie.BufferType
+  parent: Pie
+  name: BufferType
+  nameWithType: BufferType
+  fullName: Pie.BufferType
+- uid: Pie.BufferType.ConstantBuffer
+  commentId: F:Pie.BufferType.ConstantBuffer
+  isExternal: true
+- uid: Pie.BufferType.UniformBuffer
+  commentId: F:Pie.BufferType.UniformBuffer
+  isExternal: true
+- uid: Pie.BufferType.StructuredBuffer
+  commentId: F:Pie.BufferType.StructuredBuffer
+  isExternal: true
+- uid: Pie.BufferType.ShaderStorageBuffer
+  commentId: F:Pie.BufferType.ShaderStorageBuffer
+  isExternal: true

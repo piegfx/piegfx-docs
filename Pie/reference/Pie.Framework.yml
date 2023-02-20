@@ -1,0 +1,52 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pie.Framework
+  commentId: N:Pie.Framework
+  id: Pie.Framework
+  children:
+  - Pie.Framework.GameTime
+  - Pie.Framework.PieApp
+  - Pie.Framework.Texture2D
+  langs:
+  - csharp
+  - vb
+  name: Pie.Framework
+  nameWithType: Pie.Framework
+  fullName: Pie.Framework
+  type: Namespace
+  assemblies:
+  - Pie.Framework
+references:
+- uid: Pie.Framework.GameTime
+  commentId: T:Pie.Framework.GameTime
+  parent: Pie.Framework
+  name: GameTime
+  nameWithType: GameTime
+  fullName: Pie.Framework.GameTime
+- uid: Pie.Framework.PieApp
+  commentId: T:Pie.Framework.PieApp
+  name: PieApp
+  nameWithType: PieApp
+  fullName: Pie.Framework.PieApp
+- uid: Pie.Framework.Texture2D
+  commentId: T:Pie.Framework.Texture2D
+  name: Texture2D
+  nameWithType: Texture2D
+  fullName: Pie.Framework.Texture2D
+- uid: Pie.Framework
+  commentId: N:Pie.Framework
+  name: Pie.Framework
+  nameWithType: Pie.Framework
+  fullName: Pie.Framework
+  spec.csharp:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Framework
+    name: Framework
+  spec.vb:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Framework
+    name: Framework

@@ -1,0 +1,349 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pie.Windowing.MouseButton
+  commentId: T:Pie.Windowing.MouseButton
+  id: MouseButton
+  parent: Pie.Windowing
+  children:
+  - Pie.Windowing.MouseButton.Button1
+  - Pie.Windowing.MouseButton.Button2
+  - Pie.Windowing.MouseButton.Button3
+  - Pie.Windowing.MouseButton.Button4
+  - Pie.Windowing.MouseButton.Button5
+  - Pie.Windowing.MouseButton.Button6
+  - Pie.Windowing.MouseButton.Button7
+  - Pie.Windowing.MouseButton.Button8
+  - Pie.Windowing.MouseButton.Left
+  - Pie.Windowing.MouseButton.Middle
+  - Pie.Windowing.MouseButton.Right
+  langs:
+  - csharp
+  - vb
+  name: MouseButton
+  nameWithType: MouseButton
+  fullName: Pie.Windowing.MouseButton
+  type: Enum
+  source:
+    remote:
+      path: Pie.Windowing/MouseButton.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: MouseButton
+    path: src/Pie/Pie.Windowing/MouseButton.cs
+    startLine: 2
+  assemblies:
+  - Pie.Windowing
+  namespace: Pie.Windowing
+  syntax:
+    content: public enum MouseButton
+    content.vb: Public Enum MouseButton
+- uid: Pie.Windowing.MouseButton.Button1
+  commentId: F:Pie.Windowing.MouseButton.Button1
+  id: Button1
+  parent: Pie.Windowing.MouseButton
+  langs:
+  - csharp
+  - vb
+  name: Button1
+  nameWithType: MouseButton.Button1
+  fullName: Pie.Windowing.MouseButton.Button1
+  type: Field
+  source:
+    remote:
+      path: Pie.Windowing/MouseButton.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Button1
+    path: src/Pie/Pie.Windowing/MouseButton.cs
+    startLine: 4
+  assemblies:
+  - Pie.Windowing
+  namespace: Pie.Windowing
+  syntax:
+    content: Button1 = 0
+    return:
+      type: Pie.Windowing.MouseButton
+- uid: Pie.Windowing.MouseButton.Button2
+  commentId: F:Pie.Windowing.MouseButton.Button2
+  id: Button2
+  parent: Pie.Windowing.MouseButton
+  langs:
+  - csharp
+  - vb
+  name: Button2
+  nameWithType: MouseButton.Button2
+  fullName: Pie.Windowing.MouseButton.Button2
+  type: Field
+  source:
+    remote:
+      path: Pie.Windowing/MouseButton.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Button2
+    path: src/Pie/Pie.Windowing/MouseButton.cs
+    startLine: 6
+  assemblies:
+  - Pie.Windowing
+  namespace: Pie.Windowing
+  syntax:
+    content: Button2 = 1
+    return:
+      type: Pie.Windowing.MouseButton
+- uid: Pie.Windowing.MouseButton.Button3
+  commentId: F:Pie.Windowing.MouseButton.Button3
+  id: Button3
+  parent: Pie.Windowing.MouseButton
+  langs:
+  - csharp
+  - vb
+  name: Button3
+  nameWithType: MouseButton.Button3
+  fullName: Pie.Windowing.MouseButton.Button3
+  type: Field
+  source:
+    remote:
+      path: Pie.Windowing/MouseButton.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Button3
+    path: src/Pie/Pie.Windowing/MouseButton.cs
+    startLine: 8
+  assemblies:
+  - Pie.Windowing
+  namespace: Pie.Windowing
+  syntax:
+    content: Button3 = 2
+    return:
+      type: Pie.Windowing.MouseButton
+- uid: Pie.Windowing.MouseButton.Button4
+  commentId: F:Pie.Windowing.MouseButton.Button4
+  id: Button4
+  parent: Pie.Windowing.MouseButton
+  langs:
+  - csharp
+  - vb
+  name: Button4
+  nameWithType: MouseButton.Button4
+  fullName: Pie.Windowing.MouseButton.Button4
+  type: Field
+  source:
+    remote:
+      path: Pie.Windowing/MouseButton.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Button4
+    path: src/Pie/Pie.Windowing/MouseButton.cs
+    startLine: 10
+  assemblies:
+  - Pie.Windowing
+  namespace: Pie.Windowing
+  syntax:
+    content: Button4 = 3
+    return:
+      type: Pie.Windowing.MouseButton
+- uid: Pie.Windowing.MouseButton.Button5
+  commentId: F:Pie.Windowing.MouseButton.Button5
+  id: Button5
+  parent: Pie.Windowing.MouseButton
+  langs:
+  - csharp
+  - vb
+  name: Button5
+  nameWithType: MouseButton.Button5
+  fullName: Pie.Windowing.MouseButton.Button5
+  type: Field
+  source:
+    remote:
+      path: Pie.Windowing/MouseButton.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Button5
+    path: src/Pie/Pie.Windowing/MouseButton.cs
+    startLine: 12
+  assemblies:
+  - Pie.Windowing
+  namespace: Pie.Windowing
+  syntax:
+    content: Button5 = 4
+    return:
+      type: Pie.Windowing.MouseButton
+- uid: Pie.Windowing.MouseButton.Button6
+  commentId: F:Pie.Windowing.MouseButton.Button6
+  id: Button6
+  parent: Pie.Windowing.MouseButton
+  langs:
+  - csharp
+  - vb
+  name: Button6
+  nameWithType: MouseButton.Button6
+  fullName: Pie.Windowing.MouseButton.Button6
+  type: Field
+  source:
+    remote:
+      path: Pie.Windowing/MouseButton.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Button6
+    path: src/Pie/Pie.Windowing/MouseButton.cs
+    startLine: 14
+  assemblies:
+  - Pie.Windowing
+  namespace: Pie.Windowing
+  syntax:
+    content: Button6 = 5
+    return:
+      type: Pie.Windowing.MouseButton
+- uid: Pie.Windowing.MouseButton.Button7
+  commentId: F:Pie.Windowing.MouseButton.Button7
+  id: Button7
+  parent: Pie.Windowing.MouseButton
+  langs:
+  - csharp
+  - vb
+  name: Button7
+  nameWithType: MouseButton.Button7
+  fullName: Pie.Windowing.MouseButton.Button7
+  type: Field
+  source:
+    remote:
+      path: Pie.Windowing/MouseButton.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Button7
+    path: src/Pie/Pie.Windowing/MouseButton.cs
+    startLine: 16
+  assemblies:
+  - Pie.Windowing
+  namespace: Pie.Windowing
+  syntax:
+    content: Button7 = 6
+    return:
+      type: Pie.Windowing.MouseButton
+- uid: Pie.Windowing.MouseButton.Button8
+  commentId: F:Pie.Windowing.MouseButton.Button8
+  id: Button8
+  parent: Pie.Windowing.MouseButton
+  langs:
+  - csharp
+  - vb
+  name: Button8
+  nameWithType: MouseButton.Button8
+  fullName: Pie.Windowing.MouseButton.Button8
+  type: Field
+  source:
+    remote:
+      path: Pie.Windowing/MouseButton.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Button8
+    path: src/Pie/Pie.Windowing/MouseButton.cs
+    startLine: 18
+  assemblies:
+  - Pie.Windowing
+  namespace: Pie.Windowing
+  syntax:
+    content: Button8 = 7
+    return:
+      type: Pie.Windowing.MouseButton
+- uid: Pie.Windowing.MouseButton.Left
+  commentId: F:Pie.Windowing.MouseButton.Left
+  id: Left
+  parent: Pie.Windowing.MouseButton
+  langs:
+  - csharp
+  - vb
+  name: Left
+  nameWithType: MouseButton.Left
+  fullName: Pie.Windowing.MouseButton.Left
+  type: Field
+  source:
+    remote:
+      path: Pie.Windowing/MouseButton.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Left
+    path: src/Pie/Pie.Windowing/MouseButton.cs
+    startLine: 20
+  assemblies:
+  - Pie.Windowing
+  namespace: Pie.Windowing
+  syntax:
+    content: Left = 0
+    return:
+      type: Pie.Windowing.MouseButton
+- uid: Pie.Windowing.MouseButton.Right
+  commentId: F:Pie.Windowing.MouseButton.Right
+  id: Right
+  parent: Pie.Windowing.MouseButton
+  langs:
+  - csharp
+  - vb
+  name: Right
+  nameWithType: MouseButton.Right
+  fullName: Pie.Windowing.MouseButton.Right
+  type: Field
+  source:
+    remote:
+      path: Pie.Windowing/MouseButton.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Right
+    path: src/Pie/Pie.Windowing/MouseButton.cs
+    startLine: 22
+  assemblies:
+  - Pie.Windowing
+  namespace: Pie.Windowing
+  syntax:
+    content: Right = 1
+    return:
+      type: Pie.Windowing.MouseButton
+- uid: Pie.Windowing.MouseButton.Middle
+  commentId: F:Pie.Windowing.MouseButton.Middle
+  id: Middle
+  parent: Pie.Windowing.MouseButton
+  langs:
+  - csharp
+  - vb
+  name: Middle
+  nameWithType: MouseButton.Middle
+  fullName: Pie.Windowing.MouseButton.Middle
+  type: Field
+  source:
+    remote:
+      path: Pie.Windowing/MouseButton.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Middle
+    path: src/Pie/Pie.Windowing/MouseButton.cs
+    startLine: 24
+  assemblies:
+  - Pie.Windowing
+  namespace: Pie.Windowing
+  syntax:
+    content: Middle = 2
+    return:
+      type: Pie.Windowing.MouseButton
+references:
+- uid: Pie.Windowing
+  commentId: N:Pie.Windowing
+  name: Pie.Windowing
+  nameWithType: Pie.Windowing
+  fullName: Pie.Windowing
+  spec.csharp:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Windowing
+    name: Windowing
+  spec.vb:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Windowing
+    name: Windowing
+- uid: Pie.Windowing.MouseButton
+  commentId: T:Pie.Windowing.MouseButton
+  parent: Pie.Windowing
+  name: MouseButton
+  nameWithType: MouseButton
+  fullName: Pie.Windowing.MouseButton

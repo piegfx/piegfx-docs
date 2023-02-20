@@ -1,0 +1,332 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pie.BlendType
+  commentId: T:Pie.BlendType
+  id: BlendType
+  parent: Pie
+  children:
+  - Pie.BlendType.DestAlpha
+  - Pie.BlendType.DestColor
+  - Pie.BlendType.One
+  - Pie.BlendType.OneMinusDestAlpha
+  - Pie.BlendType.OneMinusDestColor
+  - Pie.BlendType.OneMinusSrcAlpha
+  - Pie.BlendType.OneMinusSrcColor
+  - Pie.BlendType.SrcAlpha
+  - Pie.BlendType.SrcColor
+  - Pie.BlendType.Zero
+  langs:
+  - csharp
+  - vb
+  name: BlendType
+  nameWithType: BlendType
+  fullName: Pie.BlendType
+  type: Enum
+  source:
+    remote:
+      path: Pie/BlendType.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: BlendType
+    path: src/Pie/Pie/BlendType.cs
+    startLine: 5
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nThe blending type for a source or destination.\n"
+  example: []
+  syntax:
+    content: public enum BlendType
+    content.vb: Public Enum BlendType
+- uid: Pie.BlendType.Zero
+  commentId: F:Pie.BlendType.Zero
+  id: Zero
+  parent: Pie.BlendType
+  langs:
+  - csharp
+  - vb
+  name: Zero
+  nameWithType: BlendType.Zero
+  fullName: Pie.BlendType.Zero
+  type: Field
+  source:
+    remote:
+      path: Pie/BlendType.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Zero
+    path: src/Pie/Pie/BlendType.cs
+    startLine: 10
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nEqual to 0.\n"
+  example: []
+  syntax:
+    content: Zero = 0
+    return:
+      type: Pie.BlendType
+- uid: Pie.BlendType.One
+  commentId: F:Pie.BlendType.One
+  id: One
+  parent: Pie.BlendType
+  langs:
+  - csharp
+  - vb
+  name: One
+  nameWithType: BlendType.One
+  fullName: Pie.BlendType.One
+  type: Field
+  source:
+    remote:
+      path: Pie/BlendType.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: One
+    path: src/Pie/Pie/BlendType.cs
+    startLine: 15
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nEqual to 1.\n"
+  example: []
+  syntax:
+    content: One = 1
+    return:
+      type: Pie.BlendType
+- uid: Pie.BlendType.SrcColor
+  commentId: F:Pie.BlendType.SrcColor
+  id: SrcColor
+  parent: Pie.BlendType
+  langs:
+  - csharp
+  - vb
+  name: SrcColor
+  nameWithType: BlendType.SrcColor
+  fullName: Pie.BlendType.SrcColor
+  type: Field
+  source:
+    remote:
+      path: Pie/BlendType.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: SrcColor
+    path: src/Pie/Pie/BlendType.cs
+    startLine: 20
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nEqual to the source color.\n"
+  example: []
+  syntax:
+    content: SrcColor = 2
+    return:
+      type: Pie.BlendType
+- uid: Pie.BlendType.OneMinusSrcColor
+  commentId: F:Pie.BlendType.OneMinusSrcColor
+  id: OneMinusSrcColor
+  parent: Pie.BlendType
+  langs:
+  - csharp
+  - vb
+  name: OneMinusSrcColor
+  nameWithType: BlendType.OneMinusSrcColor
+  fullName: Pie.BlendType.OneMinusSrcColor
+  type: Field
+  source:
+    remote:
+      path: Pie/BlendType.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: OneMinusSrcColor
+    path: src/Pie/Pie/BlendType.cs
+    startLine: 25
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nEqual to 1 minus the source color.\n"
+  example: []
+  syntax:
+    content: OneMinusSrcColor = 3
+    return:
+      type: Pie.BlendType
+- uid: Pie.BlendType.DestColor
+  commentId: F:Pie.BlendType.DestColor
+  id: DestColor
+  parent: Pie.BlendType
+  langs:
+  - csharp
+  - vb
+  name: DestColor
+  nameWithType: BlendType.DestColor
+  fullName: Pie.BlendType.DestColor
+  type: Field
+  source:
+    remote:
+      path: Pie/BlendType.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: DestColor
+    path: src/Pie/Pie/BlendType.cs
+    startLine: 30
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nEqual to the destination color.\n"
+  example: []
+  syntax:
+    content: DestColor = 4
+    return:
+      type: Pie.BlendType
+- uid: Pie.BlendType.OneMinusDestColor
+  commentId: F:Pie.BlendType.OneMinusDestColor
+  id: OneMinusDestColor
+  parent: Pie.BlendType
+  langs:
+  - csharp
+  - vb
+  name: OneMinusDestColor
+  nameWithType: BlendType.OneMinusDestColor
+  fullName: Pie.BlendType.OneMinusDestColor
+  type: Field
+  source:
+    remote:
+      path: Pie/BlendType.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: OneMinusDestColor
+    path: src/Pie/Pie/BlendType.cs
+    startLine: 35
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nEqual to 1 minus the destination color.\n"
+  example: []
+  syntax:
+    content: OneMinusDestColor = 5
+    return:
+      type: Pie.BlendType
+- uid: Pie.BlendType.SrcAlpha
+  commentId: F:Pie.BlendType.SrcAlpha
+  id: SrcAlpha
+  parent: Pie.BlendType
+  langs:
+  - csharp
+  - vb
+  name: SrcAlpha
+  nameWithType: BlendType.SrcAlpha
+  fullName: Pie.BlendType.SrcAlpha
+  type: Field
+  source:
+    remote:
+      path: Pie/BlendType.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: SrcAlpha
+    path: src/Pie/Pie/BlendType.cs
+    startLine: 40
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nEqual to the source alpha.\n"
+  example: []
+  syntax:
+    content: SrcAlpha = 6
+    return:
+      type: Pie.BlendType
+- uid: Pie.BlendType.OneMinusSrcAlpha
+  commentId: F:Pie.BlendType.OneMinusSrcAlpha
+  id: OneMinusSrcAlpha
+  parent: Pie.BlendType
+  langs:
+  - csharp
+  - vb
+  name: OneMinusSrcAlpha
+  nameWithType: BlendType.OneMinusSrcAlpha
+  fullName: Pie.BlendType.OneMinusSrcAlpha
+  type: Field
+  source:
+    remote:
+      path: Pie/BlendType.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: OneMinusSrcAlpha
+    path: src/Pie/Pie/BlendType.cs
+    startLine: 45
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nEqual to 1 minus the source alpha.\n"
+  example: []
+  syntax:
+    content: OneMinusSrcAlpha = 7
+    return:
+      type: Pie.BlendType
+- uid: Pie.BlendType.DestAlpha
+  commentId: F:Pie.BlendType.DestAlpha
+  id: DestAlpha
+  parent: Pie.BlendType
+  langs:
+  - csharp
+  - vb
+  name: DestAlpha
+  nameWithType: BlendType.DestAlpha
+  fullName: Pie.BlendType.DestAlpha
+  type: Field
+  source:
+    remote:
+      path: Pie/BlendType.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: DestAlpha
+    path: src/Pie/Pie/BlendType.cs
+    startLine: 50
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nEqual to the destination alpha.\n"
+  example: []
+  syntax:
+    content: DestAlpha = 8
+    return:
+      type: Pie.BlendType
+- uid: Pie.BlendType.OneMinusDestAlpha
+  commentId: F:Pie.BlendType.OneMinusDestAlpha
+  id: OneMinusDestAlpha
+  parent: Pie.BlendType
+  langs:
+  - csharp
+  - vb
+  name: OneMinusDestAlpha
+  nameWithType: BlendType.OneMinusDestAlpha
+  fullName: Pie.BlendType.OneMinusDestAlpha
+  type: Field
+  source:
+    remote:
+      path: Pie/BlendType.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: OneMinusDestAlpha
+    path: src/Pie/Pie/BlendType.cs
+    startLine: 55
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nEqual to 1 minus the destination alpha.\n"
+  example: []
+  syntax:
+    content: OneMinusDestAlpha = 9
+    return:
+      type: Pie.BlendType
+references:
+- uid: Pie
+  commentId: N:Pie
+  name: Pie
+  nameWithType: Pie
+  fullName: Pie
+- uid: Pie.BlendType
+  commentId: T:Pie.BlendType
+  parent: Pie
+  name: BlendType
+  nameWithType: BlendType
+  fullName: Pie.BlendType

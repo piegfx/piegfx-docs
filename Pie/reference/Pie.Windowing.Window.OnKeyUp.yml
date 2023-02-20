@@ -1,0 +1,55 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pie.Windowing.Window.OnKeyUp
+  commentId: T:Pie.Windowing.Window.OnKeyUp
+  id: Window.OnKeyUp
+  parent: Pie.Windowing
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: Window.OnKeyUp
+  nameWithType: Window.OnKeyUp
+  fullName: Pie.Windowing.Window.OnKeyUp
+  type: Delegate
+  source:
+    remote:
+      path: Pie.Windowing/Window.Events.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: OnKeyUp
+    path: src/Pie/Pie.Windowing/Window.Events.cs
+    startLine: 94
+  assemblies:
+  - Pie.Windowing
+  namespace: Pie.Windowing
+  syntax:
+    content: public delegate void Window.OnKeyUp(Key key)
+    parameters:
+    - id: key
+      type: Pie.Windowing.Key
+    content.vb: Public Delegate Sub Window.OnKeyUp(key As Key)
+references:
+- uid: Pie.Windowing
+  commentId: N:Pie.Windowing
+  name: Pie.Windowing
+  nameWithType: Pie.Windowing
+  fullName: Pie.Windowing
+  spec.csharp:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Windowing
+    name: Windowing
+  spec.vb:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Windowing
+    name: Windowing
+- uid: Pie.Windowing.Key
+  commentId: T:Pie.Windowing.Key
+  parent: Pie.Windowing
+  name: Key
+  nameWithType: Key
+  fullName: Pie.Windowing.Key

@@ -1,0 +1,747 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pie.InputLayout
+  commentId: T:Pie.InputLayout
+  id: InputLayout
+  parent: Pie
+  children:
+  - Pie.InputLayout.Descriptions
+  - Pie.InputLayout.Dispose
+  - Pie.InputLayout.Equals(Pie.InputLayout)
+  - Pie.InputLayout.Equals(System.Object)
+  - Pie.InputLayout.GetHashCode
+  - Pie.InputLayout.IsDisposed
+  - Pie.InputLayout.op_Equality(Pie.InputLayout,Pie.InputLayout)
+  - Pie.InputLayout.op_Inequality(Pie.InputLayout,Pie.InputLayout)
+  langs:
+  - csharp
+  - vb
+  name: InputLayout
+  nameWithType: InputLayout
+  fullName: Pie.InputLayout
+  type: Class
+  source:
+    remote:
+      path: Pie/InputLayout.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: InputLayout
+    path: src/Pie/Pie/InputLayout.cs
+    startLine: 7
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nDescribes how the graphics device should process vertices.\n"
+  example: []
+  syntax:
+    content: 'public abstract class InputLayout : IDisposable, IEquatable<InputLayout>'
+    content.vb: Public MustInherit Class InputLayout Implements IDisposable, IEquatable(Of InputLayout)
+  inheritance:
+  - System.Object
+  implements:
+  - System.IDisposable
+  - System.IEquatable{Pie.InputLayout}
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Pie.InputLayout.IsDisposed
+  commentId: P:Pie.InputLayout.IsDisposed
+  id: IsDisposed
+  parent: Pie.InputLayout
+  langs:
+  - csharp
+  - vb
+  name: IsDisposed
+  nameWithType: InputLayout.IsDisposed
+  fullName: Pie.InputLayout.IsDisposed
+  type: Property
+  source:
+    remote:
+      path: Pie/InputLayout.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: IsDisposed
+    path: src/Pie/Pie/InputLayout.cs
+    startLine: 12
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nWill return <xref uid=\"langword_csharp_true\" name=\"true\" href=\"\"></xref> when this <xref href=\"Pie.InputLayout\" data-throw-if-not-resolved=\"false\"></xref> has been disposed.\n"
+  example: []
+  syntax:
+    content: public abstract bool IsDisposed { get; protected set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public MustOverride Property IsDisposed As Boolean
+  overload: Pie.InputLayout.IsDisposed*
+- uid: Pie.InputLayout.Descriptions
+  commentId: P:Pie.InputLayout.Descriptions
+  id: Descriptions
+  parent: Pie.InputLayout
+  langs:
+  - csharp
+  - vb
+  name: Descriptions
+  nameWithType: InputLayout.Descriptions
+  fullName: Pie.InputLayout.Descriptions
+  type: Property
+  source:
+    remote:
+      path: Pie/InputLayout.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Descriptions
+    path: src/Pie/Pie/InputLayout.cs
+    startLine: 17
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nThe <xref href=\"Pie.InputLayoutDescription\" data-throw-if-not-resolved=\"false\"></xref>s of this <xref href=\"Pie.InputLayout\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public abstract InputLayoutDescription[] Descriptions { get; }
+    parameters: []
+    return:
+      type: Pie.InputLayoutDescription[]
+    content.vb: Public MustOverride ReadOnly Property Descriptions As InputLayoutDescription()
+  overload: Pie.InputLayout.Descriptions*
+- uid: Pie.InputLayout.Dispose
+  commentId: M:Pie.InputLayout.Dispose
+  id: Dispose
+  parent: Pie.InputLayout
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: InputLayout.Dispose()
+  fullName: Pie.InputLayout.Dispose()
+  type: Method
+  source:
+    remote:
+      path: Pie/InputLayout.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Dispose
+    path: src/Pie/Pie/InputLayout.cs
+    startLine: 22
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nDispose of this <xref href=\"Pie.InputLayout\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  example: []
+  syntax:
+    content: public abstract void Dispose()
+    content.vb: Public MustOverride Sub Dispose()
+  overload: Pie.InputLayout.Dispose*
+  implements:
+  - System.IDisposable.Dispose
+- uid: Pie.InputLayout.Equals(Pie.InputLayout)
+  commentId: M:Pie.InputLayout.Equals(Pie.InputLayout)
+  id: Equals(Pie.InputLayout)
+  parent: Pie.InputLayout
+  langs:
+  - csharp
+  - vb
+  name: Equals(InputLayout)
+  nameWithType: InputLayout.Equals(InputLayout)
+  fullName: Pie.InputLayout.Equals(Pie.InputLayout)
+  type: Method
+  source:
+    remote:
+      path: Pie/InputLayout.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Equals
+    path: src/Pie/Pie/InputLayout.cs
+    startLine: 24
+  assemblies:
+  - Pie
+  namespace: Pie
+  syntax:
+    content: public bool Equals(InputLayout other)
+    parameters:
+    - id: other
+      type: Pie.InputLayout
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As InputLayout) As Boolean
+  overload: Pie.InputLayout.Equals*
+  implements:
+  - System.IEquatable{Pie.InputLayout}.Equals(Pie.InputLayout)
+- uid: Pie.InputLayout.Equals(System.Object)
+  commentId: M:Pie.InputLayout.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: Pie.InputLayout
+  langs:
+  - csharp
+  - vb
+  name: Equals(object)
+  nameWithType: InputLayout.Equals(object)
+  fullName: Pie.InputLayout.Equals(object)
+  type: Method
+  source:
+    remote:
+      path: Pie/InputLayout.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Equals
+    path: src/Pie/Pie/InputLayout.cs
+    startLine: 31
+  assemblies:
+  - Pie
+  namespace: Pie
+  syntax:
+    content: public override bool Equals(object obj)
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: Pie.InputLayout.Equals*
+  nameWithType.vb: InputLayout.Equals(Object)
+  fullName.vb: Pie.InputLayout.Equals(Object)
+  name.vb: Equals(Object)
+- uid: Pie.InputLayout.GetHashCode
+  commentId: M:Pie.InputLayout.GetHashCode
+  id: GetHashCode
+  parent: Pie.InputLayout
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: InputLayout.GetHashCode()
+  fullName: Pie.InputLayout.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: Pie/InputLayout.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: GetHashCode
+    path: src/Pie/Pie/InputLayout.cs
+    startLine: 39
+  assemblies:
+  - Pie
+  namespace: Pie
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.Object.GetHashCode
+  overload: Pie.InputLayout.GetHashCode*
+- uid: Pie.InputLayout.op_Equality(Pie.InputLayout,Pie.InputLayout)
+  commentId: M:Pie.InputLayout.op_Equality(Pie.InputLayout,Pie.InputLayout)
+  id: op_Equality(Pie.InputLayout,Pie.InputLayout)
+  parent: Pie.InputLayout
+  langs:
+  - csharp
+  - vb
+  name: operator ==(InputLayout, InputLayout)
+  nameWithType: InputLayout.operator ==(InputLayout, InputLayout)
+  fullName: Pie.InputLayout.operator ==(Pie.InputLayout, Pie.InputLayout)
+  type: Operator
+  source:
+    remote:
+      path: Pie/InputLayout.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: op_Equality
+    path: src/Pie/Pie/InputLayout.cs
+    startLine: 44
+  assemblies:
+  - Pie
+  namespace: Pie
+  syntax:
+    content: public static bool operator ==(InputLayout left, InputLayout right)
+    parameters:
+    - id: left
+      type: Pie.InputLayout
+    - id: right
+      type: Pie.InputLayout
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator =(left As InputLayout, right As InputLayout) As Boolean
+  overload: Pie.InputLayout.op_Equality*
+  nameWithType.vb: InputLayout.=(InputLayout, InputLayout)
+  fullName.vb: Pie.InputLayout.=(Pie.InputLayout, Pie.InputLayout)
+  name.vb: =(InputLayout, InputLayout)
+- uid: Pie.InputLayout.op_Inequality(Pie.InputLayout,Pie.InputLayout)
+  commentId: M:Pie.InputLayout.op_Inequality(Pie.InputLayout,Pie.InputLayout)
+  id: op_Inequality(Pie.InputLayout,Pie.InputLayout)
+  parent: Pie.InputLayout
+  langs:
+  - csharp
+  - vb
+  name: operator !=(InputLayout, InputLayout)
+  nameWithType: InputLayout.operator !=(InputLayout, InputLayout)
+  fullName: Pie.InputLayout.operator !=(Pie.InputLayout, Pie.InputLayout)
+  type: Operator
+  source:
+    remote:
+      path: Pie/InputLayout.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: op_Inequality
+    path: src/Pie/Pie/InputLayout.cs
+    startLine: 49
+  assemblies:
+  - Pie
+  namespace: Pie
+  syntax:
+    content: public static bool operator !=(InputLayout left, InputLayout right)
+    parameters:
+    - id: left
+      type: Pie.InputLayout
+    - id: right
+      type: Pie.InputLayout
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator <>(left As InputLayout, right As InputLayout) As Boolean
+  overload: Pie.InputLayout.op_Inequality*
+  nameWithType.vb: InputLayout.<>(InputLayout, InputLayout)
+  fullName.vb: Pie.InputLayout.<>(Pie.InputLayout, Pie.InputLayout)
+  name.vb: <>(InputLayout, InputLayout)
+references:
+- uid: Pie
+  commentId: N:Pie
+  name: Pie
+  nameWithType: Pie
+  fullName: Pie
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System.IEquatable{Pie.InputLayout}
+  commentId: T:System.IEquatable{Pie.InputLayout}
+  parent: System
+  definition: System.IEquatable`1
+  name: IEquatable<InputLayout>
+  nameWithType: IEquatable<InputLayout>
+  fullName: System.IEquatable<Pie.InputLayout>
+  nameWithType.vb: IEquatable(Of InputLayout)
+  fullName.vb: System.IEquatable(Of Pie.InputLayout)
+  name.vb: IEquatable(Of InputLayout)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+  - name: <
+  - uid: Pie.InputLayout
+    name: InputLayout
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Pie.InputLayout
+    name: InputLayout
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Pie.InputLayout
+  commentId: T:Pie.InputLayout
+  parent: Pie
+  name: InputLayout
+  nameWithType: InputLayout
+  fullName: Pie.InputLayout
+- uid: Pie.InputLayout.IsDisposed*
+  commentId: Overload:Pie.InputLayout.IsDisposed
+  name: IsDisposed
+  nameWithType: InputLayout.IsDisposed
+  fullName: Pie.InputLayout.IsDisposed
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Pie.InputLayoutDescription
+  commentId: T:Pie.InputLayoutDescription
+  parent: Pie
+  name: InputLayoutDescription
+  nameWithType: InputLayoutDescription
+  fullName: Pie.InputLayoutDescription
+- uid: Pie.InputLayout.Descriptions*
+  commentId: Overload:Pie.InputLayout.Descriptions
+  name: Descriptions
+  nameWithType: InputLayout.Descriptions
+  fullName: Pie.InputLayout.Descriptions
+- uid: Pie.InputLayoutDescription[]
+  isExternal: true
+  name: InputLayoutDescription[]
+  nameWithType: InputLayoutDescription[]
+  fullName: Pie.InputLayoutDescription[]
+  nameWithType.vb: InputLayoutDescription()
+  fullName.vb: Pie.InputLayoutDescription()
+  name.vb: InputLayoutDescription()
+  spec.csharp:
+  - uid: Pie.InputLayoutDescription
+    name: InputLayoutDescription
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: Pie.InputLayoutDescription
+    name: InputLayoutDescription
+  - name: (
+  - name: )
+- uid: Pie.InputLayout.Dispose*
+  commentId: Overload:Pie.InputLayout.Dispose
+  name: Dispose
+  nameWithType: InputLayout.Dispose
+  fullName: Pie.InputLayout.Dispose
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+  - name: (
+  - name: )
+- uid: Pie.InputLayout.Equals*
+  commentId: Overload:Pie.InputLayout.Equals
+  name: Equals
+  nameWithType: InputLayout.Equals
+  fullName: Pie.InputLayout.Equals
+- uid: System.IEquatable{Pie.InputLayout}.Equals(Pie.InputLayout)
+  commentId: M:System.IEquatable{Pie.InputLayout}.Equals(Pie.InputLayout)
+  parent: System.IEquatable{Pie.InputLayout}
+  definition: System.IEquatable`1.Equals(`0)
+  name: Equals(InputLayout)
+  nameWithType: IEquatable<InputLayout>.Equals(InputLayout)
+  fullName: System.IEquatable<Pie.InputLayout>.Equals(Pie.InputLayout)
+  nameWithType.vb: IEquatable(Of InputLayout).Equals(InputLayout)
+  fullName.vb: System.IEquatable(Of Pie.InputLayout).Equals(Pie.InputLayout)
+  spec.csharp:
+  - uid: System.IEquatable{Pie.InputLayout}.Equals(Pie.InputLayout)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: Pie.InputLayout
+    name: InputLayout
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{Pie.InputLayout}.Equals(Pie.InputLayout)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: Pie.InputLayout
+    name: InputLayout
+  - name: )
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+- uid: Pie.InputLayout.GetHashCode*
+  commentId: Overload:Pie.InputLayout.GetHashCode
+  name: GetHashCode
+  nameWithType: InputLayout.GetHashCode
+  fullName: Pie.InputLayout.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Pie.InputLayout.op_Equality*
+  commentId: Overload:Pie.InputLayout.op_Equality
+  name: operator ==
+  nameWithType: InputLayout.operator ==
+  fullName: Pie.InputLayout.operator ==
+  nameWithType.vb: InputLayout.=
+  fullName.vb: Pie.InputLayout.=
+  name.vb: =
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: Pie.InputLayout.op_Equality*
+    name: ==
+- uid: Pie.InputLayout.op_Inequality*
+  commentId: Overload:Pie.InputLayout.op_Inequality
+  name: operator !=
+  nameWithType: InputLayout.operator !=
+  fullName: Pie.InputLayout.operator !=
+  nameWithType.vb: InputLayout.<>
+  fullName.vb: Pie.InputLayout.<>
+  name.vb: <>
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: Pie.InputLayout.op_Inequality*
+    name: '!='

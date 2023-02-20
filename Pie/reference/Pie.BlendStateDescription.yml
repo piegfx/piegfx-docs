@@ -1,0 +1,474 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pie.BlendStateDescription
+  commentId: T:Pie.BlendStateDescription
+  id: BlendStateDescription
+  parent: Pie
+  children:
+  - Pie.BlendStateDescription.#ctor(Pie.BlendType,Pie.BlendType)
+  - Pie.BlendStateDescription.Additive
+  - Pie.BlendStateDescription.AlphaBlend
+  - Pie.BlendStateDescription.Destination
+  - Pie.BlendStateDescription.NonPremultiplied
+  - Pie.BlendStateDescription.Opaque
+  - Pie.BlendStateDescription.Source
+  langs:
+  - csharp
+  - vb
+  name: BlendStateDescription
+  nameWithType: BlendStateDescription
+  fullName: Pie.BlendStateDescription
+  type: Struct
+  source:
+    remote:
+      path: Pie/BlendStateDescription.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: BlendStateDescription
+    path: src/Pie/Pie/BlendStateDescription.cs
+    startLine: 5
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nDescribes how a <xref href=\"Pie.BlendState\" data-throw-if-not-resolved=\"false\"></xref> should behave.\n"
+  example: []
+  syntax:
+    content: public struct BlendStateDescription
+    content.vb: Public Structure BlendStateDescription
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: Pie.BlendStateDescription.NonPremultiplied
+  commentId: F:Pie.BlendStateDescription.NonPremultiplied
+  id: NonPremultiplied
+  parent: Pie.BlendStateDescription
+  langs:
+  - csharp
+  - vb
+  name: NonPremultiplied
+  nameWithType: BlendStateDescription.NonPremultiplied
+  fullName: Pie.BlendStateDescription.NonPremultiplied
+  type: Field
+  source:
+    remote:
+      path: Pie/BlendStateDescription.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: NonPremultiplied
+    path: src/Pie/Pie/BlendStateDescription.cs
+    startLine: 10
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nUse non-premultiplied alpha.\n"
+  example: []
+  syntax:
+    content: public static readonly BlendStateDescription NonPremultiplied
+    return:
+      type: Pie.BlendStateDescription
+    content.vb: Public Shared ReadOnly NonPremultiplied As BlendStateDescription
+- uid: Pie.BlendStateDescription.AlphaBlend
+  commentId: F:Pie.BlendStateDescription.AlphaBlend
+  id: AlphaBlend
+  parent: Pie.BlendStateDescription
+  langs:
+  - csharp
+  - vb
+  name: AlphaBlend
+  nameWithType: BlendStateDescription.AlphaBlend
+  fullName: Pie.BlendStateDescription.AlphaBlend
+  type: Field
+  source:
+    remote:
+      path: Pie/BlendStateDescription.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: AlphaBlend
+    path: src/Pie/Pie/BlendStateDescription.cs
+    startLine: 17
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nUse alpha blending.\n"
+  example: []
+  syntax:
+    content: public static readonly BlendStateDescription AlphaBlend
+    return:
+      type: Pie.BlendStateDescription
+    content.vb: Public Shared ReadOnly AlphaBlend As BlendStateDescription
+- uid: Pie.BlendStateDescription.Additive
+  commentId: F:Pie.BlendStateDescription.Additive
+  id: Additive
+  parent: Pie.BlendStateDescription
+  langs:
+  - csharp
+  - vb
+  name: Additive
+  nameWithType: BlendStateDescription.Additive
+  fullName: Pie.BlendStateDescription.Additive
+  type: Field
+  source:
+    remote:
+      path: Pie/BlendStateDescription.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Additive
+    path: src/Pie/Pie/BlendStateDescription.cs
+    startLine: 22
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nUse additive blending.\n"
+  example: []
+  syntax:
+    content: public static readonly BlendStateDescription Additive
+    return:
+      type: Pie.BlendStateDescription
+    content.vb: Public Shared ReadOnly Additive As BlendStateDescription
+- uid: Pie.BlendStateDescription.Opaque
+  commentId: F:Pie.BlendStateDescription.Opaque
+  id: Opaque
+  parent: Pie.BlendStateDescription
+  langs:
+  - csharp
+  - vb
+  name: Opaque
+  nameWithType: BlendStateDescription.Opaque
+  fullName: Pie.BlendStateDescription.Opaque
+  type: Field
+  source:
+    remote:
+      path: Pie/BlendStateDescription.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Opaque
+    path: src/Pie/Pie/BlendStateDescription.cs
+    startLine: 27
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nUse opaque blending.\n"
+  example: []
+  syntax:
+    content: public static readonly BlendStateDescription Opaque
+    return:
+      type: Pie.BlendStateDescription
+    content.vb: Public Shared ReadOnly Opaque As BlendStateDescription
+- uid: Pie.BlendStateDescription.Source
+  commentId: F:Pie.BlendStateDescription.Source
+  id: Source
+  parent: Pie.BlendStateDescription
+  langs:
+  - csharp
+  - vb
+  name: Source
+  nameWithType: BlendStateDescription.Source
+  fullName: Pie.BlendStateDescription.Source
+  type: Field
+  source:
+    remote:
+      path: Pie/BlendStateDescription.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Source
+    path: src/Pie/Pie/BlendStateDescription.cs
+    startLine: 32
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nThe source blending type.\n"
+  example: []
+  syntax:
+    content: public BlendType Source
+    return:
+      type: Pie.BlendType
+    content.vb: Public Source As BlendType
+- uid: Pie.BlendStateDescription.Destination
+  commentId: F:Pie.BlendStateDescription.Destination
+  id: Destination
+  parent: Pie.BlendStateDescription
+  langs:
+  - csharp
+  - vb
+  name: Destination
+  nameWithType: BlendStateDescription.Destination
+  fullName: Pie.BlendStateDescription.Destination
+  type: Field
+  source:
+    remote:
+      path: Pie/BlendStateDescription.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Destination
+    path: src/Pie/Pie/BlendStateDescription.cs
+    startLine: 37
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nThe destination blending type.\n"
+  example: []
+  syntax:
+    content: public BlendType Destination
+    return:
+      type: Pie.BlendType
+    content.vb: Public Destination As BlendType
+- uid: Pie.BlendStateDescription.#ctor(Pie.BlendType,Pie.BlendType)
+  commentId: M:Pie.BlendStateDescription.#ctor(Pie.BlendType,Pie.BlendType)
+  id: '#ctor(Pie.BlendType,Pie.BlendType)'
+  parent: Pie.BlendStateDescription
+  langs:
+  - csharp
+  - vb
+  name: BlendStateDescription(BlendType, BlendType)
+  nameWithType: BlendStateDescription.BlendStateDescription(BlendType, BlendType)
+  fullName: Pie.BlendStateDescription.BlendStateDescription(Pie.BlendType, Pie.BlendType)
+  type: Constructor
+  source:
+    remote:
+      path: Pie/BlendStateDescription.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: .ctor
+    path: src/Pie/Pie/BlendStateDescription.cs
+    startLine: 44
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nCreate a new blend state description.\n"
+  example: []
+  syntax:
+    content: public BlendStateDescription(BlendType source, BlendType destination)
+    parameters:
+    - id: source
+      type: Pie.BlendType
+      description: The source blending type.
+    - id: destination
+      type: Pie.BlendType
+      description: The destination blending type.
+    content.vb: Public Sub New(source As BlendType, destination As BlendType)
+  overload: Pie.BlendStateDescription.#ctor*
+  nameWithType.vb: BlendStateDescription.New(BlendType, BlendType)
+  fullName.vb: Pie.BlendStateDescription.New(Pie.BlendType, Pie.BlendType)
+  name.vb: New(BlendType, BlendType)
+references:
+- uid: Pie.BlendState
+  commentId: T:Pie.BlendState
+  parent: Pie
+  name: BlendState
+  nameWithType: BlendState
+  fullName: Pie.BlendState
+- uid: Pie
+  commentId: N:Pie
+  name: Pie
+  nameWithType: Pie
+  fullName: Pie
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Pie.BlendStateDescription
+  commentId: T:Pie.BlendStateDescription
+  parent: Pie
+  name: BlendStateDescription
+  nameWithType: BlendStateDescription
+  fullName: Pie.BlendStateDescription
+- uid: Pie.BlendType
+  commentId: T:Pie.BlendType
+  parent: Pie
+  name: BlendType
+  nameWithType: BlendType
+  fullName: Pie.BlendType
+- uid: Pie.BlendStateDescription.#ctor*
+  commentId: Overload:Pie.BlendStateDescription.#ctor
+  name: BlendStateDescription
+  nameWithType: BlendStateDescription.BlendStateDescription
+  fullName: Pie.BlendStateDescription.BlendStateDescription
+  nameWithType.vb: BlendStateDescription.New
+  fullName.vb: Pie.BlendStateDescription.New
+  name.vb: New

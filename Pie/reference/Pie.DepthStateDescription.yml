@@ -1,0 +1,777 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pie.DepthStateDescription
+  commentId: T:Pie.DepthStateDescription
+  id: DepthStateDescription
+  parent: Pie
+  children:
+  - Pie.DepthStateDescription.#ctor(System.Boolean,System.Boolean,Pie.DepthComparison)
+  - Pie.DepthStateDescription.DepthComparison
+  - Pie.DepthStateDescription.DepthEnabled
+  - Pie.DepthStateDescription.DepthMask
+  - Pie.DepthStateDescription.Disabled
+  - Pie.DepthStateDescription.Equals(Pie.DepthStateDescription)
+  - Pie.DepthStateDescription.Equals(System.Object)
+  - Pie.DepthStateDescription.GetHashCode
+  - Pie.DepthStateDescription.LessEqual
+  - Pie.DepthStateDescription.op_Equality(Pie.DepthStateDescription,Pie.DepthStateDescription)
+  - Pie.DepthStateDescription.op_Inequality(Pie.DepthStateDescription,Pie.DepthStateDescription)
+  langs:
+  - csharp
+  - vb
+  name: DepthStateDescription
+  nameWithType: DepthStateDescription
+  fullName: Pie.DepthStateDescription
+  type: Struct
+  source:
+    remote:
+      path: Pie/DepthStateDescription.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: DepthStateDescription
+    path: src/Pie/Pie/DepthStateDescription.cs
+    startLine: 7
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nDescribes how a <xref href=\"Pie.DepthState\" data-throw-if-not-resolved=\"false\"></xref> should behave.\n"
+  example: []
+  syntax:
+    content: 'public struct DepthStateDescription : IEquatable<DepthStateDescription>'
+    content.vb: Public Structure DepthStateDescription Implements IEquatable(Of DepthStateDescription)
+  implements:
+  - System.IEquatable{Pie.DepthStateDescription}
+  inheritedMembers:
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: Pie.DepthStateDescription.Disabled
+  commentId: F:Pie.DepthStateDescription.Disabled
+  id: Disabled
+  parent: Pie.DepthStateDescription
+  langs:
+  - csharp
+  - vb
+  name: Disabled
+  nameWithType: DepthStateDescription.Disabled
+  fullName: Pie.DepthStateDescription.Disabled
+  type: Field
+  source:
+    remote:
+      path: Pie/DepthStateDescription.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Disabled
+    path: src/Pie/Pie/DepthStateDescription.cs
+    startLine: 12
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nDisable depth testing.\n"
+  example: []
+  syntax:
+    content: public static readonly DepthStateDescription Disabled
+    return:
+      type: Pie.DepthStateDescription
+    content.vb: Public Shared ReadOnly Disabled As DepthStateDescription
+- uid: Pie.DepthStateDescription.LessEqual
+  commentId: F:Pie.DepthStateDescription.LessEqual
+  id: LessEqual
+  parent: Pie.DepthStateDescription
+  langs:
+  - csharp
+  - vb
+  name: LessEqual
+  nameWithType: DepthStateDescription.LessEqual
+  fullName: Pie.DepthStateDescription.LessEqual
+  type: Field
+  source:
+    remote:
+      path: Pie/DepthStateDescription.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: LessEqual
+    path: src/Pie/Pie/DepthStateDescription.cs
+    startLine: 18
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nThe depth test passes when the incoming depth value is less than or equal to the stored depth value.\n"
+  example: []
+  syntax:
+    content: public static readonly DepthStateDescription LessEqual
+    return:
+      type: Pie.DepthStateDescription
+    content.vb: Public Shared ReadOnly LessEqual As DepthStateDescription
+- uid: Pie.DepthStateDescription.DepthEnabled
+  commentId: F:Pie.DepthStateDescription.DepthEnabled
+  id: DepthEnabled
+  parent: Pie.DepthStateDescription
+  langs:
+  - csharp
+  - vb
+  name: DepthEnabled
+  nameWithType: DepthStateDescription.DepthEnabled
+  fullName: Pie.DepthStateDescription.DepthEnabled
+  type: Field
+  source:
+    remote:
+      path: Pie/DepthStateDescription.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: DepthEnabled
+    path: src/Pie/Pie/DepthStateDescription.cs
+    startLine: 24
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nEnable/disable depth testing.\n"
+  example: []
+  syntax:
+    content: public bool DepthEnabled
+    return:
+      type: System.Boolean
+    content.vb: Public DepthEnabled As Boolean
+- uid: Pie.DepthStateDescription.DepthMask
+  commentId: F:Pie.DepthStateDescription.DepthMask
+  id: DepthMask
+  parent: Pie.DepthStateDescription
+  langs:
+  - csharp
+  - vb
+  name: DepthMask
+  nameWithType: DepthStateDescription.DepthMask
+  fullName: Pie.DepthStateDescription.DepthMask
+  type: Field
+  source:
+    remote:
+      path: Pie/DepthStateDescription.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: DepthMask
+    path: src/Pie/Pie/DepthStateDescription.cs
+    startLine: 29
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nEnable/disable writing to the depth buffer.\n"
+  example: []
+  syntax:
+    content: public bool DepthMask
+    return:
+      type: System.Boolean
+    content.vb: Public DepthMask As Boolean
+- uid: Pie.DepthStateDescription.DepthComparison
+  commentId: F:Pie.DepthStateDescription.DepthComparison
+  id: DepthComparison
+  parent: Pie.DepthStateDescription
+  langs:
+  - csharp
+  - vb
+  name: DepthComparison
+  nameWithType: DepthStateDescription.DepthComparison
+  fullName: Pie.DepthStateDescription.DepthComparison
+  type: Field
+  source:
+    remote:
+      path: Pie/DepthStateDescription.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: DepthComparison
+    path: src/Pie/Pie/DepthStateDescription.cs
+    startLine: 34
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nThe depth comparison to use for this depth state.\n"
+  example: []
+  syntax:
+    content: public DepthComparison DepthComparison
+    return:
+      type: Pie.DepthComparison
+    content.vb: Public DepthComparison As DepthComparison
+- uid: Pie.DepthStateDescription.#ctor(System.Boolean,System.Boolean,Pie.DepthComparison)
+  commentId: M:Pie.DepthStateDescription.#ctor(System.Boolean,System.Boolean,Pie.DepthComparison)
+  id: '#ctor(System.Boolean,System.Boolean,Pie.DepthComparison)'
+  parent: Pie.DepthStateDescription
+  langs:
+  - csharp
+  - vb
+  name: DepthStateDescription(bool, bool, DepthComparison)
+  nameWithType: DepthStateDescription.DepthStateDescription(bool, bool, DepthComparison)
+  fullName: Pie.DepthStateDescription.DepthStateDescription(bool, bool, Pie.DepthComparison)
+  type: Constructor
+  source:
+    remote:
+      path: Pie/DepthStateDescription.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: .ctor
+    path: src/Pie/Pie/DepthStateDescription.cs
+    startLine: 42
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nCreate a new depth state description.\n"
+  example: []
+  syntax:
+    content: public DepthStateDescription(bool depthEnabled, bool depthMask, DepthComparison depthComparison)
+    parameters:
+    - id: depthEnabled
+      type: System.Boolean
+      description: Enable/disable depth testing.
+    - id: depthMask
+      type: System.Boolean
+      description: Enable/disable writing to the depth buffer.
+    - id: depthComparison
+      type: Pie.DepthComparison
+      description: The depth comparison to use for this depth state.
+    content.vb: Public Sub New(depthEnabled As Boolean, depthMask As Boolean, depthComparison As DepthComparison)
+  overload: Pie.DepthStateDescription.#ctor*
+  nameWithType.vb: DepthStateDescription.New(Boolean, Boolean, DepthComparison)
+  fullName.vb: Pie.DepthStateDescription.New(Boolean, Boolean, Pie.DepthComparison)
+  name.vb: New(Boolean, Boolean, DepthComparison)
+- uid: Pie.DepthStateDescription.Equals(Pie.DepthStateDescription)
+  commentId: M:Pie.DepthStateDescription.Equals(Pie.DepthStateDescription)
+  id: Equals(Pie.DepthStateDescription)
+  parent: Pie.DepthStateDescription
+  langs:
+  - csharp
+  - vb
+  name: Equals(DepthStateDescription)
+  nameWithType: DepthStateDescription.Equals(DepthStateDescription)
+  fullName: Pie.DepthStateDescription.Equals(Pie.DepthStateDescription)
+  type: Method
+  source:
+    remote:
+      path: Pie/DepthStateDescription.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Equals
+    path: src/Pie/Pie/DepthStateDescription.cs
+    startLine: 49
+  assemblies:
+  - Pie
+  namespace: Pie
+  syntax:
+    content: public bool Equals(DepthStateDescription other)
+    parameters:
+    - id: other
+      type: Pie.DepthStateDescription
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As DepthStateDescription) As Boolean
+  overload: Pie.DepthStateDescription.Equals*
+  implements:
+  - System.IEquatable{Pie.DepthStateDescription}.Equals(Pie.DepthStateDescription)
+- uid: Pie.DepthStateDescription.Equals(System.Object)
+  commentId: M:Pie.DepthStateDescription.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: Pie.DepthStateDescription
+  langs:
+  - csharp
+  - vb
+  name: Equals(object)
+  nameWithType: DepthStateDescription.Equals(object)
+  fullName: Pie.DepthStateDescription.Equals(object)
+  type: Method
+  source:
+    remote:
+      path: Pie/DepthStateDescription.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Equals
+    path: src/Pie/Pie/DepthStateDescription.cs
+    startLine: 54
+  assemblies:
+  - Pie
+  namespace: Pie
+  syntax:
+    content: public override bool Equals(object obj)
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.ValueType.Equals(System.Object)
+  overload: Pie.DepthStateDescription.Equals*
+  nameWithType.vb: DepthStateDescription.Equals(Object)
+  fullName.vb: Pie.DepthStateDescription.Equals(Object)
+  name.vb: Equals(Object)
+- uid: Pie.DepthStateDescription.GetHashCode
+  commentId: M:Pie.DepthStateDescription.GetHashCode
+  id: GetHashCode
+  parent: Pie.DepthStateDescription
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: DepthStateDescription.GetHashCode()
+  fullName: Pie.DepthStateDescription.GetHashCode()
+  type: Method
+  source:
+    remote:
+      path: Pie/DepthStateDescription.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: GetHashCode
+    path: src/Pie/Pie/DepthStateDescription.cs
+    startLine: 59
+  assemblies:
+  - Pie
+  namespace: Pie
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.ValueType.GetHashCode
+  overload: Pie.DepthStateDescription.GetHashCode*
+- uid: Pie.DepthStateDescription.op_Equality(Pie.DepthStateDescription,Pie.DepthStateDescription)
+  commentId: M:Pie.DepthStateDescription.op_Equality(Pie.DepthStateDescription,Pie.DepthStateDescription)
+  id: op_Equality(Pie.DepthStateDescription,Pie.DepthStateDescription)
+  parent: Pie.DepthStateDescription
+  langs:
+  - csharp
+  - vb
+  name: operator ==(DepthStateDescription, DepthStateDescription)
+  nameWithType: DepthStateDescription.operator ==(DepthStateDescription, DepthStateDescription)
+  fullName: Pie.DepthStateDescription.operator ==(Pie.DepthStateDescription, Pie.DepthStateDescription)
+  type: Operator
+  source:
+    remote:
+      path: Pie/DepthStateDescription.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: op_Equality
+    path: src/Pie/Pie/DepthStateDescription.cs
+    startLine: 64
+  assemblies:
+  - Pie
+  namespace: Pie
+  syntax:
+    content: public static bool operator ==(DepthStateDescription left, DepthStateDescription right)
+    parameters:
+    - id: left
+      type: Pie.DepthStateDescription
+    - id: right
+      type: Pie.DepthStateDescription
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator =(left As DepthStateDescription, right As DepthStateDescription) As Boolean
+  overload: Pie.DepthStateDescription.op_Equality*
+  nameWithType.vb: DepthStateDescription.=(DepthStateDescription, DepthStateDescription)
+  fullName.vb: Pie.DepthStateDescription.=(Pie.DepthStateDescription, Pie.DepthStateDescription)
+  name.vb: =(DepthStateDescription, DepthStateDescription)
+- uid: Pie.DepthStateDescription.op_Inequality(Pie.DepthStateDescription,Pie.DepthStateDescription)
+  commentId: M:Pie.DepthStateDescription.op_Inequality(Pie.DepthStateDescription,Pie.DepthStateDescription)
+  id: op_Inequality(Pie.DepthStateDescription,Pie.DepthStateDescription)
+  parent: Pie.DepthStateDescription
+  langs:
+  - csharp
+  - vb
+  name: operator !=(DepthStateDescription, DepthStateDescription)
+  nameWithType: DepthStateDescription.operator !=(DepthStateDescription, DepthStateDescription)
+  fullName: Pie.DepthStateDescription.operator !=(Pie.DepthStateDescription, Pie.DepthStateDescription)
+  type: Operator
+  source:
+    remote:
+      path: Pie/DepthStateDescription.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: op_Inequality
+    path: src/Pie/Pie/DepthStateDescription.cs
+    startLine: 69
+  assemblies:
+  - Pie
+  namespace: Pie
+  syntax:
+    content: public static bool operator !=(DepthStateDescription left, DepthStateDescription right)
+    parameters:
+    - id: left
+      type: Pie.DepthStateDescription
+    - id: right
+      type: Pie.DepthStateDescription
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator <>(left As DepthStateDescription, right As DepthStateDescription) As Boolean
+  overload: Pie.DepthStateDescription.op_Inequality*
+  nameWithType.vb: DepthStateDescription.<>(DepthStateDescription, DepthStateDescription)
+  fullName.vb: Pie.DepthStateDescription.<>(Pie.DepthStateDescription, Pie.DepthStateDescription)
+  name.vb: <>(DepthStateDescription, DepthStateDescription)
+references:
+- uid: Pie.DepthState
+  commentId: T:Pie.DepthState
+  parent: Pie
+  name: DepthState
+  nameWithType: DepthState
+  fullName: Pie.DepthState
+- uid: Pie
+  commentId: N:Pie
+  name: Pie
+  nameWithType: Pie
+  fullName: Pie
+- uid: System.IEquatable{Pie.DepthStateDescription}
+  commentId: T:System.IEquatable{Pie.DepthStateDescription}
+  parent: System
+  definition: System.IEquatable`1
+  name: IEquatable<DepthStateDescription>
+  nameWithType: IEquatable<DepthStateDescription>
+  fullName: System.IEquatable<Pie.DepthStateDescription>
+  nameWithType.vb: IEquatable(Of DepthStateDescription)
+  fullName.vb: System.IEquatable(Of Pie.DepthStateDescription)
+  name.vb: IEquatable(Of DepthStateDescription)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+  - name: <
+  - uid: Pie.DepthStateDescription
+    name: DepthStateDescription
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Pie.DepthStateDescription
+    name: DepthStateDescription
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Pie.DepthStateDescription
+  commentId: T:Pie.DepthStateDescription
+  parent: Pie
+  name: DepthStateDescription
+  nameWithType: DepthStateDescription
+  fullName: Pie.DepthStateDescription
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Pie.DepthComparison
+  commentId: T:Pie.DepthComparison
+  parent: Pie
+  name: DepthComparison
+  nameWithType: DepthComparison
+  fullName: Pie.DepthComparison
+- uid: Pie.DepthStateDescription.#ctor*
+  commentId: Overload:Pie.DepthStateDescription.#ctor
+  name: DepthStateDescription
+  nameWithType: DepthStateDescription.DepthStateDescription
+  fullName: Pie.DepthStateDescription.DepthStateDescription
+  nameWithType.vb: DepthStateDescription.New
+  fullName.vb: Pie.DepthStateDescription.New
+  name.vb: New
+- uid: Pie.DepthStateDescription.Equals*
+  commentId: Overload:Pie.DepthStateDescription.Equals
+  name: Equals
+  nameWithType: DepthStateDescription.Equals
+  fullName: Pie.DepthStateDescription.Equals
+- uid: System.IEquatable{Pie.DepthStateDescription}.Equals(Pie.DepthStateDescription)
+  commentId: M:System.IEquatable{Pie.DepthStateDescription}.Equals(Pie.DepthStateDescription)
+  parent: System.IEquatable{Pie.DepthStateDescription}
+  definition: System.IEquatable`1.Equals(`0)
+  name: Equals(DepthStateDescription)
+  nameWithType: IEquatable<DepthStateDescription>.Equals(DepthStateDescription)
+  fullName: System.IEquatable<Pie.DepthStateDescription>.Equals(Pie.DepthStateDescription)
+  nameWithType.vb: IEquatable(Of DepthStateDescription).Equals(DepthStateDescription)
+  fullName.vb: System.IEquatable(Of Pie.DepthStateDescription).Equals(Pie.DepthStateDescription)
+  spec.csharp:
+  - uid: System.IEquatable{Pie.DepthStateDescription}.Equals(Pie.DepthStateDescription)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: Pie.DepthStateDescription
+    name: DepthStateDescription
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{Pie.DepthStateDescription}.Equals(Pie.DepthStateDescription)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: Pie.DepthStateDescription
+    name: DepthStateDescription
+  - name: )
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+  - name: (
+  - name: T
+  - name: )
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+- uid: Pie.DepthStateDescription.GetHashCode*
+  commentId: Overload:Pie.DepthStateDescription.GetHashCode
+  name: GetHashCode
+  nameWithType: DepthStateDescription.GetHashCode
+  fullName: Pie.DepthStateDescription.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Pie.DepthStateDescription.op_Equality*
+  commentId: Overload:Pie.DepthStateDescription.op_Equality
+  name: operator ==
+  nameWithType: DepthStateDescription.operator ==
+  fullName: Pie.DepthStateDescription.operator ==
+  nameWithType.vb: DepthStateDescription.=
+  fullName.vb: Pie.DepthStateDescription.=
+  name.vb: =
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: Pie.DepthStateDescription.op_Equality*
+    name: ==
+- uid: Pie.DepthStateDescription.op_Inequality*
+  commentId: Overload:Pie.DepthStateDescription.op_Inequality
+  name: operator !=
+  nameWithType: DepthStateDescription.operator !=
+  fullName: Pie.DepthStateDescription.operator !=
+  nameWithType.vb: DepthStateDescription.<>
+  fullName.vb: Pie.DepthStateDescription.<>
+  name.vb: <>
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: Pie.DepthStateDescription.op_Inequality*
+    name: '!='

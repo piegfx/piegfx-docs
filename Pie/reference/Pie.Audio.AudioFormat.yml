@@ -1,0 +1,160 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pie.Audio.AudioFormat
+  commentId: T:Pie.Audio.AudioFormat
+  id: AudioFormat
+  parent: Pie.Audio
+  children:
+  - Pie.Audio.AudioFormat.Mono16
+  - Pie.Audio.AudioFormat.Mono8
+  - Pie.Audio.AudioFormat.Stereo16
+  - Pie.Audio.AudioFormat.Stereo8
+  langs:
+  - csharp
+  - vb
+  name: AudioFormat
+  nameWithType: AudioFormat
+  fullName: Pie.Audio.AudioFormat
+  type: Enum
+  source:
+    remote:
+      path: Pie.Audio/AudioFormat.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: AudioFormat
+    path: src/Pie/Pie.Audio/AudioFormat.cs
+    startLine: 2
+  assemblies:
+  - Pie.Audio
+  namespace: Pie.Audio
+  syntax:
+    content: public enum AudioFormat
+    content.vb: Public Enum AudioFormat
+- uid: Pie.Audio.AudioFormat.Mono8
+  commentId: F:Pie.Audio.AudioFormat.Mono8
+  id: Mono8
+  parent: Pie.Audio.AudioFormat
+  langs:
+  - csharp
+  - vb
+  name: Mono8
+  nameWithType: AudioFormat.Mono8
+  fullName: Pie.Audio.AudioFormat.Mono8
+  type: Field
+  source:
+    remote:
+      path: Pie.Audio/AudioFormat.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Mono8
+    path: src/Pie/Pie.Audio/AudioFormat.cs
+    startLine: 4
+  assemblies:
+  - Pie.Audio
+  namespace: Pie.Audio
+  syntax:
+    content: Mono8 = 0
+    return:
+      type: Pie.Audio.AudioFormat
+- uid: Pie.Audio.AudioFormat.Mono16
+  commentId: F:Pie.Audio.AudioFormat.Mono16
+  id: Mono16
+  parent: Pie.Audio.AudioFormat
+  langs:
+  - csharp
+  - vb
+  name: Mono16
+  nameWithType: AudioFormat.Mono16
+  fullName: Pie.Audio.AudioFormat.Mono16
+  type: Field
+  source:
+    remote:
+      path: Pie.Audio/AudioFormat.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Mono16
+    path: src/Pie/Pie.Audio/AudioFormat.cs
+    startLine: 5
+  assemblies:
+  - Pie.Audio
+  namespace: Pie.Audio
+  syntax:
+    content: Mono16 = 1
+    return:
+      type: Pie.Audio.AudioFormat
+- uid: Pie.Audio.AudioFormat.Stereo8
+  commentId: F:Pie.Audio.AudioFormat.Stereo8
+  id: Stereo8
+  parent: Pie.Audio.AudioFormat
+  langs:
+  - csharp
+  - vb
+  name: Stereo8
+  nameWithType: AudioFormat.Stereo8
+  fullName: Pie.Audio.AudioFormat.Stereo8
+  type: Field
+  source:
+    remote:
+      path: Pie.Audio/AudioFormat.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Stereo8
+    path: src/Pie/Pie.Audio/AudioFormat.cs
+    startLine: 6
+  assemblies:
+  - Pie.Audio
+  namespace: Pie.Audio
+  syntax:
+    content: Stereo8 = 2
+    return:
+      type: Pie.Audio.AudioFormat
+- uid: Pie.Audio.AudioFormat.Stereo16
+  commentId: F:Pie.Audio.AudioFormat.Stereo16
+  id: Stereo16
+  parent: Pie.Audio.AudioFormat
+  langs:
+  - csharp
+  - vb
+  name: Stereo16
+  nameWithType: AudioFormat.Stereo16
+  fullName: Pie.Audio.AudioFormat.Stereo16
+  type: Field
+  source:
+    remote:
+      path: Pie.Audio/AudioFormat.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Stereo16
+    path: src/Pie/Pie.Audio/AudioFormat.cs
+    startLine: 7
+  assemblies:
+  - Pie.Audio
+  namespace: Pie.Audio
+  syntax:
+    content: Stereo16 = 3
+    return:
+      type: Pie.Audio.AudioFormat
+references:
+- uid: Pie.Audio
+  commentId: N:Pie.Audio
+  name: Pie.Audio
+  nameWithType: Pie.Audio
+  fullName: Pie.Audio
+  spec.csharp:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Audio
+    name: Audio
+  spec.vb:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Audio
+    name: Audio
+- uid: Pie.Audio.AudioFormat
+  commentId: T:Pie.Audio.AudioFormat
+  parent: Pie.Audio
+  name: AudioFormat
+  nameWithType: AudioFormat
+  fullName: Pie.Audio.AudioFormat

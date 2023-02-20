@@ -1,0 +1,100 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pie.InputType
+  commentId: T:Pie.InputType
+  id: InputType
+  parent: Pie
+  children:
+  - Pie.InputType.PerInstance
+  - Pie.InputType.PerVertex
+  langs:
+  - csharp
+  - vb
+  name: InputType
+  nameWithType: InputType
+  fullName: Pie.InputType
+  type: Enum
+  source:
+    remote:
+      path: Pie/InputType.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: InputType
+    path: src/Pie/Pie/InputType.cs
+    startLine: 5
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nThe type of an input layout element.\n"
+  example: []
+  syntax:
+    content: public enum InputType
+    content.vb: Public Enum InputType
+- uid: Pie.InputType.PerVertex
+  commentId: F:Pie.InputType.PerVertex
+  id: PerVertex
+  parent: Pie.InputType
+  langs:
+  - csharp
+  - vb
+  name: PerVertex
+  nameWithType: InputType.PerVertex
+  fullName: Pie.InputType.PerVertex
+  type: Field
+  source:
+    remote:
+      path: Pie/InputType.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: PerVertex
+    path: src/Pie/Pie/InputType.cs
+    startLine: 10
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nThis input layout element is read per vertex.\n"
+  example: []
+  syntax:
+    content: PerVertex = 0
+    return:
+      type: Pie.InputType
+- uid: Pie.InputType.PerInstance
+  commentId: F:Pie.InputType.PerInstance
+  id: PerInstance
+  parent: Pie.InputType
+  langs:
+  - csharp
+  - vb
+  name: PerInstance
+  nameWithType: InputType.PerInstance
+  fullName: Pie.InputType.PerInstance
+  type: Field
+  source:
+    remote:
+      path: Pie/InputType.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: PerInstance
+    path: src/Pie/Pie/InputType.cs
+    startLine: 15
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nThis input layout element is read per instance.\n"
+  example: []
+  syntax:
+    content: PerInstance = 1
+    return:
+      type: Pie.InputType
+references:
+- uid: Pie
+  commentId: N:Pie
+  name: Pie
+  nameWithType: Pie
+  fullName: Pie
+- uid: Pie.InputType
+  commentId: T:Pie.InputType
+  parent: Pie
+  name: InputType
+  nameWithType: InputType
+  fullName: Pie.InputType

@@ -1,0 +1,133 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pie.Windowing.WindowBorder
+  commentId: T:Pie.Windowing.WindowBorder
+  id: WindowBorder
+  parent: Pie.Windowing
+  children:
+  - Pie.Windowing.WindowBorder.Borderless
+  - Pie.Windowing.WindowBorder.Fixed
+  - Pie.Windowing.WindowBorder.Resizable
+  langs:
+  - csharp
+  - vb
+  name: WindowBorder
+  nameWithType: WindowBorder
+  fullName: Pie.Windowing.WindowBorder
+  type: Enum
+  source:
+    remote:
+      path: Pie.Windowing/WindowBorder.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: WindowBorder
+    path: src/Pie/Pie.Windowing/WindowBorder.cs
+    startLine: 2
+  assemblies:
+  - Pie.Windowing
+  namespace: Pie.Windowing
+  syntax:
+    content: public enum WindowBorder
+    content.vb: Public Enum WindowBorder
+- uid: Pie.Windowing.WindowBorder.Fixed
+  commentId: F:Pie.Windowing.WindowBorder.Fixed
+  id: Fixed
+  parent: Pie.Windowing.WindowBorder
+  langs:
+  - csharp
+  - vb
+  name: Fixed
+  nameWithType: WindowBorder.Fixed
+  fullName: Pie.Windowing.WindowBorder.Fixed
+  type: Field
+  source:
+    remote:
+      path: Pie.Windowing/WindowBorder.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Fixed
+    path: src/Pie/Pie.Windowing/WindowBorder.cs
+    startLine: 4
+  assemblies:
+  - Pie.Windowing
+  namespace: Pie.Windowing
+  syntax:
+    content: Fixed = 0
+    return:
+      type: Pie.Windowing.WindowBorder
+- uid: Pie.Windowing.WindowBorder.Borderless
+  commentId: F:Pie.Windowing.WindowBorder.Borderless
+  id: Borderless
+  parent: Pie.Windowing.WindowBorder
+  langs:
+  - csharp
+  - vb
+  name: Borderless
+  nameWithType: WindowBorder.Borderless
+  fullName: Pie.Windowing.WindowBorder.Borderless
+  type: Field
+  source:
+    remote:
+      path: Pie.Windowing/WindowBorder.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Borderless
+    path: src/Pie/Pie.Windowing/WindowBorder.cs
+    startLine: 5
+  assemblies:
+  - Pie.Windowing
+  namespace: Pie.Windowing
+  syntax:
+    content: Borderless = 1
+    return:
+      type: Pie.Windowing.WindowBorder
+- uid: Pie.Windowing.WindowBorder.Resizable
+  commentId: F:Pie.Windowing.WindowBorder.Resizable
+  id: Resizable
+  parent: Pie.Windowing.WindowBorder
+  langs:
+  - csharp
+  - vb
+  name: Resizable
+  nameWithType: WindowBorder.Resizable
+  fullName: Pie.Windowing.WindowBorder.Resizable
+  type: Field
+  source:
+    remote:
+      path: Pie.Windowing/WindowBorder.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Resizable
+    path: src/Pie/Pie.Windowing/WindowBorder.cs
+    startLine: 6
+  assemblies:
+  - Pie.Windowing
+  namespace: Pie.Windowing
+  syntax:
+    content: Resizable = 2
+    return:
+      type: Pie.Windowing.WindowBorder
+references:
+- uid: Pie.Windowing
+  commentId: N:Pie.Windowing
+  name: Pie.Windowing
+  nameWithType: Pie.Windowing
+  fullName: Pie.Windowing
+  spec.csharp:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Windowing
+    name: Windowing
+  spec.vb:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Windowing
+    name: Windowing
+- uid: Pie.Windowing.WindowBorder
+  commentId: T:Pie.Windowing.WindowBorder
+  parent: Pie.Windowing
+  name: WindowBorder
+  nameWithType: WindowBorder
+  fullName: Pie.Windowing.WindowBorder

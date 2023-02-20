@@ -1,0 +1,369 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pie.Vulkan.VkHelper.SwapchainSupportDetails
+  commentId: T:Pie.Vulkan.VkHelper.SwapchainSupportDetails
+  id: VkHelper.SwapchainSupportDetails
+  parent: Pie.Vulkan
+  children:
+  - Pie.Vulkan.VkHelper.SwapchainSupportDetails.Capabilities
+  - Pie.Vulkan.VkHelper.SwapchainSupportDetails.Formats
+  - Pie.Vulkan.VkHelper.SwapchainSupportDetails.PresentModes
+  langs:
+  - csharp
+  - vb
+  name: VkHelper.SwapchainSupportDetails
+  nameWithType: VkHelper.SwapchainSupportDetails
+  fullName: Pie.Vulkan.VkHelper.SwapchainSupportDetails
+  type: Struct
+  source:
+    remote:
+      path: Pie/Vulkan/VkHelper.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: SwapchainSupportDetails
+    path: src/Pie/Pie/Vulkan/VkHelper.cs
+    startLine: 762
+  assemblies:
+  - Pie
+  namespace: Pie.Vulkan
+  syntax:
+    content: public struct VkHelper.SwapchainSupportDetails
+    content.vb: Public Structure VkHelper.SwapchainSupportDetails
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: Pie.Vulkan.VkHelper.SwapchainSupportDetails.Capabilities
+  commentId: F:Pie.Vulkan.VkHelper.SwapchainSupportDetails.Capabilities
+  id: Capabilities
+  parent: Pie.Vulkan.VkHelper.SwapchainSupportDetails
+  langs:
+  - csharp
+  - vb
+  name: Capabilities
+  nameWithType: VkHelper.SwapchainSupportDetails.Capabilities
+  fullName: Pie.Vulkan.VkHelper.SwapchainSupportDetails.Capabilities
+  type: Field
+  source:
+    remote:
+      path: Pie/Vulkan/VkHelper.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Capabilities
+    path: src/Pie/Pie/Vulkan/VkHelper.cs
+    startLine: 764
+  assemblies:
+  - Pie
+  namespace: Pie.Vulkan
+  syntax:
+    content: public SurfaceCapabilitiesKHR Capabilities
+    return:
+      type: SurfaceCapabilitiesKHR
+    content.vb: Public Capabilities As SurfaceCapabilitiesKHR
+- uid: Pie.Vulkan.VkHelper.SwapchainSupportDetails.Formats
+  commentId: F:Pie.Vulkan.VkHelper.SwapchainSupportDetails.Formats
+  id: Formats
+  parent: Pie.Vulkan.VkHelper.SwapchainSupportDetails
+  langs:
+  - csharp
+  - vb
+  name: Formats
+  nameWithType: VkHelper.SwapchainSupportDetails.Formats
+  fullName: Pie.Vulkan.VkHelper.SwapchainSupportDetails.Formats
+  type: Field
+  source:
+    remote:
+      path: Pie/Vulkan/VkHelper.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Formats
+    path: src/Pie/Pie/Vulkan/VkHelper.cs
+    startLine: 765
+  assemblies:
+  - Pie
+  namespace: Pie.Vulkan
+  syntax:
+    content: public SurfaceFormatKHR[] Formats
+    return:
+      type: SurfaceFormatKHR[]
+    content.vb: Public Formats As SurfaceFormatKHR()
+- uid: Pie.Vulkan.VkHelper.SwapchainSupportDetails.PresentModes
+  commentId: F:Pie.Vulkan.VkHelper.SwapchainSupportDetails.PresentModes
+  id: PresentModes
+  parent: Pie.Vulkan.VkHelper.SwapchainSupportDetails
+  langs:
+  - csharp
+  - vb
+  name: PresentModes
+  nameWithType: VkHelper.SwapchainSupportDetails.PresentModes
+  fullName: Pie.Vulkan.VkHelper.SwapchainSupportDetails.PresentModes
+  type: Field
+  source:
+    remote:
+      path: Pie/Vulkan/VkHelper.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: PresentModes
+    path: src/Pie/Pie/Vulkan/VkHelper.cs
+    startLine: 766
+  assemblies:
+  - Pie
+  namespace: Pie.Vulkan
+  syntax:
+    content: public PresentModeKHR[] PresentModes
+    return:
+      type: PresentModeKHR[]
+    content.vb: Public PresentModes As PresentModeKHR()
+references:
+- uid: Pie.Vulkan
+  commentId: N:Pie.Vulkan
+  name: Pie.Vulkan
+  nameWithType: Pie.Vulkan
+  fullName: Pie.Vulkan
+  spec.csharp:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Vulkan
+    name: Vulkan
+  spec.vb:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Vulkan
+    name: Vulkan
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SurfaceCapabilitiesKHR
+  commentId: '!:SurfaceCapabilitiesKHR'
+  isExternal: true
+  name: SurfaceCapabilitiesKHR
+  nameWithType: SurfaceCapabilitiesKHR
+  fullName: SurfaceCapabilitiesKHR
+- uid: SurfaceFormatKHR[]
+  isExternal: true
+  name: SurfaceFormatKHR[]
+  nameWithType: SurfaceFormatKHR[]
+  fullName: SurfaceFormatKHR[]
+  nameWithType.vb: SurfaceFormatKHR()
+  fullName.vb: SurfaceFormatKHR()
+  name.vb: SurfaceFormatKHR()
+  spec.csharp:
+  - uid: SurfaceFormatKHR
+    name: SurfaceFormatKHR
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: SurfaceFormatKHR
+    name: SurfaceFormatKHR
+    isExternal: true
+  - name: (
+  - name: )
+- uid: PresentModeKHR[]
+  isExternal: true
+  name: PresentModeKHR[]
+  nameWithType: PresentModeKHR[]
+  fullName: PresentModeKHR[]
+  nameWithType.vb: PresentModeKHR()
+  fullName.vb: PresentModeKHR()
+  name.vb: PresentModeKHR()
+  spec.csharp:
+  - uid: PresentModeKHR
+    name: PresentModeKHR
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: PresentModeKHR
+    name: PresentModeKHR
+    isExternal: true
+  - name: (
+  - name: )

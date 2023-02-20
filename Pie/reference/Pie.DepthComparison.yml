@@ -1,0 +1,274 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pie.DepthComparison
+  commentId: T:Pie.DepthComparison
+  id: DepthComparison
+  parent: Pie
+  children:
+  - Pie.DepthComparison.Always
+  - Pie.DepthComparison.Equal
+  - Pie.DepthComparison.Greater
+  - Pie.DepthComparison.GreaterEqual
+  - Pie.DepthComparison.Less
+  - Pie.DepthComparison.LessEqual
+  - Pie.DepthComparison.Never
+  - Pie.DepthComparison.NotEqual
+  langs:
+  - csharp
+  - vb
+  name: DepthComparison
+  nameWithType: DepthComparison
+  fullName: Pie.DepthComparison
+  type: Enum
+  source:
+    remote:
+      path: Pie/DepthComparison.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: DepthComparison
+    path: src/Pie/Pie/DepthComparison.cs
+    startLine: 5
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nDescribes when the depth test should pass.\n"
+  example: []
+  syntax:
+    content: public enum DepthComparison
+    content.vb: Public Enum DepthComparison
+- uid: Pie.DepthComparison.Never
+  commentId: F:Pie.DepthComparison.Never
+  id: Never
+  parent: Pie.DepthComparison
+  langs:
+  - csharp
+  - vb
+  name: Never
+  nameWithType: DepthComparison.Never
+  fullName: Pie.DepthComparison.Never
+  type: Field
+  source:
+    remote:
+      path: Pie/DepthComparison.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Never
+    path: src/Pie/Pie/DepthComparison.cs
+    startLine: 10
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nThe depth test never passes.\n"
+  example: []
+  syntax:
+    content: Never = 0
+    return:
+      type: Pie.DepthComparison
+- uid: Pie.DepthComparison.Less
+  commentId: F:Pie.DepthComparison.Less
+  id: Less
+  parent: Pie.DepthComparison
+  langs:
+  - csharp
+  - vb
+  name: Less
+  nameWithType: DepthComparison.Less
+  fullName: Pie.DepthComparison.Less
+  type: Field
+  source:
+    remote:
+      path: Pie/DepthComparison.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Less
+    path: src/Pie/Pie/DepthComparison.cs
+    startLine: 15
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nThe depth test passes if the incoming depth value is less than the stored depth value.\n"
+  example: []
+  syntax:
+    content: Less = 1
+    return:
+      type: Pie.DepthComparison
+- uid: Pie.DepthComparison.Equal
+  commentId: F:Pie.DepthComparison.Equal
+  id: Equal
+  parent: Pie.DepthComparison
+  langs:
+  - csharp
+  - vb
+  name: Equal
+  nameWithType: DepthComparison.Equal
+  fullName: Pie.DepthComparison.Equal
+  type: Field
+  source:
+    remote:
+      path: Pie/DepthComparison.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Equal
+    path: src/Pie/Pie/DepthComparison.cs
+    startLine: 20
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nThe depth test passes if the incoming depth value is equal to the stored depth value.\n"
+  example: []
+  syntax:
+    content: Equal = 2
+    return:
+      type: Pie.DepthComparison
+- uid: Pie.DepthComparison.LessEqual
+  commentId: F:Pie.DepthComparison.LessEqual
+  id: LessEqual
+  parent: Pie.DepthComparison
+  langs:
+  - csharp
+  - vb
+  name: LessEqual
+  nameWithType: DepthComparison.LessEqual
+  fullName: Pie.DepthComparison.LessEqual
+  type: Field
+  source:
+    remote:
+      path: Pie/DepthComparison.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: LessEqual
+    path: src/Pie/Pie/DepthComparison.cs
+    startLine: 25
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nThe depth test passes if the incoming depth value is less than or equal to the stored depth value.\n"
+  example: []
+  syntax:
+    content: LessEqual = 3
+    return:
+      type: Pie.DepthComparison
+- uid: Pie.DepthComparison.Greater
+  commentId: F:Pie.DepthComparison.Greater
+  id: Greater
+  parent: Pie.DepthComparison
+  langs:
+  - csharp
+  - vb
+  name: Greater
+  nameWithType: DepthComparison.Greater
+  fullName: Pie.DepthComparison.Greater
+  type: Field
+  source:
+    remote:
+      path: Pie/DepthComparison.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Greater
+    path: src/Pie/Pie/DepthComparison.cs
+    startLine: 30
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nThe depth test passes if the incoming depth value is greater than the stored depth value.\n"
+  example: []
+  syntax:
+    content: Greater = 4
+    return:
+      type: Pie.DepthComparison
+- uid: Pie.DepthComparison.NotEqual
+  commentId: F:Pie.DepthComparison.NotEqual
+  id: NotEqual
+  parent: Pie.DepthComparison
+  langs:
+  - csharp
+  - vb
+  name: NotEqual
+  nameWithType: DepthComparison.NotEqual
+  fullName: Pie.DepthComparison.NotEqual
+  type: Field
+  source:
+    remote:
+      path: Pie/DepthComparison.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: NotEqual
+    path: src/Pie/Pie/DepthComparison.cs
+    startLine: 35
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nThe depth test passes if the incoming depth value is not equal to the stored depth value.\n"
+  example: []
+  syntax:
+    content: NotEqual = 5
+    return:
+      type: Pie.DepthComparison
+- uid: Pie.DepthComparison.GreaterEqual
+  commentId: F:Pie.DepthComparison.GreaterEqual
+  id: GreaterEqual
+  parent: Pie.DepthComparison
+  langs:
+  - csharp
+  - vb
+  name: GreaterEqual
+  nameWithType: DepthComparison.GreaterEqual
+  fullName: Pie.DepthComparison.GreaterEqual
+  type: Field
+  source:
+    remote:
+      path: Pie/DepthComparison.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: GreaterEqual
+    path: src/Pie/Pie/DepthComparison.cs
+    startLine: 40
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nThe depth test passes if the incoming depth value is greater than or equal to the stored depth value.\n"
+  example: []
+  syntax:
+    content: GreaterEqual = 6
+    return:
+      type: Pie.DepthComparison
+- uid: Pie.DepthComparison.Always
+  commentId: F:Pie.DepthComparison.Always
+  id: Always
+  parent: Pie.DepthComparison
+  langs:
+  - csharp
+  - vb
+  name: Always
+  nameWithType: DepthComparison.Always
+  fullName: Pie.DepthComparison.Always
+  type: Field
+  source:
+    remote:
+      path: Pie/DepthComparison.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Always
+    path: src/Pie/Pie/DepthComparison.cs
+    startLine: 45
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nThe depth test will always pass.\n"
+  example: []
+  syntax:
+    content: Always = 7
+    return:
+      type: Pie.DepthComparison
+references:
+- uid: Pie
+  commentId: N:Pie
+  name: Pie
+  nameWithType: Pie
+  fullName: Pie
+- uid: Pie.DepthComparison
+  commentId: T:Pie.DepthComparison
+  parent: Pie
+  name: DepthComparison
+  nameWithType: DepthComparison
+  fullName: Pie.DepthComparison

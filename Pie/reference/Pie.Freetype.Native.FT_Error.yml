@@ -1,0 +1,409 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pie.Freetype.Native.FT_Error
+  commentId: T:Pie.Freetype.Native.FT_Error
+  id: FT_Error
+  parent: Pie.Freetype.Native
+  children:
+  - Pie.Freetype.Native.FT_Error.ArrayTooLarge
+  - Pie.Freetype.Native.FT_Error.CannotOpenResource
+  - Pie.Freetype.Native.FT_Error.InvalidArgument
+  - Pie.Freetype.Native.FT_Error.InvalidFileFormat
+  - Pie.Freetype.Native.FT_Error.InvalidOffset
+  - Pie.Freetype.Native.FT_Error.InvalidTable
+  - Pie.Freetype.Native.FT_Error.InvalidVersion
+  - Pie.Freetype.Native.FT_Error.LowerModuleVersion
+  - Pie.Freetype.Native.FT_Error.MissingModule
+  - Pie.Freetype.Native.FT_Error.MissingProperty
+  - Pie.Freetype.Native.FT_Error.Ok
+  - Pie.Freetype.Native.FT_Error.UnimplementedFeature
+  - Pie.Freetype.Native.FT_Error.UnknownFileFormat
+  langs:
+  - csharp
+  - vb
+  name: FT_Error
+  nameWithType: FT_Error
+  fullName: Pie.Freetype.Native.FT_Error
+  type: Enum
+  source:
+    remote:
+      path: Pie.Freetype/Native/FT_Error.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: FT_Error
+    path: src/Pie/Pie.Freetype/Native/FT_Error.cs
+    startLine: 2
+  assemblies:
+  - Pie.Freetype
+  namespace: Pie.Freetype.Native
+  syntax:
+    content: public enum FT_Error
+    content.vb: Public Enum FT_Error
+- uid: Pie.Freetype.Native.FT_Error.Ok
+  commentId: F:Pie.Freetype.Native.FT_Error.Ok
+  id: Ok
+  parent: Pie.Freetype.Native.FT_Error
+  langs:
+  - csharp
+  - vb
+  name: Ok
+  nameWithType: FT_Error.Ok
+  fullName: Pie.Freetype.Native.FT_Error.Ok
+  type: Field
+  source:
+    remote:
+      path: Pie.Freetype/Native/FT_Error.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Ok
+    path: src/Pie/Pie.Freetype/Native/FT_Error.cs
+    startLine: 4
+  assemblies:
+  - Pie.Freetype
+  namespace: Pie.Freetype.Native
+  syntax:
+    content: Ok = 0
+    return:
+      type: Pie.Freetype.Native.FT_Error
+- uid: Pie.Freetype.Native.FT_Error.CannotOpenResource
+  commentId: F:Pie.Freetype.Native.FT_Error.CannotOpenResource
+  id: CannotOpenResource
+  parent: Pie.Freetype.Native.FT_Error
+  langs:
+  - csharp
+  - vb
+  name: CannotOpenResource
+  nameWithType: FT_Error.CannotOpenResource
+  fullName: Pie.Freetype.Native.FT_Error.CannotOpenResource
+  type: Field
+  source:
+    remote:
+      path: Pie.Freetype/Native/FT_Error.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: CannotOpenResource
+    path: src/Pie/Pie.Freetype/Native/FT_Error.cs
+    startLine: 5
+  assemblies:
+  - Pie.Freetype
+  namespace: Pie.Freetype.Native
+  syntax:
+    content: CannotOpenResource = 1
+    return:
+      type: Pie.Freetype.Native.FT_Error
+- uid: Pie.Freetype.Native.FT_Error.UnknownFileFormat
+  commentId: F:Pie.Freetype.Native.FT_Error.UnknownFileFormat
+  id: UnknownFileFormat
+  parent: Pie.Freetype.Native.FT_Error
+  langs:
+  - csharp
+  - vb
+  name: UnknownFileFormat
+  nameWithType: FT_Error.UnknownFileFormat
+  fullName: Pie.Freetype.Native.FT_Error.UnknownFileFormat
+  type: Field
+  source:
+    remote:
+      path: Pie.Freetype/Native/FT_Error.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: UnknownFileFormat
+    path: src/Pie/Pie.Freetype/Native/FT_Error.cs
+    startLine: 6
+  assemblies:
+  - Pie.Freetype
+  namespace: Pie.Freetype.Native
+  syntax:
+    content: UnknownFileFormat = 2
+    return:
+      type: Pie.Freetype.Native.FT_Error
+- uid: Pie.Freetype.Native.FT_Error.InvalidFileFormat
+  commentId: F:Pie.Freetype.Native.FT_Error.InvalidFileFormat
+  id: InvalidFileFormat
+  parent: Pie.Freetype.Native.FT_Error
+  langs:
+  - csharp
+  - vb
+  name: InvalidFileFormat
+  nameWithType: FT_Error.InvalidFileFormat
+  fullName: Pie.Freetype.Native.FT_Error.InvalidFileFormat
+  type: Field
+  source:
+    remote:
+      path: Pie.Freetype/Native/FT_Error.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: InvalidFileFormat
+    path: src/Pie/Pie.Freetype/Native/FT_Error.cs
+    startLine: 7
+  assemblies:
+  - Pie.Freetype
+  namespace: Pie.Freetype.Native
+  syntax:
+    content: InvalidFileFormat = 3
+    return:
+      type: Pie.Freetype.Native.FT_Error
+- uid: Pie.Freetype.Native.FT_Error.InvalidVersion
+  commentId: F:Pie.Freetype.Native.FT_Error.InvalidVersion
+  id: InvalidVersion
+  parent: Pie.Freetype.Native.FT_Error
+  langs:
+  - csharp
+  - vb
+  name: InvalidVersion
+  nameWithType: FT_Error.InvalidVersion
+  fullName: Pie.Freetype.Native.FT_Error.InvalidVersion
+  type: Field
+  source:
+    remote:
+      path: Pie.Freetype/Native/FT_Error.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: InvalidVersion
+    path: src/Pie/Pie.Freetype/Native/FT_Error.cs
+    startLine: 8
+  assemblies:
+  - Pie.Freetype
+  namespace: Pie.Freetype.Native
+  syntax:
+    content: InvalidVersion = 4
+    return:
+      type: Pie.Freetype.Native.FT_Error
+- uid: Pie.Freetype.Native.FT_Error.LowerModuleVersion
+  commentId: F:Pie.Freetype.Native.FT_Error.LowerModuleVersion
+  id: LowerModuleVersion
+  parent: Pie.Freetype.Native.FT_Error
+  langs:
+  - csharp
+  - vb
+  name: LowerModuleVersion
+  nameWithType: FT_Error.LowerModuleVersion
+  fullName: Pie.Freetype.Native.FT_Error.LowerModuleVersion
+  type: Field
+  source:
+    remote:
+      path: Pie.Freetype/Native/FT_Error.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: LowerModuleVersion
+    path: src/Pie/Pie.Freetype/Native/FT_Error.cs
+    startLine: 9
+  assemblies:
+  - Pie.Freetype
+  namespace: Pie.Freetype.Native
+  syntax:
+    content: LowerModuleVersion = 5
+    return:
+      type: Pie.Freetype.Native.FT_Error
+- uid: Pie.Freetype.Native.FT_Error.InvalidArgument
+  commentId: F:Pie.Freetype.Native.FT_Error.InvalidArgument
+  id: InvalidArgument
+  parent: Pie.Freetype.Native.FT_Error
+  langs:
+  - csharp
+  - vb
+  name: InvalidArgument
+  nameWithType: FT_Error.InvalidArgument
+  fullName: Pie.Freetype.Native.FT_Error.InvalidArgument
+  type: Field
+  source:
+    remote:
+      path: Pie.Freetype/Native/FT_Error.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: InvalidArgument
+    path: src/Pie/Pie.Freetype/Native/FT_Error.cs
+    startLine: 10
+  assemblies:
+  - Pie.Freetype
+  namespace: Pie.Freetype.Native
+  syntax:
+    content: InvalidArgument = 6
+    return:
+      type: Pie.Freetype.Native.FT_Error
+- uid: Pie.Freetype.Native.FT_Error.UnimplementedFeature
+  commentId: F:Pie.Freetype.Native.FT_Error.UnimplementedFeature
+  id: UnimplementedFeature
+  parent: Pie.Freetype.Native.FT_Error
+  langs:
+  - csharp
+  - vb
+  name: UnimplementedFeature
+  nameWithType: FT_Error.UnimplementedFeature
+  fullName: Pie.Freetype.Native.FT_Error.UnimplementedFeature
+  type: Field
+  source:
+    remote:
+      path: Pie.Freetype/Native/FT_Error.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: UnimplementedFeature
+    path: src/Pie/Pie.Freetype/Native/FT_Error.cs
+    startLine: 11
+  assemblies:
+  - Pie.Freetype
+  namespace: Pie.Freetype.Native
+  syntax:
+    content: UnimplementedFeature = 7
+    return:
+      type: Pie.Freetype.Native.FT_Error
+- uid: Pie.Freetype.Native.FT_Error.InvalidTable
+  commentId: F:Pie.Freetype.Native.FT_Error.InvalidTable
+  id: InvalidTable
+  parent: Pie.Freetype.Native.FT_Error
+  langs:
+  - csharp
+  - vb
+  name: InvalidTable
+  nameWithType: FT_Error.InvalidTable
+  fullName: Pie.Freetype.Native.FT_Error.InvalidTable
+  type: Field
+  source:
+    remote:
+      path: Pie.Freetype/Native/FT_Error.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: InvalidTable
+    path: src/Pie/Pie.Freetype/Native/FT_Error.cs
+    startLine: 12
+  assemblies:
+  - Pie.Freetype
+  namespace: Pie.Freetype.Native
+  syntax:
+    content: InvalidTable = 8
+    return:
+      type: Pie.Freetype.Native.FT_Error
+- uid: Pie.Freetype.Native.FT_Error.InvalidOffset
+  commentId: F:Pie.Freetype.Native.FT_Error.InvalidOffset
+  id: InvalidOffset
+  parent: Pie.Freetype.Native.FT_Error
+  langs:
+  - csharp
+  - vb
+  name: InvalidOffset
+  nameWithType: FT_Error.InvalidOffset
+  fullName: Pie.Freetype.Native.FT_Error.InvalidOffset
+  type: Field
+  source:
+    remote:
+      path: Pie.Freetype/Native/FT_Error.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: InvalidOffset
+    path: src/Pie/Pie.Freetype/Native/FT_Error.cs
+    startLine: 13
+  assemblies:
+  - Pie.Freetype
+  namespace: Pie.Freetype.Native
+  syntax:
+    content: InvalidOffset = 9
+    return:
+      type: Pie.Freetype.Native.FT_Error
+- uid: Pie.Freetype.Native.FT_Error.ArrayTooLarge
+  commentId: F:Pie.Freetype.Native.FT_Error.ArrayTooLarge
+  id: ArrayTooLarge
+  parent: Pie.Freetype.Native.FT_Error
+  langs:
+  - csharp
+  - vb
+  name: ArrayTooLarge
+  nameWithType: FT_Error.ArrayTooLarge
+  fullName: Pie.Freetype.Native.FT_Error.ArrayTooLarge
+  type: Field
+  source:
+    remote:
+      path: Pie.Freetype/Native/FT_Error.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: ArrayTooLarge
+    path: src/Pie/Pie.Freetype/Native/FT_Error.cs
+    startLine: 14
+  assemblies:
+  - Pie.Freetype
+  namespace: Pie.Freetype.Native
+  syntax:
+    content: ArrayTooLarge = 10
+    return:
+      type: Pie.Freetype.Native.FT_Error
+- uid: Pie.Freetype.Native.FT_Error.MissingModule
+  commentId: F:Pie.Freetype.Native.FT_Error.MissingModule
+  id: MissingModule
+  parent: Pie.Freetype.Native.FT_Error
+  langs:
+  - csharp
+  - vb
+  name: MissingModule
+  nameWithType: FT_Error.MissingModule
+  fullName: Pie.Freetype.Native.FT_Error.MissingModule
+  type: Field
+  source:
+    remote:
+      path: Pie.Freetype/Native/FT_Error.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: MissingModule
+    path: src/Pie/Pie.Freetype/Native/FT_Error.cs
+    startLine: 15
+  assemblies:
+  - Pie.Freetype
+  namespace: Pie.Freetype.Native
+  syntax:
+    content: MissingModule = 11
+    return:
+      type: Pie.Freetype.Native.FT_Error
+- uid: Pie.Freetype.Native.FT_Error.MissingProperty
+  commentId: F:Pie.Freetype.Native.FT_Error.MissingProperty
+  id: MissingProperty
+  parent: Pie.Freetype.Native.FT_Error
+  langs:
+  - csharp
+  - vb
+  name: MissingProperty
+  nameWithType: FT_Error.MissingProperty
+  fullName: Pie.Freetype.Native.FT_Error.MissingProperty
+  type: Field
+  source:
+    remote:
+      path: Pie.Freetype/Native/FT_Error.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: MissingProperty
+    path: src/Pie/Pie.Freetype/Native/FT_Error.cs
+    startLine: 16
+  assemblies:
+  - Pie.Freetype
+  namespace: Pie.Freetype.Native
+  syntax:
+    content: MissingProperty = 12
+    return:
+      type: Pie.Freetype.Native.FT_Error
+references:
+- uid: Pie.Freetype.Native
+  commentId: N:Pie.Freetype.Native
+  name: Pie.Freetype.Native
+  nameWithType: Pie.Freetype.Native
+  fullName: Pie.Freetype.Native
+  spec.csharp:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Freetype
+    name: Freetype
+  - name: .
+  - uid: Pie.Freetype.Native
+    name: Native
+  spec.vb:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Freetype
+    name: Freetype
+  - name: .
+  - uid: Pie.Freetype.Native
+    name: Native
+- uid: Pie.Freetype.Native.FT_Error
+  commentId: T:Pie.Freetype.Native.FT_Error
+  parent: Pie.Freetype.Native
+  name: FT_Error
+  nameWithType: FT_Error
+  fullName: Pie.Freetype.Native.FT_Error

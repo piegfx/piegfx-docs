@@ -1,0 +1,139 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pie.TextureUsage
+  commentId: T:Pie.TextureUsage
+  id: TextureUsage
+  parent: Pie
+  children:
+  - Pie.TextureUsage.Framebuffer
+  - Pie.TextureUsage.None
+  - Pie.TextureUsage.ShaderResource
+  langs:
+  - csharp
+  - vb
+  name: TextureUsage
+  nameWithType: TextureUsage
+  fullName: Pie.TextureUsage
+  type: Enum
+  source:
+    remote:
+      path: Pie/TextureUsage.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: TextureUsage
+    path: src/Pie/Pie/TextureUsage.cs
+    startLine: 7
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nFlags to describe how a texture will be used.\n"
+  example: []
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum TextureUsage
+    content.vb: >-
+      <Flags>
+
+      Public Enum TextureUsage
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+- uid: Pie.TextureUsage.None
+  commentId: F:Pie.TextureUsage.None
+  id: None
+  parent: Pie.TextureUsage
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: TextureUsage.None
+  fullName: Pie.TextureUsage.None
+  type: Field
+  source:
+    remote:
+      path: Pie/TextureUsage.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: None
+    path: src/Pie/Pie/TextureUsage.cs
+    startLine: 13
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nThis texture is not used.\n"
+  example: []
+  syntax:
+    content: None = 1
+    return:
+      type: Pie.TextureUsage
+- uid: Pie.TextureUsage.ShaderResource
+  commentId: F:Pie.TextureUsage.ShaderResource
+  id: ShaderResource
+  parent: Pie.TextureUsage
+  langs:
+  - csharp
+  - vb
+  name: ShaderResource
+  nameWithType: TextureUsage.ShaderResource
+  fullName: Pie.TextureUsage.ShaderResource
+  type: Field
+  source:
+    remote:
+      path: Pie/TextureUsage.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: ShaderResource
+    path: src/Pie/Pie/TextureUsage.cs
+    startLine: 18
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nThis texture is used as a shader resource.\n"
+  example: []
+  syntax:
+    content: ShaderResource = 2
+    return:
+      type: Pie.TextureUsage
+- uid: Pie.TextureUsage.Framebuffer
+  commentId: F:Pie.TextureUsage.Framebuffer
+  id: Framebuffer
+  parent: Pie.TextureUsage
+  langs:
+  - csharp
+  - vb
+  name: Framebuffer
+  nameWithType: TextureUsage.Framebuffer
+  fullName: Pie.TextureUsage.Framebuffer
+  type: Field
+  source:
+    remote:
+      path: Pie/TextureUsage.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Framebuffer
+    path: src/Pie/Pie/TextureUsage.cs
+    startLine: 23
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nThis texture is used as a framebuffer.\n"
+  example: []
+  syntax:
+    content: Framebuffer = 4
+    return:
+      type: Pie.TextureUsage
+references:
+- uid: Pie
+  commentId: N:Pie
+  name: Pie
+  nameWithType: Pie
+  fullName: Pie
+- uid: Pie.TextureUsage
+  commentId: T:Pie.TextureUsage
+  parent: Pie
+  name: TextureUsage
+  nameWithType: TextureUsage
+  fullName: Pie.TextureUsage

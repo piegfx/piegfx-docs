@@ -1,0 +1,175 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pie.LogType
+  commentId: T:Pie.LogType
+  id: LogType
+  parent: Pie
+  children:
+  - Pie.LogType.Critical
+  - Pie.LogType.Debug
+  - Pie.LogType.Error
+  - Pie.LogType.Info
+  - Pie.LogType.Warning
+  langs:
+  - csharp
+  - vb
+  name: LogType
+  nameWithType: LogType
+  fullName: Pie.LogType
+  type: Enum
+  source:
+    remote:
+      path: Pie/PieLog.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: LogType
+    path: src/Pie/Pie/PieLog.cs
+    startLine: 26
+  assemblies:
+  - Pie
+  namespace: Pie
+  syntax:
+    content: public enum LogType
+    content.vb: Public Enum LogType
+- uid: Pie.LogType.Debug
+  commentId: F:Pie.LogType.Debug
+  id: Debug
+  parent: Pie.LogType
+  langs:
+  - csharp
+  - vb
+  name: Debug
+  nameWithType: LogType.Debug
+  fullName: Pie.LogType.Debug
+  type: Field
+  source:
+    remote:
+      path: Pie/PieLog.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Debug
+    path: src/Pie/Pie/PieLog.cs
+    startLine: 28
+  assemblies:
+  - Pie
+  namespace: Pie
+  syntax:
+    content: Debug = 0
+    return:
+      type: Pie.LogType
+- uid: Pie.LogType.Info
+  commentId: F:Pie.LogType.Info
+  id: Info
+  parent: Pie.LogType
+  langs:
+  - csharp
+  - vb
+  name: Info
+  nameWithType: LogType.Info
+  fullName: Pie.LogType.Info
+  type: Field
+  source:
+    remote:
+      path: Pie/PieLog.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Info
+    path: src/Pie/Pie/PieLog.cs
+    startLine: 29
+  assemblies:
+  - Pie
+  namespace: Pie
+  syntax:
+    content: Info = 1
+    return:
+      type: Pie.LogType
+- uid: Pie.LogType.Warning
+  commentId: F:Pie.LogType.Warning
+  id: Warning
+  parent: Pie.LogType
+  langs:
+  - csharp
+  - vb
+  name: Warning
+  nameWithType: LogType.Warning
+  fullName: Pie.LogType.Warning
+  type: Field
+  source:
+    remote:
+      path: Pie/PieLog.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Warning
+    path: src/Pie/Pie/PieLog.cs
+    startLine: 30
+  assemblies:
+  - Pie
+  namespace: Pie
+  syntax:
+    content: Warning = 2
+    return:
+      type: Pie.LogType
+- uid: Pie.LogType.Error
+  commentId: F:Pie.LogType.Error
+  id: Error
+  parent: Pie.LogType
+  langs:
+  - csharp
+  - vb
+  name: Error
+  nameWithType: LogType.Error
+  fullName: Pie.LogType.Error
+  type: Field
+  source:
+    remote:
+      path: Pie/PieLog.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Error
+    path: src/Pie/Pie/PieLog.cs
+    startLine: 31
+  assemblies:
+  - Pie
+  namespace: Pie
+  syntax:
+    content: Error = 3
+    return:
+      type: Pie.LogType
+- uid: Pie.LogType.Critical
+  commentId: F:Pie.LogType.Critical
+  id: Critical
+  parent: Pie.LogType
+  langs:
+  - csharp
+  - vb
+  name: Critical
+  nameWithType: LogType.Critical
+  fullName: Pie.LogType.Critical
+  type: Field
+  source:
+    remote:
+      path: Pie/PieLog.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Critical
+    path: src/Pie/Pie/PieLog.cs
+    startLine: 32
+  assemblies:
+  - Pie
+  namespace: Pie
+  syntax:
+    content: Critical = 4
+    return:
+      type: Pie.LogType
+references:
+- uid: Pie
+  commentId: N:Pie
+  name: Pie
+  nameWithType: Pie
+  fullName: Pie
+- uid: Pie.LogType
+  commentId: T:Pie.LogType
+  parent: Pie
+  name: LogType
+  nameWithType: LogType
+  fullName: Pie.LogType

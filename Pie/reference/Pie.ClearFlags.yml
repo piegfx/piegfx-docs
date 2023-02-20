@@ -1,0 +1,139 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pie.ClearFlags
+  commentId: T:Pie.ClearFlags
+  id: ClearFlags
+  parent: Pie
+  children:
+  - Pie.ClearFlags.Depth
+  - Pie.ClearFlags.None
+  - Pie.ClearFlags.Stencil
+  langs:
+  - csharp
+  - vb
+  name: ClearFlags
+  nameWithType: ClearFlags
+  fullName: Pie.ClearFlags
+  type: Enum
+  source:
+    remote:
+      path: Pie/ClearFlags.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: ClearFlags
+    path: src/Pie/Pie/ClearFlags.cs
+    startLine: 7
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nThe flags to use when clearing the target framebuffer.\n"
+  example: []
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum ClearFlags
+    content.vb: >-
+      <Flags>
+
+      Public Enum ClearFlags
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+- uid: Pie.ClearFlags.None
+  commentId: F:Pie.ClearFlags.None
+  id: None
+  parent: Pie.ClearFlags
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: ClearFlags.None
+  fullName: Pie.ClearFlags.None
+  type: Field
+  source:
+    remote:
+      path: Pie/ClearFlags.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: None
+    path: src/Pie/Pie/ClearFlags.cs
+    startLine: 13
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nDo not clear anything.\n"
+  example: []
+  syntax:
+    content: None = 0
+    return:
+      type: Pie.ClearFlags
+- uid: Pie.ClearFlags.Depth
+  commentId: F:Pie.ClearFlags.Depth
+  id: Depth
+  parent: Pie.ClearFlags
+  langs:
+  - csharp
+  - vb
+  name: Depth
+  nameWithType: ClearFlags.Depth
+  fullName: Pie.ClearFlags.Depth
+  type: Field
+  source:
+    remote:
+      path: Pie/ClearFlags.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Depth
+    path: src/Pie/Pie/ClearFlags.cs
+    startLine: 18
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nClear the depth bit.\n"
+  example: []
+  syntax:
+    content: Depth = 1
+    return:
+      type: Pie.ClearFlags
+- uid: Pie.ClearFlags.Stencil
+  commentId: F:Pie.ClearFlags.Stencil
+  id: Stencil
+  parent: Pie.ClearFlags
+  langs:
+  - csharp
+  - vb
+  name: Stencil
+  nameWithType: ClearFlags.Stencil
+  fullName: Pie.ClearFlags.Stencil
+  type: Field
+  source:
+    remote:
+      path: Pie/ClearFlags.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Stencil
+    path: src/Pie/Pie/ClearFlags.cs
+    startLine: 23
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nClear the stencil bit.\n"
+  example: []
+  syntax:
+    content: Stencil = 2
+    return:
+      type: Pie.ClearFlags
+references:
+- uid: Pie
+  commentId: N:Pie
+  name: Pie
+  nameWithType: Pie
+  fullName: Pie
+- uid: Pie.ClearFlags
+  commentId: T:Pie.ClearFlags
+  parent: Pie
+  name: ClearFlags
+  nameWithType: ClearFlags
+  fullName: Pie.ClearFlags

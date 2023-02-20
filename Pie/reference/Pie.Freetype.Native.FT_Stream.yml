@@ -1,0 +1,651 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pie.Freetype.Native.FT_Stream
+  commentId: T:Pie.Freetype.Native.FT_Stream
+  id: FT_Stream
+  parent: Pie.Freetype.Native
+  children:
+  - Pie.Freetype.Native.FT_Stream.Base
+  - Pie.Freetype.Native.FT_Stream.Close
+  - Pie.Freetype.Native.FT_Stream.Cursor
+  - Pie.Freetype.Native.FT_Stream.Descriptor
+  - Pie.Freetype.Native.FT_Stream.Limit
+  - Pie.Freetype.Native.FT_Stream.Memory
+  - Pie.Freetype.Native.FT_Stream.PathName
+  - Pie.Freetype.Native.FT_Stream.Pos
+  - Pie.Freetype.Native.FT_Stream.Read
+  - Pie.Freetype.Native.FT_Stream.Size
+  langs:
+  - csharp
+  - vb
+  name: FT_Stream
+  nameWithType: FT_Stream
+  fullName: Pie.Freetype.Native.FT_Stream
+  type: Struct
+  source:
+    remote:
+      path: Pie.Freetype/Native/FT_Stream.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: FT_Stream
+    path: src/Pie/Pie.Freetype/Native/FT_Stream.cs
+    startLine: 4
+  assemblies:
+  - Pie.Freetype
+  namespace: Pie.Freetype.Native
+  syntax:
+    content: public struct FT_Stream
+    content.vb: Public Structure FT_Stream
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: Pie.Freetype.Native.FT_Stream.Base
+  commentId: F:Pie.Freetype.Native.FT_Stream.Base
+  id: Base
+  parent: Pie.Freetype.Native.FT_Stream
+  langs:
+  - csharp
+  - vb
+  name: Base
+  nameWithType: FT_Stream.Base
+  fullName: Pie.Freetype.Native.FT_Stream.Base
+  type: Field
+  source:
+    remote:
+      path: Pie.Freetype/Native/FT_Stream.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Base
+    path: src/Pie/Pie.Freetype/Native/FT_Stream.cs
+    startLine: 7
+  assemblies:
+  - Pie.Freetype
+  namespace: Pie.Freetype.Native
+  syntax:
+    content: public byte* Base
+    return:
+      type: System.Byte*
+    content.vb: Public Base As Byte*
+- uid: Pie.Freetype.Native.FT_Stream.Size
+  commentId: F:Pie.Freetype.Native.FT_Stream.Size
+  id: Size
+  parent: Pie.Freetype.Native.FT_Stream
+  langs:
+  - csharp
+  - vb
+  name: Size
+  nameWithType: FT_Stream.Size
+  fullName: Pie.Freetype.Native.FT_Stream.Size
+  type: Field
+  source:
+    remote:
+      path: Pie.Freetype/Native/FT_Stream.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Size
+    path: src/Pie/Pie.Freetype/Native/FT_Stream.cs
+    startLine: 8
+  assemblies:
+  - Pie.Freetype
+  namespace: Pie.Freetype.Native
+  syntax:
+    content: public CULong Size
+    return:
+      type: System.Runtime.InteropServices.CULong
+    content.vb: Public Size As CULong
+- uid: Pie.Freetype.Native.FT_Stream.Pos
+  commentId: F:Pie.Freetype.Native.FT_Stream.Pos
+  id: Pos
+  parent: Pie.Freetype.Native.FT_Stream
+  langs:
+  - csharp
+  - vb
+  name: Pos
+  nameWithType: FT_Stream.Pos
+  fullName: Pie.Freetype.Native.FT_Stream.Pos
+  type: Field
+  source:
+    remote:
+      path: Pie.Freetype/Native/FT_Stream.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Pos
+    path: src/Pie/Pie.Freetype/Native/FT_Stream.cs
+    startLine: 9
+  assemblies:
+  - Pie.Freetype
+  namespace: Pie.Freetype.Native
+  syntax:
+    content: public CULong Pos
+    return:
+      type: System.Runtime.InteropServices.CULong
+    content.vb: Public Pos As CULong
+- uid: Pie.Freetype.Native.FT_Stream.Descriptor
+  commentId: F:Pie.Freetype.Native.FT_Stream.Descriptor
+  id: Descriptor
+  parent: Pie.Freetype.Native.FT_Stream
+  langs:
+  - csharp
+  - vb
+  name: Descriptor
+  nameWithType: FT_Stream.Descriptor
+  fullName: Pie.Freetype.Native.FT_Stream.Descriptor
+  type: Field
+  source:
+    remote:
+      path: Pie.Freetype/Native/FT_Stream.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Descriptor
+    path: src/Pie/Pie.Freetype/Native/FT_Stream.cs
+    startLine: 11
+  assemblies:
+  - Pie.Freetype
+  namespace: Pie.Freetype.Native
+  syntax:
+    content: public FT_StreamDesc Descriptor
+    return:
+      type: Pie.Freetype.Native.FT_StreamDesc
+    content.vb: Public Descriptor As FT_StreamDesc
+- uid: Pie.Freetype.Native.FT_Stream.PathName
+  commentId: F:Pie.Freetype.Native.FT_Stream.PathName
+  id: PathName
+  parent: Pie.Freetype.Native.FT_Stream
+  langs:
+  - csharp
+  - vb
+  name: PathName
+  nameWithType: FT_Stream.PathName
+  fullName: Pie.Freetype.Native.FT_Stream.PathName
+  type: Field
+  source:
+    remote:
+      path: Pie.Freetype/Native/FT_Stream.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: PathName
+    path: src/Pie/Pie.Freetype/Native/FT_Stream.cs
+    startLine: 12
+  assemblies:
+  - Pie.Freetype
+  namespace: Pie.Freetype.Native
+  syntax:
+    content: public FT_StreamDesc PathName
+    return:
+      type: Pie.Freetype.Native.FT_StreamDesc
+    content.vb: Public PathName As FT_StreamDesc
+- uid: Pie.Freetype.Native.FT_Stream.Read
+  commentId: F:Pie.Freetype.Native.FT_Stream.Read
+  id: Read
+  parent: Pie.Freetype.Native.FT_Stream
+  langs:
+  - csharp
+  - vb
+  name: Read
+  nameWithType: FT_Stream.Read
+  fullName: Pie.Freetype.Native.FT_Stream.Read
+  type: Field
+  source:
+    remote:
+      path: Pie.Freetype/Native/FT_Stream.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Read
+    path: src/Pie/Pie.Freetype/Native/FT_Stream.cs
+    startLine: 13
+  assemblies:
+  - Pie.Freetype
+  namespace: Pie.Freetype.Native
+  syntax:
+    content: public delegate*<FT_Stream*, CULong, byte*, CULong, CULong> Read
+    return:
+      type: delegate*<Pie.Freetype.Native.FT_Stream*, System.Runtime.InteropServices.CULong, byte*, System.Runtime.InteropServices.CULong, System.Runtime.InteropServices.CULong>
+    content.vb: 'Public Read As '
+- uid: Pie.Freetype.Native.FT_Stream.Close
+  commentId: F:Pie.Freetype.Native.FT_Stream.Close
+  id: Close
+  parent: Pie.Freetype.Native.FT_Stream
+  langs:
+  - csharp
+  - vb
+  name: Close
+  nameWithType: FT_Stream.Close
+  fullName: Pie.Freetype.Native.FT_Stream.Close
+  type: Field
+  source:
+    remote:
+      path: Pie.Freetype/Native/FT_Stream.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Close
+    path: src/Pie/Pie.Freetype/Native/FT_Stream.cs
+    startLine: 14
+  assemblies:
+  - Pie.Freetype
+  namespace: Pie.Freetype.Native
+  syntax:
+    content: public delegate*<FT_Stream*, void> Close
+    return:
+      type: delegate*<Pie.Freetype.Native.FT_Stream*, void>
+    content.vb: 'Public Close As '
+- uid: Pie.Freetype.Native.FT_Stream.Memory
+  commentId: F:Pie.Freetype.Native.FT_Stream.Memory
+  id: Memory
+  parent: Pie.Freetype.Native.FT_Stream
+  langs:
+  - csharp
+  - vb
+  name: Memory
+  nameWithType: FT_Stream.Memory
+  fullName: Pie.Freetype.Native.FT_Stream.Memory
+  type: Field
+  source:
+    remote:
+      path: Pie.Freetype/Native/FT_Stream.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Memory
+    path: src/Pie/Pie.Freetype/Native/FT_Stream.cs
+    startLine: 16
+  assemblies:
+  - Pie.Freetype
+  namespace: Pie.Freetype.Native
+  syntax:
+    content: public FT_Memory* Memory
+    return:
+      type: Pie.Freetype.Native.FT_Memory*
+    content.vb: Public Memory As FT_Memory*
+- uid: Pie.Freetype.Native.FT_Stream.Cursor
+  commentId: F:Pie.Freetype.Native.FT_Stream.Cursor
+  id: Cursor
+  parent: Pie.Freetype.Native.FT_Stream
+  langs:
+  - csharp
+  - vb
+  name: Cursor
+  nameWithType: FT_Stream.Cursor
+  fullName: Pie.Freetype.Native.FT_Stream.Cursor
+  type: Field
+  source:
+    remote:
+      path: Pie.Freetype/Native/FT_Stream.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Cursor
+    path: src/Pie/Pie.Freetype/Native/FT_Stream.cs
+    startLine: 17
+  assemblies:
+  - Pie.Freetype
+  namespace: Pie.Freetype.Native
+  syntax:
+    content: public byte* Cursor
+    return:
+      type: System.Byte*
+    content.vb: Public Cursor As Byte*
+- uid: Pie.Freetype.Native.FT_Stream.Limit
+  commentId: F:Pie.Freetype.Native.FT_Stream.Limit
+  id: Limit
+  parent: Pie.Freetype.Native.FT_Stream
+  langs:
+  - csharp
+  - vb
+  name: Limit
+  nameWithType: FT_Stream.Limit
+  fullName: Pie.Freetype.Native.FT_Stream.Limit
+  type: Field
+  source:
+    remote:
+      path: Pie.Freetype/Native/FT_Stream.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Limit
+    path: src/Pie/Pie.Freetype/Native/FT_Stream.cs
+    startLine: 18
+  assemblies:
+  - Pie.Freetype
+  namespace: Pie.Freetype.Native
+  syntax:
+    content: public byte* Limit
+    return:
+      type: System.Byte*
+    content.vb: Public Limit As Byte*
+references:
+- uid: Pie.Freetype.Native
+  commentId: N:Pie.Freetype.Native
+  name: Pie.Freetype.Native
+  nameWithType: Pie.Freetype.Native
+  fullName: Pie.Freetype.Native
+  spec.csharp:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Freetype
+    name: Freetype
+  - name: .
+  - uid: Pie.Freetype.Native
+    name: Native
+  spec.vb:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Freetype
+    name: Freetype
+  - name: .
+  - uid: Pie.Freetype.Native
+    name: Native
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Byte*
+  isExternal: true
+  name: byte*
+  nameWithType: byte*
+  fullName: byte*
+  nameWithType.vb: Byte*
+  fullName.vb: Byte*
+  name.vb: Byte*
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '*'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: '*'
+- uid: System.Runtime.InteropServices.CULong
+  commentId: T:System.Runtime.InteropServices.CULong
+  parent: System.Runtime.InteropServices
+  isExternal: true
+  name: CULong
+  nameWithType: CULong
+  fullName: System.Runtime.InteropServices.CULong
+- uid: System.Runtime.InteropServices
+  commentId: N:System.Runtime.InteropServices
+  isExternal: true
+  name: System.Runtime.InteropServices
+  nameWithType: System.Runtime.InteropServices
+  fullName: System.Runtime.InteropServices
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Runtime
+    name: Runtime
+    isExternal: true
+  - name: .
+  - uid: System.Runtime.InteropServices
+    name: InteropServices
+    isExternal: true
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Runtime
+    name: Runtime
+    isExternal: true
+  - name: .
+  - uid: System.Runtime.InteropServices
+    name: InteropServices
+    isExternal: true
+- uid: Pie.Freetype.Native.FT_StreamDesc
+  commentId: T:Pie.Freetype.Native.FT_StreamDesc
+  parent: Pie.Freetype.Native
+  name: FT_StreamDesc
+  nameWithType: FT_StreamDesc
+  fullName: Pie.Freetype.Native.FT_StreamDesc
+- uid: delegate*<Pie.Freetype.Native.FT_Stream*, System.Runtime.InteropServices.CULong, byte*, System.Runtime.InteropServices.CULong, System.Runtime.InteropServices.CULong>
+  isExternal: true
+  name: delegate*<FT_Stream*, CULong, byte*, CULong, CULong>
+  nameWithType: delegate*<FT_Stream*, CULong, byte*, CULong, CULong>
+  fullName: delegate*<Pie.Freetype.Native.FT_Stream*, System.Runtime.InteropServices.CULong, byte*, System.Runtime.InteropServices.CULong, System.Runtime.InteropServices.CULong>
+  spec.csharp:
+  - name: delegate
+  - name: '*'
+  - name: <
+  - uid: Pie.Freetype.Native.FT_Stream
+    name: FT_Stream
+  - name: '*'
+  - name: ','
+  - name: " "
+  - uid: System.Runtime.InteropServices.CULong
+    name: CULong
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '*'
+  - name: ','
+  - name: " "
+  - uid: System.Runtime.InteropServices.CULong
+    name: CULong
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Runtime.InteropServices.CULong
+    name: CULong
+    isExternal: true
+  - name: '>'
+- uid: delegate*<Pie.Freetype.Native.FT_Stream*, void>
+  isExternal: true
+  name: delegate*<FT_Stream*, void>
+  nameWithType: delegate*<FT_Stream*, void>
+  fullName: delegate*<Pie.Freetype.Native.FT_Stream*, void>
+  spec.csharp:
+  - name: delegate
+  - name: '*'
+  - name: <
+  - uid: Pie.Freetype.Native.FT_Stream
+    name: FT_Stream
+  - name: '*'
+  - name: ','
+  - name: " "
+  - uid: System.Void
+    name: void
+    isExternal: true
+  - name: '>'
+- uid: Pie.Freetype.Native.FT_Memory*
+  isExternal: true
+  name: FT_Memory*
+  nameWithType: FT_Memory*
+  fullName: Pie.Freetype.Native.FT_Memory*
+  spec.csharp:
+  - uid: Pie.Freetype.Native.FT_Memory
+    name: FT_Memory
+  - name: '*'
+  spec.vb:
+  - uid: Pie.Freetype.Native.FT_Memory
+    name: FT_Memory
+  - name: '*'

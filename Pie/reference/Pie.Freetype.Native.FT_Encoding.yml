@@ -1,0 +1,598 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pie.Freetype.Native.FT_Encoding
+  commentId: T:Pie.Freetype.Native.FT_Encoding
+  id: FT_Encoding
+  parent: Pie.Freetype.Native
+  children:
+  - Pie.Freetype.Native.FT_Encoding.AdobeCustom
+  - Pie.Freetype.Native.FT_Encoding.AdobeExpert
+  - Pie.Freetype.Native.FT_Encoding.AdobeLatin1
+  - Pie.Freetype.Native.FT_Encoding.AdobeStandard
+  - Pie.Freetype.Native.FT_Encoding.AppleRoman
+  - Pie.Freetype.Native.FT_Encoding.Big5
+  - Pie.Freetype.Native.FT_Encoding.GB2312
+  - Pie.Freetype.Native.FT_Encoding.Johab
+  - Pie.Freetype.Native.FT_Encoding.MSBig5
+  - Pie.Freetype.Native.FT_Encoding.MSGB2312
+  - Pie.Freetype.Native.FT_Encoding.MSJohab
+  - Pie.Freetype.Native.FT_Encoding.MSSJIS
+  - Pie.Freetype.Native.FT_Encoding.MSSymbol
+  - Pie.Freetype.Native.FT_Encoding.MSWansung
+  - Pie.Freetype.Native.FT_Encoding.None
+  - Pie.Freetype.Native.FT_Encoding.OldLatin2
+  - Pie.Freetype.Native.FT_Encoding.PRC
+  - Pie.Freetype.Native.FT_Encoding.SJIS
+  - Pie.Freetype.Native.FT_Encoding.Unicode
+  - Pie.Freetype.Native.FT_Encoding.Wansung
+  langs:
+  - csharp
+  - vb
+  name: FT_Encoding
+  nameWithType: FT_Encoding
+  fullName: Pie.Freetype.Native.FT_Encoding
+  type: Enum
+  source:
+    remote:
+      path: Pie.Freetype/Native/FT_Encoding.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: FT_Encoding
+    path: src/Pie/Pie.Freetype/Native/FT_Encoding.cs
+    startLine: 2
+  assemblies:
+  - Pie.Freetype
+  namespace: Pie.Freetype.Native
+  syntax:
+    content: 'public enum FT_Encoding : uint'
+    content.vb: Public Enum FT_Encoding As UInteger
+- uid: Pie.Freetype.Native.FT_Encoding.None
+  commentId: F:Pie.Freetype.Native.FT_Encoding.None
+  id: None
+  parent: Pie.Freetype.Native.FT_Encoding
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: FT_Encoding.None
+  fullName: Pie.Freetype.Native.FT_Encoding.None
+  type: Field
+  source:
+    remote:
+      path: Pie.Freetype/Native/FT_Encoding.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: None
+    path: src/Pie/Pie.Freetype/Native/FT_Encoding.cs
+    startLine: 4
+  assemblies:
+  - Pie.Freetype
+  namespace: Pie.Freetype.Native
+  syntax:
+    content: None = 0
+    return:
+      type: Pie.Freetype.Native.FT_Encoding
+- uid: Pie.Freetype.Native.FT_Encoding.MSSymbol
+  commentId: F:Pie.Freetype.Native.FT_Encoding.MSSymbol
+  id: MSSymbol
+  parent: Pie.Freetype.Native.FT_Encoding
+  langs:
+  - csharp
+  - vb
+  name: MSSymbol
+  nameWithType: FT_Encoding.MSSymbol
+  fullName: Pie.Freetype.Native.FT_Encoding.MSSymbol
+  type: Field
+  source:
+    remote:
+      path: Pie.Freetype/Native/FT_Encoding.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: MSSymbol
+    path: src/Pie/Pie.Freetype/Native/FT_Encoding.cs
+    startLine: 6
+  assemblies:
+  - Pie.Freetype
+  namespace: Pie.Freetype.Native
+  syntax:
+    content: MSSymbol = 1937337698
+    return:
+      type: Pie.Freetype.Native.FT_Encoding
+- uid: Pie.Freetype.Native.FT_Encoding.Unicode
+  commentId: F:Pie.Freetype.Native.FT_Encoding.Unicode
+  id: Unicode
+  parent: Pie.Freetype.Native.FT_Encoding
+  langs:
+  - csharp
+  - vb
+  name: Unicode
+  nameWithType: FT_Encoding.Unicode
+  fullName: Pie.Freetype.Native.FT_Encoding.Unicode
+  type: Field
+  source:
+    remote:
+      path: Pie.Freetype/Native/FT_Encoding.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Unicode
+    path: src/Pie/Pie.Freetype/Native/FT_Encoding.cs
+    startLine: 7
+  assemblies:
+  - Pie.Freetype
+  namespace: Pie.Freetype.Native
+  syntax:
+    content: Unicode = 1970170211
+    return:
+      type: Pie.Freetype.Native.FT_Encoding
+- uid: Pie.Freetype.Native.FT_Encoding.SJIS
+  commentId: F:Pie.Freetype.Native.FT_Encoding.SJIS
+  id: SJIS
+  parent: Pie.Freetype.Native.FT_Encoding
+  langs:
+  - csharp
+  - vb
+  name: SJIS
+  nameWithType: FT_Encoding.SJIS
+  fullName: Pie.Freetype.Native.FT_Encoding.SJIS
+  type: Field
+  source:
+    remote:
+      path: Pie.Freetype/Native/FT_Encoding.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: SJIS
+    path: src/Pie/Pie.Freetype/Native/FT_Encoding.cs
+    startLine: 9
+  assemblies:
+  - Pie.Freetype
+  namespace: Pie.Freetype.Native
+  syntax:
+    content: SJIS = 1936353651
+    return:
+      type: Pie.Freetype.Native.FT_Encoding
+- uid: Pie.Freetype.Native.FT_Encoding.PRC
+  commentId: F:Pie.Freetype.Native.FT_Encoding.PRC
+  id: PRC
+  parent: Pie.Freetype.Native.FT_Encoding
+  langs:
+  - csharp
+  - vb
+  name: PRC
+  nameWithType: FT_Encoding.PRC
+  fullName: Pie.Freetype.Native.FT_Encoding.PRC
+  type: Field
+  source:
+    remote:
+      path: Pie.Freetype/Native/FT_Encoding.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: PRC
+    path: src/Pie/Pie.Freetype/Native/FT_Encoding.cs
+    startLine: 10
+  assemblies:
+  - Pie.Freetype
+  namespace: Pie.Freetype.Native
+  syntax:
+    content: PRC = 1734484000
+    return:
+      type: Pie.Freetype.Native.FT_Encoding
+- uid: Pie.Freetype.Native.FT_Encoding.Big5
+  commentId: F:Pie.Freetype.Native.FT_Encoding.Big5
+  id: Big5
+  parent: Pie.Freetype.Native.FT_Encoding
+  langs:
+  - csharp
+  - vb
+  name: Big5
+  nameWithType: FT_Encoding.Big5
+  fullName: Pie.Freetype.Native.FT_Encoding.Big5
+  type: Field
+  source:
+    remote:
+      path: Pie.Freetype/Native/FT_Encoding.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Big5
+    path: src/Pie/Pie.Freetype/Native/FT_Encoding.cs
+    startLine: 11
+  assemblies:
+  - Pie.Freetype
+  namespace: Pie.Freetype.Native
+  syntax:
+    content: Big5 = 1651074869
+    return:
+      type: Pie.Freetype.Native.FT_Encoding
+- uid: Pie.Freetype.Native.FT_Encoding.Wansung
+  commentId: F:Pie.Freetype.Native.FT_Encoding.Wansung
+  id: Wansung
+  parent: Pie.Freetype.Native.FT_Encoding
+  langs:
+  - csharp
+  - vb
+  name: Wansung
+  nameWithType: FT_Encoding.Wansung
+  fullName: Pie.Freetype.Native.FT_Encoding.Wansung
+  type: Field
+  source:
+    remote:
+      path: Pie.Freetype/Native/FT_Encoding.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Wansung
+    path: src/Pie/Pie.Freetype/Native/FT_Encoding.cs
+    startLine: 12
+  assemblies:
+  - Pie.Freetype
+  namespace: Pie.Freetype.Native
+  syntax:
+    content: Wansung = 2002873971
+    return:
+      type: Pie.Freetype.Native.FT_Encoding
+- uid: Pie.Freetype.Native.FT_Encoding.Johab
+  commentId: F:Pie.Freetype.Native.FT_Encoding.Johab
+  id: Johab
+  parent: Pie.Freetype.Native.FT_Encoding
+  langs:
+  - csharp
+  - vb
+  name: Johab
+  nameWithType: FT_Encoding.Johab
+  fullName: Pie.Freetype.Native.FT_Encoding.Johab
+  type: Field
+  source:
+    remote:
+      path: Pie.Freetype/Native/FT_Encoding.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Johab
+    path: src/Pie/Pie.Freetype/Native/FT_Encoding.cs
+    startLine: 13
+  assemblies:
+  - Pie.Freetype
+  namespace: Pie.Freetype.Native
+  syntax:
+    content: Johab = 1785686113
+    return:
+      type: Pie.Freetype.Native.FT_Encoding
+- uid: Pie.Freetype.Native.FT_Encoding.GB2312
+  commentId: F:Pie.Freetype.Native.FT_Encoding.GB2312
+  id: GB2312
+  parent: Pie.Freetype.Native.FT_Encoding
+  langs:
+  - csharp
+  - vb
+  name: GB2312
+  nameWithType: FT_Encoding.GB2312
+  fullName: Pie.Freetype.Native.FT_Encoding.GB2312
+  type: Field
+  source:
+    remote:
+      path: Pie.Freetype/Native/FT_Encoding.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: GB2312
+    path: src/Pie/Pie.Freetype/Native/FT_Encoding.cs
+    startLine: 15
+  assemblies:
+  - Pie.Freetype
+  namespace: Pie.Freetype.Native
+  syntax:
+    content: GB2312 = 1734484000
+    return:
+      type: Pie.Freetype.Native.FT_Encoding
+- uid: Pie.Freetype.Native.FT_Encoding.MSSJIS
+  commentId: F:Pie.Freetype.Native.FT_Encoding.MSSJIS
+  id: MSSJIS
+  parent: Pie.Freetype.Native.FT_Encoding
+  langs:
+  - csharp
+  - vb
+  name: MSSJIS
+  nameWithType: FT_Encoding.MSSJIS
+  fullName: Pie.Freetype.Native.FT_Encoding.MSSJIS
+  type: Field
+  source:
+    remote:
+      path: Pie.Freetype/Native/FT_Encoding.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: MSSJIS
+    path: src/Pie/Pie.Freetype/Native/FT_Encoding.cs
+    startLine: 16
+  assemblies:
+  - Pie.Freetype
+  namespace: Pie.Freetype.Native
+  syntax:
+    content: MSSJIS = 1936353651
+    return:
+      type: Pie.Freetype.Native.FT_Encoding
+- uid: Pie.Freetype.Native.FT_Encoding.MSGB2312
+  commentId: F:Pie.Freetype.Native.FT_Encoding.MSGB2312
+  id: MSGB2312
+  parent: Pie.Freetype.Native.FT_Encoding
+  langs:
+  - csharp
+  - vb
+  name: MSGB2312
+  nameWithType: FT_Encoding.MSGB2312
+  fullName: Pie.Freetype.Native.FT_Encoding.MSGB2312
+  type: Field
+  source:
+    remote:
+      path: Pie.Freetype/Native/FT_Encoding.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: MSGB2312
+    path: src/Pie/Pie.Freetype/Native/FT_Encoding.cs
+    startLine: 17
+  assemblies:
+  - Pie.Freetype
+  namespace: Pie.Freetype.Native
+  syntax:
+    content: MSGB2312 = 1734484000
+    return:
+      type: Pie.Freetype.Native.FT_Encoding
+- uid: Pie.Freetype.Native.FT_Encoding.MSBig5
+  commentId: F:Pie.Freetype.Native.FT_Encoding.MSBig5
+  id: MSBig5
+  parent: Pie.Freetype.Native.FT_Encoding
+  langs:
+  - csharp
+  - vb
+  name: MSBig5
+  nameWithType: FT_Encoding.MSBig5
+  fullName: Pie.Freetype.Native.FT_Encoding.MSBig5
+  type: Field
+  source:
+    remote:
+      path: Pie.Freetype/Native/FT_Encoding.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: MSBig5
+    path: src/Pie/Pie.Freetype/Native/FT_Encoding.cs
+    startLine: 18
+  assemblies:
+  - Pie.Freetype
+  namespace: Pie.Freetype.Native
+  syntax:
+    content: MSBig5 = 1651074869
+    return:
+      type: Pie.Freetype.Native.FT_Encoding
+- uid: Pie.Freetype.Native.FT_Encoding.MSWansung
+  commentId: F:Pie.Freetype.Native.FT_Encoding.MSWansung
+  id: MSWansung
+  parent: Pie.Freetype.Native.FT_Encoding
+  langs:
+  - csharp
+  - vb
+  name: MSWansung
+  nameWithType: FT_Encoding.MSWansung
+  fullName: Pie.Freetype.Native.FT_Encoding.MSWansung
+  type: Field
+  source:
+    remote:
+      path: Pie.Freetype/Native/FT_Encoding.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: MSWansung
+    path: src/Pie/Pie.Freetype/Native/FT_Encoding.cs
+    startLine: 19
+  assemblies:
+  - Pie.Freetype
+  namespace: Pie.Freetype.Native
+  syntax:
+    content: MSWansung = 2002873971
+    return:
+      type: Pie.Freetype.Native.FT_Encoding
+- uid: Pie.Freetype.Native.FT_Encoding.MSJohab
+  commentId: F:Pie.Freetype.Native.FT_Encoding.MSJohab
+  id: MSJohab
+  parent: Pie.Freetype.Native.FT_Encoding
+  langs:
+  - csharp
+  - vb
+  name: MSJohab
+  nameWithType: FT_Encoding.MSJohab
+  fullName: Pie.Freetype.Native.FT_Encoding.MSJohab
+  type: Field
+  source:
+    remote:
+      path: Pie.Freetype/Native/FT_Encoding.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: MSJohab
+    path: src/Pie/Pie.Freetype/Native/FT_Encoding.cs
+    startLine: 20
+  assemblies:
+  - Pie.Freetype
+  namespace: Pie.Freetype.Native
+  syntax:
+    content: MSJohab = 1785686113
+    return:
+      type: Pie.Freetype.Native.FT_Encoding
+- uid: Pie.Freetype.Native.FT_Encoding.AdobeStandard
+  commentId: F:Pie.Freetype.Native.FT_Encoding.AdobeStandard
+  id: AdobeStandard
+  parent: Pie.Freetype.Native.FT_Encoding
+  langs:
+  - csharp
+  - vb
+  name: AdobeStandard
+  nameWithType: FT_Encoding.AdobeStandard
+  fullName: Pie.Freetype.Native.FT_Encoding.AdobeStandard
+  type: Field
+  source:
+    remote:
+      path: Pie.Freetype/Native/FT_Encoding.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: AdobeStandard
+    path: src/Pie/Pie.Freetype/Native/FT_Encoding.cs
+    startLine: 22
+  assemblies:
+  - Pie.Freetype
+  namespace: Pie.Freetype.Native
+  syntax:
+    content: AdobeStandard = 1094995778
+    return:
+      type: Pie.Freetype.Native.FT_Encoding
+- uid: Pie.Freetype.Native.FT_Encoding.AdobeExpert
+  commentId: F:Pie.Freetype.Native.FT_Encoding.AdobeExpert
+  id: AdobeExpert
+  parent: Pie.Freetype.Native.FT_Encoding
+  langs:
+  - csharp
+  - vb
+  name: AdobeExpert
+  nameWithType: FT_Encoding.AdobeExpert
+  fullName: Pie.Freetype.Native.FT_Encoding.AdobeExpert
+  type: Field
+  source:
+    remote:
+      path: Pie.Freetype/Native/FT_Encoding.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: AdobeExpert
+    path: src/Pie/Pie.Freetype/Native/FT_Encoding.cs
+    startLine: 23
+  assemblies:
+  - Pie.Freetype
+  namespace: Pie.Freetype.Native
+  syntax:
+    content: AdobeExpert = 1094992453
+    return:
+      type: Pie.Freetype.Native.FT_Encoding
+- uid: Pie.Freetype.Native.FT_Encoding.AdobeCustom
+  commentId: F:Pie.Freetype.Native.FT_Encoding.AdobeCustom
+  id: AdobeCustom
+  parent: Pie.Freetype.Native.FT_Encoding
+  langs:
+  - csharp
+  - vb
+  name: AdobeCustom
+  nameWithType: FT_Encoding.AdobeCustom
+  fullName: Pie.Freetype.Native.FT_Encoding.AdobeCustom
+  type: Field
+  source:
+    remote:
+      path: Pie.Freetype/Native/FT_Encoding.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: AdobeCustom
+    path: src/Pie/Pie.Freetype/Native/FT_Encoding.cs
+    startLine: 24
+  assemblies:
+  - Pie.Freetype
+  namespace: Pie.Freetype.Native
+  syntax:
+    content: AdobeCustom = 1094992451
+    return:
+      type: Pie.Freetype.Native.FT_Encoding
+- uid: Pie.Freetype.Native.FT_Encoding.AdobeLatin1
+  commentId: F:Pie.Freetype.Native.FT_Encoding.AdobeLatin1
+  id: AdobeLatin1
+  parent: Pie.Freetype.Native.FT_Encoding
+  langs:
+  - csharp
+  - vb
+  name: AdobeLatin1
+  nameWithType: FT_Encoding.AdobeLatin1
+  fullName: Pie.Freetype.Native.FT_Encoding.AdobeLatin1
+  type: Field
+  source:
+    remote:
+      path: Pie.Freetype/Native/FT_Encoding.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: AdobeLatin1
+    path: src/Pie/Pie.Freetype/Native/FT_Encoding.cs
+    startLine: 25
+  assemblies:
+  - Pie.Freetype
+  namespace: Pie.Freetype.Native
+  syntax:
+    content: AdobeLatin1 = 1818326065
+    return:
+      type: Pie.Freetype.Native.FT_Encoding
+- uid: Pie.Freetype.Native.FT_Encoding.OldLatin2
+  commentId: F:Pie.Freetype.Native.FT_Encoding.OldLatin2
+  id: OldLatin2
+  parent: Pie.Freetype.Native.FT_Encoding
+  langs:
+  - csharp
+  - vb
+  name: OldLatin2
+  nameWithType: FT_Encoding.OldLatin2
+  fullName: Pie.Freetype.Native.FT_Encoding.OldLatin2
+  type: Field
+  source:
+    remote:
+      path: Pie.Freetype/Native/FT_Encoding.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: OldLatin2
+    path: src/Pie/Pie.Freetype/Native/FT_Encoding.cs
+    startLine: 27
+  assemblies:
+  - Pie.Freetype
+  namespace: Pie.Freetype.Native
+  syntax:
+    content: OldLatin2 = 1818326066
+    return:
+      type: Pie.Freetype.Native.FT_Encoding
+- uid: Pie.Freetype.Native.FT_Encoding.AppleRoman
+  commentId: F:Pie.Freetype.Native.FT_Encoding.AppleRoman
+  id: AppleRoman
+  parent: Pie.Freetype.Native.FT_Encoding
+  langs:
+  - csharp
+  - vb
+  name: AppleRoman
+  nameWithType: FT_Encoding.AppleRoman
+  fullName: Pie.Freetype.Native.FT_Encoding.AppleRoman
+  type: Field
+  source:
+    remote:
+      path: Pie.Freetype/Native/FT_Encoding.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: AppleRoman
+    path: src/Pie/Pie.Freetype/Native/FT_Encoding.cs
+    startLine: 29
+  assemblies:
+  - Pie.Freetype
+  namespace: Pie.Freetype.Native
+  syntax:
+    content: AppleRoman = 1634889070
+    return:
+      type: Pie.Freetype.Native.FT_Encoding
+references:
+- uid: Pie.Freetype.Native
+  commentId: N:Pie.Freetype.Native
+  name: Pie.Freetype.Native
+  nameWithType: Pie.Freetype.Native
+  fullName: Pie.Freetype.Native
+  spec.csharp:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Freetype
+    name: Freetype
+  - name: .
+  - uid: Pie.Freetype.Native
+    name: Native
+  spec.vb:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Freetype
+    name: Freetype
+  - name: .
+  - uid: Pie.Freetype.Native
+    name: Native
+- uid: Pie.Freetype.Native.FT_Encoding
+  commentId: T:Pie.Freetype.Native.FT_Encoding
+  parent: Pie.Freetype.Native
+  name: FT_Encoding
+  nameWithType: FT_Encoding
+  fullName: Pie.Freetype.Native.FT_Encoding
