@@ -1,0 +1,1131 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pie.Audio.MixrNative
+  commentId: T:Pie.Audio.MixrNative
+  id: MixrNative
+  parent: Pie.Audio
+  children:
+  - Pie.Audio.MixrNative.MixrName
+  - Pie.Audio.MixrNative.mxAdvance(System.IntPtr)
+  - Pie.Audio.MixrNative.mxAdvanceBuffer(System.IntPtr,System.Single*,System.UIntPtr)
+  - Pie.Audio.MixrNative.mxCreateBuffer(System.IntPtr,Pie.Audio.BufferDescription,System.Void*,System.UIntPtr)
+  - Pie.Audio.MixrNative.mxCreateSystem(System.Int32,System.UInt16)
+  - Pie.Audio.MixrNative.mxDeleteBuffer(System.IntPtr,System.Int32)
+  - Pie.Audio.MixrNative.mxDeleteSystem(System.IntPtr)
+  - Pie.Audio.MixrNative.mxGetNumChannels(System.IntPtr)
+  - Pie.Audio.MixrNative.mxIsPlaying(System.IntPtr,System.UInt16)
+  - Pie.Audio.MixrNative.mxPause(System.IntPtr,System.UInt16)
+  - Pie.Audio.MixrNative.mxPCMFree(Pie.Audio.MixrNative.PCM*)
+  - Pie.Audio.MixrNative.mxPCMLoadWav(System.Byte*,System.UIntPtr)
+  - Pie.Audio.MixrNative.mxPlayBuffer(System.IntPtr,System.Int32,System.UInt16,Pie.Audio.ChannelProperties)
+  - Pie.Audio.MixrNative.mxQueueBuffer(System.IntPtr,System.Int32,System.UInt16)
+  - Pie.Audio.MixrNative.mxResume(System.IntPtr,System.UInt16)
+  - Pie.Audio.MixrNative.mxSetBufferFinishedCallback(System.IntPtr,Pie.Audio.MixrNative.BufferFinishedCallback)
+  - Pie.Audio.MixrNative.mxSetChannelProperties(System.IntPtr,System.UInt16,Pie.Audio.ChannelProperties)
+  - Pie.Audio.MixrNative.mxStop(System.IntPtr,System.UInt16)
+  - Pie.Audio.MixrNative.mxUpdateBuffer(System.IntPtr,System.Int32,System.Void*,System.UIntPtr)
+  langs:
+  - csharp
+  - vb
+  name: MixrNative
+  nameWithType: MixrNative
+  fullName: Pie.Audio.MixrNative
+  type: Class
+  source:
+    remote:
+      path: Pie.Audio/MixrNative.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: MixrNative
+    path: src/Pie/Pie.Audio/MixrNative.cs
+    startLine: 8
+  assemblies:
+  - Pie.Audio
+  namespace: Pie.Audio
+  summary: "\nThe native library functions for mixr.\n"
+  example: []
+  syntax:
+    content: public static class MixrNative
+    content.vb: Public Module MixrNative
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Pie.Audio.MixrNative.MixrName
+  commentId: F:Pie.Audio.MixrNative.MixrName
+  id: MixrName
+  parent: Pie.Audio.MixrNative
+  langs:
+  - csharp
+  - vb
+  name: MixrName
+  nameWithType: MixrNative.MixrName
+  fullName: Pie.Audio.MixrNative.MixrName
+  type: Field
+  source:
+    remote:
+      path: Pie.Audio/MixrNative.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: MixrName
+    path: src/Pie/Pie.Audio/MixrNative.cs
+    startLine: 10
+  assemblies:
+  - Pie.Audio
+  namespace: Pie.Audio
+  syntax:
+    content: public const string MixrName = "mixr"
+    return:
+      type: System.String
+    content.vb: Public Const MixrName As String = "mixr"
+- uid: Pie.Audio.MixrNative.mxCreateSystem(System.Int32,System.UInt16)
+  commentId: M:Pie.Audio.MixrNative.mxCreateSystem(System.Int32,System.UInt16)
+  id: mxCreateSystem(System.Int32,System.UInt16)
+  parent: Pie.Audio.MixrNative
+  langs:
+  - csharp
+  - vb
+  name: mxCreateSystem(int, ushort)
+  nameWithType: MixrNative.mxCreateSystem(int, ushort)
+  fullName: Pie.Audio.MixrNative.mxCreateSystem(int, ushort)
+  type: Method
+  source:
+    path: Pie.Audio
+    isExternal: true
+  assemblies:
+  - Pie.Audio
+  namespace: Pie.Audio
+  syntax:
+    content: public static extern IntPtr mxCreateSystem(int sampleRate, ushort channels)
+    parameters:
+    - id: sampleRate
+      type: System.Int32
+    - id: channels
+      type: System.UInt16
+    return:
+      type: System.IntPtr
+    content.vb: Public Shared Function mxCreateSystem(sampleRate As Integer, channels As UShort) As IntPtr
+  overload: Pie.Audio.MixrNative.mxCreateSystem*
+  nameWithType.vb: MixrNative.mxCreateSystem(Integer, UShort)
+  fullName.vb: Pie.Audio.MixrNative.mxCreateSystem(Integer, UShort)
+  name.vb: mxCreateSystem(Integer, UShort)
+- uid: Pie.Audio.MixrNative.mxDeleteSystem(System.IntPtr)
+  commentId: M:Pie.Audio.MixrNative.mxDeleteSystem(System.IntPtr)
+  id: mxDeleteSystem(System.IntPtr)
+  parent: Pie.Audio.MixrNative
+  langs:
+  - csharp
+  - vb
+  name: mxDeleteSystem(IntPtr)
+  nameWithType: MixrNative.mxDeleteSystem(IntPtr)
+  fullName: Pie.Audio.MixrNative.mxDeleteSystem(System.IntPtr)
+  type: Method
+  source:
+    path: Pie.Audio
+    isExternal: true
+  assemblies:
+  - Pie.Audio
+  namespace: Pie.Audio
+  syntax:
+    content: public static extern void mxDeleteSystem(IntPtr system)
+    parameters:
+    - id: system
+      type: System.IntPtr
+    content.vb: Public Shared Sub mxDeleteSystem(system As IntPtr)
+  overload: Pie.Audio.MixrNative.mxDeleteSystem*
+- uid: Pie.Audio.MixrNative.mxSetBufferFinishedCallback(System.IntPtr,Pie.Audio.MixrNative.BufferFinishedCallback)
+  commentId: M:Pie.Audio.MixrNative.mxSetBufferFinishedCallback(System.IntPtr,Pie.Audio.MixrNative.BufferFinishedCallback)
+  id: mxSetBufferFinishedCallback(System.IntPtr,Pie.Audio.MixrNative.BufferFinishedCallback)
+  parent: Pie.Audio.MixrNative
+  langs:
+  - csharp
+  - vb
+  name: mxSetBufferFinishedCallback(IntPtr, BufferFinishedCallback)
+  nameWithType: MixrNative.mxSetBufferFinishedCallback(IntPtr, MixrNative.BufferFinishedCallback)
+  fullName: Pie.Audio.MixrNative.mxSetBufferFinishedCallback(System.IntPtr, Pie.Audio.MixrNative.BufferFinishedCallback)
+  type: Method
+  source:
+    path: Pie.Audio
+    isExternal: true
+  assemblies:
+  - Pie.Audio
+  namespace: Pie.Audio
+  syntax:
+    content: public static extern void mxSetBufferFinishedCallback(IntPtr system, MixrNative.BufferFinishedCallback callback)
+    parameters:
+    - id: system
+      type: System.IntPtr
+    - id: callback
+      type: Pie.Audio.MixrNative.BufferFinishedCallback
+    content.vb: Public Shared Sub mxSetBufferFinishedCallback(system As IntPtr, callback As MixrNative.BufferFinishedCallback)
+  overload: Pie.Audio.MixrNative.mxSetBufferFinishedCallback*
+- uid: Pie.Audio.MixrNative.mxCreateBuffer(System.IntPtr,Pie.Audio.BufferDescription,System.Void*,System.UIntPtr)
+  commentId: M:Pie.Audio.MixrNative.mxCreateBuffer(System.IntPtr,Pie.Audio.BufferDescription,System.Void*,System.UIntPtr)
+  id: mxCreateBuffer(System.IntPtr,Pie.Audio.BufferDescription,System.Void*,System.UIntPtr)
+  parent: Pie.Audio.MixrNative
+  langs:
+  - csharp
+  - vb
+  name: mxCreateBuffer(IntPtr, BufferDescription, void*, nuint)
+  nameWithType: MixrNative.mxCreateBuffer(IntPtr, BufferDescription, void*, nuint)
+  fullName: Pie.Audio.MixrNative.mxCreateBuffer(System.IntPtr, Pie.Audio.BufferDescription, void*, nuint)
+  type: Method
+  source:
+    path: Pie.Audio
+    isExternal: true
+  assemblies:
+  - Pie.Audio
+  namespace: Pie.Audio
+  syntax:
+    content: public static extern int mxCreateBuffer(IntPtr system, BufferDescription description, void* data, nuint dataLength)
+    parameters:
+    - id: system
+      type: System.IntPtr
+    - id: description
+      type: Pie.Audio.BufferDescription
+    - id: data
+      type: System.Void*
+    - id: dataLength
+      type: System.UIntPtr
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function mxCreateBuffer(system As IntPtr, description As BufferDescription, data As Void*, dataLength As UIntPtr) As Integer
+  overload: Pie.Audio.MixrNative.mxCreateBuffer*
+  nameWithType.vb: MixrNative.mxCreateBuffer(IntPtr, BufferDescription, Void*, UIntPtr)
+  fullName.vb: Pie.Audio.MixrNative.mxCreateBuffer(System.IntPtr, Pie.Audio.BufferDescription, Void*, System.UIntPtr)
+  name.vb: mxCreateBuffer(IntPtr, BufferDescription, Void*, UIntPtr)
+- uid: Pie.Audio.MixrNative.mxDeleteBuffer(System.IntPtr,System.Int32)
+  commentId: M:Pie.Audio.MixrNative.mxDeleteBuffer(System.IntPtr,System.Int32)
+  id: mxDeleteBuffer(System.IntPtr,System.Int32)
+  parent: Pie.Audio.MixrNative
+  langs:
+  - csharp
+  - vb
+  name: mxDeleteBuffer(IntPtr, int)
+  nameWithType: MixrNative.mxDeleteBuffer(IntPtr, int)
+  fullName: Pie.Audio.MixrNative.mxDeleteBuffer(System.IntPtr, int)
+  type: Method
+  source:
+    path: Pie.Audio
+    isExternal: true
+  assemblies:
+  - Pie.Audio
+  namespace: Pie.Audio
+  syntax:
+    content: public static extern AudioResult mxDeleteBuffer(IntPtr system, int buffer)
+    parameters:
+    - id: system
+      type: System.IntPtr
+    - id: buffer
+      type: System.Int32
+    return:
+      type: Pie.Audio.AudioResult
+    content.vb: Public Shared Function mxDeleteBuffer(system As IntPtr, buffer As Integer) As AudioResult
+  overload: Pie.Audio.MixrNative.mxDeleteBuffer*
+  nameWithType.vb: MixrNative.mxDeleteBuffer(IntPtr, Integer)
+  fullName.vb: Pie.Audio.MixrNative.mxDeleteBuffer(System.IntPtr, Integer)
+  name.vb: mxDeleteBuffer(IntPtr, Integer)
+- uid: Pie.Audio.MixrNative.mxUpdateBuffer(System.IntPtr,System.Int32,System.Void*,System.UIntPtr)
+  commentId: M:Pie.Audio.MixrNative.mxUpdateBuffer(System.IntPtr,System.Int32,System.Void*,System.UIntPtr)
+  id: mxUpdateBuffer(System.IntPtr,System.Int32,System.Void*,System.UIntPtr)
+  parent: Pie.Audio.MixrNative
+  langs:
+  - csharp
+  - vb
+  name: mxUpdateBuffer(IntPtr, int, void*, nuint)
+  nameWithType: MixrNative.mxUpdateBuffer(IntPtr, int, void*, nuint)
+  fullName: Pie.Audio.MixrNative.mxUpdateBuffer(System.IntPtr, int, void*, nuint)
+  type: Method
+  source:
+    path: Pie.Audio
+    isExternal: true
+  assemblies:
+  - Pie.Audio
+  namespace: Pie.Audio
+  syntax:
+    content: public static extern AudioResult mxUpdateBuffer(IntPtr system, int buffer, void* data, nuint dataLength)
+    parameters:
+    - id: system
+      type: System.IntPtr
+    - id: buffer
+      type: System.Int32
+    - id: data
+      type: System.Void*
+    - id: dataLength
+      type: System.UIntPtr
+    return:
+      type: Pie.Audio.AudioResult
+    content.vb: Public Shared Function mxUpdateBuffer(system As IntPtr, buffer As Integer, data As Void*, dataLength As UIntPtr) As AudioResult
+  overload: Pie.Audio.MixrNative.mxUpdateBuffer*
+  nameWithType.vb: MixrNative.mxUpdateBuffer(IntPtr, Integer, Void*, UIntPtr)
+  fullName.vb: Pie.Audio.MixrNative.mxUpdateBuffer(System.IntPtr, Integer, Void*, System.UIntPtr)
+  name.vb: mxUpdateBuffer(IntPtr, Integer, Void*, UIntPtr)
+- uid: Pie.Audio.MixrNative.mxPlayBuffer(System.IntPtr,System.Int32,System.UInt16,Pie.Audio.ChannelProperties)
+  commentId: M:Pie.Audio.MixrNative.mxPlayBuffer(System.IntPtr,System.Int32,System.UInt16,Pie.Audio.ChannelProperties)
+  id: mxPlayBuffer(System.IntPtr,System.Int32,System.UInt16,Pie.Audio.ChannelProperties)
+  parent: Pie.Audio.MixrNative
+  langs:
+  - csharp
+  - vb
+  name: mxPlayBuffer(IntPtr, int, ushort, ChannelProperties)
+  nameWithType: MixrNative.mxPlayBuffer(IntPtr, int, ushort, ChannelProperties)
+  fullName: Pie.Audio.MixrNative.mxPlayBuffer(System.IntPtr, int, ushort, Pie.Audio.ChannelProperties)
+  type: Method
+  source:
+    path: Pie.Audio
+    isExternal: true
+  assemblies:
+  - Pie.Audio
+  namespace: Pie.Audio
+  syntax:
+    content: public static extern AudioResult mxPlayBuffer(IntPtr system, int buffer, ushort channel, ChannelProperties properties)
+    parameters:
+    - id: system
+      type: System.IntPtr
+    - id: buffer
+      type: System.Int32
+    - id: channel
+      type: System.UInt16
+    - id: properties
+      type: Pie.Audio.ChannelProperties
+    return:
+      type: Pie.Audio.AudioResult
+    content.vb: Public Shared Function mxPlayBuffer(system As IntPtr, buffer As Integer, channel As UShort, properties As ChannelProperties) As AudioResult
+  overload: Pie.Audio.MixrNative.mxPlayBuffer*
+  nameWithType.vb: MixrNative.mxPlayBuffer(IntPtr, Integer, UShort, ChannelProperties)
+  fullName.vb: Pie.Audio.MixrNative.mxPlayBuffer(System.IntPtr, Integer, UShort, Pie.Audio.ChannelProperties)
+  name.vb: mxPlayBuffer(IntPtr, Integer, UShort, ChannelProperties)
+- uid: Pie.Audio.MixrNative.mxQueueBuffer(System.IntPtr,System.Int32,System.UInt16)
+  commentId: M:Pie.Audio.MixrNative.mxQueueBuffer(System.IntPtr,System.Int32,System.UInt16)
+  id: mxQueueBuffer(System.IntPtr,System.Int32,System.UInt16)
+  parent: Pie.Audio.MixrNative
+  langs:
+  - csharp
+  - vb
+  name: mxQueueBuffer(IntPtr, int, ushort)
+  nameWithType: MixrNative.mxQueueBuffer(IntPtr, int, ushort)
+  fullName: Pie.Audio.MixrNative.mxQueueBuffer(System.IntPtr, int, ushort)
+  type: Method
+  source:
+    path: Pie.Audio
+    isExternal: true
+  assemblies:
+  - Pie.Audio
+  namespace: Pie.Audio
+  syntax:
+    content: public static extern AudioResult mxQueueBuffer(IntPtr system, int buffer, ushort channel)
+    parameters:
+    - id: system
+      type: System.IntPtr
+    - id: buffer
+      type: System.Int32
+    - id: channel
+      type: System.UInt16
+    return:
+      type: Pie.Audio.AudioResult
+    content.vb: Public Shared Function mxQueueBuffer(system As IntPtr, buffer As Integer, channel As UShort) As AudioResult
+  overload: Pie.Audio.MixrNative.mxQueueBuffer*
+  nameWithType.vb: MixrNative.mxQueueBuffer(IntPtr, Integer, UShort)
+  fullName.vb: Pie.Audio.MixrNative.mxQueueBuffer(System.IntPtr, Integer, UShort)
+  name.vb: mxQueueBuffer(IntPtr, Integer, UShort)
+- uid: Pie.Audio.MixrNative.mxSetChannelProperties(System.IntPtr,System.UInt16,Pie.Audio.ChannelProperties)
+  commentId: M:Pie.Audio.MixrNative.mxSetChannelProperties(System.IntPtr,System.UInt16,Pie.Audio.ChannelProperties)
+  id: mxSetChannelProperties(System.IntPtr,System.UInt16,Pie.Audio.ChannelProperties)
+  parent: Pie.Audio.MixrNative
+  langs:
+  - csharp
+  - vb
+  name: mxSetChannelProperties(IntPtr, ushort, ChannelProperties)
+  nameWithType: MixrNative.mxSetChannelProperties(IntPtr, ushort, ChannelProperties)
+  fullName: Pie.Audio.MixrNative.mxSetChannelProperties(System.IntPtr, ushort, Pie.Audio.ChannelProperties)
+  type: Method
+  source:
+    path: Pie.Audio
+    isExternal: true
+  assemblies:
+  - Pie.Audio
+  namespace: Pie.Audio
+  syntax:
+    content: public static extern AudioResult mxSetChannelProperties(IntPtr system, ushort channel, ChannelProperties properties)
+    parameters:
+    - id: system
+      type: System.IntPtr
+    - id: channel
+      type: System.UInt16
+    - id: properties
+      type: Pie.Audio.ChannelProperties
+    return:
+      type: Pie.Audio.AudioResult
+    content.vb: Public Shared Function mxSetChannelProperties(system As IntPtr, channel As UShort, properties As ChannelProperties) As AudioResult
+  overload: Pie.Audio.MixrNative.mxSetChannelProperties*
+  nameWithType.vb: MixrNative.mxSetChannelProperties(IntPtr, UShort, ChannelProperties)
+  fullName.vb: Pie.Audio.MixrNative.mxSetChannelProperties(System.IntPtr, UShort, Pie.Audio.ChannelProperties)
+  name.vb: mxSetChannelProperties(IntPtr, UShort, ChannelProperties)
+- uid: Pie.Audio.MixrNative.mxResume(System.IntPtr,System.UInt16)
+  commentId: M:Pie.Audio.MixrNative.mxResume(System.IntPtr,System.UInt16)
+  id: mxResume(System.IntPtr,System.UInt16)
+  parent: Pie.Audio.MixrNative
+  langs:
+  - csharp
+  - vb
+  name: mxResume(IntPtr, ushort)
+  nameWithType: MixrNative.mxResume(IntPtr, ushort)
+  fullName: Pie.Audio.MixrNative.mxResume(System.IntPtr, ushort)
+  type: Method
+  source:
+    path: Pie.Audio
+    isExternal: true
+  assemblies:
+  - Pie.Audio
+  namespace: Pie.Audio
+  syntax:
+    content: public static extern AudioResult mxResume(IntPtr system, ushort channel)
+    parameters:
+    - id: system
+      type: System.IntPtr
+    - id: channel
+      type: System.UInt16
+    return:
+      type: Pie.Audio.AudioResult
+    content.vb: Public Shared Function mxResume(system As IntPtr, channel As UShort) As AudioResult
+  overload: Pie.Audio.MixrNative.mxResume*
+  nameWithType.vb: MixrNative.mxResume(IntPtr, UShort)
+  fullName.vb: Pie.Audio.MixrNative.mxResume(System.IntPtr, UShort)
+  name.vb: mxResume(IntPtr, UShort)
+- uid: Pie.Audio.MixrNative.mxPause(System.IntPtr,System.UInt16)
+  commentId: M:Pie.Audio.MixrNative.mxPause(System.IntPtr,System.UInt16)
+  id: mxPause(System.IntPtr,System.UInt16)
+  parent: Pie.Audio.MixrNative
+  langs:
+  - csharp
+  - vb
+  name: mxPause(IntPtr, ushort)
+  nameWithType: MixrNative.mxPause(IntPtr, ushort)
+  fullName: Pie.Audio.MixrNative.mxPause(System.IntPtr, ushort)
+  type: Method
+  source:
+    path: Pie.Audio
+    isExternal: true
+  assemblies:
+  - Pie.Audio
+  namespace: Pie.Audio
+  syntax:
+    content: public static extern AudioResult mxPause(IntPtr system, ushort channel)
+    parameters:
+    - id: system
+      type: System.IntPtr
+    - id: channel
+      type: System.UInt16
+    return:
+      type: Pie.Audio.AudioResult
+    content.vb: Public Shared Function mxPause(system As IntPtr, channel As UShort) As AudioResult
+  overload: Pie.Audio.MixrNative.mxPause*
+  nameWithType.vb: MixrNative.mxPause(IntPtr, UShort)
+  fullName.vb: Pie.Audio.MixrNative.mxPause(System.IntPtr, UShort)
+  name.vb: mxPause(IntPtr, UShort)
+- uid: Pie.Audio.MixrNative.mxStop(System.IntPtr,System.UInt16)
+  commentId: M:Pie.Audio.MixrNative.mxStop(System.IntPtr,System.UInt16)
+  id: mxStop(System.IntPtr,System.UInt16)
+  parent: Pie.Audio.MixrNative
+  langs:
+  - csharp
+  - vb
+  name: mxStop(IntPtr, ushort)
+  nameWithType: MixrNative.mxStop(IntPtr, ushort)
+  fullName: Pie.Audio.MixrNative.mxStop(System.IntPtr, ushort)
+  type: Method
+  source:
+    path: Pie.Audio
+    isExternal: true
+  assemblies:
+  - Pie.Audio
+  namespace: Pie.Audio
+  syntax:
+    content: public static extern AudioResult mxStop(IntPtr system, ushort channel)
+    parameters:
+    - id: system
+      type: System.IntPtr
+    - id: channel
+      type: System.UInt16
+    return:
+      type: Pie.Audio.AudioResult
+    content.vb: Public Shared Function mxStop(system As IntPtr, channel As UShort) As AudioResult
+  overload: Pie.Audio.MixrNative.mxStop*
+  nameWithType.vb: MixrNative.mxStop(IntPtr, UShort)
+  fullName.vb: Pie.Audio.MixrNative.mxStop(System.IntPtr, UShort)
+  name.vb: mxStop(IntPtr, UShort)
+- uid: Pie.Audio.MixrNative.mxAdvance(System.IntPtr)
+  commentId: M:Pie.Audio.MixrNative.mxAdvance(System.IntPtr)
+  id: mxAdvance(System.IntPtr)
+  parent: Pie.Audio.MixrNative
+  langs:
+  - csharp
+  - vb
+  name: mxAdvance(IntPtr)
+  nameWithType: MixrNative.mxAdvance(IntPtr)
+  fullName: Pie.Audio.MixrNative.mxAdvance(System.IntPtr)
+  type: Method
+  source:
+    path: Pie.Audio
+    isExternal: true
+  assemblies:
+  - Pie.Audio
+  namespace: Pie.Audio
+  syntax:
+    content: public static extern float mxAdvance(IntPtr system)
+    parameters:
+    - id: system
+      type: System.IntPtr
+    return:
+      type: System.Single
+    content.vb: Public Shared Function mxAdvance(system As IntPtr) As Single
+  overload: Pie.Audio.MixrNative.mxAdvance*
+- uid: Pie.Audio.MixrNative.mxAdvanceBuffer(System.IntPtr,System.Single*,System.UIntPtr)
+  commentId: M:Pie.Audio.MixrNative.mxAdvanceBuffer(System.IntPtr,System.Single*,System.UIntPtr)
+  id: mxAdvanceBuffer(System.IntPtr,System.Single*,System.UIntPtr)
+  parent: Pie.Audio.MixrNative
+  langs:
+  - csharp
+  - vb
+  name: mxAdvanceBuffer(IntPtr, float*, nuint)
+  nameWithType: MixrNative.mxAdvanceBuffer(IntPtr, float*, nuint)
+  fullName: Pie.Audio.MixrNative.mxAdvanceBuffer(System.IntPtr, float*, nuint)
+  type: Method
+  source:
+    path: Pie.Audio
+    isExternal: true
+  assemblies:
+  - Pie.Audio
+  namespace: Pie.Audio
+  syntax:
+    content: public static extern void mxAdvanceBuffer(IntPtr system, float* buffer, nuint bufferLength)
+    parameters:
+    - id: system
+      type: System.IntPtr
+    - id: buffer
+      type: System.Single*
+    - id: bufferLength
+      type: System.UIntPtr
+    content.vb: Public Shared Sub mxAdvanceBuffer(system As IntPtr, buffer As Single*, bufferLength As UIntPtr)
+  overload: Pie.Audio.MixrNative.mxAdvanceBuffer*
+  nameWithType.vb: MixrNative.mxAdvanceBuffer(IntPtr, Single*, UIntPtr)
+  fullName.vb: Pie.Audio.MixrNative.mxAdvanceBuffer(System.IntPtr, Single*, System.UIntPtr)
+  name.vb: mxAdvanceBuffer(IntPtr, Single*, UIntPtr)
+- uid: Pie.Audio.MixrNative.mxGetNumChannels(System.IntPtr)
+  commentId: M:Pie.Audio.MixrNative.mxGetNumChannels(System.IntPtr)
+  id: mxGetNumChannels(System.IntPtr)
+  parent: Pie.Audio.MixrNative
+  langs:
+  - csharp
+  - vb
+  name: mxGetNumChannels(IntPtr)
+  nameWithType: MixrNative.mxGetNumChannels(IntPtr)
+  fullName: Pie.Audio.MixrNative.mxGetNumChannels(System.IntPtr)
+  type: Method
+  source:
+    path: Pie.Audio
+    isExternal: true
+  assemblies:
+  - Pie.Audio
+  namespace: Pie.Audio
+  syntax:
+    content: public static extern ushort mxGetNumChannels(IntPtr system)
+    parameters:
+    - id: system
+      type: System.IntPtr
+    return:
+      type: System.UInt16
+    content.vb: Public Shared Function mxGetNumChannels(system As IntPtr) As UShort
+  overload: Pie.Audio.MixrNative.mxGetNumChannels*
+- uid: Pie.Audio.MixrNative.mxIsPlaying(System.IntPtr,System.UInt16)
+  commentId: M:Pie.Audio.MixrNative.mxIsPlaying(System.IntPtr,System.UInt16)
+  id: mxIsPlaying(System.IntPtr,System.UInt16)
+  parent: Pie.Audio.MixrNative
+  langs:
+  - csharp
+  - vb
+  name: mxIsPlaying(IntPtr, ushort)
+  nameWithType: MixrNative.mxIsPlaying(IntPtr, ushort)
+  fullName: Pie.Audio.MixrNative.mxIsPlaying(System.IntPtr, ushort)
+  type: Method
+  source:
+    path: Pie.Audio
+    isExternal: true
+  assemblies:
+  - Pie.Audio
+  namespace: Pie.Audio
+  syntax:
+    content: public static extern bool mxIsPlaying(IntPtr system, ushort channel)
+    parameters:
+    - id: system
+      type: System.IntPtr
+    - id: channel
+      type: System.UInt16
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function mxIsPlaying(system As IntPtr, channel As UShort) As Boolean
+  overload: Pie.Audio.MixrNative.mxIsPlaying*
+  nameWithType.vb: MixrNative.mxIsPlaying(IntPtr, UShort)
+  fullName.vb: Pie.Audio.MixrNative.mxIsPlaying(System.IntPtr, UShort)
+  name.vb: mxIsPlaying(IntPtr, UShort)
+- uid: Pie.Audio.MixrNative.mxPCMLoadWav(System.Byte*,System.UIntPtr)
+  commentId: M:Pie.Audio.MixrNative.mxPCMLoadWav(System.Byte*,System.UIntPtr)
+  id: mxPCMLoadWav(System.Byte*,System.UIntPtr)
+  parent: Pie.Audio.MixrNative
+  langs:
+  - csharp
+  - vb
+  name: mxPCMLoadWav(byte*, nuint)
+  nameWithType: MixrNative.mxPCMLoadWav(byte*, nuint)
+  fullName: Pie.Audio.MixrNative.mxPCMLoadWav(byte*, nuint)
+  type: Method
+  source:
+    path: Pie.Audio
+    isExternal: true
+  assemblies:
+  - Pie.Audio
+  namespace: Pie.Audio
+  syntax:
+    content: public static extern MixrNative.PCM* mxPCMLoadWav(byte* data, nuint dataLength)
+    parameters:
+    - id: data
+      type: System.Byte*
+    - id: dataLength
+      type: System.UIntPtr
+    return:
+      type: Pie.Audio.MixrNative.PCM*
+    content.vb: Public Shared Function mxPCMLoadWav(data As Byte*, dataLength As UIntPtr) As MixrNative.PCM*
+  overload: Pie.Audio.MixrNative.mxPCMLoadWav*
+  nameWithType.vb: MixrNative.mxPCMLoadWav(Byte*, UIntPtr)
+  fullName.vb: Pie.Audio.MixrNative.mxPCMLoadWav(Byte*, System.UIntPtr)
+  name.vb: mxPCMLoadWav(Byte*, UIntPtr)
+- uid: Pie.Audio.MixrNative.mxPCMFree(Pie.Audio.MixrNative.PCM*)
+  commentId: M:Pie.Audio.MixrNative.mxPCMFree(Pie.Audio.MixrNative.PCM*)
+  id: mxPCMFree(Pie.Audio.MixrNative.PCM*)
+  parent: Pie.Audio.MixrNative
+  langs:
+  - csharp
+  - vb
+  name: mxPCMFree(PCM*)
+  nameWithType: MixrNative.mxPCMFree(MixrNative.PCM*)
+  fullName: Pie.Audio.MixrNative.mxPCMFree(Pie.Audio.MixrNative.PCM*)
+  type: Method
+  source:
+    path: Pie.Audio
+    isExternal: true
+  assemblies:
+  - Pie.Audio
+  namespace: Pie.Audio
+  syntax:
+    content: public static extern void mxPCMFree(MixrNative.PCM* pcm)
+    parameters:
+    - id: pcm
+      type: Pie.Audio.MixrNative.PCM*
+    content.vb: Public Shared Sub mxPCMFree(pcm As MixrNative.PCM*)
+  overload: Pie.Audio.MixrNative.mxPCMFree*
+references:
+- uid: Pie.Audio
+  commentId: N:Pie.Audio
+  name: Pie.Audio
+  nameWithType: Pie.Audio
+  fullName: Pie.Audio
+  spec.csharp:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Audio
+    name: Audio
+  spec.vb:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Audio
+    name: Audio
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Pie.Audio.MixrNative.mxCreateSystem*
+  commentId: Overload:Pie.Audio.MixrNative.mxCreateSystem
+  isExternal: true
+  name: mxCreateSystem
+  nameWithType: MixrNative.mxCreateSystem
+  fullName: Pie.Audio.MixrNative.mxCreateSystem
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.UInt16
+  commentId: T:System.UInt16
+  parent: System
+  isExternal: true
+  name: ushort
+  nameWithType: ushort
+  fullName: ushort
+  nameWithType.vb: UShort
+  fullName.vb: UShort
+  name.vb: UShort
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr
+- uid: Pie.Audio.MixrNative.mxDeleteSystem*
+  commentId: Overload:Pie.Audio.MixrNative.mxDeleteSystem
+  isExternal: true
+  name: mxDeleteSystem
+  nameWithType: MixrNative.mxDeleteSystem
+  fullName: Pie.Audio.MixrNative.mxDeleteSystem
+- uid: Pie.Audio.MixrNative.mxSetBufferFinishedCallback*
+  commentId: Overload:Pie.Audio.MixrNative.mxSetBufferFinishedCallback
+  isExternal: true
+  name: mxSetBufferFinishedCallback
+  nameWithType: MixrNative.mxSetBufferFinishedCallback
+  fullName: Pie.Audio.MixrNative.mxSetBufferFinishedCallback
+- uid: Pie.Audio.MixrNative.BufferFinishedCallback
+  commentId: T:Pie.Audio.MixrNative.BufferFinishedCallback
+  parent: Pie.Audio
+  name: MixrNative.BufferFinishedCallback
+  nameWithType: MixrNative.BufferFinishedCallback
+  fullName: Pie.Audio.MixrNative.BufferFinishedCallback
+  spec.csharp:
+  - uid: Pie.Audio.MixrNative
+    name: MixrNative
+  - name: .
+  - uid: Pie.Audio.MixrNative.BufferFinishedCallback
+    name: BufferFinishedCallback
+  spec.vb:
+  - uid: Pie.Audio.MixrNative
+    name: MixrNative
+  - name: .
+  - uid: Pie.Audio.MixrNative.BufferFinishedCallback
+    name: BufferFinishedCallback
+- uid: Pie.Audio.MixrNative.mxCreateBuffer*
+  commentId: Overload:Pie.Audio.MixrNative.mxCreateBuffer
+  isExternal: true
+  name: mxCreateBuffer
+  nameWithType: MixrNative.mxCreateBuffer
+  fullName: Pie.Audio.MixrNative.mxCreateBuffer
+- uid: Pie.Audio.BufferDescription
+  commentId: T:Pie.Audio.BufferDescription
+  parent: Pie.Audio
+  name: BufferDescription
+  nameWithType: BufferDescription
+  fullName: Pie.Audio.BufferDescription
+- uid: System.Void*
+  isExternal: true
+  name: void*
+  nameWithType: void*
+  fullName: void*
+  nameWithType.vb: Void*
+  fullName.vb: Void*
+  name.vb: Void*
+  spec.csharp:
+  - uid: System.Void
+    name: void
+    isExternal: true
+  - name: '*'
+  spec.vb:
+  - uid: System.Void
+    name: Void
+    isExternal: true
+  - name: '*'
+- uid: System.UIntPtr
+  commentId: T:System.UIntPtr
+  parent: System
+  isExternal: true
+  name: nuint
+  nameWithType: nuint
+  fullName: nuint
+  nameWithType.vb: UIntPtr
+  fullName.vb: System.UIntPtr
+  name.vb: UIntPtr
+- uid: Pie.Audio.MixrNative.mxDeleteBuffer*
+  commentId: Overload:Pie.Audio.MixrNative.mxDeleteBuffer
+  isExternal: true
+  name: mxDeleteBuffer
+  nameWithType: MixrNative.mxDeleteBuffer
+  fullName: Pie.Audio.MixrNative.mxDeleteBuffer
+- uid: Pie.Audio.AudioResult
+  commentId: T:Pie.Audio.AudioResult
+  parent: Pie.Audio
+  name: AudioResult
+  nameWithType: AudioResult
+  fullName: Pie.Audio.AudioResult
+- uid: Pie.Audio.MixrNative.mxUpdateBuffer*
+  commentId: Overload:Pie.Audio.MixrNative.mxUpdateBuffer
+  isExternal: true
+  name: mxUpdateBuffer
+  nameWithType: MixrNative.mxUpdateBuffer
+  fullName: Pie.Audio.MixrNative.mxUpdateBuffer
+- uid: Pie.Audio.MixrNative.mxPlayBuffer*
+  commentId: Overload:Pie.Audio.MixrNative.mxPlayBuffer
+  isExternal: true
+  name: mxPlayBuffer
+  nameWithType: MixrNative.mxPlayBuffer
+  fullName: Pie.Audio.MixrNative.mxPlayBuffer
+- uid: Pie.Audio.ChannelProperties
+  commentId: T:Pie.Audio.ChannelProperties
+  parent: Pie.Audio
+  name: ChannelProperties
+  nameWithType: ChannelProperties
+  fullName: Pie.Audio.ChannelProperties
+- uid: Pie.Audio.MixrNative.mxQueueBuffer*
+  commentId: Overload:Pie.Audio.MixrNative.mxQueueBuffer
+  isExternal: true
+  name: mxQueueBuffer
+  nameWithType: MixrNative.mxQueueBuffer
+  fullName: Pie.Audio.MixrNative.mxQueueBuffer
+- uid: Pie.Audio.MixrNative.mxSetChannelProperties*
+  commentId: Overload:Pie.Audio.MixrNative.mxSetChannelProperties
+  isExternal: true
+  name: mxSetChannelProperties
+  nameWithType: MixrNative.mxSetChannelProperties
+  fullName: Pie.Audio.MixrNative.mxSetChannelProperties
+- uid: Pie.Audio.MixrNative.mxResume*
+  commentId: Overload:Pie.Audio.MixrNative.mxResume
+  isExternal: true
+  name: mxResume
+  nameWithType: MixrNative.mxResume
+  fullName: Pie.Audio.MixrNative.mxResume
+- uid: Pie.Audio.MixrNative.mxPause*
+  commentId: Overload:Pie.Audio.MixrNative.mxPause
+  isExternal: true
+  name: mxPause
+  nameWithType: MixrNative.mxPause
+  fullName: Pie.Audio.MixrNative.mxPause
+- uid: Pie.Audio.MixrNative.mxStop*
+  commentId: Overload:Pie.Audio.MixrNative.mxStop
+  isExternal: true
+  name: mxStop
+  nameWithType: MixrNative.mxStop
+  fullName: Pie.Audio.MixrNative.mxStop
+- uid: Pie.Audio.MixrNative.mxAdvance*
+  commentId: Overload:Pie.Audio.MixrNative.mxAdvance
+  isExternal: true
+  name: mxAdvance
+  nameWithType: MixrNative.mxAdvance
+  fullName: Pie.Audio.MixrNative.mxAdvance
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: Pie.Audio.MixrNative.mxAdvanceBuffer*
+  commentId: Overload:Pie.Audio.MixrNative.mxAdvanceBuffer
+  isExternal: true
+  name: mxAdvanceBuffer
+  nameWithType: MixrNative.mxAdvanceBuffer
+  fullName: Pie.Audio.MixrNative.mxAdvanceBuffer
+- uid: System.Single*
+  isExternal: true
+  name: float*
+  nameWithType: float*
+  fullName: float*
+  nameWithType.vb: Single*
+  fullName.vb: Single*
+  name.vb: Single*
+  spec.csharp:
+  - uid: System.Single
+    name: float
+    isExternal: true
+  - name: '*'
+  spec.vb:
+  - uid: System.Single
+    name: Single
+    isExternal: true
+  - name: '*'
+- uid: Pie.Audio.MixrNative.mxGetNumChannels*
+  commentId: Overload:Pie.Audio.MixrNative.mxGetNumChannels
+  isExternal: true
+  name: mxGetNumChannels
+  nameWithType: MixrNative.mxGetNumChannels
+  fullName: Pie.Audio.MixrNative.mxGetNumChannels
+- uid: Pie.Audio.MixrNative.mxIsPlaying*
+  commentId: Overload:Pie.Audio.MixrNative.mxIsPlaying
+  isExternal: true
+  name: mxIsPlaying
+  nameWithType: MixrNative.mxIsPlaying
+  fullName: Pie.Audio.MixrNative.mxIsPlaying
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Pie.Audio.MixrNative.mxPCMLoadWav*
+  commentId: Overload:Pie.Audio.MixrNative.mxPCMLoadWav
+  isExternal: true
+  name: mxPCMLoadWav
+  nameWithType: MixrNative.mxPCMLoadWav
+  fullName: Pie.Audio.MixrNative.mxPCMLoadWav
+- uid: System.Byte*
+  isExternal: true
+  name: byte*
+  nameWithType: byte*
+  fullName: byte*
+  nameWithType.vb: Byte*
+  fullName.vb: Byte*
+  name.vb: Byte*
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '*'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: '*'
+- uid: Pie.Audio.MixrNative.PCM*
+  isExternal: true
+  name: PCM*
+  nameWithType: MixrNative.PCM*
+  fullName: Pie.Audio.MixrNative.PCM*
+  spec.csharp:
+  - uid: Pie.Audio.MixrNative.PCM
+    name: PCM
+  - name: '*'
+  spec.vb:
+  - uid: Pie.Audio.MixrNative.PCM
+    name: PCM
+  - name: '*'
+- uid: Pie.Audio.MixrNative.mxPCMFree*
+  commentId: Overload:Pie.Audio.MixrNative.mxPCMFree
+  isExternal: true
+  name: mxPCMFree
+  nameWithType: MixrNative.mxPCMFree
+  fullName: Pie.Audio.MixrNative.mxPCMFree

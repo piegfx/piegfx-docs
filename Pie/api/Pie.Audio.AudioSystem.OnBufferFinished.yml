@@ -1,0 +1,81 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pie.Audio.AudioSystem.OnBufferFinished
+  commentId: T:Pie.Audio.AudioSystem.OnBufferFinished
+  id: AudioSystem.OnBufferFinished
+  parent: Pie.Audio
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: AudioSystem.OnBufferFinished
+  nameWithType: AudioSystem.OnBufferFinished
+  fullName: Pie.Audio.AudioSystem.OnBufferFinished
+  type: Delegate
+  source:
+    remote:
+      path: Pie.Audio/AudioSystem.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: OnBufferFinished
+    path: src/Pie/Pie.Audio/AudioSystem.cs
+    startLine: 181
+  assemblies:
+  - Pie.Audio
+  namespace: Pie.Audio
+  syntax:
+    content: public delegate void AudioSystem.OnBufferFinished(AudioSystem system, ushort channel, AudioBuffer buffer)
+    parameters:
+    - id: system
+      type: Pie.Audio.AudioSystem
+    - id: channel
+      type: System.UInt16
+    - id: buffer
+      type: Pie.Audio.AudioBuffer
+    content.vb: Public Delegate Sub AudioSystem.OnBufferFinished(system As AudioSystem, channel As UShort, buffer As AudioBuffer)
+references:
+- uid: Pie.Audio
+  commentId: N:Pie.Audio
+  name: Pie.Audio
+  nameWithType: Pie.Audio
+  fullName: Pie.Audio
+  spec.csharp:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Audio
+    name: Audio
+  spec.vb:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Audio
+    name: Audio
+- uid: Pie.Audio.AudioSystem
+  commentId: T:Pie.Audio.AudioSystem
+  parent: Pie.Audio
+  name: AudioSystem
+  nameWithType: AudioSystem
+  fullName: Pie.Audio.AudioSystem
+- uid: System.UInt16
+  commentId: T:System.UInt16
+  parent: System
+  isExternal: true
+  name: ushort
+  nameWithType: ushort
+  fullName: ushort
+  nameWithType.vb: UShort
+  fullName.vb: UShort
+  name.vb: UShort
+- uid: Pie.Audio.AudioBuffer
+  commentId: T:Pie.Audio.AudioBuffer
+  parent: Pie.Audio
+  name: AudioBuffer
+  nameWithType: AudioBuffer
+  fullName: Pie.Audio.AudioBuffer
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

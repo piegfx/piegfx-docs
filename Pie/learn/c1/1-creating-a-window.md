@@ -223,13 +223,13 @@ It's likely you will end up using this far more than creating a window, *then* a
 ## Choosing a graphics API
 As you may have seen, Pie supports the following graphics APIs:
 * Direct3D 11
-* OpenGL 3.3
+* OpenGL 4.3
 
 So far, we haven't explicitly told Pie which API we want to use. So what API is it using, and how do we tell it which one we want?
 
 By default, Pie will work out the best API to use based on the current platform and system configuration.
 * **Windows** - Direct3D 11 is used by default.
-* **Linux/macOS** - OpenGL 3.3 is used by default.
+* **Linux/macOS** - OpenGL 4.3 is used by default.
 
 ### Explicitly choosing an API
 If you wish to override the default API choice, you can do so in the window creation functions.
@@ -242,7 +242,7 @@ Window window = Window.CreateWithGraphicsDevice(settings, GraphicsApi.D3D11, out
 
 This will create a Direct3D 11 graphics device. If you're on Linux/macOS, this will crash, as they do not support Direct3D 11.
 
-Now try `GraphicsApi.OpenGl33` instead. This will create an OpenGL 3.3 graphics device. On windows, you should notice no difference. On Linux/macOS, your window will now open to the nice familliar blue you saw before.
+Now try `GraphicsApi.OpenGl33` instead. This will create an OpenGL 4.3 graphics device. On windows, you should notice no difference. On Linux/macOS, your window will now open to the nice familliar blue you saw before.
 
 ### Platform & API differences
 Pie has been specifically designed for there to be as few platform & API differences as possible, so you can write your code once and it will run the same no matter which platform & API you choose. So far, there are no known differences in behaviour between the two supported APIs when using Pie. We aim to stick with this going forward!

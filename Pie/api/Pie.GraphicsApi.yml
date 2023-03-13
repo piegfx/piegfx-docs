@@ -1,0 +1,183 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pie.GraphicsApi
+  commentId: T:Pie.GraphicsApi
+  id: GraphicsApi
+  parent: Pie
+  children:
+  - Pie.GraphicsApi.D3D11
+  - Pie.GraphicsApi.OpenGL
+  - Pie.GraphicsApi.Vulkan
+  langs:
+  - csharp
+  - vb
+  name: GraphicsApi
+  nameWithType: GraphicsApi
+  fullName: Pie.GraphicsApi
+  type: Enum
+  source:
+    remote:
+      path: Pie/GraphicsApi.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: GraphicsApi
+    path: src/Pie/Pie/GraphicsApi.cs
+    startLine: 7
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nThe backend graphics API used for a <xref href=\"Pie.GraphicsDevice\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public enum GraphicsApi
+    content.vb: Public Enum GraphicsApi
+  extensionMethods:
+  - Pie.GraphicsApi.Pie.GraphicsApiExtensions.ToFriendlyString
+- uid: Pie.GraphicsApi.OpenGL
+  commentId: F:Pie.GraphicsApi.OpenGL
+  id: OpenGL
+  parent: Pie.GraphicsApi
+  langs:
+  - csharp
+  - vb
+  name: OpenGL
+  nameWithType: GraphicsApi.OpenGL
+  fullName: Pie.GraphicsApi.OpenGL
+  type: Field
+  source:
+    remote:
+      path: Pie/GraphicsApi.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: OpenGL
+    path: src/Pie/Pie/GraphicsApi.cs
+    startLine: 12
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nOpenGL, GLSL version 430.\n"
+  example: []
+  syntax:
+    content: OpenGL = 0
+    return:
+      type: Pie.GraphicsApi
+- uid: Pie.GraphicsApi.D3D11
+  commentId: F:Pie.GraphicsApi.D3D11
+  id: D3D11
+  parent: Pie.GraphicsApi
+  langs:
+  - csharp
+  - vb
+  name: D3D11
+  nameWithType: GraphicsApi.D3D11
+  fullName: Pie.GraphicsApi.D3D11
+  type: Field
+  source:
+    remote:
+      path: Pie/GraphicsApi.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: D3D11
+    path: src/Pie/Pie/GraphicsApi.cs
+    startLine: 17
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nDirect3D 11, shader model 5.0\n"
+  example: []
+  syntax:
+    content: D3D11 = 1
+    return:
+      type: Pie.GraphicsApi
+- uid: Pie.GraphicsApi.Vulkan
+  commentId: F:Pie.GraphicsApi.Vulkan
+  id: Vulkan
+  parent: Pie.GraphicsApi
+  langs:
+  - csharp
+  - vb
+  name: Vulkan
+  nameWithType: GraphicsApi.Vulkan
+  fullName: Pie.GraphicsApi.Vulkan
+  type: Field
+  source:
+    remote:
+      path: Pie/GraphicsApi.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Vulkan
+    path: src/Pie/Pie/GraphicsApi.cs
+    startLine: 22
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\n!EXPERIMENTAL! Vulkan\n"
+  example: []
+  syntax:
+    content: Vulkan = 2
+    return:
+      type: Pie.GraphicsApi
+references:
+- uid: Pie.GraphicsDevice
+  commentId: T:Pie.GraphicsDevice
+  parent: Pie
+  name: GraphicsDevice
+  nameWithType: GraphicsDevice
+  fullName: Pie.GraphicsDevice
+- uid: Pie
+  commentId: N:Pie
+  name: Pie
+  nameWithType: Pie
+  fullName: Pie
+- uid: Pie.GraphicsApi.Pie.GraphicsApiExtensions.ToFriendlyString
+  commentId: M:Pie.GraphicsApiExtensions.ToFriendlyString(Pie.GraphicsApi)
+  parent: Pie.GraphicsApiExtensions
+  definition: Pie.GraphicsApiExtensions.ToFriendlyString(Pie.GraphicsApi)
+  name: ToFriendlyString(GraphicsApi)
+  nameWithType: GraphicsApiExtensions.ToFriendlyString(GraphicsApi)
+  fullName: Pie.GraphicsApiExtensions.ToFriendlyString(Pie.GraphicsApi)
+  spec.csharp:
+  - uid: Pie.GraphicsApiExtensions.ToFriendlyString(Pie.GraphicsApi)
+    name: ToFriendlyString
+  - name: (
+  - uid: Pie.GraphicsApi
+    name: GraphicsApi
+  - name: )
+  spec.vb:
+  - uid: Pie.GraphicsApiExtensions.ToFriendlyString(Pie.GraphicsApi)
+    name: ToFriendlyString
+  - name: (
+  - uid: Pie.GraphicsApi
+    name: GraphicsApi
+  - name: )
+- uid: Pie.GraphicsApiExtensions.ToFriendlyString(Pie.GraphicsApi)
+  commentId: M:Pie.GraphicsApiExtensions.ToFriendlyString(Pie.GraphicsApi)
+  name: ToFriendlyString(GraphicsApi)
+  nameWithType: GraphicsApiExtensions.ToFriendlyString(GraphicsApi)
+  fullName: Pie.GraphicsApiExtensions.ToFriendlyString(Pie.GraphicsApi)
+  spec.csharp:
+  - uid: Pie.GraphicsApiExtensions.ToFriendlyString(Pie.GraphicsApi)
+    name: ToFriendlyString
+  - name: (
+  - uid: Pie.GraphicsApi
+    name: GraphicsApi
+  - name: )
+  spec.vb:
+  - uid: Pie.GraphicsApiExtensions.ToFriendlyString(Pie.GraphicsApi)
+    name: ToFriendlyString
+  - name: (
+  - uid: Pie.GraphicsApi
+    name: GraphicsApi
+  - name: )
+- uid: Pie.GraphicsApiExtensions
+  commentId: T:Pie.GraphicsApiExtensions
+  parent: Pie
+  name: GraphicsApiExtensions
+  nameWithType: GraphicsApiExtensions
+  fullName: Pie.GraphicsApiExtensions
+- uid: Pie.GraphicsApi
+  commentId: T:Pie.GraphicsApi
+  parent: Pie
+  name: GraphicsApi
+  nameWithType: GraphicsApi
+  fullName: Pie.GraphicsApi

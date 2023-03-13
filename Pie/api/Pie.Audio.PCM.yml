@@ -1,0 +1,473 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pie.Audio.PCM
+  commentId: T:Pie.Audio.PCM
+  id: PCM
+  parent: Pie.Audio
+  children:
+  - Pie.Audio.PCM.#ctor(System.Byte[],Pie.Audio.AudioFormat)
+  - Pie.Audio.PCM.Data
+  - Pie.Audio.PCM.Format
+  - Pie.Audio.PCM.LoadWav(System.Byte[])
+  - Pie.Audio.PCM.LoadWav(System.String)
+  langs:
+  - csharp
+  - vb
+  name: PCM
+  nameWithType: PCM
+  fullName: Pie.Audio.PCM
+  type: Struct
+  source:
+    remote:
+      path: Pie.Audio/PCM.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: PCM
+    path: src/Pie/Pie.Audio/PCM.cs
+    startLine: 8
+  assemblies:
+  - Pie.Audio
+  namespace: Pie.Audio
+  summary: "\nEasily load various file formats to PCM.\n"
+  example: []
+  syntax:
+    content: public struct PCM
+    content.vb: Public Structure PCM
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: Pie.Audio.PCM.Data
+  commentId: F:Pie.Audio.PCM.Data
+  id: Data
+  parent: Pie.Audio.PCM
+  langs:
+  - csharp
+  - vb
+  name: Data
+  nameWithType: PCM.Data
+  fullName: Pie.Audio.PCM.Data
+  type: Field
+  source:
+    remote:
+      path: Pie.Audio/PCM.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Data
+    path: src/Pie/Pie.Audio/PCM.cs
+    startLine: 13
+  assemblies:
+  - Pie.Audio
+  namespace: Pie.Audio
+  summary: "\nThe PCM data.\n"
+  example: []
+  syntax:
+    content: public readonly byte[] Data
+    return:
+      type: System.Byte[]
+    content.vb: Public ReadOnly Data As Byte()
+- uid: Pie.Audio.PCM.Format
+  commentId: F:Pie.Audio.PCM.Format
+  id: Format
+  parent: Pie.Audio.PCM
+  langs:
+  - csharp
+  - vb
+  name: Format
+  nameWithType: PCM.Format
+  fullName: Pie.Audio.PCM.Format
+  type: Field
+  source:
+    remote:
+      path: Pie.Audio/PCM.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Format
+    path: src/Pie/Pie.Audio/PCM.cs
+    startLine: 18
+  assemblies:
+  - Pie.Audio
+  namespace: Pie.Audio
+  summary: "\nThe <xref href=\"Pie.Audio.AudioFormat\" data-throw-if-not-resolved=\"false\"></xref> of the PCM data.\n"
+  example: []
+  syntax:
+    content: public readonly AudioFormat Format
+    return:
+      type: Pie.Audio.AudioFormat
+    content.vb: Public ReadOnly Format As AudioFormat
+- uid: Pie.Audio.PCM.#ctor(System.Byte[],Pie.Audio.AudioFormat)
+  commentId: M:Pie.Audio.PCM.#ctor(System.Byte[],Pie.Audio.AudioFormat)
+  id: '#ctor(System.Byte[],Pie.Audio.AudioFormat)'
+  parent: Pie.Audio.PCM
+  langs:
+  - csharp
+  - vb
+  name: PCM(byte[], AudioFormat)
+  nameWithType: PCM.PCM(byte[], AudioFormat)
+  fullName: Pie.Audio.PCM.PCM(byte[], Pie.Audio.AudioFormat)
+  type: Constructor
+  source:
+    remote:
+      path: Pie.Audio/PCM.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: .ctor
+    path: src/Pie/Pie.Audio/PCM.cs
+    startLine: 25
+  assemblies:
+  - Pie.Audio
+  namespace: Pie.Audio
+  summary: "\nCreate a new <xref href=\"Pie.Audio.PCM\" data-throw-if-not-resolved=\"false\"></xref> instance.\n"
+  example: []
+  syntax:
+    content: public PCM(byte[] data, AudioFormat format)
+    parameters:
+    - id: data
+      type: System.Byte[]
+      description: The PCM data.
+    - id: format
+      type: Pie.Audio.AudioFormat
+      description: The <xref href="Pie.Audio.AudioFormat" data-throw-if-not-resolved="false"></xref> of the PCM data.
+    content.vb: Public Sub New(data As Byte(), format As AudioFormat)
+  overload: Pie.Audio.PCM.#ctor*
+  nameWithType.vb: PCM.New(Byte(), AudioFormat)
+  fullName.vb: Pie.Audio.PCM.New(Byte(), Pie.Audio.AudioFormat)
+  name.vb: New(Byte(), AudioFormat)
+- uid: Pie.Audio.PCM.LoadWav(System.Byte[])
+  commentId: M:Pie.Audio.PCM.LoadWav(System.Byte[])
+  id: LoadWav(System.Byte[])
+  parent: Pie.Audio.PCM
+  langs:
+  - csharp
+  - vb
+  name: LoadWav(byte[])
+  nameWithType: PCM.LoadWav(byte[])
+  fullName: Pie.Audio.PCM.LoadWav(byte[])
+  type: Method
+  source:
+    remote:
+      path: Pie.Audio/PCM.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: LoadWav
+    path: src/Pie/Pie.Audio/PCM.cs
+    startLine: 36
+  assemblies:
+  - Pie.Audio
+  namespace: Pie.Audio
+  summary: "\nLoad a RIFF Wave file.\n"
+  example: []
+  syntax:
+    content: public static PCM LoadWav(byte[] data)
+    parameters:
+    - id: data
+      type: System.Byte[]
+      description: The wav data.
+    return:
+      type: Pie.Audio.PCM
+      description: The created <xref href="Pie.Audio.PCM" data-throw-if-not-resolved="false"></xref>.
+    content.vb: Public Shared Function LoadWav(data As Byte()) As PCM
+  overload: Pie.Audio.PCM.LoadWav*
+  nameWithType.vb: PCM.LoadWav(Byte())
+  fullName.vb: Pie.Audio.PCM.LoadWav(Byte())
+  name.vb: LoadWav(Byte())
+- uid: Pie.Audio.PCM.LoadWav(System.String)
+  commentId: M:Pie.Audio.PCM.LoadWav(System.String)
+  id: LoadWav(System.String)
+  parent: Pie.Audio.PCM
+  langs:
+  - csharp
+  - vb
+  name: LoadWav(string)
+  nameWithType: PCM.LoadWav(string)
+  fullName: Pie.Audio.PCM.LoadWav(string)
+  type: Method
+  source:
+    remote:
+      path: Pie.Audio/PCM.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: LoadWav
+    path: src/Pie/Pie.Audio/PCM.cs
+    startLine: 58
+  assemblies:
+  - Pie.Audio
+  namespace: Pie.Audio
+  summary: "\nLoad a RIFF Wave file from a given path.\n"
+  example: []
+  syntax:
+    content: public static PCM LoadWav(string path)
+    parameters:
+    - id: path
+      type: System.String
+      description: The path to load from.
+    return:
+      type: Pie.Audio.PCM
+      description: The created <xref href="Pie.Audio.PCM" data-throw-if-not-resolved="false"></xref>.
+    content.vb: Public Shared Function LoadWav(path As String) As PCM
+  overload: Pie.Audio.PCM.LoadWav*
+  nameWithType.vb: PCM.LoadWav(String)
+  fullName.vb: Pie.Audio.PCM.LoadWav(String)
+  name.vb: LoadWav(String)
+references:
+- uid: Pie.Audio
+  commentId: N:Pie.Audio
+  name: Pie.Audio
+  nameWithType: Pie.Audio
+  fullName: Pie.Audio
+  spec.csharp:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Audio
+    name: Audio
+  spec.vb:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Audio
+    name: Audio
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Byte[]
+  isExternal: true
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: (
+  - name: )
+- uid: Pie.Audio.AudioFormat
+  commentId: T:Pie.Audio.AudioFormat
+  parent: Pie.Audio
+  name: AudioFormat
+  nameWithType: AudioFormat
+  fullName: Pie.Audio.AudioFormat
+- uid: Pie.Audio.PCM
+  commentId: T:Pie.Audio.PCM
+  parent: Pie.Audio
+  name: PCM
+  nameWithType: PCM
+  fullName: Pie.Audio.PCM
+- uid: Pie.Audio.PCM.#ctor*
+  commentId: Overload:Pie.Audio.PCM.#ctor
+  name: PCM
+  nameWithType: PCM.PCM
+  fullName: Pie.Audio.PCM.PCM
+  nameWithType.vb: PCM.New
+  fullName.vb: Pie.Audio.PCM.New
+  name.vb: New
+- uid: Pie.Audio.PCM.LoadWav*
+  commentId: Overload:Pie.Audio.PCM.LoadWav
+  name: LoadWav
+  nameWithType: PCM.LoadWav
+  fullName: Pie.Audio.PCM.LoadWav
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

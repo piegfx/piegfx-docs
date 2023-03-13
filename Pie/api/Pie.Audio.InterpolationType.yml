@@ -1,0 +1,112 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pie.Audio.InterpolationType
+  commentId: T:Pie.Audio.InterpolationType
+  id: InterpolationType
+  parent: Pie.Audio
+  children:
+  - Pie.Audio.InterpolationType.Linear
+  - Pie.Audio.InterpolationType.None
+  langs:
+  - csharp
+  - vb
+  name: InterpolationType
+  nameWithType: InterpolationType
+  fullName: Pie.Audio.InterpolationType
+  type: Enum
+  source:
+    remote:
+      path: Pie.Audio/InterpolationType.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: InterpolationType
+    path: src/Pie/Pie.Audio/InterpolationType.cs
+    startLine: 6
+  assemblies:
+  - Pie.Audio
+  namespace: Pie.Audio
+  summary: "\nVarious different interpolation types used during playback. Interpolation is used to smooth out the audio to produce\na nicer sound, at the expense of some performance, and potential muffling of low-quality sounds.\n"
+  example: []
+  syntax:
+    content: public enum InterpolationType
+    content.vb: Public Enum InterpolationType
+- uid: Pie.Audio.InterpolationType.None
+  commentId: F:Pie.Audio.InterpolationType.None
+  id: None
+  parent: Pie.Audio.InterpolationType
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: InterpolationType.None
+  fullName: Pie.Audio.InterpolationType.None
+  type: Field
+  source:
+    remote:
+      path: Pie.Audio/InterpolationType.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: None
+    path: src/Pie/Pie.Audio/InterpolationType.cs
+    startLine: 12
+  assemblies:
+  - Pie.Audio
+  namespace: Pie.Audio
+  summary: "\nNo interpolation should be performed. This provides the fastest results, however can lead to harsh and\npotentially unpleasant aliasing artifacts at low sample rates and speeds.\n"
+  example: []
+  syntax:
+    content: None = 0
+    return:
+      type: Pie.Audio.InterpolationType
+- uid: Pie.Audio.InterpolationType.Linear
+  commentId: F:Pie.Audio.InterpolationType.Linear
+  id: Linear
+  parent: Pie.Audio.InterpolationType
+  langs:
+  - csharp
+  - vb
+  name: Linear
+  nameWithType: InterpolationType.Linear
+  fullName: Pie.Audio.InterpolationType.Linear
+  type: Field
+  source:
+    remote:
+      path: Pie.Audio/InterpolationType.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Linear
+    path: src/Pie/Pie.Audio/InterpolationType.cs
+    startLine: 17
+  assemblies:
+  - Pie.Audio
+  namespace: Pie.Audio
+  summary: "\nUse linear interpolation. This gives a decent balance between speed and quality.\n"
+  example: []
+  syntax:
+    content: Linear = 1
+    return:
+      type: Pie.Audio.InterpolationType
+references:
+- uid: Pie.Audio
+  commentId: N:Pie.Audio
+  name: Pie.Audio
+  nameWithType: Pie.Audio
+  fullName: Pie.Audio
+  spec.csharp:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Audio
+    name: Audio
+  spec.vb:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Audio
+    name: Audio
+- uid: Pie.Audio.InterpolationType
+  commentId: T:Pie.Audio.InterpolationType
+  parent: Pie.Audio
+  name: InterpolationType
+  nameWithType: InterpolationType
+  fullName: Pie.Audio.InterpolationType

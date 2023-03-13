@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pie.Audio.AudioResult
+  commentId: T:Pie.Audio.AudioResult
+  id: AudioResult
+  parent: Pie.Audio
+  children:
+  - Pie.Audio.AudioResult.InvalidBuffer
+  - Pie.Audio.AudioResult.InvalidChannel
+  - Pie.Audio.AudioResult.Ok
+  - Pie.Audio.AudioResult.OutOfRange
+  langs:
+  - csharp
+  - vb
+  name: AudioResult
+  nameWithType: AudioResult
+  fullName: Pie.Audio.AudioResult
+  type: Enum
+  source:
+    remote:
+      path: Pie.Audio/AudioResult.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: AudioResult
+    path: src/Pie/Pie.Audio/AudioResult.cs
+    startLine: 5
+  assemblies:
+  - Pie.Audio
+  namespace: Pie.Audio
+  summary: "\nMany functions return an <xref href=\"Pie.Audio.AudioResult\" data-throw-if-not-resolved=\"false\"></xref>, and quietly fail if the result is not <xref href=\"Pie.Audio.AudioResult.Ok\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public enum AudioResult
+    content.vb: Public Enum AudioResult
+- uid: Pie.Audio.AudioResult.Ok
+  commentId: F:Pie.Audio.AudioResult.Ok
+  id: Ok
+  parent: Pie.Audio.AudioResult
+  langs:
+  - csharp
+  - vb
+  name: Ok
+  nameWithType: AudioResult.Ok
+  fullName: Pie.Audio.AudioResult.Ok
+  type: Field
+  source:
+    remote:
+      path: Pie.Audio/AudioResult.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Ok
+    path: src/Pie/Pie.Audio/AudioResult.cs
+    startLine: 10
+  assemblies:
+  - Pie.Audio
+  namespace: Pie.Audio
+  summary: "\nThe action was a success.\n"
+  example: []
+  syntax:
+    content: Ok = 0
+    return:
+      type: Pie.Audio.AudioResult
+- uid: Pie.Audio.AudioResult.InvalidBuffer
+  commentId: F:Pie.Audio.AudioResult.InvalidBuffer
+  id: InvalidBuffer
+  parent: Pie.Audio.AudioResult
+  langs:
+  - csharp
+  - vb
+  name: InvalidBuffer
+  nameWithType: AudioResult.InvalidBuffer
+  fullName: Pie.Audio.AudioResult.InvalidBuffer
+  type: Field
+  source:
+    remote:
+      path: Pie.Audio/AudioResult.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: InvalidBuffer
+    path: src/Pie/Pie.Audio/AudioResult.cs
+    startLine: 15
+  assemblies:
+  - Pie.Audio
+  namespace: Pie.Audio
+  summary: "\nAn invalid buffer was provided.\n"
+  example: []
+  syntax:
+    content: InvalidBuffer = 1
+    return:
+      type: Pie.Audio.AudioResult
+- uid: Pie.Audio.AudioResult.InvalidChannel
+  commentId: F:Pie.Audio.AudioResult.InvalidChannel
+  id: InvalidChannel
+  parent: Pie.Audio.AudioResult
+  langs:
+  - csharp
+  - vb
+  name: InvalidChannel
+  nameWithType: AudioResult.InvalidChannel
+  fullName: Pie.Audio.AudioResult.InvalidChannel
+  type: Field
+  source:
+    remote:
+      path: Pie.Audio/AudioResult.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: InvalidChannel
+    path: src/Pie/Pie.Audio/AudioResult.cs
+    startLine: 20
+  assemblies:
+  - Pie.Audio
+  namespace: Pie.Audio
+  summary: "\nAn invalid channel was provided.\n"
+  example: []
+  syntax:
+    content: InvalidChannel = 2
+    return:
+      type: Pie.Audio.AudioResult
+- uid: Pie.Audio.AudioResult.OutOfRange
+  commentId: F:Pie.Audio.AudioResult.OutOfRange
+  id: OutOfRange
+  parent: Pie.Audio.AudioResult
+  langs:
+  - csharp
+  - vb
+  name: OutOfRange
+  nameWithType: AudioResult.OutOfRange
+  fullName: Pie.Audio.AudioResult.OutOfRange
+  type: Field
+  source:
+    remote:
+      path: Pie.Audio/AudioResult.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: OutOfRange
+    path: src/Pie/Pie.Audio/AudioResult.cs
+    startLine: 25
+  assemblies:
+  - Pie.Audio
+  namespace: Pie.Audio
+  summary: "\nA value fell out of range of the supported values.\n"
+  example: []
+  syntax:
+    content: OutOfRange = 3
+    return:
+      type: Pie.Audio.AudioResult
+references:
+- uid: Pie.Audio.AudioResult
+  commentId: T:Pie.Audio.AudioResult
+  parent: Pie.Audio
+  name: AudioResult
+  nameWithType: AudioResult
+  fullName: Pie.Audio.AudioResult
+- uid: Pie.Audio.AudioResult.Ok
+  commentId: F:Pie.Audio.AudioResult.Ok
+  isExternal: true
+- uid: Pie.Audio
+  commentId: N:Pie.Audio
+  name: Pie.Audio
+  nameWithType: Pie.Audio
+  fullName: Pie.Audio
+  spec.csharp:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Audio
+    name: Audio
+  spec.vb:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Audio
+    name: Audio

@@ -1,0 +1,143 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pie.Text.FaceFlags
+  commentId: T:Pie.Text.FaceFlags
+  id: FaceFlags
+  parent: Pie.Text
+  children:
+  - Pie.Text.FaceFlags.Antialiased
+  - Pie.Text.FaceFlags.None
+  - Pie.Text.FaceFlags.RgbaConvert
+  langs:
+  - csharp
+  - vb
+  name: FaceFlags
+  nameWithType: FaceFlags
+  fullName: Pie.Text.FaceFlags
+  type: Enum
+  source:
+    remote:
+      path: Pie.Text/FaceFlags.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: FaceFlags
+    path: src/Pie/Pie.Text/FaceFlags.cs
+    startLine: 4
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum FaceFlags
+    content.vb: >-
+      <Flags>
+
+      Public Enum FaceFlags
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+- uid: Pie.Text.FaceFlags.None
+  commentId: F:Pie.Text.FaceFlags.None
+  id: None
+  parent: Pie.Text.FaceFlags
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: FaceFlags.None
+  fullName: Pie.Text.FaceFlags.None
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/FaceFlags.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: None
+    path: src/Pie/Pie.Text/FaceFlags.cs
+    startLine: 7
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text
+  syntax:
+    content: None = 1
+    return:
+      type: Pie.Text.FaceFlags
+- uid: Pie.Text.FaceFlags.Antialiased
+  commentId: F:Pie.Text.FaceFlags.Antialiased
+  id: Antialiased
+  parent: Pie.Text.FaceFlags
+  langs:
+  - csharp
+  - vb
+  name: Antialiased
+  nameWithType: FaceFlags.Antialiased
+  fullName: Pie.Text.FaceFlags.Antialiased
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/FaceFlags.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Antialiased
+    path: src/Pie/Pie.Text/FaceFlags.cs
+    startLine: 9
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text
+  syntax:
+    content: Antialiased = 2
+    return:
+      type: Pie.Text.FaceFlags
+- uid: Pie.Text.FaceFlags.RgbaConvert
+  commentId: F:Pie.Text.FaceFlags.RgbaConvert
+  id: RgbaConvert
+  parent: Pie.Text.FaceFlags
+  langs:
+  - csharp
+  - vb
+  name: RgbaConvert
+  nameWithType: FaceFlags.RgbaConvert
+  fullName: Pie.Text.FaceFlags.RgbaConvert
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/FaceFlags.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: RgbaConvert
+    path: src/Pie/Pie.Text/FaceFlags.cs
+    startLine: 10
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text
+  syntax:
+    content: RgbaConvert = 4
+    return:
+      type: Pie.Text.FaceFlags
+references:
+- uid: Pie.Text
+  commentId: N:Pie.Text
+  name: Pie.Text
+  nameWithType: Pie.Text
+  fullName: Pie.Text
+  spec.csharp:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Text
+    name: Text
+  spec.vb:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Text
+    name: Text
+- uid: Pie.Text.FaceFlags
+  commentId: T:Pie.Text.FaceFlags
+  parent: Pie.Text
+  name: FaceFlags
+  nameWithType: FaceFlags
+  fullName: Pie.Text.FaceFlags

@@ -1,0 +1,139 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pie.Text.Native.FT_Kerning_Mode
+  commentId: T:Pie.Text.Native.FT_Kerning_Mode
+  id: FT_Kerning_Mode
+  parent: Pie.Text.Native
+  children:
+  - Pie.Text.Native.FT_Kerning_Mode.Default
+  - Pie.Text.Native.FT_Kerning_Mode.Unfitted
+  - Pie.Text.Native.FT_Kerning_Mode.Unscaled
+  langs:
+  - csharp
+  - vb
+  name: FT_Kerning_Mode
+  nameWithType: FT_Kerning_Mode
+  fullName: Pie.Text.Native.FT_Kerning_Mode
+  type: Enum
+  source:
+    remote:
+      path: Pie.Text/Native/FT_Kerning_Mode.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: FT_Kerning_Mode
+    path: src/Pie/Pie.Text/Native/FT_Kerning_Mode.cs
+    startLine: 2
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public enum FT_Kerning_Mode
+    content.vb: Public Enum FT_Kerning_Mode
+- uid: Pie.Text.Native.FT_Kerning_Mode.Default
+  commentId: F:Pie.Text.Native.FT_Kerning_Mode.Default
+  id: Default
+  parent: Pie.Text.Native.FT_Kerning_Mode
+  langs:
+  - csharp
+  - vb
+  name: Default
+  nameWithType: FT_Kerning_Mode.Default
+  fullName: Pie.Text.Native.FT_Kerning_Mode.Default
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FT_Kerning_Mode.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Default
+    path: src/Pie/Pie.Text/Native/FT_Kerning_Mode.cs
+    startLine: 4
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: Default = 0
+    return:
+      type: Pie.Text.Native.FT_Kerning_Mode
+- uid: Pie.Text.Native.FT_Kerning_Mode.Unfitted
+  commentId: F:Pie.Text.Native.FT_Kerning_Mode.Unfitted
+  id: Unfitted
+  parent: Pie.Text.Native.FT_Kerning_Mode
+  langs:
+  - csharp
+  - vb
+  name: Unfitted
+  nameWithType: FT_Kerning_Mode.Unfitted
+  fullName: Pie.Text.Native.FT_Kerning_Mode.Unfitted
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FT_Kerning_Mode.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Unfitted
+    path: src/Pie/Pie.Text/Native/FT_Kerning_Mode.cs
+    startLine: 5
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: Unfitted = 1
+    return:
+      type: Pie.Text.Native.FT_Kerning_Mode
+- uid: Pie.Text.Native.FT_Kerning_Mode.Unscaled
+  commentId: F:Pie.Text.Native.FT_Kerning_Mode.Unscaled
+  id: Unscaled
+  parent: Pie.Text.Native.FT_Kerning_Mode
+  langs:
+  - csharp
+  - vb
+  name: Unscaled
+  nameWithType: FT_Kerning_Mode.Unscaled
+  fullName: Pie.Text.Native.FT_Kerning_Mode.Unscaled
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FT_Kerning_Mode.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Unscaled
+    path: src/Pie/Pie.Text/Native/FT_Kerning_Mode.cs
+    startLine: 6
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: Unscaled = 2
+    return:
+      type: Pie.Text.Native.FT_Kerning_Mode
+references:
+- uid: Pie.Text.Native
+  commentId: N:Pie.Text.Native
+  name: Pie.Text.Native
+  nameWithType: Pie.Text.Native
+  fullName: Pie.Text.Native
+  spec.csharp:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Text
+    name: Text
+  - name: .
+  - uid: Pie.Text.Native
+    name: Native
+  spec.vb:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Text
+    name: Text
+  - name: .
+  - uid: Pie.Text.Native
+    name: Native
+- uid: Pie.Text.Native.FT_Kerning_Mode
+  commentId: T:Pie.Text.Native.FT_Kerning_Mode
+  parent: Pie.Text.Native
+  name: FT_Kerning_Mode
+  nameWithType: FT_Kerning_Mode
+  fullName: Pie.Text.Native.FT_Kerning_Mode

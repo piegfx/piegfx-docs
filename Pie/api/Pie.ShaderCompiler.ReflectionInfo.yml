@@ -1,0 +1,741 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pie.ShaderCompiler.ReflectionInfo
+  commentId: T:Pie.ShaderCompiler.ReflectionInfo
+  id: ReflectionInfo
+  parent: Pie.ShaderCompiler
+  children:
+  - Pie.ShaderCompiler.ReflectionInfo.#ctor(Pie.ShaderCompiler.ReflectionInfo.EntryPoint[],System.Collections.Generic.Dictionary{System.String,Pie.ShaderCompiler.ReflectionInfo.ShaderType},Pie.ShaderCompiler.ReflectionInfo.ShaderAttribute[],Pie.ShaderCompiler.ReflectionInfo.ShaderAttribute[],Pie.ShaderCompiler.ReflectionInfo.UBOInfo[])
+  - Pie.ShaderCompiler.ReflectionInfo.EntryPoints
+  - Pie.ShaderCompiler.ReflectionInfo.FromJson(System.String,Pie.ShaderCompiler.Stage)
+  - Pie.ShaderCompiler.ReflectionInfo.Inputs
+  - Pie.ShaderCompiler.ReflectionInfo.Outputs
+  - Pie.ShaderCompiler.ReflectionInfo.Stage
+  - Pie.ShaderCompiler.ReflectionInfo.Types
+  - Pie.ShaderCompiler.ReflectionInfo.Ubos
+  langs:
+  - csharp
+  - vb
+  name: ReflectionInfo
+  nameWithType: ReflectionInfo
+  fullName: Pie.ShaderCompiler.ReflectionInfo
+  type: Struct
+  source:
+    remote:
+      path: Pie.ShaderCompiler/ReflectionInfo.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: ReflectionInfo
+    path: src/Pie/Pie.ShaderCompiler/ReflectionInfo.cs
+    startLine: 9
+  assemblies:
+  - Pie.ShaderCompiler
+  namespace: Pie.ShaderCompiler
+  summary: "\nTo be documented.\n"
+  example: []
+  syntax:
+    content: public struct ReflectionInfo
+    content.vb: Public Structure ReflectionInfo
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: Pie.ShaderCompiler.ReflectionInfo.Stage
+  commentId: F:Pie.ShaderCompiler.ReflectionInfo.Stage
+  id: Stage
+  parent: Pie.ShaderCompiler.ReflectionInfo
+  langs:
+  - csharp
+  - vb
+  name: Stage
+  nameWithType: ReflectionInfo.Stage
+  fullName: Pie.ShaderCompiler.ReflectionInfo.Stage
+  type: Field
+  source:
+    remote:
+      path: Pie.ShaderCompiler/ReflectionInfo.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Stage
+    path: src/Pie/Pie.ShaderCompiler/ReflectionInfo.cs
+    startLine: 11
+  assemblies:
+  - Pie.ShaderCompiler
+  namespace: Pie.ShaderCompiler
+  syntax:
+    content: public Stage Stage
+    return:
+      type: Pie.ShaderCompiler.Stage
+    content.vb: Public Stage As Stage
+- uid: Pie.ShaderCompiler.ReflectionInfo.EntryPoints
+  commentId: F:Pie.ShaderCompiler.ReflectionInfo.EntryPoints
+  id: EntryPoints
+  parent: Pie.ShaderCompiler.ReflectionInfo
+  langs:
+  - csharp
+  - vb
+  name: EntryPoints
+  nameWithType: ReflectionInfo.EntryPoints
+  fullName: Pie.ShaderCompiler.ReflectionInfo.EntryPoints
+  type: Field
+  source:
+    remote:
+      path: Pie.ShaderCompiler/ReflectionInfo.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: EntryPoints
+    path: src/Pie/Pie.ShaderCompiler/ReflectionInfo.cs
+    startLine: 13
+  assemblies:
+  - Pie.ShaderCompiler
+  namespace: Pie.ShaderCompiler
+  syntax:
+    content: >-
+      [JsonPropertyName("entryPoints")]
+
+      public ReflectionInfo.EntryPoint[] EntryPoints
+    return:
+      type: Pie.ShaderCompiler.ReflectionInfo.EntryPoint[]
+    content.vb: >-
+      <JsonPropertyName("entryPoints")>
+
+      Public EntryPoints As ReflectionInfo.EntryPoint()
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: {}
+- uid: Pie.ShaderCompiler.ReflectionInfo.Types
+  commentId: F:Pie.ShaderCompiler.ReflectionInfo.Types
+  id: Types
+  parent: Pie.ShaderCompiler.ReflectionInfo
+  langs:
+  - csharp
+  - vb
+  name: Types
+  nameWithType: ReflectionInfo.Types
+  fullName: Pie.ShaderCompiler.ReflectionInfo.Types
+  type: Field
+  source:
+    remote:
+      path: Pie.ShaderCompiler/ReflectionInfo.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Types
+    path: src/Pie/Pie.ShaderCompiler/ReflectionInfo.cs
+    startLine: 15
+  assemblies:
+  - Pie.ShaderCompiler
+  namespace: Pie.ShaderCompiler
+  syntax:
+    content: >-
+      [JsonPropertyName("types")]
+
+      public Dictionary<string, ReflectionInfo.ShaderType> Types
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,Pie.ShaderCompiler.ReflectionInfo.ShaderType}
+    content.vb: >-
+      <JsonPropertyName("types")>
+
+      Public Types As Dictionary(Of String, ReflectionInfo.ShaderType)
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: {}
+- uid: Pie.ShaderCompiler.ReflectionInfo.Inputs
+  commentId: F:Pie.ShaderCompiler.ReflectionInfo.Inputs
+  id: Inputs
+  parent: Pie.ShaderCompiler.ReflectionInfo
+  langs:
+  - csharp
+  - vb
+  name: Inputs
+  nameWithType: ReflectionInfo.Inputs
+  fullName: Pie.ShaderCompiler.ReflectionInfo.Inputs
+  type: Field
+  source:
+    remote:
+      path: Pie.ShaderCompiler/ReflectionInfo.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Inputs
+    path: src/Pie/Pie.ShaderCompiler/ReflectionInfo.cs
+    startLine: 17
+  assemblies:
+  - Pie.ShaderCompiler
+  namespace: Pie.ShaderCompiler
+  syntax:
+    content: >-
+      [JsonPropertyName("inputs")]
+
+      public ReflectionInfo.ShaderAttribute[] Inputs
+    return:
+      type: Pie.ShaderCompiler.ReflectionInfo.ShaderAttribute[]
+    content.vb: >-
+      <JsonPropertyName("inputs")>
+
+      Public Inputs As ReflectionInfo.ShaderAttribute()
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: {}
+- uid: Pie.ShaderCompiler.ReflectionInfo.Outputs
+  commentId: F:Pie.ShaderCompiler.ReflectionInfo.Outputs
+  id: Outputs
+  parent: Pie.ShaderCompiler.ReflectionInfo
+  langs:
+  - csharp
+  - vb
+  name: Outputs
+  nameWithType: ReflectionInfo.Outputs
+  fullName: Pie.ShaderCompiler.ReflectionInfo.Outputs
+  type: Field
+  source:
+    remote:
+      path: Pie.ShaderCompiler/ReflectionInfo.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Outputs
+    path: src/Pie/Pie.ShaderCompiler/ReflectionInfo.cs
+    startLine: 19
+  assemblies:
+  - Pie.ShaderCompiler
+  namespace: Pie.ShaderCompiler
+  syntax:
+    content: >-
+      [JsonPropertyName("outputs")]
+
+      public ReflectionInfo.ShaderAttribute[] Outputs
+    return:
+      type: Pie.ShaderCompiler.ReflectionInfo.ShaderAttribute[]
+    content.vb: >-
+      <JsonPropertyName("outputs")>
+
+      Public Outputs As ReflectionInfo.ShaderAttribute()
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: {}
+- uid: Pie.ShaderCompiler.ReflectionInfo.Ubos
+  commentId: F:Pie.ShaderCompiler.ReflectionInfo.Ubos
+  id: Ubos
+  parent: Pie.ShaderCompiler.ReflectionInfo
+  langs:
+  - csharp
+  - vb
+  name: Ubos
+  nameWithType: ReflectionInfo.Ubos
+  fullName: Pie.ShaderCompiler.ReflectionInfo.Ubos
+  type: Field
+  source:
+    remote:
+      path: Pie.ShaderCompiler/ReflectionInfo.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Ubos
+    path: src/Pie/Pie.ShaderCompiler/ReflectionInfo.cs
+    startLine: 21
+  assemblies:
+  - Pie.ShaderCompiler
+  namespace: Pie.ShaderCompiler
+  syntax:
+    content: >-
+      [JsonPropertyName("ubos")]
+
+      public ReflectionInfo.UBOInfo[] Ubos
+    return:
+      type: Pie.ShaderCompiler.ReflectionInfo.UBOInfo[]
+    content.vb: >-
+      <JsonPropertyName("ubos")>
+
+      Public Ubos As ReflectionInfo.UBOInfo()
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: {}
+- uid: Pie.ShaderCompiler.ReflectionInfo.#ctor(Pie.ShaderCompiler.ReflectionInfo.EntryPoint[],System.Collections.Generic.Dictionary{System.String,Pie.ShaderCompiler.ReflectionInfo.ShaderType},Pie.ShaderCompiler.ReflectionInfo.ShaderAttribute[],Pie.ShaderCompiler.ReflectionInfo.ShaderAttribute[],Pie.ShaderCompiler.ReflectionInfo.UBOInfo[])
+  commentId: M:Pie.ShaderCompiler.ReflectionInfo.#ctor(Pie.ShaderCompiler.ReflectionInfo.EntryPoint[],System.Collections.Generic.Dictionary{System.String,Pie.ShaderCompiler.ReflectionInfo.ShaderType},Pie.ShaderCompiler.ReflectionInfo.ShaderAttribute[],Pie.ShaderCompiler.ReflectionInfo.ShaderAttribute[],Pie.ShaderCompiler.ReflectionInfo.UBOInfo[])
+  id: '#ctor(Pie.ShaderCompiler.ReflectionInfo.EntryPoint[],System.Collections.Generic.Dictionary{System.String,Pie.ShaderCompiler.ReflectionInfo.ShaderType},Pie.ShaderCompiler.ReflectionInfo.ShaderAttribute[],Pie.ShaderCompiler.ReflectionInfo.ShaderAttribute[],Pie.ShaderCompiler.ReflectionInfo.UBOInfo[])'
+  parent: Pie.ShaderCompiler.ReflectionInfo
+  langs:
+  - csharp
+  - vb
+  name: ReflectionInfo(EntryPoint[], Dictionary<string, ShaderType>, ShaderAttribute[], ShaderAttribute[], UBOInfo[])
+  nameWithType: ReflectionInfo.ReflectionInfo(ReflectionInfo.EntryPoint[], Dictionary<string, ReflectionInfo.ShaderType>, ReflectionInfo.ShaderAttribute[], ReflectionInfo.ShaderAttribute[], ReflectionInfo.UBOInfo[])
+  fullName: Pie.ShaderCompiler.ReflectionInfo.ReflectionInfo(Pie.ShaderCompiler.ReflectionInfo.EntryPoint[], System.Collections.Generic.Dictionary<string, Pie.ShaderCompiler.ReflectionInfo.ShaderType>, Pie.ShaderCompiler.ReflectionInfo.ShaderAttribute[], Pie.ShaderCompiler.ReflectionInfo.ShaderAttribute[], Pie.ShaderCompiler.ReflectionInfo.UBOInfo[])
+  type: Constructor
+  source:
+    remote:
+      path: Pie.ShaderCompiler/ReflectionInfo.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: .ctor
+    path: src/Pie/Pie.ShaderCompiler/ReflectionInfo.cs
+    startLine: 23
+  assemblies:
+  - Pie.ShaderCompiler
+  namespace: Pie.ShaderCompiler
+  syntax:
+    content: public ReflectionInfo(ReflectionInfo.EntryPoint[] entryPoints, Dictionary<string, ReflectionInfo.ShaderType> types, ReflectionInfo.ShaderAttribute[] inputs, ReflectionInfo.ShaderAttribute[] outputs, ReflectionInfo.UBOInfo[] ubos)
+    parameters:
+    - id: entryPoints
+      type: Pie.ShaderCompiler.ReflectionInfo.EntryPoint[]
+    - id: types
+      type: System.Collections.Generic.Dictionary{System.String,Pie.ShaderCompiler.ReflectionInfo.ShaderType}
+    - id: inputs
+      type: Pie.ShaderCompiler.ReflectionInfo.ShaderAttribute[]
+    - id: outputs
+      type: Pie.ShaderCompiler.ReflectionInfo.ShaderAttribute[]
+    - id: ubos
+      type: Pie.ShaderCompiler.ReflectionInfo.UBOInfo[]
+    content.vb: Public Sub New(entryPoints As ReflectionInfo.EntryPoint(), types As Dictionary(Of String, ReflectionInfo.ShaderType), inputs As ReflectionInfo.ShaderAttribute(), outputs As ReflectionInfo.ShaderAttribute(), ubos As ReflectionInfo.UBOInfo())
+  overload: Pie.ShaderCompiler.ReflectionInfo.#ctor*
+  nameWithType.vb: ReflectionInfo.New(ReflectionInfo.EntryPoint(), Dictionary(Of String, ReflectionInfo.ShaderType), ReflectionInfo.ShaderAttribute(), ReflectionInfo.ShaderAttribute(), ReflectionInfo.UBOInfo())
+  fullName.vb: Pie.ShaderCompiler.ReflectionInfo.New(Pie.ShaderCompiler.ReflectionInfo.EntryPoint(), System.Collections.Generic.Dictionary(Of String, Pie.ShaderCompiler.ReflectionInfo.ShaderType), Pie.ShaderCompiler.ReflectionInfo.ShaderAttribute(), Pie.ShaderCompiler.ReflectionInfo.ShaderAttribute(), Pie.ShaderCompiler.ReflectionInfo.UBOInfo())
+  name.vb: New(EntryPoint(), Dictionary(Of String, ShaderType), ShaderAttribute(), ShaderAttribute(), UBOInfo())
+- uid: Pie.ShaderCompiler.ReflectionInfo.FromJson(System.String,Pie.ShaderCompiler.Stage)
+  commentId: M:Pie.ShaderCompiler.ReflectionInfo.FromJson(System.String,Pie.ShaderCompiler.Stage)
+  id: FromJson(System.String,Pie.ShaderCompiler.Stage)
+  parent: Pie.ShaderCompiler.ReflectionInfo
+  langs:
+  - csharp
+  - vb
+  name: FromJson(string, Stage)
+  nameWithType: ReflectionInfo.FromJson(string, Stage)
+  fullName: Pie.ShaderCompiler.ReflectionInfo.FromJson(string, Pie.ShaderCompiler.Stage)
+  type: Method
+  source:
+    remote:
+      path: Pie.ShaderCompiler/ReflectionInfo.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: FromJson
+    path: src/Pie/Pie.ShaderCompiler/ReflectionInfo.cs
+    startLine: 33
+  assemblies:
+  - Pie.ShaderCompiler
+  namespace: Pie.ShaderCompiler
+  syntax:
+    content: public static ReflectionInfo FromJson(string json, Stage stage)
+    parameters:
+    - id: json
+      type: System.String
+    - id: stage
+      type: Pie.ShaderCompiler.Stage
+    return:
+      type: Pie.ShaderCompiler.ReflectionInfo
+    content.vb: Public Shared Function FromJson(json As String, stage As Stage) As ReflectionInfo
+  overload: Pie.ShaderCompiler.ReflectionInfo.FromJson*
+  nameWithType.vb: ReflectionInfo.FromJson(String, Stage)
+  fullName.vb: Pie.ShaderCompiler.ReflectionInfo.FromJson(String, Pie.ShaderCompiler.Stage)
+  name.vb: FromJson(String, Stage)
+references:
+- uid: Pie.ShaderCompiler
+  commentId: N:Pie.ShaderCompiler
+  name: Pie.ShaderCompiler
+  nameWithType: Pie.ShaderCompiler
+  fullName: Pie.ShaderCompiler
+  spec.csharp:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.ShaderCompiler
+    name: ShaderCompiler
+  spec.vb:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.ShaderCompiler
+    name: ShaderCompiler
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Pie.ShaderCompiler.Stage
+  commentId: T:Pie.ShaderCompiler.Stage
+  parent: Pie.ShaderCompiler
+  name: Stage
+  nameWithType: Stage
+  fullName: Pie.ShaderCompiler.Stage
+- uid: Pie.ShaderCompiler.ReflectionInfo.EntryPoint[]
+  isExternal: true
+  name: EntryPoint[]
+  nameWithType: ReflectionInfo.EntryPoint[]
+  fullName: Pie.ShaderCompiler.ReflectionInfo.EntryPoint[]
+  nameWithType.vb: ReflectionInfo.EntryPoint()
+  fullName.vb: Pie.ShaderCompiler.ReflectionInfo.EntryPoint()
+  name.vb: EntryPoint()
+  spec.csharp:
+  - uid: Pie.ShaderCompiler.ReflectionInfo.EntryPoint
+    name: EntryPoint
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: Pie.ShaderCompiler.ReflectionInfo.EntryPoint
+    name: EntryPoint
+  - name: (
+  - name: )
+- uid: System.Collections.Generic.Dictionary{System.String,Pie.ShaderCompiler.ReflectionInfo.ShaderType}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,Pie.ShaderCompiler.ReflectionInfo.ShaderType}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<string, ReflectionInfo.ShaderType>
+  nameWithType: Dictionary<string, ReflectionInfo.ShaderType>
+  fullName: System.Collections.Generic.Dictionary<string, Pie.ShaderCompiler.ReflectionInfo.ShaderType>
+  nameWithType.vb: Dictionary(Of String, ReflectionInfo.ShaderType)
+  fullName.vb: System.Collections.Generic.Dictionary(Of String, Pie.ShaderCompiler.ReflectionInfo.ShaderType)
+  name.vb: Dictionary(Of String, ReflectionInfo.ShaderType)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Pie.ShaderCompiler.ReflectionInfo
+    name: ReflectionInfo
+  - name: .
+  - uid: Pie.ShaderCompiler.ReflectionInfo.ShaderType
+    name: ShaderType
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Pie.ShaderCompiler.ReflectionInfo
+    name: ReflectionInfo
+  - name: .
+  - uid: Pie.ShaderCompiler.ReflectionInfo.ShaderType
+    name: ShaderType
+  - name: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+- uid: Pie.ShaderCompiler.ReflectionInfo.ShaderAttribute[]
+  isExternal: true
+  name: ShaderAttribute[]
+  nameWithType: ReflectionInfo.ShaderAttribute[]
+  fullName: Pie.ShaderCompiler.ReflectionInfo.ShaderAttribute[]
+  nameWithType.vb: ReflectionInfo.ShaderAttribute()
+  fullName.vb: Pie.ShaderCompiler.ReflectionInfo.ShaderAttribute()
+  name.vb: ShaderAttribute()
+  spec.csharp:
+  - uid: Pie.ShaderCompiler.ReflectionInfo.ShaderAttribute
+    name: ShaderAttribute
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: Pie.ShaderCompiler.ReflectionInfo.ShaderAttribute
+    name: ShaderAttribute
+  - name: (
+  - name: )
+- uid: Pie.ShaderCompiler.ReflectionInfo.UBOInfo[]
+  isExternal: true
+  name: UBOInfo[]
+  nameWithType: ReflectionInfo.UBOInfo[]
+  fullName: Pie.ShaderCompiler.ReflectionInfo.UBOInfo[]
+  nameWithType.vb: ReflectionInfo.UBOInfo()
+  fullName.vb: Pie.ShaderCompiler.ReflectionInfo.UBOInfo()
+  name.vb: UBOInfo()
+  spec.csharp:
+  - uid: Pie.ShaderCompiler.ReflectionInfo.UBOInfo
+    name: UBOInfo
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: Pie.ShaderCompiler.ReflectionInfo.UBOInfo
+    name: UBOInfo
+  - name: (
+  - name: )
+- uid: Pie.ShaderCompiler.ReflectionInfo.#ctor*
+  commentId: Overload:Pie.ShaderCompiler.ReflectionInfo.#ctor
+  name: ReflectionInfo
+  nameWithType: ReflectionInfo.ReflectionInfo
+  fullName: Pie.ShaderCompiler.ReflectionInfo.ReflectionInfo
+  nameWithType.vb: ReflectionInfo.New
+  fullName.vb: Pie.ShaderCompiler.ReflectionInfo.New
+  name.vb: New
+- uid: Pie.ShaderCompiler.ReflectionInfo.FromJson*
+  commentId: Overload:Pie.ShaderCompiler.ReflectionInfo.FromJson
+  name: FromJson
+  nameWithType: ReflectionInfo.FromJson
+  fullName: Pie.ShaderCompiler.ReflectionInfo.FromJson
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Pie.ShaderCompiler.ReflectionInfo
+  commentId: T:Pie.ShaderCompiler.ReflectionInfo
+  parent: Pie.ShaderCompiler
+  name: ReflectionInfo
+  nameWithType: ReflectionInfo
+  fullName: Pie.ShaderCompiler.ReflectionInfo

@@ -2,3 +2,5 @@
   items:
     - name: 1 - Getting Started
       href: getting-started/1-getting-started.md
+- name: Working with the Content Manager
+  href: content-manager.md

@@ -1,0 +1,171 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pie.Audio
+  commentId: N:Pie.Audio
+  id: Pie.Audio
+  children:
+  - Pie.Audio.AudioBuffer
+  - Pie.Audio.AudioDevice
+  - Pie.Audio.AudioFormat
+  - Pie.Audio.AudioResult
+  - Pie.Audio.AudioSystem
+  - Pie.Audio.AudioSystem.OnBufferFinished
+  - Pie.Audio.BufferDescription
+  - Pie.Audio.ChannelProperties
+  - Pie.Audio.DataType
+  - Pie.Audio.FormatType
+  - Pie.Audio.InterpolationType
+  - Pie.Audio.MixrNative
+  - Pie.Audio.MixrNative.BufferFinishedCallback
+  - Pie.Audio.MixrNative.PCM
+  - Pie.Audio.PCM
+  langs:
+  - csharp
+  - vb
+  name: Pie.Audio
+  nameWithType: Pie.Audio
+  fullName: Pie.Audio
+  type: Namespace
+  assemblies:
+  - Pie.Audio
+references:
+- uid: Pie.Audio.AudioBuffer
+  commentId: T:Pie.Audio.AudioBuffer
+  parent: Pie.Audio
+  name: AudioBuffer
+  nameWithType: AudioBuffer
+  fullName: Pie.Audio.AudioBuffer
+- uid: Pie.Audio.AudioDevice
+  commentId: T:Pie.Audio.AudioDevice
+  name: AudioDevice
+  nameWithType: AudioDevice
+  fullName: Pie.Audio.AudioDevice
+- uid: Pie.Audio.AudioFormat
+  commentId: T:Pie.Audio.AudioFormat
+  parent: Pie.Audio
+  name: AudioFormat
+  nameWithType: AudioFormat
+  fullName: Pie.Audio.AudioFormat
+- uid: Pie.Audio.AudioResult
+  commentId: T:Pie.Audio.AudioResult
+  parent: Pie.Audio
+  name: AudioResult
+  nameWithType: AudioResult
+  fullName: Pie.Audio.AudioResult
+- uid: Pie.Audio.AudioSystem
+  commentId: T:Pie.Audio.AudioSystem
+  parent: Pie.Audio
+  name: AudioSystem
+  nameWithType: AudioSystem
+  fullName: Pie.Audio.AudioSystem
+- uid: Pie.Audio.AudioSystem.OnBufferFinished
+  commentId: T:Pie.Audio.AudioSystem.OnBufferFinished
+  parent: Pie.Audio
+  name: AudioSystem.OnBufferFinished
+  nameWithType: AudioSystem.OnBufferFinished
+  fullName: Pie.Audio.AudioSystem.OnBufferFinished
+  spec.csharp:
+  - uid: Pie.Audio.AudioSystem
+    name: AudioSystem
+  - name: .
+  - uid: Pie.Audio.AudioSystem.OnBufferFinished
+    name: OnBufferFinished
+  spec.vb:
+  - uid: Pie.Audio.AudioSystem
+    name: AudioSystem
+  - name: .
+  - uid: Pie.Audio.AudioSystem.OnBufferFinished
+    name: OnBufferFinished
+- uid: Pie.Audio.BufferDescription
+  commentId: T:Pie.Audio.BufferDescription
+  parent: Pie.Audio
+  name: BufferDescription
+  nameWithType: BufferDescription
+  fullName: Pie.Audio.BufferDescription
+- uid: Pie.Audio.ChannelProperties
+  commentId: T:Pie.Audio.ChannelProperties
+  parent: Pie.Audio
+  name: ChannelProperties
+  nameWithType: ChannelProperties
+  fullName: Pie.Audio.ChannelProperties
+- uid: Pie.Audio.DataType
+  commentId: T:Pie.Audio.DataType
+  parent: Pie.Audio
+  name: DataType
+  nameWithType: DataType
+  fullName: Pie.Audio.DataType
+- uid: Pie.Audio.FormatType
+  commentId: T:Pie.Audio.FormatType
+  parent: Pie.Audio
+  name: FormatType
+  nameWithType: FormatType
+  fullName: Pie.Audio.FormatType
+- uid: Pie.Audio.InterpolationType
+  commentId: T:Pie.Audio.InterpolationType
+  parent: Pie.Audio
+  name: InterpolationType
+  nameWithType: InterpolationType
+  fullName: Pie.Audio.InterpolationType
+- uid: Pie.Audio.MixrNative
+  commentId: T:Pie.Audio.MixrNative
+  name: MixrNative
+  nameWithType: MixrNative
+  fullName: Pie.Audio.MixrNative
+- uid: Pie.Audio.MixrNative.PCM
+  commentId: T:Pie.Audio.MixrNative.PCM
+  name: MixrNative.PCM
+  nameWithType: MixrNative.PCM
+  fullName: Pie.Audio.MixrNative.PCM
+  spec.csharp:
+  - uid: Pie.Audio.MixrNative
+    name: MixrNative
+  - name: .
+  - uid: Pie.Audio.MixrNative.PCM
+    name: PCM
+  spec.vb:
+  - uid: Pie.Audio.MixrNative
+    name: MixrNative
+  - name: .
+  - uid: Pie.Audio.MixrNative.PCM
+    name: PCM
+- uid: Pie.Audio.MixrNative.BufferFinishedCallback
+  commentId: T:Pie.Audio.MixrNative.BufferFinishedCallback
+  parent: Pie.Audio
+  name: MixrNative.BufferFinishedCallback
+  nameWithType: MixrNative.BufferFinishedCallback
+  fullName: Pie.Audio.MixrNative.BufferFinishedCallback
+  spec.csharp:
+  - uid: Pie.Audio.MixrNative
+    name: MixrNative
+  - name: .
+  - uid: Pie.Audio.MixrNative.BufferFinishedCallback
+    name: BufferFinishedCallback
+  spec.vb:
+  - uid: Pie.Audio.MixrNative
+    name: MixrNative
+  - name: .
+  - uid: Pie.Audio.MixrNative.BufferFinishedCallback
+    name: BufferFinishedCallback
+- uid: Pie.Audio.PCM
+  commentId: T:Pie.Audio.PCM
+  parent: Pie.Audio
+  name: PCM
+  nameWithType: PCM
+  fullName: Pie.Audio.PCM
+- uid: Pie.Audio
+  commentId: N:Pie.Audio
+  name: Pie.Audio
+  nameWithType: Pie.Audio
+  fullName: Pie.Audio
+  spec.csharp:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Audio
+    name: Audio
+  spec.vb:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Audio
+    name: Audio

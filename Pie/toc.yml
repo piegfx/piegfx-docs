@@ -1,7 +1,5 @@
 - name: Learn Pie
   href: learn/
-- name: Reference
-  href: reference/
-- name: Api Documentation
+- name: API
   href: api/
   homepage: api/index.md

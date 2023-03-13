@@ -1,0 +1,315 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pie.FramebufferAttachment
+  commentId: T:Pie.FramebufferAttachment
+  id: FramebufferAttachment
+  parent: Pie
+  children:
+  - Pie.FramebufferAttachment.#ctor(Pie.Texture)
+  - Pie.FramebufferAttachment.Texture
+  langs:
+  - csharp
+  - vb
+  name: FramebufferAttachment
+  nameWithType: FramebufferAttachment
+  fullName: Pie.FramebufferAttachment
+  type: Struct
+  source:
+    remote:
+      path: Pie/FramebufferAttachment.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: FramebufferAttachment
+    path: src/Pie/Pie/FramebufferAttachment.cs
+    startLine: 5
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nA texture attachment for a <xref href=\"Pie.Framebuffer\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  example: []
+  syntax:
+    content: public struct FramebufferAttachment
+    content.vb: Public Structure FramebufferAttachment
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: Pie.FramebufferAttachment.Texture
+  commentId: F:Pie.FramebufferAttachment.Texture
+  id: Texture
+  parent: Pie.FramebufferAttachment
+  langs:
+  - csharp
+  - vb
+  name: Texture
+  nameWithType: FramebufferAttachment.Texture
+  fullName: Pie.FramebufferAttachment.Texture
+  type: Field
+  source:
+    remote:
+      path: Pie/FramebufferAttachment.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Texture
+    path: src/Pie/Pie/FramebufferAttachment.cs
+    startLine: 10
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nThe <xref href=\"Pie.Texture\" data-throw-if-not-resolved=\"false\"></xref> to attach.\n"
+  example: []
+  syntax:
+    content: public Texture Texture
+    return:
+      type: Pie.Texture
+    content.vb: Public Texture As Texture
+- uid: Pie.FramebufferAttachment.#ctor(Pie.Texture)
+  commentId: M:Pie.FramebufferAttachment.#ctor(Pie.Texture)
+  id: '#ctor(Pie.Texture)'
+  parent: Pie.FramebufferAttachment
+  langs:
+  - csharp
+  - vb
+  name: FramebufferAttachment(Texture)
+  nameWithType: FramebufferAttachment.FramebufferAttachment(Texture)
+  fullName: Pie.FramebufferAttachment.FramebufferAttachment(Pie.Texture)
+  type: Constructor
+  source:
+    remote:
+      path: Pie/FramebufferAttachment.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: .ctor
+    path: src/Pie/Pie/FramebufferAttachment.cs
+    startLine: 16
+  assemblies:
+  - Pie
+  namespace: Pie
+  summary: "\nCreate a new framebuffer attachment.\n"
+  example: []
+  syntax:
+    content: public FramebufferAttachment(Texture texture)
+    parameters:
+    - id: texture
+      type: Pie.Texture
+      description: The <xref href="Pie.Texture" data-throw-if-not-resolved="false"></xref> to attach.
+    content.vb: Public Sub New(texture As Texture)
+  overload: Pie.FramebufferAttachment.#ctor*
+  nameWithType.vb: FramebufferAttachment.New(Texture)
+  fullName.vb: Pie.FramebufferAttachment.New(Pie.Texture)
+  name.vb: New(Texture)
+references:
+- uid: Pie.Framebuffer
+  commentId: T:Pie.Framebuffer
+  parent: Pie
+  name: Framebuffer
+  nameWithType: Framebuffer
+  fullName: Pie.Framebuffer
+- uid: Pie
+  commentId: N:Pie
+  name: Pie
+  nameWithType: Pie
+  fullName: Pie
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Pie.Texture
+  commentId: T:Pie.Texture
+  parent: Pie
+  name: Texture
+  nameWithType: Texture
+  fullName: Pie.Texture
+- uid: Pie.FramebufferAttachment.#ctor*
+  commentId: Overload:Pie.FramebufferAttachment.#ctor
+  name: FramebufferAttachment
+  nameWithType: FramebufferAttachment.FramebufferAttachment
+  fullName: Pie.FramebufferAttachment.FramebufferAttachment
+  nameWithType.vb: FramebufferAttachment.New
+  fullName.vb: Pie.FramebufferAttachment.New
+  name.vb: New

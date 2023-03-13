@@ -1,0 +1,108 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pie.ShaderCompiler.Language
+  commentId: T:Pie.ShaderCompiler.Language
+  id: Language
+  parent: Pie.ShaderCompiler
+  children:
+  - Pie.ShaderCompiler.Language.GLSL
+  - Pie.ShaderCompiler.Language.HLSL
+  langs:
+  - csharp
+  - vb
+  name: Language
+  nameWithType: Language
+  fullName: Pie.ShaderCompiler.Language
+  type: Enum
+  source:
+    remote:
+      path: Pie.ShaderCompiler/Language.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Language
+    path: src/Pie/Pie.ShaderCompiler/Language.cs
+    startLine: 5
+  assemblies:
+  - Pie.ShaderCompiler
+  namespace: Pie.ShaderCompiler
+  summary: "\nShading languages that can be transpiled to and from.\n"
+  example: []
+  syntax:
+    content: public enum Language
+    content.vb: Public Enum Language
+- uid: Pie.ShaderCompiler.Language.GLSL
+  commentId: F:Pie.ShaderCompiler.Language.GLSL
+  id: GLSL
+  parent: Pie.ShaderCompiler.Language
+  langs:
+  - csharp
+  - vb
+  name: GLSL
+  nameWithType: Language.GLSL
+  fullName: Pie.ShaderCompiler.Language.GLSL
+  type: Field
+  source:
+    remote:
+      path: Pie.ShaderCompiler/Language.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: GLSL
+    path: src/Pie/Pie.ShaderCompiler/Language.cs
+    startLine: 7
+  assemblies:
+  - Pie.ShaderCompiler
+  namespace: Pie.ShaderCompiler
+  syntax:
+    content: GLSL = 0
+    return:
+      type: Pie.ShaderCompiler.Language
+- uid: Pie.ShaderCompiler.Language.HLSL
+  commentId: F:Pie.ShaderCompiler.Language.HLSL
+  id: HLSL
+  parent: Pie.ShaderCompiler.Language
+  langs:
+  - csharp
+  - vb
+  name: HLSL
+  nameWithType: Language.HLSL
+  fullName: Pie.ShaderCompiler.Language.HLSL
+  type: Field
+  source:
+    remote:
+      path: Pie.ShaderCompiler/Language.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: HLSL
+    path: src/Pie/Pie.ShaderCompiler/Language.cs
+    startLine: 8
+  assemblies:
+  - Pie.ShaderCompiler
+  namespace: Pie.ShaderCompiler
+  syntax:
+    content: HLSL = 1
+    return:
+      type: Pie.ShaderCompiler.Language
+references:
+- uid: Pie.ShaderCompiler
+  commentId: N:Pie.ShaderCompiler
+  name: Pie.ShaderCompiler
+  nameWithType: Pie.ShaderCompiler
+  fullName: Pie.ShaderCompiler
+  spec.csharp:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.ShaderCompiler
+    name: ShaderCompiler
+  spec.vb:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.ShaderCompiler
+    name: ShaderCompiler
+- uid: Pie.ShaderCompiler.Language
+  commentId: T:Pie.ShaderCompiler.Language
+  parent: Pie.ShaderCompiler
+  name: Language
+  nameWithType: Language
+  fullName: Pie.ShaderCompiler.Language

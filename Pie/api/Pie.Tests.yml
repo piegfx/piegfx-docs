@@ -1,0 +1,40 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pie.Tests
+  commentId: N:Pie.Tests
+  id: Pie.Tests
+  children:
+  - Pie.Tests.TestBase
+  langs:
+  - csharp
+  - vb
+  name: Pie.Tests
+  nameWithType: Pie.Tests
+  fullName: Pie.Tests
+  type: Namespace
+  assemblies:
+  - Pie.Tests
+references:
+- uid: Pie.Tests.TestBase
+  commentId: T:Pie.Tests.TestBase
+  parent: Pie.Tests
+  name: TestBase
+  nameWithType: TestBase
+  fullName: Pie.Tests.TestBase
+- uid: Pie.Tests
+  commentId: N:Pie.Tests
+  name: Pie.Tests
+  nameWithType: Pie.Tests
+  fullName: Pie.Tests
+  spec.csharp:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Tests
+    name: Tests
+  spec.vb:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Tests
+    name: Tests

@@ -1,0 +1,46 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pie.Utils
+  commentId: N:Pie.Utils
+  id: Pie.Utils
+  children:
+  - Pie.Utils.VertexPosition
+  - Pie.Utils.VertexPositionColor
+  - Pie.Utils.VertexPositionColorTexture
+  - Pie.Utils.VertexPositionTexture
+  - Pie.Utils.VertexPositionTextureNormal
+  langs:
+  - csharp
+  - vb
+  name: Pie.Utils
+  nameWithType: Pie.Utils
+  fullName: Pie.Utils
+  type: Namespace
+  assemblies:
+  - Pie.Utils
+references:
+- uid: Pie.Utils.VertexPosition
+  commentId: T:Pie.Utils.VertexPosition
+  name: VertexPosition
+  nameWithType: VertexPosition
+  fullName: Pie.Utils.VertexPosition
+- uid: Pie.Utils.VertexPositionColor
+  commentId: T:Pie.Utils.VertexPositionColor
+  name: VertexPositionColor
+  nameWithType: VertexPositionColor
+  fullName: Pie.Utils.VertexPositionColor
+- uid: Pie.Utils.VertexPositionColorTexture
+  commentId: T:Pie.Utils.VertexPositionColorTexture
+  name: VertexPositionColorTexture
+  nameWithType: VertexPositionColorTexture
+  fullName: Pie.Utils.VertexPositionColorTexture
+- uid: Pie.Utils.VertexPositionTexture
+  commentId: T:Pie.Utils.VertexPositionTexture
+  name: VertexPositionTexture
+  nameWithType: VertexPositionTexture
+  fullName: Pie.Utils.VertexPositionTexture
+- uid: Pie.Utils.VertexPositionTextureNormal
+  commentId: T:Pie.Utils.VertexPositionTextureNormal
+  name: VertexPositionTextureNormal
+  nameWithType: VertexPositionTextureNormal
+  fullName: Pie.Utils.VertexPositionTextureNormal

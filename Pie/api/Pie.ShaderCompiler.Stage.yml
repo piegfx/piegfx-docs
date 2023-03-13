@@ -1,0 +1,170 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pie.ShaderCompiler.Stage
+  commentId: T:Pie.ShaderCompiler.Stage
+  id: Stage
+  parent: Pie.ShaderCompiler
+  children:
+  - Pie.ShaderCompiler.Stage.Compute
+  - Pie.ShaderCompiler.Stage.Fragment
+  - Pie.ShaderCompiler.Stage.Geometry
+  - Pie.ShaderCompiler.Stage.Vertex
+  langs:
+  - csharp
+  - vb
+  name: Stage
+  nameWithType: Stage
+  fullName: Pie.ShaderCompiler.Stage
+  type: Enum
+  source:
+    remote:
+      path: Pie.ShaderCompiler/Stage.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Stage
+    path: src/Pie/Pie.ShaderCompiler/Stage.cs
+    startLine: 5
+  assemblies:
+  - Pie.ShaderCompiler
+  namespace: Pie.ShaderCompiler
+  summary: "\nRepresents various shader stages.\n"
+  example: []
+  syntax:
+    content: public enum Stage
+    content.vb: Public Enum Stage
+- uid: Pie.ShaderCompiler.Stage.Vertex
+  commentId: F:Pie.ShaderCompiler.Stage.Vertex
+  id: Vertex
+  parent: Pie.ShaderCompiler.Stage
+  langs:
+  - csharp
+  - vb
+  name: Vertex
+  nameWithType: Stage.Vertex
+  fullName: Pie.ShaderCompiler.Stage.Vertex
+  type: Field
+  source:
+    remote:
+      path: Pie.ShaderCompiler/Stage.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Vertex
+    path: src/Pie/Pie.ShaderCompiler/Stage.cs
+    startLine: 10
+  assemblies:
+  - Pie.ShaderCompiler
+  namespace: Pie.ShaderCompiler
+  summary: "\nThis is a vertex shader.\n"
+  example: []
+  syntax:
+    content: Vertex = 0
+    return:
+      type: Pie.ShaderCompiler.Stage
+- uid: Pie.ShaderCompiler.Stage.Fragment
+  commentId: F:Pie.ShaderCompiler.Stage.Fragment
+  id: Fragment
+  parent: Pie.ShaderCompiler.Stage
+  langs:
+  - csharp
+  - vb
+  name: Fragment
+  nameWithType: Stage.Fragment
+  fullName: Pie.ShaderCompiler.Stage.Fragment
+  type: Field
+  source:
+    remote:
+      path: Pie.ShaderCompiler/Stage.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Fragment
+    path: src/Pie/Pie.ShaderCompiler/Stage.cs
+    startLine: 15
+  assemblies:
+  - Pie.ShaderCompiler
+  namespace: Pie.ShaderCompiler
+  summary: "\nThis is a fragment shader.\n"
+  example: []
+  syntax:
+    content: Fragment = 1
+    return:
+      type: Pie.ShaderCompiler.Stage
+- uid: Pie.ShaderCompiler.Stage.Geometry
+  commentId: F:Pie.ShaderCompiler.Stage.Geometry
+  id: Geometry
+  parent: Pie.ShaderCompiler.Stage
+  langs:
+  - csharp
+  - vb
+  name: Geometry
+  nameWithType: Stage.Geometry
+  fullName: Pie.ShaderCompiler.Stage.Geometry
+  type: Field
+  source:
+    remote:
+      path: Pie.ShaderCompiler/Stage.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Geometry
+    path: src/Pie/Pie.ShaderCompiler/Stage.cs
+    startLine: 20
+  assemblies:
+  - Pie.ShaderCompiler
+  namespace: Pie.ShaderCompiler
+  summary: "\nThis is a geometry shader.\n"
+  example: []
+  syntax:
+    content: Geometry = 2
+    return:
+      type: Pie.ShaderCompiler.Stage
+- uid: Pie.ShaderCompiler.Stage.Compute
+  commentId: F:Pie.ShaderCompiler.Stage.Compute
+  id: Compute
+  parent: Pie.ShaderCompiler.Stage
+  langs:
+  - csharp
+  - vb
+  name: Compute
+  nameWithType: Stage.Compute
+  fullName: Pie.ShaderCompiler.Stage.Compute
+  type: Field
+  source:
+    remote:
+      path: Pie.ShaderCompiler/Stage.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Compute
+    path: src/Pie/Pie.ShaderCompiler/Stage.cs
+    startLine: 25
+  assemblies:
+  - Pie.ShaderCompiler
+  namespace: Pie.ShaderCompiler
+  summary: "\nThis is a compute shader.\n"
+  example: []
+  syntax:
+    content: Compute = 3
+    return:
+      type: Pie.ShaderCompiler.Stage
+references:
+- uid: Pie.ShaderCompiler
+  commentId: N:Pie.ShaderCompiler
+  name: Pie.ShaderCompiler
+  nameWithType: Pie.ShaderCompiler
+  fullName: Pie.ShaderCompiler
+  spec.csharp:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.ShaderCompiler
+    name: ShaderCompiler
+  spec.vb:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.ShaderCompiler
+    name: ShaderCompiler
+- uid: Pie.ShaderCompiler.Stage
+  commentId: T:Pie.ShaderCompiler.Stage
+  parent: Pie.ShaderCompiler
+  name: Stage
+  nameWithType: Stage
+  fullName: Pie.ShaderCompiler.Stage

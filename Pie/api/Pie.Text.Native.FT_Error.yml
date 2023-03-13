@@ -1,0 +1,409 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pie.Text.Native.FT_Error
+  commentId: T:Pie.Text.Native.FT_Error
+  id: FT_Error
+  parent: Pie.Text.Native
+  children:
+  - Pie.Text.Native.FT_Error.ArrayTooLarge
+  - Pie.Text.Native.FT_Error.CannotOpenResource
+  - Pie.Text.Native.FT_Error.InvalidArgument
+  - Pie.Text.Native.FT_Error.InvalidFileFormat
+  - Pie.Text.Native.FT_Error.InvalidOffset
+  - Pie.Text.Native.FT_Error.InvalidTable
+  - Pie.Text.Native.FT_Error.InvalidVersion
+  - Pie.Text.Native.FT_Error.LowerModuleVersion
+  - Pie.Text.Native.FT_Error.MissingModule
+  - Pie.Text.Native.FT_Error.MissingProperty
+  - Pie.Text.Native.FT_Error.Ok
+  - Pie.Text.Native.FT_Error.UnimplementedFeature
+  - Pie.Text.Native.FT_Error.UnknownFileFormat
+  langs:
+  - csharp
+  - vb
+  name: FT_Error
+  nameWithType: FT_Error
+  fullName: Pie.Text.Native.FT_Error
+  type: Enum
+  source:
+    remote:
+      path: Pie.Text/Native/FT_Error.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: FT_Error
+    path: src/Pie/Pie.Text/Native/FT_Error.cs
+    startLine: 2
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public enum FT_Error
+    content.vb: Public Enum FT_Error
+- uid: Pie.Text.Native.FT_Error.Ok
+  commentId: F:Pie.Text.Native.FT_Error.Ok
+  id: Ok
+  parent: Pie.Text.Native.FT_Error
+  langs:
+  - csharp
+  - vb
+  name: Ok
+  nameWithType: FT_Error.Ok
+  fullName: Pie.Text.Native.FT_Error.Ok
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FT_Error.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Ok
+    path: src/Pie/Pie.Text/Native/FT_Error.cs
+    startLine: 4
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: Ok = 0
+    return:
+      type: Pie.Text.Native.FT_Error
+- uid: Pie.Text.Native.FT_Error.CannotOpenResource
+  commentId: F:Pie.Text.Native.FT_Error.CannotOpenResource
+  id: CannotOpenResource
+  parent: Pie.Text.Native.FT_Error
+  langs:
+  - csharp
+  - vb
+  name: CannotOpenResource
+  nameWithType: FT_Error.CannotOpenResource
+  fullName: Pie.Text.Native.FT_Error.CannotOpenResource
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FT_Error.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: CannotOpenResource
+    path: src/Pie/Pie.Text/Native/FT_Error.cs
+    startLine: 5
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: CannotOpenResource = 1
+    return:
+      type: Pie.Text.Native.FT_Error
+- uid: Pie.Text.Native.FT_Error.UnknownFileFormat
+  commentId: F:Pie.Text.Native.FT_Error.UnknownFileFormat
+  id: UnknownFileFormat
+  parent: Pie.Text.Native.FT_Error
+  langs:
+  - csharp
+  - vb
+  name: UnknownFileFormat
+  nameWithType: FT_Error.UnknownFileFormat
+  fullName: Pie.Text.Native.FT_Error.UnknownFileFormat
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FT_Error.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: UnknownFileFormat
+    path: src/Pie/Pie.Text/Native/FT_Error.cs
+    startLine: 6
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: UnknownFileFormat = 2
+    return:
+      type: Pie.Text.Native.FT_Error
+- uid: Pie.Text.Native.FT_Error.InvalidFileFormat
+  commentId: F:Pie.Text.Native.FT_Error.InvalidFileFormat
+  id: InvalidFileFormat
+  parent: Pie.Text.Native.FT_Error
+  langs:
+  - csharp
+  - vb
+  name: InvalidFileFormat
+  nameWithType: FT_Error.InvalidFileFormat
+  fullName: Pie.Text.Native.FT_Error.InvalidFileFormat
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FT_Error.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: InvalidFileFormat
+    path: src/Pie/Pie.Text/Native/FT_Error.cs
+    startLine: 7
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: InvalidFileFormat = 3
+    return:
+      type: Pie.Text.Native.FT_Error
+- uid: Pie.Text.Native.FT_Error.InvalidVersion
+  commentId: F:Pie.Text.Native.FT_Error.InvalidVersion
+  id: InvalidVersion
+  parent: Pie.Text.Native.FT_Error
+  langs:
+  - csharp
+  - vb
+  name: InvalidVersion
+  nameWithType: FT_Error.InvalidVersion
+  fullName: Pie.Text.Native.FT_Error.InvalidVersion
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FT_Error.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: InvalidVersion
+    path: src/Pie/Pie.Text/Native/FT_Error.cs
+    startLine: 8
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: InvalidVersion = 4
+    return:
+      type: Pie.Text.Native.FT_Error
+- uid: Pie.Text.Native.FT_Error.LowerModuleVersion
+  commentId: F:Pie.Text.Native.FT_Error.LowerModuleVersion
+  id: LowerModuleVersion
+  parent: Pie.Text.Native.FT_Error
+  langs:
+  - csharp
+  - vb
+  name: LowerModuleVersion
+  nameWithType: FT_Error.LowerModuleVersion
+  fullName: Pie.Text.Native.FT_Error.LowerModuleVersion
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FT_Error.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: LowerModuleVersion
+    path: src/Pie/Pie.Text/Native/FT_Error.cs
+    startLine: 9
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: LowerModuleVersion = 5
+    return:
+      type: Pie.Text.Native.FT_Error
+- uid: Pie.Text.Native.FT_Error.InvalidArgument
+  commentId: F:Pie.Text.Native.FT_Error.InvalidArgument
+  id: InvalidArgument
+  parent: Pie.Text.Native.FT_Error
+  langs:
+  - csharp
+  - vb
+  name: InvalidArgument
+  nameWithType: FT_Error.InvalidArgument
+  fullName: Pie.Text.Native.FT_Error.InvalidArgument
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FT_Error.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: InvalidArgument
+    path: src/Pie/Pie.Text/Native/FT_Error.cs
+    startLine: 10
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: InvalidArgument = 6
+    return:
+      type: Pie.Text.Native.FT_Error
+- uid: Pie.Text.Native.FT_Error.UnimplementedFeature
+  commentId: F:Pie.Text.Native.FT_Error.UnimplementedFeature
+  id: UnimplementedFeature
+  parent: Pie.Text.Native.FT_Error
+  langs:
+  - csharp
+  - vb
+  name: UnimplementedFeature
+  nameWithType: FT_Error.UnimplementedFeature
+  fullName: Pie.Text.Native.FT_Error.UnimplementedFeature
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FT_Error.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: UnimplementedFeature
+    path: src/Pie/Pie.Text/Native/FT_Error.cs
+    startLine: 11
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: UnimplementedFeature = 7
+    return:
+      type: Pie.Text.Native.FT_Error
+- uid: Pie.Text.Native.FT_Error.InvalidTable
+  commentId: F:Pie.Text.Native.FT_Error.InvalidTable
+  id: InvalidTable
+  parent: Pie.Text.Native.FT_Error
+  langs:
+  - csharp
+  - vb
+  name: InvalidTable
+  nameWithType: FT_Error.InvalidTable
+  fullName: Pie.Text.Native.FT_Error.InvalidTable
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FT_Error.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: InvalidTable
+    path: src/Pie/Pie.Text/Native/FT_Error.cs
+    startLine: 12
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: InvalidTable = 8
+    return:
+      type: Pie.Text.Native.FT_Error
+- uid: Pie.Text.Native.FT_Error.InvalidOffset
+  commentId: F:Pie.Text.Native.FT_Error.InvalidOffset
+  id: InvalidOffset
+  parent: Pie.Text.Native.FT_Error
+  langs:
+  - csharp
+  - vb
+  name: InvalidOffset
+  nameWithType: FT_Error.InvalidOffset
+  fullName: Pie.Text.Native.FT_Error.InvalidOffset
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FT_Error.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: InvalidOffset
+    path: src/Pie/Pie.Text/Native/FT_Error.cs
+    startLine: 13
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: InvalidOffset = 9
+    return:
+      type: Pie.Text.Native.FT_Error
+- uid: Pie.Text.Native.FT_Error.ArrayTooLarge
+  commentId: F:Pie.Text.Native.FT_Error.ArrayTooLarge
+  id: ArrayTooLarge
+  parent: Pie.Text.Native.FT_Error
+  langs:
+  - csharp
+  - vb
+  name: ArrayTooLarge
+  nameWithType: FT_Error.ArrayTooLarge
+  fullName: Pie.Text.Native.FT_Error.ArrayTooLarge
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FT_Error.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: ArrayTooLarge
+    path: src/Pie/Pie.Text/Native/FT_Error.cs
+    startLine: 14
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: ArrayTooLarge = 10
+    return:
+      type: Pie.Text.Native.FT_Error
+- uid: Pie.Text.Native.FT_Error.MissingModule
+  commentId: F:Pie.Text.Native.FT_Error.MissingModule
+  id: MissingModule
+  parent: Pie.Text.Native.FT_Error
+  langs:
+  - csharp
+  - vb
+  name: MissingModule
+  nameWithType: FT_Error.MissingModule
+  fullName: Pie.Text.Native.FT_Error.MissingModule
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FT_Error.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: MissingModule
+    path: src/Pie/Pie.Text/Native/FT_Error.cs
+    startLine: 15
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: MissingModule = 11
+    return:
+      type: Pie.Text.Native.FT_Error
+- uid: Pie.Text.Native.FT_Error.MissingProperty
+  commentId: F:Pie.Text.Native.FT_Error.MissingProperty
+  id: MissingProperty
+  parent: Pie.Text.Native.FT_Error
+  langs:
+  - csharp
+  - vb
+  name: MissingProperty
+  nameWithType: FT_Error.MissingProperty
+  fullName: Pie.Text.Native.FT_Error.MissingProperty
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FT_Error.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: MissingProperty
+    path: src/Pie/Pie.Text/Native/FT_Error.cs
+    startLine: 16
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: MissingProperty = 12
+    return:
+      type: Pie.Text.Native.FT_Error
+references:
+- uid: Pie.Text.Native
+  commentId: N:Pie.Text.Native
+  name: Pie.Text.Native
+  nameWithType: Pie.Text.Native
+  fullName: Pie.Text.Native
+  spec.csharp:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Text
+    name: Text
+  - name: .
+  - uid: Pie.Text.Native
+    name: Native
+  spec.vb:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Text
+    name: Text
+  - name: .
+  - uid: Pie.Text.Native
+    name: Native
+- uid: Pie.Text.Native.FT_Error
+  commentId: T:Pie.Text.Native.FT_Error
+  parent: Pie.Text.Native
+  name: FT_Error
+  nameWithType: FT_Error
+  fullName: Pie.Text.Native.FT_Error

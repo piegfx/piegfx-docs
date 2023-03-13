@@ -1,0 +1,394 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pie.Text.Native.FT_Matrix
+  commentId: T:Pie.Text.Native.FT_Matrix
+  id: FT_Matrix
+  parent: Pie.Text.Native
+  children:
+  - Pie.Text.Native.FT_Matrix.XX
+  - Pie.Text.Native.FT_Matrix.XY
+  - Pie.Text.Native.FT_Matrix.YX
+  - Pie.Text.Native.FT_Matrix.YY
+  langs:
+  - csharp
+  - vb
+  name: FT_Matrix
+  nameWithType: FT_Matrix
+  fullName: Pie.Text.Native.FT_Matrix
+  type: Struct
+  source:
+    remote:
+      path: Pie.Text/Native/FT_Matrix.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: FT_Matrix
+    path: src/Pie/Pie.Text/Native/FT_Matrix.cs
+    startLine: 4
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public struct FT_Matrix
+    content.vb: Public Structure FT_Matrix
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: Pie.Text.Native.FT_Matrix.XX
+  commentId: F:Pie.Text.Native.FT_Matrix.XX
+  id: XX
+  parent: Pie.Text.Native.FT_Matrix
+  langs:
+  - csharp
+  - vb
+  name: XX
+  nameWithType: FT_Matrix.XX
+  fullName: Pie.Text.Native.FT_Matrix.XX
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FT_Matrix.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: XX
+    path: src/Pie/Pie.Text/Native/FT_Matrix.cs
+    startLine: 7
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public CLong XX
+    return:
+      type: System.Runtime.InteropServices.CLong
+    content.vb: Public XX As CLong
+- uid: Pie.Text.Native.FT_Matrix.XY
+  commentId: F:Pie.Text.Native.FT_Matrix.XY
+  id: XY
+  parent: Pie.Text.Native.FT_Matrix
+  langs:
+  - csharp
+  - vb
+  name: XY
+  nameWithType: FT_Matrix.XY
+  fullName: Pie.Text.Native.FT_Matrix.XY
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FT_Matrix.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: XY
+    path: src/Pie/Pie.Text/Native/FT_Matrix.cs
+    startLine: 8
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public CLong XY
+    return:
+      type: System.Runtime.InteropServices.CLong
+    content.vb: Public XY As CLong
+- uid: Pie.Text.Native.FT_Matrix.YX
+  commentId: F:Pie.Text.Native.FT_Matrix.YX
+  id: YX
+  parent: Pie.Text.Native.FT_Matrix
+  langs:
+  - csharp
+  - vb
+  name: YX
+  nameWithType: FT_Matrix.YX
+  fullName: Pie.Text.Native.FT_Matrix.YX
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FT_Matrix.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: YX
+    path: src/Pie/Pie.Text/Native/FT_Matrix.cs
+    startLine: 9
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public CLong YX
+    return:
+      type: System.Runtime.InteropServices.CLong
+    content.vb: Public YX As CLong
+- uid: Pie.Text.Native.FT_Matrix.YY
+  commentId: F:Pie.Text.Native.FT_Matrix.YY
+  id: YY
+  parent: Pie.Text.Native.FT_Matrix
+  langs:
+  - csharp
+  - vb
+  name: YY
+  nameWithType: FT_Matrix.YY
+  fullName: Pie.Text.Native.FT_Matrix.YY
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FT_Matrix.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: YY
+    path: src/Pie/Pie.Text/Native/FT_Matrix.cs
+    startLine: 10
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public CLong YY
+    return:
+      type: System.Runtime.InteropServices.CLong
+    content.vb: Public YY As CLong
+references:
+- uid: Pie.Text.Native
+  commentId: N:Pie.Text.Native
+  name: Pie.Text.Native
+  nameWithType: Pie.Text.Native
+  fullName: Pie.Text.Native
+  spec.csharp:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Text
+    name: Text
+  - name: .
+  - uid: Pie.Text.Native
+    name: Native
+  spec.vb:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Text
+    name: Text
+  - name: .
+  - uid: Pie.Text.Native
+    name: Native
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Runtime.InteropServices.CLong
+  commentId: T:System.Runtime.InteropServices.CLong
+  parent: System.Runtime.InteropServices
+  isExternal: true
+  name: CLong
+  nameWithType: CLong
+  fullName: System.Runtime.InteropServices.CLong
+- uid: System.Runtime.InteropServices
+  commentId: N:System.Runtime.InteropServices
+  isExternal: true
+  name: System.Runtime.InteropServices
+  nameWithType: System.Runtime.InteropServices
+  fullName: System.Runtime.InteropServices
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Runtime
+    name: Runtime
+    isExternal: true
+  - name: .
+  - uid: System.Runtime.InteropServices
+    name: InteropServices
+    isExternal: true
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Runtime
+    name: Runtime
+    isExternal: true
+  - name: .
+  - uid: System.Runtime.InteropServices
+    name: InteropServices
+    isExternal: true

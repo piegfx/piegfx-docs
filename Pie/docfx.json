@@ -5,10 +5,13 @@
         {
           "files": [
             "**/*.csproj"
+          ],
+          "exclude": [
+            "Pie.Tests/Pie.Tests.csproj"
           ]
         }
       ],
-      "dest": "reference",
+      "dest": "api",
       "disableGitFeatures": false,
       "disableDefaultFilter": false
     }

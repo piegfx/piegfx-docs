@@ -1,0 +1,3162 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pie.Text.Native.FreetypeNative
+  commentId: T:Pie.Text.Native.FreetypeNative
+  id: FreetypeNative
+  parent: Pie.Text.Native
+  children:
+  - Pie.Text.Native.FreetypeNative.FaceFlagCidKeyed
+  - Pie.Text.Native.FreetypeNative.FaceFlagColor
+  - Pie.Text.Native.FreetypeNative.FaceFlagExternalStream
+  - Pie.Text.Native.FreetypeNative.FaceFlagFastGlyphs
+  - Pie.Text.Native.FreetypeNative.FaceFlagFixedSizes
+  - Pie.Text.Native.FreetypeNative.FaceFlagFixedWidth
+  - Pie.Text.Native.FreetypeNative.FaceFlagGlyphNames
+  - Pie.Text.Native.FreetypeNative.FaceFlagHinter
+  - Pie.Text.Native.FreetypeNative.FaceFlagHorizontal
+  - Pie.Text.Native.FreetypeNative.FaceFlagKerning
+  - Pie.Text.Native.FreetypeNative.FaceFlagMultipleMasters
+  - Pie.Text.Native.FreetypeNative.FaceFlagSBix
+  - Pie.Text.Native.FreetypeNative.FaceFlagSBixOverlay
+  - Pie.Text.Native.FreetypeNative.FaceFlagScalable
+  - Pie.Text.Native.FreetypeNative.FaceFlagSFnt
+  - Pie.Text.Native.FreetypeNative.FaceFlagSvg
+  - Pie.Text.Native.FreetypeNative.FaceFlagTricky
+  - Pie.Text.Native.FreetypeNative.FaceFlagVariation
+  - Pie.Text.Native.FreetypeNative.FaceFlagVertical
+  - Pie.Text.Native.FreetypeNative.FT_Attach_File(Pie.Text.Native.FT_Face*,System.SByte*)
+  - Pie.Text.Native.FreetypeNative.FT_Attach_Stream(Pie.Text.Native.FT_Face*,Pie.Text.Native.FT_Open_Args*)
+  - Pie.Text.Native.FreetypeNative.FT_Done_Face(Pie.Text.Native.FT_Face*)
+  - Pie.Text.Native.FreetypeNative.FT_Done_FreeType(System.IntPtr)
+  - Pie.Text.Native.FreetypeNative.FT_Face_Properties(Pie.Text.Native.FT_Face*,System.UInt32,Pie.Text.Native.FT_Parameter*)
+  - Pie.Text.Native.FreetypeNative.FT_Get_Char_Index(Pie.Text.Native.FT_Face*,System.Runtime.InteropServices.CULong)
+  - Pie.Text.Native.FreetypeNative.FT_Get_Charmap_Index(Pie.Text.Native.FT_CharMap*)
+  - Pie.Text.Native.FreetypeNative.FT_Get_First_Char(Pie.Text.Native.FT_Face*,System.UInt32*)
+  - Pie.Text.Native.FreetypeNative.FT_Get_FSType_Flags(Pie.Text.Native.FT_Face*)
+  - Pie.Text.Native.FreetypeNative.FT_Get_Glyph_Name(Pie.Text.Native.FT_Face*,System.UInt32,System.Void*,System.UInt32)
+  - Pie.Text.Native.FreetypeNative.FT_Get_Kerning(Pie.Text.Native.FT_Face*,System.UInt32,System.UInt32,System.UInt32,Pie.Text.Native.FT_Vector*)
+  - Pie.Text.Native.FreetypeNative.FT_Get_Name_Index(Pie.Text.Native.FT_Face*,System.SByte*)
+  - Pie.Text.Native.FreetypeNative.FT_Get_Next_Char(Pie.Text.Native.FT_Face*,System.Runtime.InteropServices.CULong,System.UInt32*)
+  - Pie.Text.Native.FreetypeNative.FT_Get_Postscript_Name(Pie.Text.Native.FT_Face*)
+  - Pie.Text.Native.FreetypeNative.FT_Get_SubGlyph_Info(Pie.Text.Native.FT_GlyphSlot*,System.UInt32,System.Int32*,System.UInt32*,System.Int32*,System.Int32*,Pie.Text.Native.FT_Matrix*)
+  - Pie.Text.Native.FreetypeNative.FT_Get_Track_Kerning(Pie.Text.Native.FT_Face*,System.Runtime.InteropServices.CLong,System.Int32,System.Runtime.InteropServices.CLong*)
+  - Pie.Text.Native.FreetypeNative.FT_Get_Transform(Pie.Text.Native.FT_Face*,Pie.Text.Native.FT_Matrix*,Pie.Text.Native.FT_Vector*)
+  - Pie.Text.Native.FreetypeNative.FT_Init_FreeType(System.IntPtr@)
+  - Pie.Text.Native.FreetypeNative.FT_Load_Char(Pie.Text.Native.FT_Face*,System.Runtime.InteropServices.CULong,System.Int32)
+  - Pie.Text.Native.FreetypeNative.FT_Load_Glyph(Pie.Text.Native.FT_Face*,System.UInt32,System.Int32)
+  - Pie.Text.Native.FreetypeNative.FT_New_Face(System.IntPtr,System.SByte*,System.Runtime.InteropServices.CLong,Pie.Text.Native.FT_Face*@)
+  - Pie.Text.Native.FreetypeNative.FT_New_Memory_Face(System.IntPtr,System.Byte*,System.Runtime.InteropServices.CLong,System.Runtime.InteropServices.CLong,Pie.Text.Native.FT_Face*@)
+  - Pie.Text.Native.FreetypeNative.FT_Open_Face(System.IntPtr,Pie.Text.Native.FT_Open_Args*,System.Runtime.InteropServices.CLong,Pie.Text.Native.FT_Face*)
+  - Pie.Text.Native.FreetypeNative.FT_Reference_Face(Pie.Text.Native.FT_Face*)
+  - Pie.Text.Native.FreetypeNative.FT_Render_Glyph(Pie.Text.Native.FT_GlyphSlot*,Pie.Text.Native.FT_Render_Mode)
+  - Pie.Text.Native.FreetypeNative.FT_Request_Size(Pie.Text.Native.FT_Face*,Pie.Text.Native.FT_Size_Request*)
+  - Pie.Text.Native.FreetypeNative.FT_Select_Charmap(Pie.Text.Native.FT_Face*,Pie.Text.Native.FT_Encoding)
+  - Pie.Text.Native.FreetypeNative.FT_Select_Size(Pie.Text.Native.FT_Face*,System.Int32)
+  - Pie.Text.Native.FreetypeNative.FT_Set_Char_Size(Pie.Text.Native.FT_Face*,System.Runtime.InteropServices.CLong,System.Runtime.InteropServices.CLong,System.UInt32,System.UInt32)
+  - Pie.Text.Native.FreetypeNative.FT_Set_Charmap(Pie.Text.Native.FT_Face*,Pie.Text.Native.FT_CharMap*)
+  - Pie.Text.Native.FreetypeNative.FT_Set_Pixel_Sizes(Pie.Text.Native.FT_Face*,System.UInt32,System.UInt32)
+  - Pie.Text.Native.FreetypeNative.FT_Set_Transform(Pie.Text.Native.FT_Face*,Pie.Text.Native.FT_Matrix*,Pie.Text.Native.FT_Vector*)
+  - Pie.Text.Native.FreetypeNative.LibraryName
+  - Pie.Text.Native.FreetypeNative.LoadBitmapMetricsOnly
+  - Pie.Text.Native.FreetypeNative.LoadColor
+  - Pie.Text.Native.FreetypeNative.LoadComputeMetrics
+  - Pie.Text.Native.FreetypeNative.LoadCropBitmap
+  - Pie.Text.Native.FreetypeNative.LoadDefault
+  - Pie.Text.Native.FreetypeNative.LoadForceAutohint
+  - Pie.Text.Native.FreetypeNative.LoadIgnoreGlobalAdvanceWidth
+  - Pie.Text.Native.FreetypeNative.LoadIgnoreTransform
+  - Pie.Text.Native.FreetypeNative.LoadLinearDesign
+  - Pie.Text.Native.FreetypeNative.LoadMonochrome
+  - Pie.Text.Native.FreetypeNative.LoadNoAutohint
+  - Pie.Text.Native.FreetypeNative.LoadNoBitmap
+  - Pie.Text.Native.FreetypeNative.LoadNoHinting
+  - Pie.Text.Native.FreetypeNative.LoadNoRecurse
+  - Pie.Text.Native.FreetypeNative.LoadNoScale
+  - Pie.Text.Native.FreetypeNative.LoadPedantic
+  - Pie.Text.Native.FreetypeNative.LoadRender
+  - Pie.Text.Native.FreetypeNative.LoadSBitsOnly
+  - Pie.Text.Native.FreetypeNative.LoadTarget(Pie.Text.Native.FT_Render_Mode)
+  - Pie.Text.Native.FreetypeNative.LoadTargetMode(System.Int32)
+  - Pie.Text.Native.FreetypeNative.LoadVerticalLayout
+  - Pie.Text.Native.FreetypeNative.OpenDriver
+  - Pie.Text.Native.FreetypeNative.OpenMemory
+  - Pie.Text.Native.FreetypeNative.OpenParams
+  - Pie.Text.Native.FreetypeNative.OpenPathname
+  - Pie.Text.Native.FreetypeNative.OpenStream
+  - Pie.Text.Native.FreetypeNative.StyleFlagBold
+  - Pie.Text.Native.FreetypeNative.StyleFlagItalic
+  langs:
+  - csharp
+  - vb
+  name: FreetypeNative
+  nameWithType: FreetypeNative
+  fullName: Pie.Text.Native.FreetypeNative
+  type: Class
+  source:
+    remote:
+      path: Pie.Text/Native/FreetypeNative.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: FreetypeNative
+    path: src/Pie/Pie.Text/Native/FreetypeNative.cs
+    startLine: 15
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public static class FreetypeNative
+    content.vb: Public Module FreetypeNative
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Pie.Text.Native.FreetypeNative.LibraryName
+  commentId: F:Pie.Text.Native.FreetypeNative.LibraryName
+  id: LibraryName
+  parent: Pie.Text.Native.FreetypeNative
+  langs:
+  - csharp
+  - vb
+  name: LibraryName
+  nameWithType: FreetypeNative.LibraryName
+  fullName: Pie.Text.Native.FreetypeNative.LibraryName
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FreetypeNative.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: LibraryName
+    path: src/Pie/Pie.Text/Native/FreetypeNative.cs
+    startLine: 17
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public const string LibraryName = "libfreetype"
+    return:
+      type: System.String
+    content.vb: Public Const LibraryName As String = "libfreetype"
+- uid: Pie.Text.Native.FreetypeNative.FaceFlagScalable
+  commentId: F:Pie.Text.Native.FreetypeNative.FaceFlagScalable
+  id: FaceFlagScalable
+  parent: Pie.Text.Native.FreetypeNative
+  langs:
+  - csharp
+  - vb
+  name: FaceFlagScalable
+  nameWithType: FreetypeNative.FaceFlagScalable
+  fullName: Pie.Text.Native.FreetypeNative.FaceFlagScalable
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FreetypeNative.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: FaceFlagScalable
+    path: src/Pie/Pie.Text/Native/FreetypeNative.cs
+    startLine: 20
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public const int FaceFlagScalable = 1
+    return:
+      type: System.Int32
+    content.vb: Public Const FaceFlagScalable As Integer = 1
+- uid: Pie.Text.Native.FreetypeNative.FaceFlagFixedSizes
+  commentId: F:Pie.Text.Native.FreetypeNative.FaceFlagFixedSizes
+  id: FaceFlagFixedSizes
+  parent: Pie.Text.Native.FreetypeNative
+  langs:
+  - csharp
+  - vb
+  name: FaceFlagFixedSizes
+  nameWithType: FreetypeNative.FaceFlagFixedSizes
+  fullName: Pie.Text.Native.FreetypeNative.FaceFlagFixedSizes
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FreetypeNative.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: FaceFlagFixedSizes
+    path: src/Pie/Pie.Text/Native/FreetypeNative.cs
+    startLine: 21
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public const int FaceFlagFixedSizes = 2
+    return:
+      type: System.Int32
+    content.vb: Public Const FaceFlagFixedSizes As Integer = 2
+- uid: Pie.Text.Native.FreetypeNative.FaceFlagFixedWidth
+  commentId: F:Pie.Text.Native.FreetypeNative.FaceFlagFixedWidth
+  id: FaceFlagFixedWidth
+  parent: Pie.Text.Native.FreetypeNative
+  langs:
+  - csharp
+  - vb
+  name: FaceFlagFixedWidth
+  nameWithType: FreetypeNative.FaceFlagFixedWidth
+  fullName: Pie.Text.Native.FreetypeNative.FaceFlagFixedWidth
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FreetypeNative.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: FaceFlagFixedWidth
+    path: src/Pie/Pie.Text/Native/FreetypeNative.cs
+    startLine: 22
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public const int FaceFlagFixedWidth = 4
+    return:
+      type: System.Int32
+    content.vb: Public Const FaceFlagFixedWidth As Integer = 4
+- uid: Pie.Text.Native.FreetypeNative.FaceFlagSFnt
+  commentId: F:Pie.Text.Native.FreetypeNative.FaceFlagSFnt
+  id: FaceFlagSFnt
+  parent: Pie.Text.Native.FreetypeNative
+  langs:
+  - csharp
+  - vb
+  name: FaceFlagSFnt
+  nameWithType: FreetypeNative.FaceFlagSFnt
+  fullName: Pie.Text.Native.FreetypeNative.FaceFlagSFnt
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FreetypeNative.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: FaceFlagSFnt
+    path: src/Pie/Pie.Text/Native/FreetypeNative.cs
+    startLine: 23
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public const int FaceFlagSFnt = 8
+    return:
+      type: System.Int32
+    content.vb: Public Const FaceFlagSFnt As Integer = 8
+- uid: Pie.Text.Native.FreetypeNative.FaceFlagHorizontal
+  commentId: F:Pie.Text.Native.FreetypeNative.FaceFlagHorizontal
+  id: FaceFlagHorizontal
+  parent: Pie.Text.Native.FreetypeNative
+  langs:
+  - csharp
+  - vb
+  name: FaceFlagHorizontal
+  nameWithType: FreetypeNative.FaceFlagHorizontal
+  fullName: Pie.Text.Native.FreetypeNative.FaceFlagHorizontal
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FreetypeNative.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: FaceFlagHorizontal
+    path: src/Pie/Pie.Text/Native/FreetypeNative.cs
+    startLine: 24
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public const int FaceFlagHorizontal = 16
+    return:
+      type: System.Int32
+    content.vb: Public Const FaceFlagHorizontal As Integer = 16
+- uid: Pie.Text.Native.FreetypeNative.FaceFlagVertical
+  commentId: F:Pie.Text.Native.FreetypeNative.FaceFlagVertical
+  id: FaceFlagVertical
+  parent: Pie.Text.Native.FreetypeNative
+  langs:
+  - csharp
+  - vb
+  name: FaceFlagVertical
+  nameWithType: FreetypeNative.FaceFlagVertical
+  fullName: Pie.Text.Native.FreetypeNative.FaceFlagVertical
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FreetypeNative.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: FaceFlagVertical
+    path: src/Pie/Pie.Text/Native/FreetypeNative.cs
+    startLine: 25
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public const int FaceFlagVertical = 32
+    return:
+      type: System.Int32
+    content.vb: Public Const FaceFlagVertical As Integer = 32
+- uid: Pie.Text.Native.FreetypeNative.FaceFlagKerning
+  commentId: F:Pie.Text.Native.FreetypeNative.FaceFlagKerning
+  id: FaceFlagKerning
+  parent: Pie.Text.Native.FreetypeNative
+  langs:
+  - csharp
+  - vb
+  name: FaceFlagKerning
+  nameWithType: FreetypeNative.FaceFlagKerning
+  fullName: Pie.Text.Native.FreetypeNative.FaceFlagKerning
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FreetypeNative.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: FaceFlagKerning
+    path: src/Pie/Pie.Text/Native/FreetypeNative.cs
+    startLine: 26
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public const int FaceFlagKerning = 64
+    return:
+      type: System.Int32
+    content.vb: Public Const FaceFlagKerning As Integer = 64
+- uid: Pie.Text.Native.FreetypeNative.FaceFlagFastGlyphs
+  commentId: F:Pie.Text.Native.FreetypeNative.FaceFlagFastGlyphs
+  id: FaceFlagFastGlyphs
+  parent: Pie.Text.Native.FreetypeNative
+  langs:
+  - csharp
+  - vb
+  name: FaceFlagFastGlyphs
+  nameWithType: FreetypeNative.FaceFlagFastGlyphs
+  fullName: Pie.Text.Native.FreetypeNative.FaceFlagFastGlyphs
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FreetypeNative.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: FaceFlagFastGlyphs
+    path: src/Pie/Pie.Text/Native/FreetypeNative.cs
+    startLine: 27
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public const int FaceFlagFastGlyphs = 128
+    return:
+      type: System.Int32
+    content.vb: Public Const FaceFlagFastGlyphs As Integer = 128
+- uid: Pie.Text.Native.FreetypeNative.FaceFlagMultipleMasters
+  commentId: F:Pie.Text.Native.FreetypeNative.FaceFlagMultipleMasters
+  id: FaceFlagMultipleMasters
+  parent: Pie.Text.Native.FreetypeNative
+  langs:
+  - csharp
+  - vb
+  name: FaceFlagMultipleMasters
+  nameWithType: FreetypeNative.FaceFlagMultipleMasters
+  fullName: Pie.Text.Native.FreetypeNative.FaceFlagMultipleMasters
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FreetypeNative.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: FaceFlagMultipleMasters
+    path: src/Pie/Pie.Text/Native/FreetypeNative.cs
+    startLine: 28
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public const int FaceFlagMultipleMasters = 256
+    return:
+      type: System.Int32
+    content.vb: Public Const FaceFlagMultipleMasters As Integer = 256
+- uid: Pie.Text.Native.FreetypeNative.FaceFlagGlyphNames
+  commentId: F:Pie.Text.Native.FreetypeNative.FaceFlagGlyphNames
+  id: FaceFlagGlyphNames
+  parent: Pie.Text.Native.FreetypeNative
+  langs:
+  - csharp
+  - vb
+  name: FaceFlagGlyphNames
+  nameWithType: FreetypeNative.FaceFlagGlyphNames
+  fullName: Pie.Text.Native.FreetypeNative.FaceFlagGlyphNames
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FreetypeNative.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: FaceFlagGlyphNames
+    path: src/Pie/Pie.Text/Native/FreetypeNative.cs
+    startLine: 29
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public const int FaceFlagGlyphNames = 512
+    return:
+      type: System.Int32
+    content.vb: Public Const FaceFlagGlyphNames As Integer = 512
+- uid: Pie.Text.Native.FreetypeNative.FaceFlagExternalStream
+  commentId: F:Pie.Text.Native.FreetypeNative.FaceFlagExternalStream
+  id: FaceFlagExternalStream
+  parent: Pie.Text.Native.FreetypeNative
+  langs:
+  - csharp
+  - vb
+  name: FaceFlagExternalStream
+  nameWithType: FreetypeNative.FaceFlagExternalStream
+  fullName: Pie.Text.Native.FreetypeNative.FaceFlagExternalStream
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FreetypeNative.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: FaceFlagExternalStream
+    path: src/Pie/Pie.Text/Native/FreetypeNative.cs
+    startLine: 30
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public const int FaceFlagExternalStream = 1024
+    return:
+      type: System.Int32
+    content.vb: Public Const FaceFlagExternalStream As Integer = 1024
+- uid: Pie.Text.Native.FreetypeNative.FaceFlagHinter
+  commentId: F:Pie.Text.Native.FreetypeNative.FaceFlagHinter
+  id: FaceFlagHinter
+  parent: Pie.Text.Native.FreetypeNative
+  langs:
+  - csharp
+  - vb
+  name: FaceFlagHinter
+  nameWithType: FreetypeNative.FaceFlagHinter
+  fullName: Pie.Text.Native.FreetypeNative.FaceFlagHinter
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FreetypeNative.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: FaceFlagHinter
+    path: src/Pie/Pie.Text/Native/FreetypeNative.cs
+    startLine: 31
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public const int FaceFlagHinter = 2048
+    return:
+      type: System.Int32
+    content.vb: Public Const FaceFlagHinter As Integer = 2048
+- uid: Pie.Text.Native.FreetypeNative.FaceFlagCidKeyed
+  commentId: F:Pie.Text.Native.FreetypeNative.FaceFlagCidKeyed
+  id: FaceFlagCidKeyed
+  parent: Pie.Text.Native.FreetypeNative
+  langs:
+  - csharp
+  - vb
+  name: FaceFlagCidKeyed
+  nameWithType: FreetypeNative.FaceFlagCidKeyed
+  fullName: Pie.Text.Native.FreetypeNative.FaceFlagCidKeyed
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FreetypeNative.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: FaceFlagCidKeyed
+    path: src/Pie/Pie.Text/Native/FreetypeNative.cs
+    startLine: 32
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public const int FaceFlagCidKeyed = 4096
+    return:
+      type: System.Int32
+    content.vb: Public Const FaceFlagCidKeyed As Integer = 4096
+- uid: Pie.Text.Native.FreetypeNative.FaceFlagTricky
+  commentId: F:Pie.Text.Native.FreetypeNative.FaceFlagTricky
+  id: FaceFlagTricky
+  parent: Pie.Text.Native.FreetypeNative
+  langs:
+  - csharp
+  - vb
+  name: FaceFlagTricky
+  nameWithType: FreetypeNative.FaceFlagTricky
+  fullName: Pie.Text.Native.FreetypeNative.FaceFlagTricky
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FreetypeNative.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: FaceFlagTricky
+    path: src/Pie/Pie.Text/Native/FreetypeNative.cs
+    startLine: 33
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public const int FaceFlagTricky = 8192
+    return:
+      type: System.Int32
+    content.vb: Public Const FaceFlagTricky As Integer = 8192
+- uid: Pie.Text.Native.FreetypeNative.FaceFlagColor
+  commentId: F:Pie.Text.Native.FreetypeNative.FaceFlagColor
+  id: FaceFlagColor
+  parent: Pie.Text.Native.FreetypeNative
+  langs:
+  - csharp
+  - vb
+  name: FaceFlagColor
+  nameWithType: FreetypeNative.FaceFlagColor
+  fullName: Pie.Text.Native.FreetypeNative.FaceFlagColor
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FreetypeNative.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: FaceFlagColor
+    path: src/Pie/Pie.Text/Native/FreetypeNative.cs
+    startLine: 34
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public const int FaceFlagColor = 16384
+    return:
+      type: System.Int32
+    content.vb: Public Const FaceFlagColor As Integer = 16384
+- uid: Pie.Text.Native.FreetypeNative.FaceFlagVariation
+  commentId: F:Pie.Text.Native.FreetypeNative.FaceFlagVariation
+  id: FaceFlagVariation
+  parent: Pie.Text.Native.FreetypeNative
+  langs:
+  - csharp
+  - vb
+  name: FaceFlagVariation
+  nameWithType: FreetypeNative.FaceFlagVariation
+  fullName: Pie.Text.Native.FreetypeNative.FaceFlagVariation
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FreetypeNative.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: FaceFlagVariation
+    path: src/Pie/Pie.Text/Native/FreetypeNative.cs
+    startLine: 35
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public const int FaceFlagVariation = 32768
+    return:
+      type: System.Int32
+    content.vb: Public Const FaceFlagVariation As Integer = 32768
+- uid: Pie.Text.Native.FreetypeNative.FaceFlagSvg
+  commentId: F:Pie.Text.Native.FreetypeNative.FaceFlagSvg
+  id: FaceFlagSvg
+  parent: Pie.Text.Native.FreetypeNative
+  langs:
+  - csharp
+  - vb
+  name: FaceFlagSvg
+  nameWithType: FreetypeNative.FaceFlagSvg
+  fullName: Pie.Text.Native.FreetypeNative.FaceFlagSvg
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FreetypeNative.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: FaceFlagSvg
+    path: src/Pie/Pie.Text/Native/FreetypeNative.cs
+    startLine: 36
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public const int FaceFlagSvg = 65536
+    return:
+      type: System.Int32
+    content.vb: Public Const FaceFlagSvg As Integer = 65536
+- uid: Pie.Text.Native.FreetypeNative.FaceFlagSBix
+  commentId: F:Pie.Text.Native.FreetypeNative.FaceFlagSBix
+  id: FaceFlagSBix
+  parent: Pie.Text.Native.FreetypeNative
+  langs:
+  - csharp
+  - vb
+  name: FaceFlagSBix
+  nameWithType: FreetypeNative.FaceFlagSBix
+  fullName: Pie.Text.Native.FreetypeNative.FaceFlagSBix
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FreetypeNative.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: FaceFlagSBix
+    path: src/Pie/Pie.Text/Native/FreetypeNative.cs
+    startLine: 37
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public const int FaceFlagSBix = 131072
+    return:
+      type: System.Int32
+    content.vb: Public Const FaceFlagSBix As Integer = 131072
+- uid: Pie.Text.Native.FreetypeNative.FaceFlagSBixOverlay
+  commentId: F:Pie.Text.Native.FreetypeNative.FaceFlagSBixOverlay
+  id: FaceFlagSBixOverlay
+  parent: Pie.Text.Native.FreetypeNative
+  langs:
+  - csharp
+  - vb
+  name: FaceFlagSBixOverlay
+  nameWithType: FreetypeNative.FaceFlagSBixOverlay
+  fullName: Pie.Text.Native.FreetypeNative.FaceFlagSBixOverlay
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FreetypeNative.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: FaceFlagSBixOverlay
+    path: src/Pie/Pie.Text/Native/FreetypeNative.cs
+    startLine: 38
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public const int FaceFlagSBixOverlay = 262144
+    return:
+      type: System.Int32
+    content.vb: Public Const FaceFlagSBixOverlay As Integer = 262144
+- uid: Pie.Text.Native.FreetypeNative.StyleFlagItalic
+  commentId: F:Pie.Text.Native.FreetypeNative.StyleFlagItalic
+  id: StyleFlagItalic
+  parent: Pie.Text.Native.FreetypeNative
+  langs:
+  - csharp
+  - vb
+  name: StyleFlagItalic
+  nameWithType: FreetypeNative.StyleFlagItalic
+  fullName: Pie.Text.Native.FreetypeNative.StyleFlagItalic
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FreetypeNative.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: StyleFlagItalic
+    path: src/Pie/Pie.Text/Native/FreetypeNative.cs
+    startLine: 40
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public const int StyleFlagItalic = 1
+    return:
+      type: System.Int32
+    content.vb: Public Const StyleFlagItalic As Integer = 1
+- uid: Pie.Text.Native.FreetypeNative.StyleFlagBold
+  commentId: F:Pie.Text.Native.FreetypeNative.StyleFlagBold
+  id: StyleFlagBold
+  parent: Pie.Text.Native.FreetypeNative
+  langs:
+  - csharp
+  - vb
+  name: StyleFlagBold
+  nameWithType: FreetypeNative.StyleFlagBold
+  fullName: Pie.Text.Native.FreetypeNative.StyleFlagBold
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FreetypeNative.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: StyleFlagBold
+    path: src/Pie/Pie.Text/Native/FreetypeNative.cs
+    startLine: 41
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public const int StyleFlagBold = 2
+    return:
+      type: System.Int32
+    content.vb: Public Const StyleFlagBold As Integer = 2
+- uid: Pie.Text.Native.FreetypeNative.OpenMemory
+  commentId: F:Pie.Text.Native.FreetypeNative.OpenMemory
+  id: OpenMemory
+  parent: Pie.Text.Native.FreetypeNative
+  langs:
+  - csharp
+  - vb
+  name: OpenMemory
+  nameWithType: FreetypeNative.OpenMemory
+  fullName: Pie.Text.Native.FreetypeNative.OpenMemory
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FreetypeNative.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: OpenMemory
+    path: src/Pie/Pie.Text/Native/FreetypeNative.cs
+    startLine: 43
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public const int OpenMemory = 1
+    return:
+      type: System.Int32
+    content.vb: Public Const OpenMemory As Integer = 1
+- uid: Pie.Text.Native.FreetypeNative.OpenStream
+  commentId: F:Pie.Text.Native.FreetypeNative.OpenStream
+  id: OpenStream
+  parent: Pie.Text.Native.FreetypeNative
+  langs:
+  - csharp
+  - vb
+  name: OpenStream
+  nameWithType: FreetypeNative.OpenStream
+  fullName: Pie.Text.Native.FreetypeNative.OpenStream
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FreetypeNative.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: OpenStream
+    path: src/Pie/Pie.Text/Native/FreetypeNative.cs
+    startLine: 44
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public const int OpenStream = 2
+    return:
+      type: System.Int32
+    content.vb: Public Const OpenStream As Integer = 2
+- uid: Pie.Text.Native.FreetypeNative.OpenPathname
+  commentId: F:Pie.Text.Native.FreetypeNative.OpenPathname
+  id: OpenPathname
+  parent: Pie.Text.Native.FreetypeNative
+  langs:
+  - csharp
+  - vb
+  name: OpenPathname
+  nameWithType: FreetypeNative.OpenPathname
+  fullName: Pie.Text.Native.FreetypeNative.OpenPathname
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FreetypeNative.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: OpenPathname
+    path: src/Pie/Pie.Text/Native/FreetypeNative.cs
+    startLine: 45
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public const int OpenPathname = 4
+    return:
+      type: System.Int32
+    content.vb: Public Const OpenPathname As Integer = 4
+- uid: Pie.Text.Native.FreetypeNative.OpenDriver
+  commentId: F:Pie.Text.Native.FreetypeNative.OpenDriver
+  id: OpenDriver
+  parent: Pie.Text.Native.FreetypeNative
+  langs:
+  - csharp
+  - vb
+  name: OpenDriver
+  nameWithType: FreetypeNative.OpenDriver
+  fullName: Pie.Text.Native.FreetypeNative.OpenDriver
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FreetypeNative.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: OpenDriver
+    path: src/Pie/Pie.Text/Native/FreetypeNative.cs
+    startLine: 46
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public const int OpenDriver = 8
+    return:
+      type: System.Int32
+    content.vb: Public Const OpenDriver As Integer = 8
+- uid: Pie.Text.Native.FreetypeNative.OpenParams
+  commentId: F:Pie.Text.Native.FreetypeNative.OpenParams
+  id: OpenParams
+  parent: Pie.Text.Native.FreetypeNative
+  langs:
+  - csharp
+  - vb
+  name: OpenParams
+  nameWithType: FreetypeNative.OpenParams
+  fullName: Pie.Text.Native.FreetypeNative.OpenParams
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FreetypeNative.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: OpenParams
+    path: src/Pie/Pie.Text/Native/FreetypeNative.cs
+    startLine: 47
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public const int OpenParams = 16
+    return:
+      type: System.Int32
+    content.vb: Public Const OpenParams As Integer = 16
+- uid: Pie.Text.Native.FreetypeNative.LoadDefault
+  commentId: F:Pie.Text.Native.FreetypeNative.LoadDefault
+  id: LoadDefault
+  parent: Pie.Text.Native.FreetypeNative
+  langs:
+  - csharp
+  - vb
+  name: LoadDefault
+  nameWithType: FreetypeNative.LoadDefault
+  fullName: Pie.Text.Native.FreetypeNative.LoadDefault
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FreetypeNative.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: LoadDefault
+    path: src/Pie/Pie.Text/Native/FreetypeNative.cs
+    startLine: 49
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public const int LoadDefault = 0
+    return:
+      type: System.Int32
+    content.vb: Public Const LoadDefault As Integer = 0
+- uid: Pie.Text.Native.FreetypeNative.LoadNoScale
+  commentId: F:Pie.Text.Native.FreetypeNative.LoadNoScale
+  id: LoadNoScale
+  parent: Pie.Text.Native.FreetypeNative
+  langs:
+  - csharp
+  - vb
+  name: LoadNoScale
+  nameWithType: FreetypeNative.LoadNoScale
+  fullName: Pie.Text.Native.FreetypeNative.LoadNoScale
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FreetypeNative.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: LoadNoScale
+    path: src/Pie/Pie.Text/Native/FreetypeNative.cs
+    startLine: 50
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public const int LoadNoScale = 1
+    return:
+      type: System.Int32
+    content.vb: Public Const LoadNoScale As Integer = 1
+- uid: Pie.Text.Native.FreetypeNative.LoadNoHinting
+  commentId: F:Pie.Text.Native.FreetypeNative.LoadNoHinting
+  id: LoadNoHinting
+  parent: Pie.Text.Native.FreetypeNative
+  langs:
+  - csharp
+  - vb
+  name: LoadNoHinting
+  nameWithType: FreetypeNative.LoadNoHinting
+  fullName: Pie.Text.Native.FreetypeNative.LoadNoHinting
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FreetypeNative.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: LoadNoHinting
+    path: src/Pie/Pie.Text/Native/FreetypeNative.cs
+    startLine: 51
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public const int LoadNoHinting = 2
+    return:
+      type: System.Int32
+    content.vb: Public Const LoadNoHinting As Integer = 2
+- uid: Pie.Text.Native.FreetypeNative.LoadRender
+  commentId: F:Pie.Text.Native.FreetypeNative.LoadRender
+  id: LoadRender
+  parent: Pie.Text.Native.FreetypeNative
+  langs:
+  - csharp
+  - vb
+  name: LoadRender
+  nameWithType: FreetypeNative.LoadRender
+  fullName: Pie.Text.Native.FreetypeNative.LoadRender
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FreetypeNative.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: LoadRender
+    path: src/Pie/Pie.Text/Native/FreetypeNative.cs
+    startLine: 52
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public const int LoadRender = 4
+    return:
+      type: System.Int32
+    content.vb: Public Const LoadRender As Integer = 4
+- uid: Pie.Text.Native.FreetypeNative.LoadNoBitmap
+  commentId: F:Pie.Text.Native.FreetypeNative.LoadNoBitmap
+  id: LoadNoBitmap
+  parent: Pie.Text.Native.FreetypeNative
+  langs:
+  - csharp
+  - vb
+  name: LoadNoBitmap
+  nameWithType: FreetypeNative.LoadNoBitmap
+  fullName: Pie.Text.Native.FreetypeNative.LoadNoBitmap
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FreetypeNative.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: LoadNoBitmap
+    path: src/Pie/Pie.Text/Native/FreetypeNative.cs
+    startLine: 53
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public const int LoadNoBitmap = 8
+    return:
+      type: System.Int32
+    content.vb: Public Const LoadNoBitmap As Integer = 8
+- uid: Pie.Text.Native.FreetypeNative.LoadVerticalLayout
+  commentId: F:Pie.Text.Native.FreetypeNative.LoadVerticalLayout
+  id: LoadVerticalLayout
+  parent: Pie.Text.Native.FreetypeNative
+  langs:
+  - csharp
+  - vb
+  name: LoadVerticalLayout
+  nameWithType: FreetypeNative.LoadVerticalLayout
+  fullName: Pie.Text.Native.FreetypeNative.LoadVerticalLayout
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FreetypeNative.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: LoadVerticalLayout
+    path: src/Pie/Pie.Text/Native/FreetypeNative.cs
+    startLine: 54
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public const int LoadVerticalLayout = 16
+    return:
+      type: System.Int32
+    content.vb: Public Const LoadVerticalLayout As Integer = 16
+- uid: Pie.Text.Native.FreetypeNative.LoadForceAutohint
+  commentId: F:Pie.Text.Native.FreetypeNative.LoadForceAutohint
+  id: LoadForceAutohint
+  parent: Pie.Text.Native.FreetypeNative
+  langs:
+  - csharp
+  - vb
+  name: LoadForceAutohint
+  nameWithType: FreetypeNative.LoadForceAutohint
+  fullName: Pie.Text.Native.FreetypeNative.LoadForceAutohint
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FreetypeNative.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: LoadForceAutohint
+    path: src/Pie/Pie.Text/Native/FreetypeNative.cs
+    startLine: 55
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public const int LoadForceAutohint = 32
+    return:
+      type: System.Int32
+    content.vb: Public Const LoadForceAutohint As Integer = 32
+- uid: Pie.Text.Native.FreetypeNative.LoadCropBitmap
+  commentId: F:Pie.Text.Native.FreetypeNative.LoadCropBitmap
+  id: LoadCropBitmap
+  parent: Pie.Text.Native.FreetypeNative
+  langs:
+  - csharp
+  - vb
+  name: LoadCropBitmap
+  nameWithType: FreetypeNative.LoadCropBitmap
+  fullName: Pie.Text.Native.FreetypeNative.LoadCropBitmap
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FreetypeNative.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: LoadCropBitmap
+    path: src/Pie/Pie.Text/Native/FreetypeNative.cs
+    startLine: 56
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public const int LoadCropBitmap = 64
+    return:
+      type: System.Int32
+    content.vb: Public Const LoadCropBitmap As Integer = 64
+- uid: Pie.Text.Native.FreetypeNative.LoadPedantic
+  commentId: F:Pie.Text.Native.FreetypeNative.LoadPedantic
+  id: LoadPedantic
+  parent: Pie.Text.Native.FreetypeNative
+  langs:
+  - csharp
+  - vb
+  name: LoadPedantic
+  nameWithType: FreetypeNative.LoadPedantic
+  fullName: Pie.Text.Native.FreetypeNative.LoadPedantic
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FreetypeNative.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: LoadPedantic
+    path: src/Pie/Pie.Text/Native/FreetypeNative.cs
+    startLine: 57
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public const int LoadPedantic = 128
+    return:
+      type: System.Int32
+    content.vb: Public Const LoadPedantic As Integer = 128
+- uid: Pie.Text.Native.FreetypeNative.LoadIgnoreGlobalAdvanceWidth
+  commentId: F:Pie.Text.Native.FreetypeNative.LoadIgnoreGlobalAdvanceWidth
+  id: LoadIgnoreGlobalAdvanceWidth
+  parent: Pie.Text.Native.FreetypeNative
+  langs:
+  - csharp
+  - vb
+  name: LoadIgnoreGlobalAdvanceWidth
+  nameWithType: FreetypeNative.LoadIgnoreGlobalAdvanceWidth
+  fullName: Pie.Text.Native.FreetypeNative.LoadIgnoreGlobalAdvanceWidth
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FreetypeNative.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: LoadIgnoreGlobalAdvanceWidth
+    path: src/Pie/Pie.Text/Native/FreetypeNative.cs
+    startLine: 58
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public const int LoadIgnoreGlobalAdvanceWidth = 512
+    return:
+      type: System.Int32
+    content.vb: Public Const LoadIgnoreGlobalAdvanceWidth As Integer = 512
+- uid: Pie.Text.Native.FreetypeNative.LoadNoRecurse
+  commentId: F:Pie.Text.Native.FreetypeNative.LoadNoRecurse
+  id: LoadNoRecurse
+  parent: Pie.Text.Native.FreetypeNative
+  langs:
+  - csharp
+  - vb
+  name: LoadNoRecurse
+  nameWithType: FreetypeNative.LoadNoRecurse
+  fullName: Pie.Text.Native.FreetypeNative.LoadNoRecurse
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FreetypeNative.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: LoadNoRecurse
+    path: src/Pie/Pie.Text/Native/FreetypeNative.cs
+    startLine: 59
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public const int LoadNoRecurse = 1024
+    return:
+      type: System.Int32
+    content.vb: Public Const LoadNoRecurse As Integer = 1024
+- uid: Pie.Text.Native.FreetypeNative.LoadIgnoreTransform
+  commentId: F:Pie.Text.Native.FreetypeNative.LoadIgnoreTransform
+  id: LoadIgnoreTransform
+  parent: Pie.Text.Native.FreetypeNative
+  langs:
+  - csharp
+  - vb
+  name: LoadIgnoreTransform
+  nameWithType: FreetypeNative.LoadIgnoreTransform
+  fullName: Pie.Text.Native.FreetypeNative.LoadIgnoreTransform
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FreetypeNative.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: LoadIgnoreTransform
+    path: src/Pie/Pie.Text/Native/FreetypeNative.cs
+    startLine: 60
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public const int LoadIgnoreTransform = 2048
+    return:
+      type: System.Int32
+    content.vb: Public Const LoadIgnoreTransform As Integer = 2048
+- uid: Pie.Text.Native.FreetypeNative.LoadMonochrome
+  commentId: F:Pie.Text.Native.FreetypeNative.LoadMonochrome
+  id: LoadMonochrome
+  parent: Pie.Text.Native.FreetypeNative
+  langs:
+  - csharp
+  - vb
+  name: LoadMonochrome
+  nameWithType: FreetypeNative.LoadMonochrome
+  fullName: Pie.Text.Native.FreetypeNative.LoadMonochrome
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FreetypeNative.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: LoadMonochrome
+    path: src/Pie/Pie.Text/Native/FreetypeNative.cs
+    startLine: 61
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public const int LoadMonochrome = 4096
+    return:
+      type: System.Int32
+    content.vb: Public Const LoadMonochrome As Integer = 4096
+- uid: Pie.Text.Native.FreetypeNative.LoadLinearDesign
+  commentId: F:Pie.Text.Native.FreetypeNative.LoadLinearDesign
+  id: LoadLinearDesign
+  parent: Pie.Text.Native.FreetypeNative
+  langs:
+  - csharp
+  - vb
+  name: LoadLinearDesign
+  nameWithType: FreetypeNative.LoadLinearDesign
+  fullName: Pie.Text.Native.FreetypeNative.LoadLinearDesign
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FreetypeNative.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: LoadLinearDesign
+    path: src/Pie/Pie.Text/Native/FreetypeNative.cs
+    startLine: 62
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public const int LoadLinearDesign = 8192
+    return:
+      type: System.Int32
+    content.vb: Public Const LoadLinearDesign As Integer = 8192
+- uid: Pie.Text.Native.FreetypeNative.LoadSBitsOnly
+  commentId: F:Pie.Text.Native.FreetypeNative.LoadSBitsOnly
+  id: LoadSBitsOnly
+  parent: Pie.Text.Native.FreetypeNative
+  langs:
+  - csharp
+  - vb
+  name: LoadSBitsOnly
+  nameWithType: FreetypeNative.LoadSBitsOnly
+  fullName: Pie.Text.Native.FreetypeNative.LoadSBitsOnly
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FreetypeNative.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: LoadSBitsOnly
+    path: src/Pie/Pie.Text/Native/FreetypeNative.cs
+    startLine: 63
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public const int LoadSBitsOnly = 16384
+    return:
+      type: System.Int32
+    content.vb: Public Const LoadSBitsOnly As Integer = 16384
+- uid: Pie.Text.Native.FreetypeNative.LoadNoAutohint
+  commentId: F:Pie.Text.Native.FreetypeNative.LoadNoAutohint
+  id: LoadNoAutohint
+  parent: Pie.Text.Native.FreetypeNative
+  langs:
+  - csharp
+  - vb
+  name: LoadNoAutohint
+  nameWithType: FreetypeNative.LoadNoAutohint
+  fullName: Pie.Text.Native.FreetypeNative.LoadNoAutohint
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FreetypeNative.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: LoadNoAutohint
+    path: src/Pie/Pie.Text/Native/FreetypeNative.cs
+    startLine: 64
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public const int LoadNoAutohint = 32768
+    return:
+      type: System.Int32
+    content.vb: Public Const LoadNoAutohint As Integer = 32768
+- uid: Pie.Text.Native.FreetypeNative.LoadColor
+  commentId: F:Pie.Text.Native.FreetypeNative.LoadColor
+  id: LoadColor
+  parent: Pie.Text.Native.FreetypeNative
+  langs:
+  - csharp
+  - vb
+  name: LoadColor
+  nameWithType: FreetypeNative.LoadColor
+  fullName: Pie.Text.Native.FreetypeNative.LoadColor
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FreetypeNative.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: LoadColor
+    path: src/Pie/Pie.Text/Native/FreetypeNative.cs
+    startLine: 65
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public const int LoadColor = 1048576
+    return:
+      type: System.Int32
+    content.vb: Public Const LoadColor As Integer = 1048576
+- uid: Pie.Text.Native.FreetypeNative.LoadComputeMetrics
+  commentId: F:Pie.Text.Native.FreetypeNative.LoadComputeMetrics
+  id: LoadComputeMetrics
+  parent: Pie.Text.Native.FreetypeNative
+  langs:
+  - csharp
+  - vb
+  name: LoadComputeMetrics
+  nameWithType: FreetypeNative.LoadComputeMetrics
+  fullName: Pie.Text.Native.FreetypeNative.LoadComputeMetrics
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FreetypeNative.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: LoadComputeMetrics
+    path: src/Pie/Pie.Text/Native/FreetypeNative.cs
+    startLine: 66
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public const int LoadComputeMetrics = 2097152
+    return:
+      type: System.Int32
+    content.vb: Public Const LoadComputeMetrics As Integer = 2097152
+- uid: Pie.Text.Native.FreetypeNative.LoadBitmapMetricsOnly
+  commentId: F:Pie.Text.Native.FreetypeNative.LoadBitmapMetricsOnly
+  id: LoadBitmapMetricsOnly
+  parent: Pie.Text.Native.FreetypeNative
+  langs:
+  - csharp
+  - vb
+  name: LoadBitmapMetricsOnly
+  nameWithType: FreetypeNative.LoadBitmapMetricsOnly
+  fullName: Pie.Text.Native.FreetypeNative.LoadBitmapMetricsOnly
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FreetypeNative.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: LoadBitmapMetricsOnly
+    path: src/Pie/Pie.Text/Native/FreetypeNative.cs
+    startLine: 67
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public const int LoadBitmapMetricsOnly = 4194304
+    return:
+      type: System.Int32
+    content.vb: Public Const LoadBitmapMetricsOnly As Integer = 4194304
+- uid: Pie.Text.Native.FreetypeNative.FT_Init_FreeType(System.IntPtr@)
+  commentId: M:Pie.Text.Native.FreetypeNative.FT_Init_FreeType(System.IntPtr@)
+  id: FT_Init_FreeType(System.IntPtr@)
+  parent: Pie.Text.Native.FreetypeNative
+  langs:
+  - csharp
+  - vb
+  name: FT_Init_FreeType(out IntPtr)
+  nameWithType: FreetypeNative.FT_Init_FreeType(out IntPtr)
+  fullName: Pie.Text.Native.FreetypeNative.FT_Init_FreeType(out System.IntPtr)
+  type: Method
+  source:
+    path: Pie.Text
+    isExternal: true
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public static extern FT_Error FT_Init_FreeType(out IntPtr library)
+    parameters:
+    - id: library
+      type: System.IntPtr
+    return:
+      type: Pie.Text.Native.FT_Error
+    content.vb: Public Shared Function FT_Init_FreeType(library As IntPtr) As FT_Error
+  overload: Pie.Text.Native.FreetypeNative.FT_Init_FreeType*
+  nameWithType.vb: FreetypeNative.FT_Init_FreeType(IntPtr)
+  fullName.vb: Pie.Text.Native.FreetypeNative.FT_Init_FreeType(System.IntPtr)
+  name.vb: FT_Init_FreeType(IntPtr)
+- uid: Pie.Text.Native.FreetypeNative.FT_Done_FreeType(System.IntPtr)
+  commentId: M:Pie.Text.Native.FreetypeNative.FT_Done_FreeType(System.IntPtr)
+  id: FT_Done_FreeType(System.IntPtr)
+  parent: Pie.Text.Native.FreetypeNative
+  langs:
+  - csharp
+  - vb
+  name: FT_Done_FreeType(IntPtr)
+  nameWithType: FreetypeNative.FT_Done_FreeType(IntPtr)
+  fullName: Pie.Text.Native.FreetypeNative.FT_Done_FreeType(System.IntPtr)
+  type: Method
+  source:
+    path: Pie.Text
+    isExternal: true
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public static extern FT_Error FT_Done_FreeType(IntPtr library)
+    parameters:
+    - id: library
+      type: System.IntPtr
+    return:
+      type: Pie.Text.Native.FT_Error
+    content.vb: Public Shared Function FT_Done_FreeType(library As IntPtr) As FT_Error
+  overload: Pie.Text.Native.FreetypeNative.FT_Done_FreeType*
+- uid: Pie.Text.Native.FreetypeNative.FT_New_Face(System.IntPtr,System.SByte*,System.Runtime.InteropServices.CLong,Pie.Text.Native.FT_Face*@)
+  commentId: M:Pie.Text.Native.FreetypeNative.FT_New_Face(System.IntPtr,System.SByte*,System.Runtime.InteropServices.CLong,Pie.Text.Native.FT_Face*@)
+  id: FT_New_Face(System.IntPtr,System.SByte*,System.Runtime.InteropServices.CLong,Pie.Text.Native.FT_Face*@)
+  parent: Pie.Text.Native.FreetypeNative
+  langs:
+  - csharp
+  - vb
+  name: FT_New_Face(IntPtr, sbyte*, CLong, out FT_Face*)
+  nameWithType: FreetypeNative.FT_New_Face(IntPtr, sbyte*, CLong, out FT_Face*)
+  fullName: Pie.Text.Native.FreetypeNative.FT_New_Face(System.IntPtr, sbyte*, System.Runtime.InteropServices.CLong, out Pie.Text.Native.FT_Face*)
+  type: Method
+  source:
+    path: Pie.Text
+    isExternal: true
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public static extern FT_Error FT_New_Face(IntPtr library, sbyte* path, CLong index, out FT_Face* face)
+    parameters:
+    - id: library
+      type: System.IntPtr
+    - id: path
+      type: System.SByte*
+    - id: index
+      type: System.Runtime.InteropServices.CLong
+    - id: face
+      type: Pie.Text.Native.FT_Face*
+    return:
+      type: Pie.Text.Native.FT_Error
+    content.vb: Public Shared Function FT_New_Face(library As IntPtr, path As SByte*, index As CLong, face As FT_Face*) As FT_Error
+  overload: Pie.Text.Native.FreetypeNative.FT_New_Face*
+  nameWithType.vb: FreetypeNative.FT_New_Face(IntPtr, SByte*, CLong, FT_Face*)
+  fullName.vb: Pie.Text.Native.FreetypeNative.FT_New_Face(System.IntPtr, SByte*, System.Runtime.InteropServices.CLong, Pie.Text.Native.FT_Face*)
+  name.vb: FT_New_Face(IntPtr, SByte*, CLong, FT_Face*)
+- uid: Pie.Text.Native.FreetypeNative.FT_Done_Face(Pie.Text.Native.FT_Face*)
+  commentId: M:Pie.Text.Native.FreetypeNative.FT_Done_Face(Pie.Text.Native.FT_Face*)
+  id: FT_Done_Face(Pie.Text.Native.FT_Face*)
+  parent: Pie.Text.Native.FreetypeNative
+  langs:
+  - csharp
+  - vb
+  name: FT_Done_Face(FT_Face*)
+  nameWithType: FreetypeNative.FT_Done_Face(FT_Face*)
+  fullName: Pie.Text.Native.FreetypeNative.FT_Done_Face(Pie.Text.Native.FT_Face*)
+  type: Method
+  source:
+    path: Pie.Text
+    isExternal: true
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public static extern FT_Error FT_Done_Face(FT_Face* face)
+    parameters:
+    - id: face
+      type: Pie.Text.Native.FT_Face*
+    return:
+      type: Pie.Text.Native.FT_Error
+    content.vb: Public Shared Function FT_Done_Face(face As FT_Face*) As FT_Error
+  overload: Pie.Text.Native.FreetypeNative.FT_Done_Face*
+- uid: Pie.Text.Native.FreetypeNative.FT_Reference_Face(Pie.Text.Native.FT_Face*)
+  commentId: M:Pie.Text.Native.FreetypeNative.FT_Reference_Face(Pie.Text.Native.FT_Face*)
+  id: FT_Reference_Face(Pie.Text.Native.FT_Face*)
+  parent: Pie.Text.Native.FreetypeNative
+  langs:
+  - csharp
+  - vb
+  name: FT_Reference_Face(FT_Face*)
+  nameWithType: FreetypeNative.FT_Reference_Face(FT_Face*)
+  fullName: Pie.Text.Native.FreetypeNative.FT_Reference_Face(Pie.Text.Native.FT_Face*)
+  type: Method
+  source:
+    path: Pie.Text
+    isExternal: true
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public static extern FT_Error FT_Reference_Face(FT_Face* face)
+    parameters:
+    - id: face
+      type: Pie.Text.Native.FT_Face*
+    return:
+      type: Pie.Text.Native.FT_Error
+    content.vb: Public Shared Function FT_Reference_Face(face As FT_Face*) As FT_Error
+  overload: Pie.Text.Native.FreetypeNative.FT_Reference_Face*
+- uid: Pie.Text.Native.FreetypeNative.FT_New_Memory_Face(System.IntPtr,System.Byte*,System.Runtime.InteropServices.CLong,System.Runtime.InteropServices.CLong,Pie.Text.Native.FT_Face*@)
+  commentId: M:Pie.Text.Native.FreetypeNative.FT_New_Memory_Face(System.IntPtr,System.Byte*,System.Runtime.InteropServices.CLong,System.Runtime.InteropServices.CLong,Pie.Text.Native.FT_Face*@)
+  id: FT_New_Memory_Face(System.IntPtr,System.Byte*,System.Runtime.InteropServices.CLong,System.Runtime.InteropServices.CLong,Pie.Text.Native.FT_Face*@)
+  parent: Pie.Text.Native.FreetypeNative
+  langs:
+  - csharp
+  - vb
+  name: FT_New_Memory_Face(IntPtr, byte*, CLong, CLong, out FT_Face*)
+  nameWithType: FreetypeNative.FT_New_Memory_Face(IntPtr, byte*, CLong, CLong, out FT_Face*)
+  fullName: Pie.Text.Native.FreetypeNative.FT_New_Memory_Face(System.IntPtr, byte*, System.Runtime.InteropServices.CLong, System.Runtime.InteropServices.CLong, out Pie.Text.Native.FT_Face*)
+  type: Method
+  source:
+    path: Pie.Text
+    isExternal: true
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public static extern FT_Error FT_New_Memory_Face(IntPtr library, byte* file, CLong fileSize, CLong faceIndex, out FT_Face* face)
+    parameters:
+    - id: library
+      type: System.IntPtr
+    - id: file
+      type: System.Byte*
+    - id: fileSize
+      type: System.Runtime.InteropServices.CLong
+    - id: faceIndex
+      type: System.Runtime.InteropServices.CLong
+    - id: face
+      type: Pie.Text.Native.FT_Face*
+    return:
+      type: Pie.Text.Native.FT_Error
+    content.vb: Public Shared Function FT_New_Memory_Face(library As IntPtr, file As Byte*, fileSize As CLong, faceIndex As CLong, face As FT_Face*) As FT_Error
+  overload: Pie.Text.Native.FreetypeNative.FT_New_Memory_Face*
+  nameWithType.vb: FreetypeNative.FT_New_Memory_Face(IntPtr, Byte*, CLong, CLong, FT_Face*)
+  fullName.vb: Pie.Text.Native.FreetypeNative.FT_New_Memory_Face(System.IntPtr, Byte*, System.Runtime.InteropServices.CLong, System.Runtime.InteropServices.CLong, Pie.Text.Native.FT_Face*)
+  name.vb: FT_New_Memory_Face(IntPtr, Byte*, CLong, CLong, FT_Face*)
+- uid: Pie.Text.Native.FreetypeNative.FT_Face_Properties(Pie.Text.Native.FT_Face*,System.UInt32,Pie.Text.Native.FT_Parameter*)
+  commentId: M:Pie.Text.Native.FreetypeNative.FT_Face_Properties(Pie.Text.Native.FT_Face*,System.UInt32,Pie.Text.Native.FT_Parameter*)
+  id: FT_Face_Properties(Pie.Text.Native.FT_Face*,System.UInt32,Pie.Text.Native.FT_Parameter*)
+  parent: Pie.Text.Native.FreetypeNative
+  langs:
+  - csharp
+  - vb
+  name: FT_Face_Properties(FT_Face*, uint, FT_Parameter*)
+  nameWithType: FreetypeNative.FT_Face_Properties(FT_Face*, uint, FT_Parameter*)
+  fullName: Pie.Text.Native.FreetypeNative.FT_Face_Properties(Pie.Text.Native.FT_Face*, uint, Pie.Text.Native.FT_Parameter*)
+  type: Method
+  source:
+    path: Pie.Text
+    isExternal: true
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public static extern FT_Error FT_Face_Properties(FT_Face* face, uint numProperties, FT_Parameter* properties)
+    parameters:
+    - id: face
+      type: Pie.Text.Native.FT_Face*
+    - id: numProperties
+      type: System.UInt32
+    - id: properties
+      type: Pie.Text.Native.FT_Parameter*
+    return:
+      type: Pie.Text.Native.FT_Error
+    content.vb: Public Shared Function FT_Face_Properties(face As FT_Face*, numProperties As UInteger, properties As FT_Parameter*) As FT_Error
+  overload: Pie.Text.Native.FreetypeNative.FT_Face_Properties*
+  nameWithType.vb: FreetypeNative.FT_Face_Properties(FT_Face*, UInteger, FT_Parameter*)
+  fullName.vb: Pie.Text.Native.FreetypeNative.FT_Face_Properties(Pie.Text.Native.FT_Face*, UInteger, Pie.Text.Native.FT_Parameter*)
+  name.vb: FT_Face_Properties(FT_Face*, UInteger, FT_Parameter*)
+- uid: Pie.Text.Native.FreetypeNative.FT_Open_Face(System.IntPtr,Pie.Text.Native.FT_Open_Args*,System.Runtime.InteropServices.CLong,Pie.Text.Native.FT_Face*)
+  commentId: M:Pie.Text.Native.FreetypeNative.FT_Open_Face(System.IntPtr,Pie.Text.Native.FT_Open_Args*,System.Runtime.InteropServices.CLong,Pie.Text.Native.FT_Face*)
+  id: FT_Open_Face(System.IntPtr,Pie.Text.Native.FT_Open_Args*,System.Runtime.InteropServices.CLong,Pie.Text.Native.FT_Face*)
+  parent: Pie.Text.Native.FreetypeNative
+  langs:
+  - csharp
+  - vb
+  name: FT_Open_Face(IntPtr, FT_Open_Args*, CLong, FT_Face*)
+  nameWithType: FreetypeNative.FT_Open_Face(IntPtr, FT_Open_Args*, CLong, FT_Face*)
+  fullName: Pie.Text.Native.FreetypeNative.FT_Open_Face(System.IntPtr, Pie.Text.Native.FT_Open_Args*, System.Runtime.InteropServices.CLong, Pie.Text.Native.FT_Face*)
+  type: Method
+  source:
+    path: Pie.Text
+    isExternal: true
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public static extern FT_Error FT_Open_Face(IntPtr library, FT_Open_Args* args, CLong faceIndex, FT_Face* face)
+    parameters:
+    - id: library
+      type: System.IntPtr
+    - id: args
+      type: Pie.Text.Native.FT_Open_Args*
+    - id: faceIndex
+      type: System.Runtime.InteropServices.CLong
+    - id: face
+      type: Pie.Text.Native.FT_Face*
+    return:
+      type: Pie.Text.Native.FT_Error
+    content.vb: Public Shared Function FT_Open_Face(library As IntPtr, args As FT_Open_Args*, faceIndex As CLong, face As FT_Face*) As FT_Error
+  overload: Pie.Text.Native.FreetypeNative.FT_Open_Face*
+- uid: Pie.Text.Native.FreetypeNative.FT_Attach_File(Pie.Text.Native.FT_Face*,System.SByte*)
+  commentId: M:Pie.Text.Native.FreetypeNative.FT_Attach_File(Pie.Text.Native.FT_Face*,System.SByte*)
+  id: FT_Attach_File(Pie.Text.Native.FT_Face*,System.SByte*)
+  parent: Pie.Text.Native.FreetypeNative
+  langs:
+  - csharp
+  - vb
+  name: FT_Attach_File(FT_Face*, sbyte*)
+  nameWithType: FreetypeNative.FT_Attach_File(FT_Face*, sbyte*)
+  fullName: Pie.Text.Native.FreetypeNative.FT_Attach_File(Pie.Text.Native.FT_Face*, sbyte*)
+  type: Method
+  source:
+    path: Pie.Text
+    isExternal: true
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public static extern FT_Error FT_Attach_File(FT_Face* face, sbyte* filePathName)
+    parameters:
+    - id: face
+      type: Pie.Text.Native.FT_Face*
+    - id: filePathName
+      type: System.SByte*
+    return:
+      type: Pie.Text.Native.FT_Error
+    content.vb: Public Shared Function FT_Attach_File(face As FT_Face*, filePathName As SByte*) As FT_Error
+  overload: Pie.Text.Native.FreetypeNative.FT_Attach_File*
+  nameWithType.vb: FreetypeNative.FT_Attach_File(FT_Face*, SByte*)
+  fullName.vb: Pie.Text.Native.FreetypeNative.FT_Attach_File(Pie.Text.Native.FT_Face*, SByte*)
+  name.vb: FT_Attach_File(FT_Face*, SByte*)
+- uid: Pie.Text.Native.FreetypeNative.FT_Attach_Stream(Pie.Text.Native.FT_Face*,Pie.Text.Native.FT_Open_Args*)
+  commentId: M:Pie.Text.Native.FreetypeNative.FT_Attach_Stream(Pie.Text.Native.FT_Face*,Pie.Text.Native.FT_Open_Args*)
+  id: FT_Attach_Stream(Pie.Text.Native.FT_Face*,Pie.Text.Native.FT_Open_Args*)
+  parent: Pie.Text.Native.FreetypeNative
+  langs:
+  - csharp
+  - vb
+  name: FT_Attach_Stream(FT_Face*, FT_Open_Args*)
+  nameWithType: FreetypeNative.FT_Attach_Stream(FT_Face*, FT_Open_Args*)
+  fullName: Pie.Text.Native.FreetypeNative.FT_Attach_Stream(Pie.Text.Native.FT_Face*, Pie.Text.Native.FT_Open_Args*)
+  type: Method
+  source:
+    path: Pie.Text
+    isExternal: true
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public static extern FT_Error FT_Attach_Stream(FT_Face* face, FT_Open_Args* parameters)
+    parameters:
+    - id: face
+      type: Pie.Text.Native.FT_Face*
+    - id: parameters
+      type: Pie.Text.Native.FT_Open_Args*
+    return:
+      type: Pie.Text.Native.FT_Error
+    content.vb: Public Shared Function FT_Attach_Stream(face As FT_Face*, parameters As FT_Open_Args*) As FT_Error
+  overload: Pie.Text.Native.FreetypeNative.FT_Attach_Stream*
+- uid: Pie.Text.Native.FreetypeNative.FT_Set_Char_Size(Pie.Text.Native.FT_Face*,System.Runtime.InteropServices.CLong,System.Runtime.InteropServices.CLong,System.UInt32,System.UInt32)
+  commentId: M:Pie.Text.Native.FreetypeNative.FT_Set_Char_Size(Pie.Text.Native.FT_Face*,System.Runtime.InteropServices.CLong,System.Runtime.InteropServices.CLong,System.UInt32,System.UInt32)
+  id: FT_Set_Char_Size(Pie.Text.Native.FT_Face*,System.Runtime.InteropServices.CLong,System.Runtime.InteropServices.CLong,System.UInt32,System.UInt32)
+  parent: Pie.Text.Native.FreetypeNative
+  langs:
+  - csharp
+  - vb
+  name: FT_Set_Char_Size(FT_Face*, CLong, CLong, uint, uint)
+  nameWithType: FreetypeNative.FT_Set_Char_Size(FT_Face*, CLong, CLong, uint, uint)
+  fullName: Pie.Text.Native.FreetypeNative.FT_Set_Char_Size(Pie.Text.Native.FT_Face*, System.Runtime.InteropServices.CLong, System.Runtime.InteropServices.CLong, uint, uint)
+  type: Method
+  source:
+    path: Pie.Text
+    isExternal: true
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public static extern FT_Error FT_Set_Char_Size(FT_Face* face, CLong charWidth, CLong charHeight, uint horzResolution, uint vertResolution)
+    parameters:
+    - id: face
+      type: Pie.Text.Native.FT_Face*
+    - id: charWidth
+      type: System.Runtime.InteropServices.CLong
+    - id: charHeight
+      type: System.Runtime.InteropServices.CLong
+    - id: horzResolution
+      type: System.UInt32
+    - id: vertResolution
+      type: System.UInt32
+    return:
+      type: Pie.Text.Native.FT_Error
+    content.vb: Public Shared Function FT_Set_Char_Size(face As FT_Face*, charWidth As CLong, charHeight As CLong, horzResolution As UInteger, vertResolution As UInteger) As FT_Error
+  overload: Pie.Text.Native.FreetypeNative.FT_Set_Char_Size*
+  nameWithType.vb: FreetypeNative.FT_Set_Char_Size(FT_Face*, CLong, CLong, UInteger, UInteger)
+  fullName.vb: Pie.Text.Native.FreetypeNative.FT_Set_Char_Size(Pie.Text.Native.FT_Face*, System.Runtime.InteropServices.CLong, System.Runtime.InteropServices.CLong, UInteger, UInteger)
+  name.vb: FT_Set_Char_Size(FT_Face*, CLong, CLong, UInteger, UInteger)
+- uid: Pie.Text.Native.FreetypeNative.FT_Set_Pixel_Sizes(Pie.Text.Native.FT_Face*,System.UInt32,System.UInt32)
+  commentId: M:Pie.Text.Native.FreetypeNative.FT_Set_Pixel_Sizes(Pie.Text.Native.FT_Face*,System.UInt32,System.UInt32)
+  id: FT_Set_Pixel_Sizes(Pie.Text.Native.FT_Face*,System.UInt32,System.UInt32)
+  parent: Pie.Text.Native.FreetypeNative
+  langs:
+  - csharp
+  - vb
+  name: FT_Set_Pixel_Sizes(FT_Face*, uint, uint)
+  nameWithType: FreetypeNative.FT_Set_Pixel_Sizes(FT_Face*, uint, uint)
+  fullName: Pie.Text.Native.FreetypeNative.FT_Set_Pixel_Sizes(Pie.Text.Native.FT_Face*, uint, uint)
+  type: Method
+  source:
+    path: Pie.Text
+    isExternal: true
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public static extern FT_Error FT_Set_Pixel_Sizes(FT_Face* face, uint pixelWidth, uint pixelHeight)
+    parameters:
+    - id: face
+      type: Pie.Text.Native.FT_Face*
+    - id: pixelWidth
+      type: System.UInt32
+    - id: pixelHeight
+      type: System.UInt32
+    return:
+      type: Pie.Text.Native.FT_Error
+    content.vb: Public Shared Function FT_Set_Pixel_Sizes(face As FT_Face*, pixelWidth As UInteger, pixelHeight As UInteger) As FT_Error
+  overload: Pie.Text.Native.FreetypeNative.FT_Set_Pixel_Sizes*
+  nameWithType.vb: FreetypeNative.FT_Set_Pixel_Sizes(FT_Face*, UInteger, UInteger)
+  fullName.vb: Pie.Text.Native.FreetypeNative.FT_Set_Pixel_Sizes(Pie.Text.Native.FT_Face*, UInteger, UInteger)
+  name.vb: FT_Set_Pixel_Sizes(FT_Face*, UInteger, UInteger)
+- uid: Pie.Text.Native.FreetypeNative.FT_Request_Size(Pie.Text.Native.FT_Face*,Pie.Text.Native.FT_Size_Request*)
+  commentId: M:Pie.Text.Native.FreetypeNative.FT_Request_Size(Pie.Text.Native.FT_Face*,Pie.Text.Native.FT_Size_Request*)
+  id: FT_Request_Size(Pie.Text.Native.FT_Face*,Pie.Text.Native.FT_Size_Request*)
+  parent: Pie.Text.Native.FreetypeNative
+  langs:
+  - csharp
+  - vb
+  name: FT_Request_Size(FT_Face*, FT_Size_Request*)
+  nameWithType: FreetypeNative.FT_Request_Size(FT_Face*, FT_Size_Request*)
+  fullName: Pie.Text.Native.FreetypeNative.FT_Request_Size(Pie.Text.Native.FT_Face*, Pie.Text.Native.FT_Size_Request*)
+  type: Method
+  source:
+    path: Pie.Text
+    isExternal: true
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public static extern FT_Error FT_Request_Size(FT_Face* face, FT_Size_Request* request)
+    parameters:
+    - id: face
+      type: Pie.Text.Native.FT_Face*
+    - id: request
+      type: Pie.Text.Native.FT_Size_Request*
+    return:
+      type: Pie.Text.Native.FT_Error
+    content.vb: Public Shared Function FT_Request_Size(face As FT_Face*, request As FT_Size_Request*) As FT_Error
+  overload: Pie.Text.Native.FreetypeNative.FT_Request_Size*
+- uid: Pie.Text.Native.FreetypeNative.FT_Select_Size(Pie.Text.Native.FT_Face*,System.Int32)
+  commentId: M:Pie.Text.Native.FreetypeNative.FT_Select_Size(Pie.Text.Native.FT_Face*,System.Int32)
+  id: FT_Select_Size(Pie.Text.Native.FT_Face*,System.Int32)
+  parent: Pie.Text.Native.FreetypeNative
+  langs:
+  - csharp
+  - vb
+  name: FT_Select_Size(FT_Face*, int)
+  nameWithType: FreetypeNative.FT_Select_Size(FT_Face*, int)
+  fullName: Pie.Text.Native.FreetypeNative.FT_Select_Size(Pie.Text.Native.FT_Face*, int)
+  type: Method
+  source:
+    path: Pie.Text
+    isExternal: true
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public static extern FT_Error FT_Select_Size(FT_Face* face, int strikeIndex)
+    parameters:
+    - id: face
+      type: Pie.Text.Native.FT_Face*
+    - id: strikeIndex
+      type: System.Int32
+    return:
+      type: Pie.Text.Native.FT_Error
+    content.vb: Public Shared Function FT_Select_Size(face As FT_Face*, strikeIndex As Integer) As FT_Error
+  overload: Pie.Text.Native.FreetypeNative.FT_Select_Size*
+  nameWithType.vb: FreetypeNative.FT_Select_Size(FT_Face*, Integer)
+  fullName.vb: Pie.Text.Native.FreetypeNative.FT_Select_Size(Pie.Text.Native.FT_Face*, Integer)
+  name.vb: FT_Select_Size(FT_Face*, Integer)
+- uid: Pie.Text.Native.FreetypeNative.FT_Set_Transform(Pie.Text.Native.FT_Face*,Pie.Text.Native.FT_Matrix*,Pie.Text.Native.FT_Vector*)
+  commentId: M:Pie.Text.Native.FreetypeNative.FT_Set_Transform(Pie.Text.Native.FT_Face*,Pie.Text.Native.FT_Matrix*,Pie.Text.Native.FT_Vector*)
+  id: FT_Set_Transform(Pie.Text.Native.FT_Face*,Pie.Text.Native.FT_Matrix*,Pie.Text.Native.FT_Vector*)
+  parent: Pie.Text.Native.FreetypeNative
+  langs:
+  - csharp
+  - vb
+  name: FT_Set_Transform(FT_Face*, FT_Matrix*, FT_Vector*)
+  nameWithType: FreetypeNative.FT_Set_Transform(FT_Face*, FT_Matrix*, FT_Vector*)
+  fullName: Pie.Text.Native.FreetypeNative.FT_Set_Transform(Pie.Text.Native.FT_Face*, Pie.Text.Native.FT_Matrix*, Pie.Text.Native.FT_Vector*)
+  type: Method
+  source:
+    path: Pie.Text
+    isExternal: true
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public static extern FT_Error FT_Set_Transform(FT_Face* face, FT_Matrix* matrix, FT_Vector* delta)
+    parameters:
+    - id: face
+      type: Pie.Text.Native.FT_Face*
+    - id: matrix
+      type: Pie.Text.Native.FT_Matrix*
+    - id: delta
+      type: Pie.Text.Native.FT_Vector*
+    return:
+      type: Pie.Text.Native.FT_Error
+    content.vb: Public Shared Function FT_Set_Transform(face As FT_Face*, matrix As FT_Matrix*, delta As FT_Vector*) As FT_Error
+  overload: Pie.Text.Native.FreetypeNative.FT_Set_Transform*
+- uid: Pie.Text.Native.FreetypeNative.FT_Get_Transform(Pie.Text.Native.FT_Face*,Pie.Text.Native.FT_Matrix*,Pie.Text.Native.FT_Vector*)
+  commentId: M:Pie.Text.Native.FreetypeNative.FT_Get_Transform(Pie.Text.Native.FT_Face*,Pie.Text.Native.FT_Matrix*,Pie.Text.Native.FT_Vector*)
+  id: FT_Get_Transform(Pie.Text.Native.FT_Face*,Pie.Text.Native.FT_Matrix*,Pie.Text.Native.FT_Vector*)
+  parent: Pie.Text.Native.FreetypeNative
+  langs:
+  - csharp
+  - vb
+  name: FT_Get_Transform(FT_Face*, FT_Matrix*, FT_Vector*)
+  nameWithType: FreetypeNative.FT_Get_Transform(FT_Face*, FT_Matrix*, FT_Vector*)
+  fullName: Pie.Text.Native.FreetypeNative.FT_Get_Transform(Pie.Text.Native.FT_Face*, Pie.Text.Native.FT_Matrix*, Pie.Text.Native.FT_Vector*)
+  type: Method
+  source:
+    path: Pie.Text
+    isExternal: true
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public static extern void FT_Get_Transform(FT_Face* face, FT_Matrix* matrix, FT_Vector* delta)
+    parameters:
+    - id: face
+      type: Pie.Text.Native.FT_Face*
+    - id: matrix
+      type: Pie.Text.Native.FT_Matrix*
+    - id: delta
+      type: Pie.Text.Native.FT_Vector*
+    content.vb: Public Shared Sub FT_Get_Transform(face As FT_Face*, matrix As FT_Matrix*, delta As FT_Vector*)
+  overload: Pie.Text.Native.FreetypeNative.FT_Get_Transform*
+- uid: Pie.Text.Native.FreetypeNative.FT_Load_Glyph(Pie.Text.Native.FT_Face*,System.UInt32,System.Int32)
+  commentId: M:Pie.Text.Native.FreetypeNative.FT_Load_Glyph(Pie.Text.Native.FT_Face*,System.UInt32,System.Int32)
+  id: FT_Load_Glyph(Pie.Text.Native.FT_Face*,System.UInt32,System.Int32)
+  parent: Pie.Text.Native.FreetypeNative
+  langs:
+  - csharp
+  - vb
+  name: FT_Load_Glyph(FT_Face*, uint, int)
+  nameWithType: FreetypeNative.FT_Load_Glyph(FT_Face*, uint, int)
+  fullName: Pie.Text.Native.FreetypeNative.FT_Load_Glyph(Pie.Text.Native.FT_Face*, uint, int)
+  type: Method
+  source:
+    path: Pie.Text
+    isExternal: true
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public static extern FT_Error FT_Load_Glyph(FT_Face* face, uint glyphIndex, int loadFlags)
+    parameters:
+    - id: face
+      type: Pie.Text.Native.FT_Face*
+    - id: glyphIndex
+      type: System.UInt32
+    - id: loadFlags
+      type: System.Int32
+    return:
+      type: Pie.Text.Native.FT_Error
+    content.vb: Public Shared Function FT_Load_Glyph(face As FT_Face*, glyphIndex As UInteger, loadFlags As Integer) As FT_Error
+  overload: Pie.Text.Native.FreetypeNative.FT_Load_Glyph*
+  nameWithType.vb: FreetypeNative.FT_Load_Glyph(FT_Face*, UInteger, Integer)
+  fullName.vb: Pie.Text.Native.FreetypeNative.FT_Load_Glyph(Pie.Text.Native.FT_Face*, UInteger, Integer)
+  name.vb: FT_Load_Glyph(FT_Face*, UInteger, Integer)
+- uid: Pie.Text.Native.FreetypeNative.FT_Get_Char_Index(Pie.Text.Native.FT_Face*,System.Runtime.InteropServices.CULong)
+  commentId: M:Pie.Text.Native.FreetypeNative.FT_Get_Char_Index(Pie.Text.Native.FT_Face*,System.Runtime.InteropServices.CULong)
+  id: FT_Get_Char_Index(Pie.Text.Native.FT_Face*,System.Runtime.InteropServices.CULong)
+  parent: Pie.Text.Native.FreetypeNative
+  langs:
+  - csharp
+  - vb
+  name: FT_Get_Char_Index(FT_Face*, CULong)
+  nameWithType: FreetypeNative.FT_Get_Char_Index(FT_Face*, CULong)
+  fullName: Pie.Text.Native.FreetypeNative.FT_Get_Char_Index(Pie.Text.Native.FT_Face*, System.Runtime.InteropServices.CULong)
+  type: Method
+  source:
+    path: Pie.Text
+    isExternal: true
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public static extern uint FT_Get_Char_Index(FT_Face* face, CULong charcode)
+    parameters:
+    - id: face
+      type: Pie.Text.Native.FT_Face*
+    - id: charcode
+      type: System.Runtime.InteropServices.CULong
+    return:
+      type: System.UInt32
+    content.vb: Public Shared Function FT_Get_Char_Index(face As FT_Face*, charcode As CULong) As UInteger
+  overload: Pie.Text.Native.FreetypeNative.FT_Get_Char_Index*
+- uid: Pie.Text.Native.FreetypeNative.FT_Get_First_Char(Pie.Text.Native.FT_Face*,System.UInt32*)
+  commentId: M:Pie.Text.Native.FreetypeNative.FT_Get_First_Char(Pie.Text.Native.FT_Face*,System.UInt32*)
+  id: FT_Get_First_Char(Pie.Text.Native.FT_Face*,System.UInt32*)
+  parent: Pie.Text.Native.FreetypeNative
+  langs:
+  - csharp
+  - vb
+  name: FT_Get_First_Char(FT_Face*, uint*)
+  nameWithType: FreetypeNative.FT_Get_First_Char(FT_Face*, uint*)
+  fullName: Pie.Text.Native.FreetypeNative.FT_Get_First_Char(Pie.Text.Native.FT_Face*, uint*)
+  type: Method
+  source:
+    path: Pie.Text
+    isExternal: true
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public static extern CULong FT_Get_First_Char(FT_Face* face, uint* index)
+    parameters:
+    - id: face
+      type: Pie.Text.Native.FT_Face*
+    - id: index
+      type: System.UInt32*
+    return:
+      type: System.Runtime.InteropServices.CULong
+    content.vb: Public Shared Function FT_Get_First_Char(face As FT_Face*, index As UInteger*) As CULong
+  overload: Pie.Text.Native.FreetypeNative.FT_Get_First_Char*
+  nameWithType.vb: FreetypeNative.FT_Get_First_Char(FT_Face*, UInteger*)
+  fullName.vb: Pie.Text.Native.FreetypeNative.FT_Get_First_Char(Pie.Text.Native.FT_Face*, UInteger*)
+  name.vb: FT_Get_First_Char(FT_Face*, UInteger*)
+- uid: Pie.Text.Native.FreetypeNative.FT_Get_Next_Char(Pie.Text.Native.FT_Face*,System.Runtime.InteropServices.CULong,System.UInt32*)
+  commentId: M:Pie.Text.Native.FreetypeNative.FT_Get_Next_Char(Pie.Text.Native.FT_Face*,System.Runtime.InteropServices.CULong,System.UInt32*)
+  id: FT_Get_Next_Char(Pie.Text.Native.FT_Face*,System.Runtime.InteropServices.CULong,System.UInt32*)
+  parent: Pie.Text.Native.FreetypeNative
+  langs:
+  - csharp
+  - vb
+  name: FT_Get_Next_Char(FT_Face*, CULong, uint*)
+  nameWithType: FreetypeNative.FT_Get_Next_Char(FT_Face*, CULong, uint*)
+  fullName: Pie.Text.Native.FreetypeNative.FT_Get_Next_Char(Pie.Text.Native.FT_Face*, System.Runtime.InteropServices.CULong, uint*)
+  type: Method
+  source:
+    path: Pie.Text
+    isExternal: true
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public static extern CULong FT_Get_Next_Char(FT_Face* face, CULong charCode, uint* index)
+    parameters:
+    - id: face
+      type: Pie.Text.Native.FT_Face*
+    - id: charCode
+      type: System.Runtime.InteropServices.CULong
+    - id: index
+      type: System.UInt32*
+    return:
+      type: System.Runtime.InteropServices.CULong
+    content.vb: Public Shared Function FT_Get_Next_Char(face As FT_Face*, charCode As CULong, index As UInteger*) As CULong
+  overload: Pie.Text.Native.FreetypeNative.FT_Get_Next_Char*
+  nameWithType.vb: FreetypeNative.FT_Get_Next_Char(FT_Face*, CULong, UInteger*)
+  fullName.vb: Pie.Text.Native.FreetypeNative.FT_Get_Next_Char(Pie.Text.Native.FT_Face*, System.Runtime.InteropServices.CULong, UInteger*)
+  name.vb: FT_Get_Next_Char(FT_Face*, CULong, UInteger*)
+- uid: Pie.Text.Native.FreetypeNative.FT_Get_Name_Index(Pie.Text.Native.FT_Face*,System.SByte*)
+  commentId: M:Pie.Text.Native.FreetypeNative.FT_Get_Name_Index(Pie.Text.Native.FT_Face*,System.SByte*)
+  id: FT_Get_Name_Index(Pie.Text.Native.FT_Face*,System.SByte*)
+  parent: Pie.Text.Native.FreetypeNative
+  langs:
+  - csharp
+  - vb
+  name: FT_Get_Name_Index(FT_Face*, sbyte*)
+  nameWithType: FreetypeNative.FT_Get_Name_Index(FT_Face*, sbyte*)
+  fullName: Pie.Text.Native.FreetypeNative.FT_Get_Name_Index(Pie.Text.Native.FT_Face*, sbyte*)
+  type: Method
+  source:
+    path: Pie.Text
+    isExternal: true
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public static extern uint FT_Get_Name_Index(FT_Face* face, sbyte* glyphName)
+    parameters:
+    - id: face
+      type: Pie.Text.Native.FT_Face*
+    - id: glyphName
+      type: System.SByte*
+    return:
+      type: System.UInt32
+    content.vb: Public Shared Function FT_Get_Name_Index(face As FT_Face*, glyphName As SByte*) As UInteger
+  overload: Pie.Text.Native.FreetypeNative.FT_Get_Name_Index*
+  nameWithType.vb: FreetypeNative.FT_Get_Name_Index(FT_Face*, SByte*)
+  fullName.vb: Pie.Text.Native.FreetypeNative.FT_Get_Name_Index(Pie.Text.Native.FT_Face*, SByte*)
+  name.vb: FT_Get_Name_Index(FT_Face*, SByte*)
+- uid: Pie.Text.Native.FreetypeNative.FT_Load_Char(Pie.Text.Native.FT_Face*,System.Runtime.InteropServices.CULong,System.Int32)
+  commentId: M:Pie.Text.Native.FreetypeNative.FT_Load_Char(Pie.Text.Native.FT_Face*,System.Runtime.InteropServices.CULong,System.Int32)
+  id: FT_Load_Char(Pie.Text.Native.FT_Face*,System.Runtime.InteropServices.CULong,System.Int32)
+  parent: Pie.Text.Native.FreetypeNative
+  langs:
+  - csharp
+  - vb
+  name: FT_Load_Char(FT_Face*, CULong, int)
+  nameWithType: FreetypeNative.FT_Load_Char(FT_Face*, CULong, int)
+  fullName: Pie.Text.Native.FreetypeNative.FT_Load_Char(Pie.Text.Native.FT_Face*, System.Runtime.InteropServices.CULong, int)
+  type: Method
+  source:
+    path: Pie.Text
+    isExternal: true
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public static extern FT_Error FT_Load_Char(FT_Face* face, CULong charCode, int loadFlags)
+    parameters:
+    - id: face
+      type: Pie.Text.Native.FT_Face*
+    - id: charCode
+      type: System.Runtime.InteropServices.CULong
+    - id: loadFlags
+      type: System.Int32
+    return:
+      type: Pie.Text.Native.FT_Error
+    content.vb: Public Shared Function FT_Load_Char(face As FT_Face*, charCode As CULong, loadFlags As Integer) As FT_Error
+  overload: Pie.Text.Native.FreetypeNative.FT_Load_Char*
+  nameWithType.vb: FreetypeNative.FT_Load_Char(FT_Face*, CULong, Integer)
+  fullName.vb: Pie.Text.Native.FreetypeNative.FT_Load_Char(Pie.Text.Native.FT_Face*, System.Runtime.InteropServices.CULong, Integer)
+  name.vb: FT_Load_Char(FT_Face*, CULong, Integer)
+- uid: Pie.Text.Native.FreetypeNative.FT_Render_Glyph(Pie.Text.Native.FT_GlyphSlot*,Pie.Text.Native.FT_Render_Mode)
+  commentId: M:Pie.Text.Native.FreetypeNative.FT_Render_Glyph(Pie.Text.Native.FT_GlyphSlot*,Pie.Text.Native.FT_Render_Mode)
+  id: FT_Render_Glyph(Pie.Text.Native.FT_GlyphSlot*,Pie.Text.Native.FT_Render_Mode)
+  parent: Pie.Text.Native.FreetypeNative
+  langs:
+  - csharp
+  - vb
+  name: FT_Render_Glyph(FT_GlyphSlot*, FT_Render_Mode)
+  nameWithType: FreetypeNative.FT_Render_Glyph(FT_GlyphSlot*, FT_Render_Mode)
+  fullName: Pie.Text.Native.FreetypeNative.FT_Render_Glyph(Pie.Text.Native.FT_GlyphSlot*, Pie.Text.Native.FT_Render_Mode)
+  type: Method
+  source:
+    path: Pie.Text
+    isExternal: true
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public static extern FT_Error FT_Render_Glyph(FT_GlyphSlot* slot, FT_Render_Mode renderMode)
+    parameters:
+    - id: slot
+      type: Pie.Text.Native.FT_GlyphSlot*
+    - id: renderMode
+      type: Pie.Text.Native.FT_Render_Mode
+    return:
+      type: Pie.Text.Native.FT_Error
+    content.vb: Public Shared Function FT_Render_Glyph(slot As FT_GlyphSlot*, renderMode As FT_Render_Mode) As FT_Error
+  overload: Pie.Text.Native.FreetypeNative.FT_Render_Glyph*
+- uid: Pie.Text.Native.FreetypeNative.FT_Get_Kerning(Pie.Text.Native.FT_Face*,System.UInt32,System.UInt32,System.UInt32,Pie.Text.Native.FT_Vector*)
+  commentId: M:Pie.Text.Native.FreetypeNative.FT_Get_Kerning(Pie.Text.Native.FT_Face*,System.UInt32,System.UInt32,System.UInt32,Pie.Text.Native.FT_Vector*)
+  id: FT_Get_Kerning(Pie.Text.Native.FT_Face*,System.UInt32,System.UInt32,System.UInt32,Pie.Text.Native.FT_Vector*)
+  parent: Pie.Text.Native.FreetypeNative
+  langs:
+  - csharp
+  - vb
+  name: FT_Get_Kerning(FT_Face*, uint, uint, uint, FT_Vector*)
+  nameWithType: FreetypeNative.FT_Get_Kerning(FT_Face*, uint, uint, uint, FT_Vector*)
+  fullName: Pie.Text.Native.FreetypeNative.FT_Get_Kerning(Pie.Text.Native.FT_Face*, uint, uint, uint, Pie.Text.Native.FT_Vector*)
+  type: Method
+  source:
+    path: Pie.Text
+    isExternal: true
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public static extern FT_Error FT_Get_Kerning(FT_Face* face, uint leftGlyph, uint rightGlyph, uint kernMode, FT_Vector* kerning)
+    parameters:
+    - id: face
+      type: Pie.Text.Native.FT_Face*
+    - id: leftGlyph
+      type: System.UInt32
+    - id: rightGlyph
+      type: System.UInt32
+    - id: kernMode
+      type: System.UInt32
+    - id: kerning
+      type: Pie.Text.Native.FT_Vector*
+    return:
+      type: Pie.Text.Native.FT_Error
+    content.vb: Public Shared Function FT_Get_Kerning(face As FT_Face*, leftGlyph As UInteger, rightGlyph As UInteger, kernMode As UInteger, kerning As FT_Vector*) As FT_Error
+  overload: Pie.Text.Native.FreetypeNative.FT_Get_Kerning*
+  nameWithType.vb: FreetypeNative.FT_Get_Kerning(FT_Face*, UInteger, UInteger, UInteger, FT_Vector*)
+  fullName.vb: Pie.Text.Native.FreetypeNative.FT_Get_Kerning(Pie.Text.Native.FT_Face*, UInteger, UInteger, UInteger, Pie.Text.Native.FT_Vector*)
+  name.vb: FT_Get_Kerning(FT_Face*, UInteger, UInteger, UInteger, FT_Vector*)
+- uid: Pie.Text.Native.FreetypeNative.FT_Get_Track_Kerning(Pie.Text.Native.FT_Face*,System.Runtime.InteropServices.CLong,System.Int32,System.Runtime.InteropServices.CLong*)
+  commentId: M:Pie.Text.Native.FreetypeNative.FT_Get_Track_Kerning(Pie.Text.Native.FT_Face*,System.Runtime.InteropServices.CLong,System.Int32,System.Runtime.InteropServices.CLong*)
+  id: FT_Get_Track_Kerning(Pie.Text.Native.FT_Face*,System.Runtime.InteropServices.CLong,System.Int32,System.Runtime.InteropServices.CLong*)
+  parent: Pie.Text.Native.FreetypeNative
+  langs:
+  - csharp
+  - vb
+  name: FT_Get_Track_Kerning(FT_Face*, CLong, int, CLong*)
+  nameWithType: FreetypeNative.FT_Get_Track_Kerning(FT_Face*, CLong, int, CLong*)
+  fullName: Pie.Text.Native.FreetypeNative.FT_Get_Track_Kerning(Pie.Text.Native.FT_Face*, System.Runtime.InteropServices.CLong, int, System.Runtime.InteropServices.CLong*)
+  type: Method
+  source:
+    path: Pie.Text
+    isExternal: true
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public static extern FT_Error FT_Get_Track_Kerning(FT_Face* face, CLong pointSize, int degree, CLong* kerning)
+    parameters:
+    - id: face
+      type: Pie.Text.Native.FT_Face*
+    - id: pointSize
+      type: System.Runtime.InteropServices.CLong
+    - id: degree
+      type: System.Int32
+    - id: kerning
+      type: System.Runtime.InteropServices.CLong*
+    return:
+      type: Pie.Text.Native.FT_Error
+    content.vb: Public Shared Function FT_Get_Track_Kerning(face As FT_Face*, pointSize As CLong, degree As Integer, kerning As CLong*) As FT_Error
+  overload: Pie.Text.Native.FreetypeNative.FT_Get_Track_Kerning*
+  nameWithType.vb: FreetypeNative.FT_Get_Track_Kerning(FT_Face*, CLong, Integer, CLong*)
+  fullName.vb: Pie.Text.Native.FreetypeNative.FT_Get_Track_Kerning(Pie.Text.Native.FT_Face*, System.Runtime.InteropServices.CLong, Integer, System.Runtime.InteropServices.CLong*)
+  name.vb: FT_Get_Track_Kerning(FT_Face*, CLong, Integer, CLong*)
+- uid: Pie.Text.Native.FreetypeNative.FT_Get_Glyph_Name(Pie.Text.Native.FT_Face*,System.UInt32,System.Void*,System.UInt32)
+  commentId: M:Pie.Text.Native.FreetypeNative.FT_Get_Glyph_Name(Pie.Text.Native.FT_Face*,System.UInt32,System.Void*,System.UInt32)
+  id: FT_Get_Glyph_Name(Pie.Text.Native.FT_Face*,System.UInt32,System.Void*,System.UInt32)
+  parent: Pie.Text.Native.FreetypeNative
+  langs:
+  - csharp
+  - vb
+  name: FT_Get_Glyph_Name(FT_Face*, uint, void*, uint)
+  nameWithType: FreetypeNative.FT_Get_Glyph_Name(FT_Face*, uint, void*, uint)
+  fullName: Pie.Text.Native.FreetypeNative.FT_Get_Glyph_Name(Pie.Text.Native.FT_Face*, uint, void*, uint)
+  type: Method
+  source:
+    path: Pie.Text
+    isExternal: true
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public static extern FT_Error FT_Get_Glyph_Name(FT_Face* face, uint glyphIndex, void* buffer, uint bufferMax)
+    parameters:
+    - id: face
+      type: Pie.Text.Native.FT_Face*
+    - id: glyphIndex
+      type: System.UInt32
+    - id: buffer
+      type: System.Void*
+    - id: bufferMax
+      type: System.UInt32
+    return:
+      type: Pie.Text.Native.FT_Error
+    content.vb: Public Shared Function FT_Get_Glyph_Name(face As FT_Face*, glyphIndex As UInteger, buffer As Void*, bufferMax As UInteger) As FT_Error
+  overload: Pie.Text.Native.FreetypeNative.FT_Get_Glyph_Name*
+  nameWithType.vb: FreetypeNative.FT_Get_Glyph_Name(FT_Face*, UInteger, Void*, UInteger)
+  fullName.vb: Pie.Text.Native.FreetypeNative.FT_Get_Glyph_Name(Pie.Text.Native.FT_Face*, UInteger, Void*, UInteger)
+  name.vb: FT_Get_Glyph_Name(FT_Face*, UInteger, Void*, UInteger)
+- uid: Pie.Text.Native.FreetypeNative.FT_Get_Postscript_Name(Pie.Text.Native.FT_Face*)
+  commentId: M:Pie.Text.Native.FreetypeNative.FT_Get_Postscript_Name(Pie.Text.Native.FT_Face*)
+  id: FT_Get_Postscript_Name(Pie.Text.Native.FT_Face*)
+  parent: Pie.Text.Native.FreetypeNative
+  langs:
+  - csharp
+  - vb
+  name: FT_Get_Postscript_Name(FT_Face*)
+  nameWithType: FreetypeNative.FT_Get_Postscript_Name(FT_Face*)
+  fullName: Pie.Text.Native.FreetypeNative.FT_Get_Postscript_Name(Pie.Text.Native.FT_Face*)
+  type: Method
+  source:
+    path: Pie.Text
+    isExternal: true
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public static extern sbyte* FT_Get_Postscript_Name(FT_Face* face)
+    parameters:
+    - id: face
+      type: Pie.Text.Native.FT_Face*
+    return:
+      type: System.SByte*
+    content.vb: Public Shared Function FT_Get_Postscript_Name(face As FT_Face*) As SByte*
+  overload: Pie.Text.Native.FreetypeNative.FT_Get_Postscript_Name*
+- uid: Pie.Text.Native.FreetypeNative.FT_Select_Charmap(Pie.Text.Native.FT_Face*,Pie.Text.Native.FT_Encoding)
+  commentId: M:Pie.Text.Native.FreetypeNative.FT_Select_Charmap(Pie.Text.Native.FT_Face*,Pie.Text.Native.FT_Encoding)
+  id: FT_Select_Charmap(Pie.Text.Native.FT_Face*,Pie.Text.Native.FT_Encoding)
+  parent: Pie.Text.Native.FreetypeNative
+  langs:
+  - csharp
+  - vb
+  name: FT_Select_Charmap(FT_Face*, FT_Encoding)
+  nameWithType: FreetypeNative.FT_Select_Charmap(FT_Face*, FT_Encoding)
+  fullName: Pie.Text.Native.FreetypeNative.FT_Select_Charmap(Pie.Text.Native.FT_Face*, Pie.Text.Native.FT_Encoding)
+  type: Method
+  source:
+    path: Pie.Text
+    isExternal: true
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public static extern FT_Error FT_Select_Charmap(FT_Face* face, FT_Encoding encoding)
+    parameters:
+    - id: face
+      type: Pie.Text.Native.FT_Face*
+    - id: encoding
+      type: Pie.Text.Native.FT_Encoding
+    return:
+      type: Pie.Text.Native.FT_Error
+    content.vb: Public Shared Function FT_Select_Charmap(face As FT_Face*, encoding As FT_Encoding) As FT_Error
+  overload: Pie.Text.Native.FreetypeNative.FT_Select_Charmap*
+- uid: Pie.Text.Native.FreetypeNative.FT_Set_Charmap(Pie.Text.Native.FT_Face*,Pie.Text.Native.FT_CharMap*)
+  commentId: M:Pie.Text.Native.FreetypeNative.FT_Set_Charmap(Pie.Text.Native.FT_Face*,Pie.Text.Native.FT_CharMap*)
+  id: FT_Set_Charmap(Pie.Text.Native.FT_Face*,Pie.Text.Native.FT_CharMap*)
+  parent: Pie.Text.Native.FreetypeNative
+  langs:
+  - csharp
+  - vb
+  name: FT_Set_Charmap(FT_Face*, FT_CharMap*)
+  nameWithType: FreetypeNative.FT_Set_Charmap(FT_Face*, FT_CharMap*)
+  fullName: Pie.Text.Native.FreetypeNative.FT_Set_Charmap(Pie.Text.Native.FT_Face*, Pie.Text.Native.FT_CharMap*)
+  type: Method
+  source:
+    path: Pie.Text
+    isExternal: true
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public static extern FT_Error FT_Set_Charmap(FT_Face* face, FT_CharMap* charmap)
+    parameters:
+    - id: face
+      type: Pie.Text.Native.FT_Face*
+    - id: charmap
+      type: Pie.Text.Native.FT_CharMap*
+    return:
+      type: Pie.Text.Native.FT_Error
+    content.vb: Public Shared Function FT_Set_Charmap(face As FT_Face*, charmap As FT_CharMap*) As FT_Error
+  overload: Pie.Text.Native.FreetypeNative.FT_Set_Charmap*
+- uid: Pie.Text.Native.FreetypeNative.FT_Get_Charmap_Index(Pie.Text.Native.FT_CharMap*)
+  commentId: M:Pie.Text.Native.FreetypeNative.FT_Get_Charmap_Index(Pie.Text.Native.FT_CharMap*)
+  id: FT_Get_Charmap_Index(Pie.Text.Native.FT_CharMap*)
+  parent: Pie.Text.Native.FreetypeNative
+  langs:
+  - csharp
+  - vb
+  name: FT_Get_Charmap_Index(FT_CharMap*)
+  nameWithType: FreetypeNative.FT_Get_Charmap_Index(FT_CharMap*)
+  fullName: Pie.Text.Native.FreetypeNative.FT_Get_Charmap_Index(Pie.Text.Native.FT_CharMap*)
+  type: Method
+  source:
+    path: Pie.Text
+    isExternal: true
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public static extern int FT_Get_Charmap_Index(FT_CharMap* charmap)
+    parameters:
+    - id: charmap
+      type: Pie.Text.Native.FT_CharMap*
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function FT_Get_Charmap_Index(charmap As FT_CharMap*) As Integer
+  overload: Pie.Text.Native.FreetypeNative.FT_Get_Charmap_Index*
+- uid: Pie.Text.Native.FreetypeNative.FT_Get_FSType_Flags(Pie.Text.Native.FT_Face*)
+  commentId: M:Pie.Text.Native.FreetypeNative.FT_Get_FSType_Flags(Pie.Text.Native.FT_Face*)
+  id: FT_Get_FSType_Flags(Pie.Text.Native.FT_Face*)
+  parent: Pie.Text.Native.FreetypeNative
+  langs:
+  - csharp
+  - vb
+  name: FT_Get_FSType_Flags(FT_Face*)
+  nameWithType: FreetypeNative.FT_Get_FSType_Flags(FT_Face*)
+  fullName: Pie.Text.Native.FreetypeNative.FT_Get_FSType_Flags(Pie.Text.Native.FT_Face*)
+  type: Method
+  source:
+    path: Pie.Text
+    isExternal: true
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public static extern ushort FT_Get_FSType_Flags(FT_Face* face)
+    parameters:
+    - id: face
+      type: Pie.Text.Native.FT_Face*
+    return:
+      type: System.UInt16
+    content.vb: Public Shared Function FT_Get_FSType_Flags(face As FT_Face*) As UShort
+  overload: Pie.Text.Native.FreetypeNative.FT_Get_FSType_Flags*
+- uid: Pie.Text.Native.FreetypeNative.FT_Get_SubGlyph_Info(Pie.Text.Native.FT_GlyphSlot*,System.UInt32,System.Int32*,System.UInt32*,System.Int32*,System.Int32*,Pie.Text.Native.FT_Matrix*)
+  commentId: M:Pie.Text.Native.FreetypeNative.FT_Get_SubGlyph_Info(Pie.Text.Native.FT_GlyphSlot*,System.UInt32,System.Int32*,System.UInt32*,System.Int32*,System.Int32*,Pie.Text.Native.FT_Matrix*)
+  id: FT_Get_SubGlyph_Info(Pie.Text.Native.FT_GlyphSlot*,System.UInt32,System.Int32*,System.UInt32*,System.Int32*,System.Int32*,Pie.Text.Native.FT_Matrix*)
+  parent: Pie.Text.Native.FreetypeNative
+  langs:
+  - csharp
+  - vb
+  name: FT_Get_SubGlyph_Info(FT_GlyphSlot*, uint, int*, uint*, int*, int*, FT_Matrix*)
+  nameWithType: FreetypeNative.FT_Get_SubGlyph_Info(FT_GlyphSlot*, uint, int*, uint*, int*, int*, FT_Matrix*)
+  fullName: Pie.Text.Native.FreetypeNative.FT_Get_SubGlyph_Info(Pie.Text.Native.FT_GlyphSlot*, uint, int*, uint*, int*, int*, Pie.Text.Native.FT_Matrix*)
+  type: Method
+  source:
+    path: Pie.Text
+    isExternal: true
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public static extern FT_Error FT_Get_SubGlyph_Info(FT_GlyphSlot* glyph, uint subIndex, int* index, uint* flags, int* arg1, int* arg2, FT_Matrix* transform)
+    parameters:
+    - id: glyph
+      type: Pie.Text.Native.FT_GlyphSlot*
+    - id: subIndex
+      type: System.UInt32
+    - id: index
+      type: System.Int32*
+    - id: flags
+      type: System.UInt32*
+    - id: arg1
+      type: System.Int32*
+    - id: arg2
+      type: System.Int32*
+    - id: transform
+      type: Pie.Text.Native.FT_Matrix*
+    return:
+      type: Pie.Text.Native.FT_Error
+    content.vb: Public Shared Function FT_Get_SubGlyph_Info(glyph As FT_GlyphSlot*, subIndex As UInteger, index As Integer*, flags As UInteger*, arg1 As Integer*, arg2 As Integer*, transform As FT_Matrix*) As FT_Error
+  overload: Pie.Text.Native.FreetypeNative.FT_Get_SubGlyph_Info*
+  nameWithType.vb: FreetypeNative.FT_Get_SubGlyph_Info(FT_GlyphSlot*, UInteger, Integer*, UInteger*, Integer*, Integer*, FT_Matrix*)
+  fullName.vb: Pie.Text.Native.FreetypeNative.FT_Get_SubGlyph_Info(Pie.Text.Native.FT_GlyphSlot*, UInteger, Integer*, UInteger*, Integer*, Integer*, Pie.Text.Native.FT_Matrix*)
+  name.vb: FT_Get_SubGlyph_Info(FT_GlyphSlot*, UInteger, Integer*, UInteger*, Integer*, Integer*, FT_Matrix*)
+- uid: Pie.Text.Native.FreetypeNative.LoadTargetMode(System.Int32)
+  commentId: M:Pie.Text.Native.FreetypeNative.LoadTargetMode(System.Int32)
+  id: LoadTargetMode(System.Int32)
+  parent: Pie.Text.Native.FreetypeNative
+  langs:
+  - csharp
+  - vb
+  name: LoadTargetMode(int)
+  nameWithType: FreetypeNative.LoadTargetMode(int)
+  fullName: Pie.Text.Native.FreetypeNative.LoadTargetMode(int)
+  type: Method
+  source:
+    remote:
+      path: Pie.Text/Native/FreetypeNative.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: LoadTargetMode
+    path: src/Pie/Pie.Text/Native/FreetypeNative.cs
+    startLine: 170
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public static FT_Render_Mode LoadTargetMode(int x)
+    parameters:
+    - id: x
+      type: System.Int32
+    return:
+      type: Pie.Text.Native.FT_Render_Mode
+    content.vb: Public Shared Function LoadTargetMode(x As Integer) As FT_Render_Mode
+  overload: Pie.Text.Native.FreetypeNative.LoadTargetMode*
+  nameWithType.vb: FreetypeNative.LoadTargetMode(Integer)
+  fullName.vb: Pie.Text.Native.FreetypeNative.LoadTargetMode(Integer)
+  name.vb: LoadTargetMode(Integer)
+- uid: Pie.Text.Native.FreetypeNative.LoadTarget(Pie.Text.Native.FT_Render_Mode)
+  commentId: M:Pie.Text.Native.FreetypeNative.LoadTarget(Pie.Text.Native.FT_Render_Mode)
+  id: LoadTarget(Pie.Text.Native.FT_Render_Mode)
+  parent: Pie.Text.Native.FreetypeNative
+  langs:
+  - csharp
+  - vb
+  name: LoadTarget(FT_Render_Mode)
+  nameWithType: FreetypeNative.LoadTarget(FT_Render_Mode)
+  fullName: Pie.Text.Native.FreetypeNative.LoadTarget(Pie.Text.Native.FT_Render_Mode)
+  type: Method
+  source:
+    remote:
+      path: Pie.Text/Native/FreetypeNative.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: LoadTarget
+    path: src/Pie/Pie.Text/Native/FreetypeNative.cs
+    startLine: 175
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public static int LoadTarget(FT_Render_Mode x)
+    parameters:
+    - id: x
+      type: Pie.Text.Native.FT_Render_Mode
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function LoadTarget(x As FT_Render_Mode) As Integer
+  overload: Pie.Text.Native.FreetypeNative.LoadTarget*
+references:
+- uid: Pie.Text.Native
+  commentId: N:Pie.Text.Native
+  name: Pie.Text.Native
+  nameWithType: Pie.Text.Native
+  fullName: Pie.Text.Native
+  spec.csharp:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Text
+    name: Text
+  - name: .
+  - uid: Pie.Text.Native
+    name: Native
+  spec.vb:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Text
+    name: Text
+  - name: .
+  - uid: Pie.Text.Native
+    name: Native
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Pie.Text.Native.FreetypeNative.FT_Init_FreeType*
+  commentId: Overload:Pie.Text.Native.FreetypeNative.FT_Init_FreeType
+  isExternal: true
+  name: FT_Init_FreeType
+  nameWithType: FreetypeNative.FT_Init_FreeType
+  fullName: Pie.Text.Native.FreetypeNative.FT_Init_FreeType
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr
+- uid: Pie.Text.Native.FT_Error
+  commentId: T:Pie.Text.Native.FT_Error
+  parent: Pie.Text.Native
+  name: FT_Error
+  nameWithType: FT_Error
+  fullName: Pie.Text.Native.FT_Error
+- uid: Pie.Text.Native.FreetypeNative.FT_Done_FreeType*
+  commentId: Overload:Pie.Text.Native.FreetypeNative.FT_Done_FreeType
+  isExternal: true
+  name: FT_Done_FreeType
+  nameWithType: FreetypeNative.FT_Done_FreeType
+  fullName: Pie.Text.Native.FreetypeNative.FT_Done_FreeType
+- uid: Pie.Text.Native.FreetypeNative.FT_New_Face*
+  commentId: Overload:Pie.Text.Native.FreetypeNative.FT_New_Face
+  isExternal: true
+  name: FT_New_Face
+  nameWithType: FreetypeNative.FT_New_Face
+  fullName: Pie.Text.Native.FreetypeNative.FT_New_Face
+- uid: System.SByte*
+  isExternal: true
+  name: sbyte*
+  nameWithType: sbyte*
+  fullName: sbyte*
+  nameWithType.vb: SByte*
+  fullName.vb: SByte*
+  name.vb: SByte*
+  spec.csharp:
+  - uid: System.SByte
+    name: sbyte
+    isExternal: true
+  - name: '*'
+  spec.vb:
+  - uid: System.SByte
+    name: SByte
+    isExternal: true
+  - name: '*'
+- uid: System.Runtime.InteropServices.CLong
+  commentId: T:System.Runtime.InteropServices.CLong
+  parent: System.Runtime.InteropServices
+  isExternal: true
+  name: CLong
+  nameWithType: CLong
+  fullName: System.Runtime.InteropServices.CLong
+- uid: Pie.Text.Native.FT_Face*
+  isExternal: true
+  name: FT_Face*
+  nameWithType: FT_Face*
+  fullName: Pie.Text.Native.FT_Face*
+  spec.csharp:
+  - uid: Pie.Text.Native.FT_Face
+    name: FT_Face
+  - name: '*'
+  spec.vb:
+  - uid: Pie.Text.Native.FT_Face
+    name: FT_Face
+  - name: '*'
+- uid: System.Runtime.InteropServices
+  commentId: N:System.Runtime.InteropServices
+  isExternal: true
+  name: System.Runtime.InteropServices
+  nameWithType: System.Runtime.InteropServices
+  fullName: System.Runtime.InteropServices
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Runtime
+    name: Runtime
+    isExternal: true
+  - name: .
+  - uid: System.Runtime.InteropServices
+    name: InteropServices
+    isExternal: true
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Runtime
+    name: Runtime
+    isExternal: true
+  - name: .
+  - uid: System.Runtime.InteropServices
+    name: InteropServices
+    isExternal: true
+- uid: Pie.Text.Native.FreetypeNative.FT_Done_Face*
+  commentId: Overload:Pie.Text.Native.FreetypeNative.FT_Done_Face
+  isExternal: true
+  name: FT_Done_Face
+  nameWithType: FreetypeNative.FT_Done_Face
+  fullName: Pie.Text.Native.FreetypeNative.FT_Done_Face
+- uid: Pie.Text.Native.FreetypeNative.FT_Reference_Face*
+  commentId: Overload:Pie.Text.Native.FreetypeNative.FT_Reference_Face
+  isExternal: true
+  name: FT_Reference_Face
+  nameWithType: FreetypeNative.FT_Reference_Face
+  fullName: Pie.Text.Native.FreetypeNative.FT_Reference_Face
+- uid: Pie.Text.Native.FreetypeNative.FT_New_Memory_Face*
+  commentId: Overload:Pie.Text.Native.FreetypeNative.FT_New_Memory_Face
+  isExternal: true
+  name: FT_New_Memory_Face
+  nameWithType: FreetypeNative.FT_New_Memory_Face
+  fullName: Pie.Text.Native.FreetypeNative.FT_New_Memory_Face
+- uid: System.Byte*
+  isExternal: true
+  name: byte*
+  nameWithType: byte*
+  fullName: byte*
+  nameWithType.vb: Byte*
+  fullName.vb: Byte*
+  name.vb: Byte*
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '*'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: '*'
+- uid: Pie.Text.Native.FreetypeNative.FT_Face_Properties*
+  commentId: Overload:Pie.Text.Native.FreetypeNative.FT_Face_Properties
+  isExternal: true
+  name: FT_Face_Properties
+  nameWithType: FreetypeNative.FT_Face_Properties
+  fullName: Pie.Text.Native.FreetypeNative.FT_Face_Properties
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: Pie.Text.Native.FT_Parameter*
+  isExternal: true
+  name: FT_Parameter*
+  nameWithType: FT_Parameter*
+  fullName: Pie.Text.Native.FT_Parameter*
+  spec.csharp:
+  - uid: Pie.Text.Native.FT_Parameter
+    name: FT_Parameter
+  - name: '*'
+  spec.vb:
+  - uid: Pie.Text.Native.FT_Parameter
+    name: FT_Parameter
+  - name: '*'
+- uid: Pie.Text.Native.FreetypeNative.FT_Open_Face*
+  commentId: Overload:Pie.Text.Native.FreetypeNative.FT_Open_Face
+  isExternal: true
+  name: FT_Open_Face
+  nameWithType: FreetypeNative.FT_Open_Face
+  fullName: Pie.Text.Native.FreetypeNative.FT_Open_Face
+- uid: Pie.Text.Native.FT_Open_Args*
+  isExternal: true
+  name: FT_Open_Args*
+  nameWithType: FT_Open_Args*
+  fullName: Pie.Text.Native.FT_Open_Args*
+  spec.csharp:
+  - uid: Pie.Text.Native.FT_Open_Args
+    name: FT_Open_Args
+  - name: '*'
+  spec.vb:
+  - uid: Pie.Text.Native.FT_Open_Args
+    name: FT_Open_Args
+  - name: '*'
+- uid: Pie.Text.Native.FreetypeNative.FT_Attach_File*
+  commentId: Overload:Pie.Text.Native.FreetypeNative.FT_Attach_File
+  isExternal: true
+  name: FT_Attach_File
+  nameWithType: FreetypeNative.FT_Attach_File
+  fullName: Pie.Text.Native.FreetypeNative.FT_Attach_File
+- uid: Pie.Text.Native.FreetypeNative.FT_Attach_Stream*
+  commentId: Overload:Pie.Text.Native.FreetypeNative.FT_Attach_Stream
+  isExternal: true
+  name: FT_Attach_Stream
+  nameWithType: FreetypeNative.FT_Attach_Stream
+  fullName: Pie.Text.Native.FreetypeNative.FT_Attach_Stream
+- uid: Pie.Text.Native.FreetypeNative.FT_Set_Char_Size*
+  commentId: Overload:Pie.Text.Native.FreetypeNative.FT_Set_Char_Size
+  isExternal: true
+  name: FT_Set_Char_Size
+  nameWithType: FreetypeNative.FT_Set_Char_Size
+  fullName: Pie.Text.Native.FreetypeNative.FT_Set_Char_Size
+- uid: Pie.Text.Native.FreetypeNative.FT_Set_Pixel_Sizes*
+  commentId: Overload:Pie.Text.Native.FreetypeNative.FT_Set_Pixel_Sizes
+  isExternal: true
+  name: FT_Set_Pixel_Sizes
+  nameWithType: FreetypeNative.FT_Set_Pixel_Sizes
+  fullName: Pie.Text.Native.FreetypeNative.FT_Set_Pixel_Sizes
+- uid: Pie.Text.Native.FreetypeNative.FT_Request_Size*
+  commentId: Overload:Pie.Text.Native.FreetypeNative.FT_Request_Size
+  isExternal: true
+  name: FT_Request_Size
+  nameWithType: FreetypeNative.FT_Request_Size
+  fullName: Pie.Text.Native.FreetypeNative.FT_Request_Size
+- uid: Pie.Text.Native.FT_Size_Request*
+  isExternal: true
+  name: FT_Size_Request*
+  nameWithType: FT_Size_Request*
+  fullName: Pie.Text.Native.FT_Size_Request*
+  spec.csharp:
+  - uid: Pie.Text.Native.FT_Size_Request
+    name: FT_Size_Request
+  - name: '*'
+  spec.vb:
+  - uid: Pie.Text.Native.FT_Size_Request
+    name: FT_Size_Request
+  - name: '*'
+- uid: Pie.Text.Native.FreetypeNative.FT_Select_Size*
+  commentId: Overload:Pie.Text.Native.FreetypeNative.FT_Select_Size
+  isExternal: true
+  name: FT_Select_Size
+  nameWithType: FreetypeNative.FT_Select_Size
+  fullName: Pie.Text.Native.FreetypeNative.FT_Select_Size
+- uid: Pie.Text.Native.FreetypeNative.FT_Set_Transform*
+  commentId: Overload:Pie.Text.Native.FreetypeNative.FT_Set_Transform
+  isExternal: true
+  name: FT_Set_Transform
+  nameWithType: FreetypeNative.FT_Set_Transform
+  fullName: Pie.Text.Native.FreetypeNative.FT_Set_Transform
+- uid: Pie.Text.Native.FT_Matrix*
+  isExternal: true
+  name: FT_Matrix*
+  nameWithType: FT_Matrix*
+  fullName: Pie.Text.Native.FT_Matrix*
+  spec.csharp:
+  - uid: Pie.Text.Native.FT_Matrix
+    name: FT_Matrix
+  - name: '*'
+  spec.vb:
+  - uid: Pie.Text.Native.FT_Matrix
+    name: FT_Matrix
+  - name: '*'
+- uid: Pie.Text.Native.FT_Vector*
+  isExternal: true
+  name: FT_Vector*
+  nameWithType: FT_Vector*
+  fullName: Pie.Text.Native.FT_Vector*
+  spec.csharp:
+  - uid: Pie.Text.Native.FT_Vector
+    name: FT_Vector
+  - name: '*'
+  spec.vb:
+  - uid: Pie.Text.Native.FT_Vector
+    name: FT_Vector
+  - name: '*'
+- uid: Pie.Text.Native.FreetypeNative.FT_Get_Transform*
+  commentId: Overload:Pie.Text.Native.FreetypeNative.FT_Get_Transform
+  isExternal: true
+  name: FT_Get_Transform
+  nameWithType: FreetypeNative.FT_Get_Transform
+  fullName: Pie.Text.Native.FreetypeNative.FT_Get_Transform
+- uid: Pie.Text.Native.FreetypeNative.FT_Load_Glyph*
+  commentId: Overload:Pie.Text.Native.FreetypeNative.FT_Load_Glyph
+  isExternal: true
+  name: FT_Load_Glyph
+  nameWithType: FreetypeNative.FT_Load_Glyph
+  fullName: Pie.Text.Native.FreetypeNative.FT_Load_Glyph
+- uid: Pie.Text.Native.FreetypeNative.FT_Get_Char_Index*
+  commentId: Overload:Pie.Text.Native.FreetypeNative.FT_Get_Char_Index
+  isExternal: true
+  name: FT_Get_Char_Index
+  nameWithType: FreetypeNative.FT_Get_Char_Index
+  fullName: Pie.Text.Native.FreetypeNative.FT_Get_Char_Index
+- uid: System.Runtime.InteropServices.CULong
+  commentId: T:System.Runtime.InteropServices.CULong
+  parent: System.Runtime.InteropServices
+  isExternal: true
+  name: CULong
+  nameWithType: CULong
+  fullName: System.Runtime.InteropServices.CULong
+- uid: Pie.Text.Native.FreetypeNative.FT_Get_First_Char*
+  commentId: Overload:Pie.Text.Native.FreetypeNative.FT_Get_First_Char
+  isExternal: true
+  name: FT_Get_First_Char
+  nameWithType: FreetypeNative.FT_Get_First_Char
+  fullName: Pie.Text.Native.FreetypeNative.FT_Get_First_Char
+- uid: System.UInt32*
+  isExternal: true
+  name: uint*
+  nameWithType: uint*
+  fullName: uint*
+  nameWithType.vb: UInteger*
+  fullName.vb: UInteger*
+  name.vb: UInteger*
+  spec.csharp:
+  - uid: System.UInt32
+    name: uint
+    isExternal: true
+  - name: '*'
+  spec.vb:
+  - uid: System.UInt32
+    name: UInteger
+    isExternal: true
+  - name: '*'
+- uid: Pie.Text.Native.FreetypeNative.FT_Get_Next_Char*
+  commentId: Overload:Pie.Text.Native.FreetypeNative.FT_Get_Next_Char
+  isExternal: true
+  name: FT_Get_Next_Char
+  nameWithType: FreetypeNative.FT_Get_Next_Char
+  fullName: Pie.Text.Native.FreetypeNative.FT_Get_Next_Char
+- uid: Pie.Text.Native.FreetypeNative.FT_Get_Name_Index*
+  commentId: Overload:Pie.Text.Native.FreetypeNative.FT_Get_Name_Index
+  isExternal: true
+  name: FT_Get_Name_Index
+  nameWithType: FreetypeNative.FT_Get_Name_Index
+  fullName: Pie.Text.Native.FreetypeNative.FT_Get_Name_Index
+- uid: Pie.Text.Native.FreetypeNative.FT_Load_Char*
+  commentId: Overload:Pie.Text.Native.FreetypeNative.FT_Load_Char
+  isExternal: true
+  name: FT_Load_Char
+  nameWithType: FreetypeNative.FT_Load_Char
+  fullName: Pie.Text.Native.FreetypeNative.FT_Load_Char
+- uid: Pie.Text.Native.FreetypeNative.FT_Render_Glyph*
+  commentId: Overload:Pie.Text.Native.FreetypeNative.FT_Render_Glyph
+  isExternal: true
+  name: FT_Render_Glyph
+  nameWithType: FreetypeNative.FT_Render_Glyph
+  fullName: Pie.Text.Native.FreetypeNative.FT_Render_Glyph
+- uid: Pie.Text.Native.FT_GlyphSlot*
+  isExternal: true
+  name: FT_GlyphSlot*
+  nameWithType: FT_GlyphSlot*
+  fullName: Pie.Text.Native.FT_GlyphSlot*
+  spec.csharp:
+  - uid: Pie.Text.Native.FT_GlyphSlot
+    name: FT_GlyphSlot
+  - name: '*'
+  spec.vb:
+  - uid: Pie.Text.Native.FT_GlyphSlot
+    name: FT_GlyphSlot
+  - name: '*'
+- uid: Pie.Text.Native.FT_Render_Mode
+  commentId: T:Pie.Text.Native.FT_Render_Mode
+  parent: Pie.Text.Native
+  name: FT_Render_Mode
+  nameWithType: FT_Render_Mode
+  fullName: Pie.Text.Native.FT_Render_Mode
+- uid: Pie.Text.Native.FreetypeNative.FT_Get_Kerning*
+  commentId: Overload:Pie.Text.Native.FreetypeNative.FT_Get_Kerning
+  isExternal: true
+  name: FT_Get_Kerning
+  nameWithType: FreetypeNative.FT_Get_Kerning
+  fullName: Pie.Text.Native.FreetypeNative.FT_Get_Kerning
+- uid: Pie.Text.Native.FreetypeNative.FT_Get_Track_Kerning*
+  commentId: Overload:Pie.Text.Native.FreetypeNative.FT_Get_Track_Kerning
+  isExternal: true
+  name: FT_Get_Track_Kerning
+  nameWithType: FreetypeNative.FT_Get_Track_Kerning
+  fullName: Pie.Text.Native.FreetypeNative.FT_Get_Track_Kerning
+- uid: System.Runtime.InteropServices.CLong*
+  isExternal: true
+  name: CLong*
+  nameWithType: CLong*
+  fullName: System.Runtime.InteropServices.CLong*
+  spec.csharp:
+  - uid: System.Runtime.InteropServices.CLong
+    name: CLong
+    isExternal: true
+  - name: '*'
+  spec.vb:
+  - uid: System.Runtime.InteropServices.CLong
+    name: CLong
+    isExternal: true
+  - name: '*'
+- uid: Pie.Text.Native.FreetypeNative.FT_Get_Glyph_Name*
+  commentId: Overload:Pie.Text.Native.FreetypeNative.FT_Get_Glyph_Name
+  isExternal: true
+  name: FT_Get_Glyph_Name
+  nameWithType: FreetypeNative.FT_Get_Glyph_Name
+  fullName: Pie.Text.Native.FreetypeNative.FT_Get_Glyph_Name
+- uid: System.Void*
+  isExternal: true
+  name: void*
+  nameWithType: void*
+  fullName: void*
+  nameWithType.vb: Void*
+  fullName.vb: Void*
+  name.vb: Void*
+  spec.csharp:
+  - uid: System.Void
+    name: void
+    isExternal: true
+  - name: '*'
+  spec.vb:
+  - uid: System.Void
+    name: Void
+    isExternal: true
+  - name: '*'
+- uid: Pie.Text.Native.FreetypeNative.FT_Get_Postscript_Name*
+  commentId: Overload:Pie.Text.Native.FreetypeNative.FT_Get_Postscript_Name
+  isExternal: true
+  name: FT_Get_Postscript_Name
+  nameWithType: FreetypeNative.FT_Get_Postscript_Name
+  fullName: Pie.Text.Native.FreetypeNative.FT_Get_Postscript_Name
+- uid: Pie.Text.Native.FreetypeNative.FT_Select_Charmap*
+  commentId: Overload:Pie.Text.Native.FreetypeNative.FT_Select_Charmap
+  isExternal: true
+  name: FT_Select_Charmap
+  nameWithType: FreetypeNative.FT_Select_Charmap
+  fullName: Pie.Text.Native.FreetypeNative.FT_Select_Charmap
+- uid: Pie.Text.Native.FT_Encoding
+  commentId: T:Pie.Text.Native.FT_Encoding
+  parent: Pie.Text.Native
+  name: FT_Encoding
+  nameWithType: FT_Encoding
+  fullName: Pie.Text.Native.FT_Encoding
+- uid: Pie.Text.Native.FreetypeNative.FT_Set_Charmap*
+  commentId: Overload:Pie.Text.Native.FreetypeNative.FT_Set_Charmap
+  isExternal: true
+  name: FT_Set_Charmap
+  nameWithType: FreetypeNative.FT_Set_Charmap
+  fullName: Pie.Text.Native.FreetypeNative.FT_Set_Charmap
+- uid: Pie.Text.Native.FT_CharMap*
+  isExternal: true
+  name: FT_CharMap*
+  nameWithType: FT_CharMap*
+  fullName: Pie.Text.Native.FT_CharMap*
+  spec.csharp:
+  - uid: Pie.Text.Native.FT_CharMap
+    name: FT_CharMap
+  - name: '*'
+  spec.vb:
+  - uid: Pie.Text.Native.FT_CharMap
+    name: FT_CharMap
+  - name: '*'
+- uid: Pie.Text.Native.FreetypeNative.FT_Get_Charmap_Index*
+  commentId: Overload:Pie.Text.Native.FreetypeNative.FT_Get_Charmap_Index
+  isExternal: true
+  name: FT_Get_Charmap_Index
+  nameWithType: FreetypeNative.FT_Get_Charmap_Index
+  fullName: Pie.Text.Native.FreetypeNative.FT_Get_Charmap_Index
+- uid: Pie.Text.Native.FreetypeNative.FT_Get_FSType_Flags*
+  commentId: Overload:Pie.Text.Native.FreetypeNative.FT_Get_FSType_Flags
+  isExternal: true
+  name: FT_Get_FSType_Flags
+  nameWithType: FreetypeNative.FT_Get_FSType_Flags
+  fullName: Pie.Text.Native.FreetypeNative.FT_Get_FSType_Flags
+- uid: System.UInt16
+  commentId: T:System.UInt16
+  parent: System
+  isExternal: true
+  name: ushort
+  nameWithType: ushort
+  fullName: ushort
+  nameWithType.vb: UShort
+  fullName.vb: UShort
+  name.vb: UShort
+- uid: Pie.Text.Native.FreetypeNative.FT_Get_SubGlyph_Info*
+  commentId: Overload:Pie.Text.Native.FreetypeNative.FT_Get_SubGlyph_Info
+  isExternal: true
+  name: FT_Get_SubGlyph_Info
+  nameWithType: FreetypeNative.FT_Get_SubGlyph_Info
+  fullName: Pie.Text.Native.FreetypeNative.FT_Get_SubGlyph_Info
+- uid: System.Int32*
+  isExternal: true
+  name: int*
+  nameWithType: int*
+  fullName: int*
+  nameWithType.vb: Integer*
+  fullName.vb: Integer*
+  name.vb: Integer*
+  spec.csharp:
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: '*'
+  spec.vb:
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: '*'
+- uid: Pie.Text.Native.FreetypeNative.LoadTargetMode*
+  commentId: Overload:Pie.Text.Native.FreetypeNative.LoadTargetMode
+  name: LoadTargetMode
+  nameWithType: FreetypeNative.LoadTargetMode
+  fullName: Pie.Text.Native.FreetypeNative.LoadTargetMode
+- uid: Pie.Text.Native.FreetypeNative.LoadTarget*
+  commentId: Overload:Pie.Text.Native.FreetypeNative.LoadTarget
+  name: LoadTarget
+  nameWithType: FreetypeNative.LoadTarget
+  fullName: Pie.Text.Native.FreetypeNative.LoadTarget

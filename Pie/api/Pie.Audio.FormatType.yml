@@ -1,0 +1,257 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pie.Audio.FormatType
+  commentId: T:Pie.Audio.FormatType
+  id: FormatType
+  parent: Pie.Audio
+  children:
+  - Pie.Audio.FormatType.F32
+  - Pie.Audio.FormatType.F64
+  - Pie.Audio.FormatType.I16
+  - Pie.Audio.FormatType.I32
+  - Pie.Audio.FormatType.I8
+  - Pie.Audio.FormatType.U16
+  - Pie.Audio.FormatType.U8
+  langs:
+  - csharp
+  - vb
+  name: FormatType
+  nameWithType: FormatType
+  fullName: Pie.Audio.FormatType
+  type: Enum
+  source:
+    remote:
+      path: Pie.Audio/FormatType.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: FormatType
+    path: src/Pie/Pie.Audio/FormatType.cs
+    startLine: 5
+  assemblies:
+  - Pie.Audio
+  namespace: Pie.Audio
+  summary: "\nRepresents all the different supported PCM data formats.\n"
+  example: []
+  syntax:
+    content: public enum FormatType
+    content.vb: Public Enum FormatType
+- uid: Pie.Audio.FormatType.U8
+  commentId: F:Pie.Audio.FormatType.U8
+  id: U8
+  parent: Pie.Audio.FormatType
+  langs:
+  - csharp
+  - vb
+  name: U8
+  nameWithType: FormatType.U8
+  fullName: Pie.Audio.FormatType.U8
+  type: Field
+  source:
+    remote:
+      path: Pie.Audio/FormatType.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: U8
+    path: src/Pie/Pie.Audio/FormatType.cs
+    startLine: 10
+  assemblies:
+  - Pie.Audio
+  namespace: Pie.Audio
+  summary: "\nUnsigned 8-bit.\n"
+  example: []
+  syntax:
+    content: U8 = 0
+    return:
+      type: Pie.Audio.FormatType
+- uid: Pie.Audio.FormatType.I8
+  commentId: F:Pie.Audio.FormatType.I8
+  id: I8
+  parent: Pie.Audio.FormatType
+  langs:
+  - csharp
+  - vb
+  name: I8
+  nameWithType: FormatType.I8
+  fullName: Pie.Audio.FormatType.I8
+  type: Field
+  source:
+    remote:
+      path: Pie.Audio/FormatType.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: I8
+    path: src/Pie/Pie.Audio/FormatType.cs
+    startLine: 15
+  assemblies:
+  - Pie.Audio
+  namespace: Pie.Audio
+  summary: "\nSigned 8-bit.\n"
+  example: []
+  syntax:
+    content: I8 = 1
+    return:
+      type: Pie.Audio.FormatType
+- uid: Pie.Audio.FormatType.U16
+  commentId: F:Pie.Audio.FormatType.U16
+  id: U16
+  parent: Pie.Audio.FormatType
+  langs:
+  - csharp
+  - vb
+  name: U16
+  nameWithType: FormatType.U16
+  fullName: Pie.Audio.FormatType.U16
+  type: Field
+  source:
+    remote:
+      path: Pie.Audio/FormatType.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: U16
+    path: src/Pie/Pie.Audio/FormatType.cs
+    startLine: 20
+  assemblies:
+  - Pie.Audio
+  namespace: Pie.Audio
+  summary: "\nUnsigned 16-bit.\n"
+  example: []
+  syntax:
+    content: U16 = 2
+    return:
+      type: Pie.Audio.FormatType
+- uid: Pie.Audio.FormatType.I16
+  commentId: F:Pie.Audio.FormatType.I16
+  id: I16
+  parent: Pie.Audio.FormatType
+  langs:
+  - csharp
+  - vb
+  name: I16
+  nameWithType: FormatType.I16
+  fullName: Pie.Audio.FormatType.I16
+  type: Field
+  source:
+    remote:
+      path: Pie.Audio/FormatType.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: I16
+    path: src/Pie/Pie.Audio/FormatType.cs
+    startLine: 25
+  assemblies:
+  - Pie.Audio
+  namespace: Pie.Audio
+  summary: "\nSigned 16-bit.\n"
+  example: []
+  syntax:
+    content: I16 = 3
+    return:
+      type: Pie.Audio.FormatType
+- uid: Pie.Audio.FormatType.I32
+  commentId: F:Pie.Audio.FormatType.I32
+  id: I32
+  parent: Pie.Audio.FormatType
+  langs:
+  - csharp
+  - vb
+  name: I32
+  nameWithType: FormatType.I32
+  fullName: Pie.Audio.FormatType.I32
+  type: Field
+  source:
+    remote:
+      path: Pie.Audio/FormatType.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: I32
+    path: src/Pie/Pie.Audio/FormatType.cs
+    startLine: 30
+  assemblies:
+  - Pie.Audio
+  namespace: Pie.Audio
+  summary: "\nSigned 32-bit.\n"
+  example: []
+  syntax:
+    content: I32 = 4
+    return:
+      type: Pie.Audio.FormatType
+- uid: Pie.Audio.FormatType.F32
+  commentId: F:Pie.Audio.FormatType.F32
+  id: F32
+  parent: Pie.Audio.FormatType
+  langs:
+  - csharp
+  - vb
+  name: F32
+  nameWithType: FormatType.F32
+  fullName: Pie.Audio.FormatType.F32
+  type: Field
+  source:
+    remote:
+      path: Pie.Audio/FormatType.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: F32
+    path: src/Pie/Pie.Audio/FormatType.cs
+    startLine: 35
+  assemblies:
+  - Pie.Audio
+  namespace: Pie.Audio
+  summary: "\nSigned 32-bit float, between -1 and 1.\n"
+  example: []
+  syntax:
+    content: F32 = 5
+    return:
+      type: Pie.Audio.FormatType
+- uid: Pie.Audio.FormatType.F64
+  commentId: F:Pie.Audio.FormatType.F64
+  id: F64
+  parent: Pie.Audio.FormatType
+  langs:
+  - csharp
+  - vb
+  name: F64
+  nameWithType: FormatType.F64
+  fullName: Pie.Audio.FormatType.F64
+  type: Field
+  source:
+    remote:
+      path: Pie.Audio/FormatType.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: F64
+    path: src/Pie/Pie.Audio/FormatType.cs
+    startLine: 40
+  assemblies:
+  - Pie.Audio
+  namespace: Pie.Audio
+  summary: "\nSigned 64-bit float, between -1 and 1.\n"
+  example: []
+  syntax:
+    content: F64 = 6
+    return:
+      type: Pie.Audio.FormatType
+references:
+- uid: Pie.Audio
+  commentId: N:Pie.Audio
+  name: Pie.Audio
+  nameWithType: Pie.Audio
+  fullName: Pie.Audio
+  spec.csharp:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Audio
+    name: Audio
+  spec.vb:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Audio
+    name: Audio
+- uid: Pie.Audio.FormatType
+  commentId: T:Pie.Audio.FormatType
+  parent: Pie.Audio
+  name: FormatType
+  nameWithType: FormatType
+  fullName: Pie.Audio.FormatType

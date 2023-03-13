@@ -1,0 +1,1565 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pie.Windowing.Window
+  commentId: T:Pie.Windowing.Window
+  id: Window
+  parent: Pie.Windowing
+  children:
+  - Pie.Windowing.Window.Border
+  - Pie.Windowing.Window.Center
+  - Pie.Windowing.Window.CreateGraphicsDevice(Pie.GraphicsDeviceOptions)
+  - Pie.Windowing.Window.CreateWindow(Pie.Windowing.WindowSettings,Pie.GraphicsApi)
+  - Pie.Windowing.Window.CreateWindow(Pie.Windowing.WindowSettings)
+  - Pie.Windowing.Window.CreateWithGraphicsDevice(Pie.Windowing.WindowSettings,Pie.GraphicsApi,Pie.GraphicsDevice@,Pie.GraphicsDeviceOptions)
+  - Pie.Windowing.Window.CreateWithGraphicsDevice(Pie.Windowing.WindowSettings,Pie.GraphicsDevice@)
+  - Pie.Windowing.Window.Dispose
+  - Pie.Windowing.Window.EventDriven
+  - Pie.Windowing.Window.Focused
+  - Pie.Windowing.Window.Fullscreen
+  - Pie.Windowing.Window.KeyDown
+  - Pie.Windowing.Window.KeyUp
+  - Pie.Windowing.Window.Maximize
+  - Pie.Windowing.Window.Minimize
+  - Pie.Windowing.Window.MouseButtonDown
+  - Pie.Windowing.Window.MouseButtonUp
+  - Pie.Windowing.Window.MouseMove
+  - Pie.Windowing.Window.MouseState
+  - Pie.Windowing.Window.ProcessEvents
+  - Pie.Windowing.Window.Resize
+  - Pie.Windowing.Window.Restore
+  - Pie.Windowing.Window.Scroll
+  - Pie.Windowing.Window.SetFullscreen(System.Boolean,System.Drawing.Size,System.Int32,System.Int32)
+  - Pie.Windowing.Window.ShouldClose
+  - Pie.Windowing.Window.Size
+  - Pie.Windowing.Window.TextInput
+  - Pie.Windowing.Window.Title
+  - Pie.Windowing.Window.Visible
+  langs:
+  - csharp
+  - vb
+  name: Window
+  nameWithType: Window
+  fullName: Pie.Windowing.Window
+  type: Class
+  source:
+    remote:
+      path: Pie.Windowing/Window.Events.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Window
+    path: src/Pie/Pie.Windowing/Window.Events.cs
+    startLine: 6
+  assemblies:
+  - Pie.Windowing
+  namespace: Pie.Windowing
+  syntax:
+    content: 'public class Window : IDisposable'
+    content.vb: Public Class Window Implements IDisposable
+  inheritance:
+  - System.Object
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Pie.Windowing.Window.EventDriven
+  commentId: F:Pie.Windowing.Window.EventDriven
+  id: EventDriven
+  parent: Pie.Windowing.Window
+  langs:
+  - csharp
+  - vb
+  name: EventDriven
+  nameWithType: Window.EventDriven
+  fullName: Pie.Windowing.Window.EventDriven
+  type: Field
+  source:
+    remote:
+      path: Pie.Windowing/Window.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: EventDriven
+    path: src/Pie/Pie.Windowing/Window.cs
+    startLine: 33
+  assemblies:
+  - Pie.Windowing
+  namespace: Pie.Windowing
+  summary: "\nWhether or not this window is event driven. If true, <xref href=\"Pie.Windowing.Window.ProcessEvents\" data-throw-if-not-resolved=\"false\"></xref> will block the thread until\nan event occurs (such as mouse movement, key press, etc.)\n"
+  example: []
+  syntax:
+    content: public bool EventDriven
+    return:
+      type: System.Boolean
+    content.vb: Public EventDriven As Boolean
+- uid: Pie.Windowing.Window.Size
+  commentId: P:Pie.Windowing.Window.Size
+  id: Size
+  parent: Pie.Windowing.Window
+  langs:
+  - csharp
+  - vb
+  name: Size
+  nameWithType: Window.Size
+  fullName: Pie.Windowing.Window.Size
+  type: Property
+  source:
+    remote:
+      path: Pie.Windowing/Window.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Size
+    path: src/Pie/Pie.Windowing/Window.cs
+    startLine: 38
+  assemblies:
+  - Pie.Windowing
+  namespace: Pie.Windowing
+  summary: "\nThe size, in pixels, of this window.\n"
+  example: []
+  syntax:
+    content: public Size Size { get; set; }
+    parameters: []
+    return:
+      type: System.Drawing.Size
+    content.vb: Public Property Size As Size
+  overload: Pie.Windowing.Window.Size*
+- uid: Pie.Windowing.Window.ShouldClose
+  commentId: P:Pie.Windowing.Window.ShouldClose
+  id: ShouldClose
+  parent: Pie.Windowing.Window
+  langs:
+  - csharp
+  - vb
+  name: ShouldClose
+  nameWithType: Window.ShouldClose
+  fullName: Pie.Windowing.Window.ShouldClose
+  type: Property
+  source:
+    remote:
+      path: Pie.Windowing/Window.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: ShouldClose
+    path: src/Pie/Pie.Windowing/Window.cs
+    startLine: 51
+  assemblies:
+  - Pie.Windowing
+  namespace: Pie.Windowing
+  summary: "\nWhether or not the window should close. Use this in your application loop.\n"
+  example: []
+  syntax:
+    content: public bool ShouldClose { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property ShouldClose As Boolean
+  overload: Pie.Windowing.Window.ShouldClose*
+- uid: Pie.Windowing.Window.Title
+  commentId: P:Pie.Windowing.Window.Title
+  id: Title
+  parent: Pie.Windowing.Window
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: Window.Title
+  fullName: Pie.Windowing.Window.Title
+  type: Property
+  source:
+    remote:
+      path: Pie.Windowing/Window.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Title
+    path: src/Pie/Pie.Windowing/Window.cs
+    startLine: 60
+  assemblies:
+  - Pie.Windowing
+  namespace: Pie.Windowing
+  summary: "\nThe title of this window, as displayed in the title bar.\n"
+  example: []
+  syntax:
+    content: public string Title { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Title As String
+  overload: Pie.Windowing.Window.Title*
+- uid: Pie.Windowing.Window.MouseState
+  commentId: P:Pie.Windowing.Window.MouseState
+  id: MouseState
+  parent: Pie.Windowing.Window
+  langs:
+  - csharp
+  - vb
+  name: MouseState
+  nameWithType: Window.MouseState
+  fullName: Pie.Windowing.Window.MouseState
+  type: Property
+  source:
+    remote:
+      path: Pie.Windowing/Window.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: MouseState
+    path: src/Pie/Pie.Windowing/Window.cs
+    startLine: 74
+  assemblies:
+  - Pie.Windowing
+  namespace: Pie.Windowing
+  summary: "\nThe current <xref href=\"Pie.Windowing.MouseState\" data-throw-if-not-resolved=\"false\"></xref> of this window.\n"
+  example: []
+  syntax:
+    content: public MouseState MouseState { get; set; }
+    parameters: []
+    return:
+      type: Pie.Windowing.MouseState
+    content.vb: Public Property MouseState As MouseState
+  overload: Pie.Windowing.Window.MouseState*
+  exceptions:
+  - type: System.ArgumentOutOfRangeException
+    commentId: T:System.ArgumentOutOfRangeException
+    description: Thrown if an invalid enum value is provided.
+- uid: Pie.Windowing.Window.Border
+  commentId: P:Pie.Windowing.Window.Border
+  id: Border
+  parent: Pie.Windowing.Window
+  langs:
+  - csharp
+  - vb
+  name: Border
+  nameWithType: Window.Border
+  fullName: Pie.Windowing.Window.Border
+  type: Property
+  source:
+    remote:
+      path: Pie.Windowing/Window.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Border
+    path: src/Pie/Pie.Windowing/Window.cs
+    startLine: 106
+  assemblies:
+  - Pie.Windowing
+  namespace: Pie.Windowing
+  summary: "\nThe border of this window. Set as <xref href=\"Pie.Windowing.WindowBorder.Resizable\" data-throw-if-not-resolved=\"false\"></xref> to make this window resizable.\n"
+  example: []
+  syntax:
+    content: public WindowBorder Border { get; set; }
+    parameters: []
+    return:
+      type: Pie.Windowing.WindowBorder
+    content.vb: Public Property Border As WindowBorder
+  overload: Pie.Windowing.Window.Border*
+  exceptions:
+  - type: System.ArgumentOutOfRangeException
+    commentId: T:System.ArgumentOutOfRangeException
+    description: Thrown if an invalid enum value is provided.
+- uid: Pie.Windowing.Window.Focused
+  commentId: P:Pie.Windowing.Window.Focused
+  id: Focused
+  parent: Pie.Windowing.Window
+  langs:
+  - csharp
+  - vb
+  name: Focused
+  nameWithType: Window.Focused
+  fullName: Pie.Windowing.Window.Focused
+  type: Property
+  source:
+    remote:
+      path: Pie.Windowing/Window.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Focused
+    path: src/Pie/Pie.Windowing/Window.cs
+    startLine: 135
+  assemblies:
+  - Pie.Windowing
+  namespace: Pie.Windowing
+  summary: "\nWhether or not this window is focused.\n"
+  example: []
+  syntax:
+    content: public bool Focused { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property Focused As Boolean
+  overload: Pie.Windowing.Window.Focused*
+- uid: Pie.Windowing.Window.Visible
+  commentId: P:Pie.Windowing.Window.Visible
+  id: Visible
+  parent: Pie.Windowing.Window
+  langs:
+  - csharp
+  - vb
+  name: Visible
+  nameWithType: Window.Visible
+  fullName: Pie.Windowing.Window.Visible
+  type: Property
+  source:
+    remote:
+      path: Pie.Windowing/Window.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Visible
+    path: src/Pie/Pie.Windowing/Window.cs
+    startLine: 140
+  assemblies:
+  - Pie.Windowing
+  namespace: Pie.Windowing
+  summary: "\nWhether or not this window is visible.\n"
+  example: []
+  syntax:
+    content: public bool Visible { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Visible As Boolean
+  overload: Pie.Windowing.Window.Visible*
+- uid: Pie.Windowing.Window.Fullscreen
+  commentId: P:Pie.Windowing.Window.Fullscreen
+  id: Fullscreen
+  parent: Pie.Windowing.Window
+  langs:
+  - csharp
+  - vb
+  name: Fullscreen
+  nameWithType: Window.Fullscreen
+  fullName: Pie.Windowing.Window.Fullscreen
+  type: Property
+  source:
+    remote:
+      path: Pie.Windowing/Window.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Fullscreen
+    path: src/Pie/Pie.Windowing/Window.cs
+    startLine: 156
+  assemblies:
+  - Pie.Windowing
+  namespace: Pie.Windowing
+  summary: "\nWhether or not this window is full screen. If set true, the window will become fullscreen at its current <xref href=\"Pie.Windowing.Window.Size\" data-throw-if-not-resolved=\"false\"></xref>,\nand will use the refresh rate of the current monitor. Use <xref href=\"Pie.Windowing.Window.SetFullscreen(System.Boolean%2cSystem.Drawing.Size%2cSystem.Int32%2cSystem.Int32)\" data-throw-if-not-resolved=\"false\"></xref> for more control.\n"
+  example: []
+  syntax:
+    content: public bool Fullscreen { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Fullscreen As Boolean
+  overload: Pie.Windowing.Window.Fullscreen*
+- uid: Pie.Windowing.Window.ProcessEvents
+  commentId: M:Pie.Windowing.Window.ProcessEvents
+  id: ProcessEvents
+  parent: Pie.Windowing.Window
+  langs:
+  - csharp
+  - vb
+  name: ProcessEvents()
+  nameWithType: Window.ProcessEvents()
+  fullName: Pie.Windowing.Window.ProcessEvents()
+  type: Method
+  source:
+    remote:
+      path: Pie.Windowing/Window.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: ProcessEvents
+    path: src/Pie/Pie.Windowing/Window.cs
+    startLine: 173
+  assemblies:
+  - Pie.Windowing
+  namespace: Pie.Windowing
+  summary: "\nProcess events such as keyboard and mouse input, resize events, and handling the close button being clicked.\n"
+  example: []
+  syntax:
+    content: public InputState ProcessEvents()
+    return:
+      type: Pie.Windowing.InputState
+      description: ''
+    content.vb: Public Function ProcessEvents() As InputState
+  overload: Pie.Windowing.Window.ProcessEvents*
+- uid: Pie.Windowing.Window.Center
+  commentId: M:Pie.Windowing.Window.Center
+  id: Center
+  parent: Pie.Windowing.Window
+  langs:
+  - csharp
+  - vb
+  name: Center()
+  nameWithType: Window.Center()
+  fullName: Pie.Windowing.Window.Center()
+  type: Method
+  source:
+    remote:
+      path: Pie.Windowing/Window.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Center
+    path: src/Pie/Pie.Windowing/Window.cs
+    startLine: 186
+  assemblies:
+  - Pie.Windowing
+  namespace: Pie.Windowing
+  summary: "\nCenter this window on the primary monitor.\n"
+  example: []
+  syntax:
+    content: public void Center()
+    content.vb: Public Sub Center()
+  overload: Pie.Windowing.Window.Center*
+- uid: Pie.Windowing.Window.Minimize
+  commentId: M:Pie.Windowing.Window.Minimize
+  id: Minimize
+  parent: Pie.Windowing.Window
+  langs:
+  - csharp
+  - vb
+  name: Minimize()
+  nameWithType: Window.Minimize()
+  fullName: Pie.Windowing.Window.Minimize()
+  type: Method
+  source:
+    remote:
+      path: Pie.Windowing/Window.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Minimize
+    path: src/Pie/Pie.Windowing/Window.cs
+    startLine: 196
+  assemblies:
+  - Pie.Windowing
+  namespace: Pie.Windowing
+  summary: "\nMinimize this window to the taskbar.\n"
+  example: []
+  syntax:
+    content: public void Minimize()
+    content.vb: Public Sub Minimize()
+  overload: Pie.Windowing.Window.Minimize*
+- uid: Pie.Windowing.Window.Maximize
+  commentId: M:Pie.Windowing.Window.Maximize
+  id: Maximize
+  parent: Pie.Windowing.Window
+  langs:
+  - csharp
+  - vb
+  name: Maximize()
+  nameWithType: Window.Maximize()
+  fullName: Pie.Windowing.Window.Maximize()
+  type: Method
+  source:
+    remote:
+      path: Pie.Windowing/Window.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Maximize
+    path: src/Pie/Pie.Windowing/Window.cs
+    startLine: 204
+  assemblies:
+  - Pie.Windowing
+  namespace: Pie.Windowing
+  summary: "\nMaximize this window.\n"
+  example: []
+  syntax:
+    content: public void Maximize()
+    content.vb: Public Sub Maximize()
+  overload: Pie.Windowing.Window.Maximize*
+- uid: Pie.Windowing.Window.Restore
+  commentId: M:Pie.Windowing.Window.Restore
+  id: Restore
+  parent: Pie.Windowing.Window
+  langs:
+  - csharp
+  - vb
+  name: Restore()
+  nameWithType: Window.Restore()
+  fullName: Pie.Windowing.Window.Restore()
+  type: Method
+  source:
+    remote:
+      path: Pie.Windowing/Window.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Restore
+    path: src/Pie/Pie.Windowing/Window.cs
+    startLine: 212
+  assemblies:
+  - Pie.Windowing
+  namespace: Pie.Windowing
+  summary: "\nRestores this window if it has been minimized.\n"
+  example: []
+  syntax:
+    content: public void Restore()
+    content.vb: Public Sub Restore()
+  overload: Pie.Windowing.Window.Restore*
+- uid: Pie.Windowing.Window.SetFullscreen(System.Boolean,System.Drawing.Size,System.Int32,System.Int32)
+  commentId: M:Pie.Windowing.Window.SetFullscreen(System.Boolean,System.Drawing.Size,System.Int32,System.Int32)
+  id: SetFullscreen(System.Boolean,System.Drawing.Size,System.Int32,System.Int32)
+  parent: Pie.Windowing.Window
+  langs:
+  - csharp
+  - vb
+  name: SetFullscreen(bool, Size, int, int)
+  nameWithType: Window.SetFullscreen(bool, Size, int, int)
+  fullName: Pie.Windowing.Window.SetFullscreen(bool, System.Drawing.Size, int, int)
+  type: Method
+  source:
+    remote:
+      path: Pie.Windowing/Window.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: SetFullscreen
+    path: src/Pie/Pie.Windowing/Window.cs
+    startLine: 224
+  assemblies:
+  - Pie.Windowing
+  namespace: Pie.Windowing
+  summary: "\nSet this window&apos;s full screen mode.\n"
+  example: []
+  syntax:
+    content: public void SetFullscreen(bool fullscreen, Size resolution, int refreshRate = -1, int monitorIndex = 0)
+    parameters:
+    - id: fullscreen
+      type: System.Boolean
+      description: Whether or not the window is fullscreen.
+    - id: resolution
+      type: System.Drawing.Size
+      description: The new resolution of the window.
+    - id: refreshRate
+      type: System.Int32
+      description: The refresh rate, if any. Set as -1 to use the monitor&apos;s refresh rate.
+    - id: monitorIndex
+      type: System.Int32
+      description: The monitor index. 0 is the primary monitor.
+    content.vb: Public Sub SetFullscreen(fullscreen As Boolean, resolution As Size, refreshRate As Integer = -1, monitorIndex As Integer = 0)
+  overload: Pie.Windowing.Window.SetFullscreen*
+  nameWithType.vb: Window.SetFullscreen(Boolean, Size, Integer, Integer)
+  fullName.vb: Pie.Windowing.Window.SetFullscreen(Boolean, System.Drawing.Size, Integer, Integer)
+  name.vb: SetFullscreen(Boolean, Size, Integer, Integer)
+- uid: Pie.Windowing.Window.CreateWindow(Pie.Windowing.WindowSettings,Pie.GraphicsApi)
+  commentId: M:Pie.Windowing.Window.CreateWindow(Pie.Windowing.WindowSettings,Pie.GraphicsApi)
+  id: CreateWindow(Pie.Windowing.WindowSettings,Pie.GraphicsApi)
+  parent: Pie.Windowing.Window
+  langs:
+  - csharp
+  - vb
+  name: CreateWindow(WindowSettings, GraphicsApi)
+  nameWithType: Window.CreateWindow(WindowSettings, GraphicsApi)
+  fullName: Pie.Windowing.Window.CreateWindow(Pie.Windowing.WindowSettings, Pie.GraphicsApi)
+  type: Method
+  source:
+    remote:
+      path: Pie.Windowing/Window.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: CreateWindow
+    path: src/Pie/Pie.Windowing/Window.cs
+    startLine: 231
+  assemblies:
+  - Pie.Windowing
+  namespace: Pie.Windowing
+  syntax:
+    content: public static Window CreateWindow(WindowSettings settings, GraphicsApi api)
+    parameters:
+    - id: settings
+      type: Pie.Windowing.WindowSettings
+    - id: api
+      type: Pie.GraphicsApi
+    return:
+      type: Pie.Windowing.Window
+    content.vb: Public Shared Function CreateWindow(settings As WindowSettings, api As GraphicsApi) As Window
+  overload: Pie.Windowing.Window.CreateWindow*
+- uid: Pie.Windowing.Window.CreateWindow(Pie.Windowing.WindowSettings)
+  commentId: M:Pie.Windowing.Window.CreateWindow(Pie.Windowing.WindowSettings)
+  id: CreateWindow(Pie.Windowing.WindowSettings)
+  parent: Pie.Windowing.Window
+  langs:
+  - csharp
+  - vb
+  name: CreateWindow(WindowSettings)
+  nameWithType: Window.CreateWindow(WindowSettings)
+  fullName: Pie.Windowing.Window.CreateWindow(Pie.Windowing.WindowSettings)
+  type: Method
+  source:
+    remote:
+      path: Pie.Windowing/Window.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: CreateWindow
+    path: src/Pie/Pie.Windowing/Window.cs
+    startLine: 328
+  assemblies:
+  - Pie.Windowing
+  namespace: Pie.Windowing
+  syntax:
+    content: public static Window CreateWindow(WindowSettings settings)
+    parameters:
+    - id: settings
+      type: Pie.Windowing.WindowSettings
+    return:
+      type: Pie.Windowing.Window
+    content.vb: Public Shared Function CreateWindow(settings As WindowSettings) As Window
+  overload: Pie.Windowing.Window.CreateWindow*
+- uid: Pie.Windowing.Window.CreateWithGraphicsDevice(Pie.Windowing.WindowSettings,Pie.GraphicsApi,Pie.GraphicsDevice@,Pie.GraphicsDeviceOptions)
+  commentId: M:Pie.Windowing.Window.CreateWithGraphicsDevice(Pie.Windowing.WindowSettings,Pie.GraphicsApi,Pie.GraphicsDevice@,Pie.GraphicsDeviceOptions)
+  id: CreateWithGraphicsDevice(Pie.Windowing.WindowSettings,Pie.GraphicsApi,Pie.GraphicsDevice@,Pie.GraphicsDeviceOptions)
+  parent: Pie.Windowing.Window
+  langs:
+  - csharp
+  - vb
+  name: CreateWithGraphicsDevice(WindowSettings, GraphicsApi, out GraphicsDevice, GraphicsDeviceOptions)
+  nameWithType: Window.CreateWithGraphicsDevice(WindowSettings, GraphicsApi, out GraphicsDevice, GraphicsDeviceOptions)
+  fullName: Pie.Windowing.Window.CreateWithGraphicsDevice(Pie.Windowing.WindowSettings, Pie.GraphicsApi, out Pie.GraphicsDevice, Pie.GraphicsDeviceOptions)
+  type: Method
+  source:
+    remote:
+      path: Pie.Windowing/Window.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: CreateWithGraphicsDevice
+    path: src/Pie/Pie.Windowing/Window.cs
+    startLine: 333
+  assemblies:
+  - Pie.Windowing
+  namespace: Pie.Windowing
+  syntax:
+    content: public static Window CreateWithGraphicsDevice(WindowSettings settings, GraphicsApi api, out GraphicsDevice device, GraphicsDeviceOptions options = default)
+    parameters:
+    - id: settings
+      type: Pie.Windowing.WindowSettings
+    - id: api
+      type: Pie.GraphicsApi
+    - id: device
+      type: Pie.GraphicsDevice
+    - id: options
+      type: Pie.GraphicsDeviceOptions
+    return:
+      type: Pie.Windowing.Window
+    content.vb: Public Shared Function CreateWithGraphicsDevice(settings As WindowSettings, api As GraphicsApi, device As GraphicsDevice, options As GraphicsDeviceOptions = Nothing) As Window
+  overload: Pie.Windowing.Window.CreateWithGraphicsDevice*
+  nameWithType.vb: Window.CreateWithGraphicsDevice(WindowSettings, GraphicsApi, GraphicsDevice, GraphicsDeviceOptions)
+  fullName.vb: Pie.Windowing.Window.CreateWithGraphicsDevice(Pie.Windowing.WindowSettings, Pie.GraphicsApi, Pie.GraphicsDevice, Pie.GraphicsDeviceOptions)
+  name.vb: CreateWithGraphicsDevice(WindowSettings, GraphicsApi, GraphicsDevice, GraphicsDeviceOptions)
+- uid: Pie.Windowing.Window.CreateWithGraphicsDevice(Pie.Windowing.WindowSettings,Pie.GraphicsDevice@)
+  commentId: M:Pie.Windowing.Window.CreateWithGraphicsDevice(Pie.Windowing.WindowSettings,Pie.GraphicsDevice@)
+  id: CreateWithGraphicsDevice(Pie.Windowing.WindowSettings,Pie.GraphicsDevice@)
+  parent: Pie.Windowing.Window
+  langs:
+  - csharp
+  - vb
+  name: CreateWithGraphicsDevice(WindowSettings, out GraphicsDevice)
+  nameWithType: Window.CreateWithGraphicsDevice(WindowSettings, out GraphicsDevice)
+  fullName: Pie.Windowing.Window.CreateWithGraphicsDevice(Pie.Windowing.WindowSettings, out Pie.GraphicsDevice)
+  type: Method
+  source:
+    remote:
+      path: Pie.Windowing/Window.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: CreateWithGraphicsDevice
+    path: src/Pie/Pie.Windowing/Window.cs
+    startLine: 353
+  assemblies:
+  - Pie.Windowing
+  namespace: Pie.Windowing
+  syntax:
+    content: public static Window CreateWithGraphicsDevice(WindowSettings settings, out GraphicsDevice device)
+    parameters:
+    - id: settings
+      type: Pie.Windowing.WindowSettings
+    - id: device
+      type: Pie.GraphicsDevice
+    return:
+      type: Pie.Windowing.Window
+    content.vb: Public Shared Function CreateWithGraphicsDevice(settings As WindowSettings, device As GraphicsDevice) As Window
+  overload: Pie.Windowing.Window.CreateWithGraphicsDevice*
+  nameWithType.vb: Window.CreateWithGraphicsDevice(WindowSettings, GraphicsDevice)
+  fullName.vb: Pie.Windowing.Window.CreateWithGraphicsDevice(Pie.Windowing.WindowSettings, Pie.GraphicsDevice)
+  name.vb: CreateWithGraphicsDevice(WindowSettings, GraphicsDevice)
+- uid: Pie.Windowing.Window.CreateGraphicsDevice(Pie.GraphicsDeviceOptions)
+  commentId: M:Pie.Windowing.Window.CreateGraphicsDevice(Pie.GraphicsDeviceOptions)
+  id: CreateGraphicsDevice(Pie.GraphicsDeviceOptions)
+  parent: Pie.Windowing.Window
+  langs:
+  - csharp
+  - vb
+  name: CreateGraphicsDevice(GraphicsDeviceOptions)
+  nameWithType: Window.CreateGraphicsDevice(GraphicsDeviceOptions)
+  fullName: Pie.Windowing.Window.CreateGraphicsDevice(Pie.GraphicsDeviceOptions)
+  type: Method
+  source:
+    remote:
+      path: Pie.Windowing/Window.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: CreateGraphicsDevice
+    path: src/Pie/Pie.Windowing/Window.cs
+    startLine: 358
+  assemblies:
+  - Pie.Windowing
+  namespace: Pie.Windowing
+  syntax:
+    content: public GraphicsDevice CreateGraphicsDevice(GraphicsDeviceOptions options = default)
+    parameters:
+    - id: options
+      type: Pie.GraphicsDeviceOptions
+    return:
+      type: Pie.GraphicsDevice
+    content.vb: Public Function CreateGraphicsDevice(options As GraphicsDeviceOptions = Nothing) As GraphicsDevice
+  overload: Pie.Windowing.Window.CreateGraphicsDevice*
+- uid: Pie.Windowing.Window.Dispose
+  commentId: M:Pie.Windowing.Window.Dispose
+  id: Dispose
+  parent: Pie.Windowing.Window
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: Window.Dispose()
+  fullName: Pie.Windowing.Window.Dispose()
+  type: Method
+  source:
+    remote:
+      path: Pie.Windowing/Window.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Dispose
+    path: src/Pie/Pie.Windowing/Window.cs
+    startLine: 371
+  assemblies:
+  - Pie.Windowing
+  namespace: Pie.Windowing
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose()
+  overload: Pie.Windowing.Window.Dispose*
+  implements:
+  - System.IDisposable.Dispose
+- uid: Pie.Windowing.Window.Resize
+  commentId: E:Pie.Windowing.Window.Resize
+  id: Resize
+  parent: Pie.Windowing.Window
+  langs:
+  - csharp
+  - vb
+  name: Resize
+  nameWithType: Window.Resize
+  fullName: Pie.Windowing.Window.Resize
+  type: Event
+  source:
+    remote:
+      path: Pie.Windowing/Window.Events.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Resize
+    path: src/Pie/Pie.Windowing/Window.Events.cs
+    startLine: 8
+  assemblies:
+  - Pie.Windowing
+  namespace: Pie.Windowing
+  syntax:
+    content: public event Window.OnResize Resize
+    return:
+      type: Pie.Windowing.Window.OnResize
+    content.vb: Public Event Resize As Window.OnResize
+- uid: Pie.Windowing.Window.KeyDown
+  commentId: E:Pie.Windowing.Window.KeyDown
+  id: KeyDown
+  parent: Pie.Windowing.Window
+  langs:
+  - csharp
+  - vb
+  name: KeyDown
+  nameWithType: Window.KeyDown
+  fullName: Pie.Windowing.Window.KeyDown
+  type: Event
+  source:
+    remote:
+      path: Pie.Windowing/Window.Events.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: KeyDown
+    path: src/Pie/Pie.Windowing/Window.Events.cs
+    startLine: 9
+  assemblies:
+  - Pie.Windowing
+  namespace: Pie.Windowing
+  syntax:
+    content: public event Window.OnKeyDown KeyDown
+    return:
+      type: Pie.Windowing.Window.OnKeyDown
+    content.vb: Public Event KeyDown As Window.OnKeyDown
+- uid: Pie.Windowing.Window.KeyUp
+  commentId: E:Pie.Windowing.Window.KeyUp
+  id: KeyUp
+  parent: Pie.Windowing.Window
+  langs:
+  - csharp
+  - vb
+  name: KeyUp
+  nameWithType: Window.KeyUp
+  fullName: Pie.Windowing.Window.KeyUp
+  type: Event
+  source:
+    remote:
+      path: Pie.Windowing/Window.Events.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: KeyUp
+    path: src/Pie/Pie.Windowing/Window.Events.cs
+    startLine: 10
+  assemblies:
+  - Pie.Windowing
+  namespace: Pie.Windowing
+  syntax:
+    content: public event Window.OnKeyUp KeyUp
+    return:
+      type: Pie.Windowing.Window.OnKeyUp
+    content.vb: Public Event KeyUp As Window.OnKeyUp
+- uid: Pie.Windowing.Window.MouseButtonDown
+  commentId: E:Pie.Windowing.Window.MouseButtonDown
+  id: MouseButtonDown
+  parent: Pie.Windowing.Window
+  langs:
+  - csharp
+  - vb
+  name: MouseButtonDown
+  nameWithType: Window.MouseButtonDown
+  fullName: Pie.Windowing.Window.MouseButtonDown
+  type: Event
+  source:
+    remote:
+      path: Pie.Windowing/Window.Events.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: MouseButtonDown
+    path: src/Pie/Pie.Windowing/Window.Events.cs
+    startLine: 11
+  assemblies:
+  - Pie.Windowing
+  namespace: Pie.Windowing
+  syntax:
+    content: public event Window.OnMouseButtonDown MouseButtonDown
+    return:
+      type: Pie.Windowing.Window.OnMouseButtonDown
+    content.vb: Public Event MouseButtonDown As Window.OnMouseButtonDown
+- uid: Pie.Windowing.Window.MouseButtonUp
+  commentId: E:Pie.Windowing.Window.MouseButtonUp
+  id: MouseButtonUp
+  parent: Pie.Windowing.Window
+  langs:
+  - csharp
+  - vb
+  name: MouseButtonUp
+  nameWithType: Window.MouseButtonUp
+  fullName: Pie.Windowing.Window.MouseButtonUp
+  type: Event
+  source:
+    remote:
+      path: Pie.Windowing/Window.Events.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: MouseButtonUp
+    path: src/Pie/Pie.Windowing/Window.Events.cs
+    startLine: 12
+  assemblies:
+  - Pie.Windowing
+  namespace: Pie.Windowing
+  syntax:
+    content: public event Window.OnMouseButtonUp MouseButtonUp
+    return:
+      type: Pie.Windowing.Window.OnMouseButtonUp
+    content.vb: Public Event MouseButtonUp As Window.OnMouseButtonUp
+- uid: Pie.Windowing.Window.MouseMove
+  commentId: E:Pie.Windowing.Window.MouseMove
+  id: MouseMove
+  parent: Pie.Windowing.Window
+  langs:
+  - csharp
+  - vb
+  name: MouseMove
+  nameWithType: Window.MouseMove
+  fullName: Pie.Windowing.Window.MouseMove
+  type: Event
+  source:
+    remote:
+      path: Pie.Windowing/Window.Events.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: MouseMove
+    path: src/Pie/Pie.Windowing/Window.Events.cs
+    startLine: 13
+  assemblies:
+  - Pie.Windowing
+  namespace: Pie.Windowing
+  syntax:
+    content: public event Window.OnMouseMove MouseMove
+    return:
+      type: Pie.Windowing.Window.OnMouseMove
+    content.vb: Public Event MouseMove As Window.OnMouseMove
+- uid: Pie.Windowing.Window.Scroll
+  commentId: E:Pie.Windowing.Window.Scroll
+  id: Scroll
+  parent: Pie.Windowing.Window
+  langs:
+  - csharp
+  - vb
+  name: Scroll
+  nameWithType: Window.Scroll
+  fullName: Pie.Windowing.Window.Scroll
+  type: Event
+  source:
+    remote:
+      path: Pie.Windowing/Window.Events.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Scroll
+    path: src/Pie/Pie.Windowing/Window.Events.cs
+    startLine: 15
+  assemblies:
+  - Pie.Windowing
+  namespace: Pie.Windowing
+  syntax:
+    content: public event Window.OnScroll Scroll
+    return:
+      type: Pie.Windowing.Window.OnScroll
+    content.vb: Public Event Scroll As Window.OnScroll
+- uid: Pie.Windowing.Window.TextInput
+  commentId: E:Pie.Windowing.Window.TextInput
+  id: TextInput
+  parent: Pie.Windowing.Window
+  langs:
+  - csharp
+  - vb
+  name: TextInput
+  nameWithType: Window.TextInput
+  fullName: Pie.Windowing.Window.TextInput
+  type: Event
+  source:
+    remote:
+      path: Pie.Windowing/Window.Events.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: TextInput
+    path: src/Pie/Pie.Windowing/Window.Events.cs
+    startLine: 17
+  assemblies:
+  - Pie.Windowing
+  namespace: Pie.Windowing
+  syntax:
+    content: public event Window.OnTextInput TextInput
+    return:
+      type: Pie.Windowing.Window.OnTextInput
+    content.vb: Public Event TextInput As Window.OnTextInput
+references:
+- uid: Pie.Windowing
+  commentId: N:Pie.Windowing
+  name: Pie.Windowing
+  nameWithType: Pie.Windowing
+  fullName: Pie.Windowing
+  spec.csharp:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Windowing
+    name: Windowing
+  spec.vb:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Windowing
+    name: Windowing
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Pie.Windowing.Window.ProcessEvents
+  commentId: M:Pie.Windowing.Window.ProcessEvents
+  isExternal: true
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Pie.Windowing.Window.Size*
+  commentId: Overload:Pie.Windowing.Window.Size
+  name: Size
+  nameWithType: Window.Size
+  fullName: Pie.Windowing.Window.Size
+- uid: System.Drawing.Size
+  commentId: T:System.Drawing.Size
+  parent: System.Drawing
+  isExternal: true
+  name: Size
+  nameWithType: Size
+  fullName: System.Drawing.Size
+- uid: System.Drawing
+  commentId: N:System.Drawing
+  isExternal: true
+  name: System.Drawing
+  nameWithType: System.Drawing
+  fullName: System.Drawing
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Drawing
+    name: Drawing
+    isExternal: true
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Drawing
+    name: Drawing
+    isExternal: true
+- uid: Pie.Windowing.Window.ShouldClose*
+  commentId: Overload:Pie.Windowing.Window.ShouldClose
+  name: ShouldClose
+  nameWithType: Window.ShouldClose
+  fullName: Pie.Windowing.Window.ShouldClose
+- uid: Pie.Windowing.Window.Title*
+  commentId: Overload:Pie.Windowing.Window.Title
+  name: Title
+  nameWithType: Window.Title
+  fullName: Pie.Windowing.Window.Title
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Pie.Windowing.MouseState
+  commentId: T:Pie.Windowing.MouseState
+  parent: Pie.Windowing
+  name: MouseState
+  nameWithType: MouseState
+  fullName: Pie.Windowing.MouseState
+- uid: System.ArgumentOutOfRangeException
+  commentId: T:System.ArgumentOutOfRangeException
+  isExternal: true
+- uid: Pie.Windowing.Window.MouseState*
+  commentId: Overload:Pie.Windowing.Window.MouseState
+  name: MouseState
+  nameWithType: Window.MouseState
+  fullName: Pie.Windowing.Window.MouseState
+- uid: Pie.Windowing.WindowBorder.Resizable
+  commentId: F:Pie.Windowing.WindowBorder.Resizable
+  isExternal: true
+- uid: Pie.Windowing.Window.Border*
+  commentId: Overload:Pie.Windowing.Window.Border
+  name: Border
+  nameWithType: Window.Border
+  fullName: Pie.Windowing.Window.Border
+- uid: Pie.Windowing.WindowBorder
+  commentId: T:Pie.Windowing.WindowBorder
+  parent: Pie.Windowing
+  name: WindowBorder
+  nameWithType: WindowBorder
+  fullName: Pie.Windowing.WindowBorder
+- uid: Pie.Windowing.Window.Focused*
+  commentId: Overload:Pie.Windowing.Window.Focused
+  name: Focused
+  nameWithType: Window.Focused
+  fullName: Pie.Windowing.Window.Focused
+- uid: Pie.Windowing.Window.Visible*
+  commentId: Overload:Pie.Windowing.Window.Visible
+  name: Visible
+  nameWithType: Window.Visible
+  fullName: Pie.Windowing.Window.Visible
+- uid: Pie.Windowing.Window.Size
+  commentId: P:Pie.Windowing.Window.Size
+  isExternal: true
+- uid: Pie.Windowing.Window.SetFullscreen(System.Boolean,System.Drawing.Size,System.Int32,System.Int32)
+  commentId: M:Pie.Windowing.Window.SetFullscreen(System.Boolean,System.Drawing.Size,System.Int32,System.Int32)
+  isExternal: true
+- uid: Pie.Windowing.Window.Fullscreen*
+  commentId: Overload:Pie.Windowing.Window.Fullscreen
+  name: Fullscreen
+  nameWithType: Window.Fullscreen
+  fullName: Pie.Windowing.Window.Fullscreen
+- uid: Pie.Windowing.Window.ProcessEvents*
+  commentId: Overload:Pie.Windowing.Window.ProcessEvents
+  name: ProcessEvents
+  nameWithType: Window.ProcessEvents
+  fullName: Pie.Windowing.Window.ProcessEvents
+- uid: Pie.Windowing.InputState
+  commentId: T:Pie.Windowing.InputState
+  parent: Pie.Windowing
+  name: InputState
+  nameWithType: InputState
+  fullName: Pie.Windowing.InputState
+- uid: Pie.Windowing.Window.Center*
+  commentId: Overload:Pie.Windowing.Window.Center
+  name: Center
+  nameWithType: Window.Center
+  fullName: Pie.Windowing.Window.Center
+- uid: Pie.Windowing.Window.Minimize*
+  commentId: Overload:Pie.Windowing.Window.Minimize
+  name: Minimize
+  nameWithType: Window.Minimize
+  fullName: Pie.Windowing.Window.Minimize
+- uid: Pie.Windowing.Window.Maximize*
+  commentId: Overload:Pie.Windowing.Window.Maximize
+  name: Maximize
+  nameWithType: Window.Maximize
+  fullName: Pie.Windowing.Window.Maximize
+- uid: Pie.Windowing.Window.Restore*
+  commentId: Overload:Pie.Windowing.Window.Restore
+  name: Restore
+  nameWithType: Window.Restore
+  fullName: Pie.Windowing.Window.Restore
+- uid: Pie.Windowing.Window.SetFullscreen*
+  commentId: Overload:Pie.Windowing.Window.SetFullscreen
+  name: SetFullscreen
+  nameWithType: Window.SetFullscreen
+  fullName: Pie.Windowing.Window.SetFullscreen
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Pie.Windowing.Window.CreateWindow*
+  commentId: Overload:Pie.Windowing.Window.CreateWindow
+  name: CreateWindow
+  nameWithType: Window.CreateWindow
+  fullName: Pie.Windowing.Window.CreateWindow
+- uid: Pie.Windowing.WindowSettings
+  commentId: T:Pie.Windowing.WindowSettings
+  parent: Pie.Windowing
+  name: WindowSettings
+  nameWithType: WindowSettings
+  fullName: Pie.Windowing.WindowSettings
+- uid: Pie.GraphicsApi
+  commentId: T:Pie.GraphicsApi
+  parent: Pie
+  name: GraphicsApi
+  nameWithType: GraphicsApi
+  fullName: Pie.GraphicsApi
+- uid: Pie.Windowing.Window
+  commentId: T:Pie.Windowing.Window
+  parent: Pie.Windowing
+  name: Window
+  nameWithType: Window
+  fullName: Pie.Windowing.Window
+- uid: Pie
+  commentId: N:Pie
+  name: Pie
+  nameWithType: Pie
+  fullName: Pie
+- uid: Pie.Windowing.Window.CreateWithGraphicsDevice*
+  commentId: Overload:Pie.Windowing.Window.CreateWithGraphicsDevice
+  name: CreateWithGraphicsDevice
+  nameWithType: Window.CreateWithGraphicsDevice
+  fullName: Pie.Windowing.Window.CreateWithGraphicsDevice
+- uid: Pie.GraphicsDevice
+  commentId: T:Pie.GraphicsDevice
+  parent: Pie
+  name: GraphicsDevice
+  nameWithType: GraphicsDevice
+  fullName: Pie.GraphicsDevice
+- uid: Pie.GraphicsDeviceOptions
+  commentId: T:Pie.GraphicsDeviceOptions
+  parent: Pie
+  name: GraphicsDeviceOptions
+  nameWithType: GraphicsDeviceOptions
+  fullName: Pie.GraphicsDeviceOptions
+- uid: Pie.Windowing.Window.CreateGraphicsDevice*
+  commentId: Overload:Pie.Windowing.Window.CreateGraphicsDevice
+  name: CreateGraphicsDevice
+  nameWithType: Window.CreateGraphicsDevice
+  fullName: Pie.Windowing.Window.CreateGraphicsDevice
+- uid: Pie.Windowing.Window.Dispose*
+  commentId: Overload:Pie.Windowing.Window.Dispose
+  name: Dispose
+  nameWithType: Window.Dispose
+  fullName: Pie.Windowing.Window.Dispose
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    isExternal: true
+  - name: (
+  - name: )
+- uid: Pie.Windowing.Window.OnResize
+  commentId: T:Pie.Windowing.Window.OnResize
+  parent: Pie.Windowing
+  name: Window.OnResize
+  nameWithType: Window.OnResize
+  fullName: Pie.Windowing.Window.OnResize
+  spec.csharp:
+  - uid: Pie.Windowing.Window
+    name: Window
+  - name: .
+  - uid: Pie.Windowing.Window.OnResize
+    name: OnResize
+  spec.vb:
+  - uid: Pie.Windowing.Window
+    name: Window
+  - name: .
+  - uid: Pie.Windowing.Window.OnResize
+    name: OnResize
+- uid: Pie.Windowing.Window.OnKeyDown
+  commentId: T:Pie.Windowing.Window.OnKeyDown
+  parent: Pie.Windowing
+  name: Window.OnKeyDown
+  nameWithType: Window.OnKeyDown
+  fullName: Pie.Windowing.Window.OnKeyDown
+  spec.csharp:
+  - uid: Pie.Windowing.Window
+    name: Window
+  - name: .
+  - uid: Pie.Windowing.Window.OnKeyDown
+    name: OnKeyDown
+  spec.vb:
+  - uid: Pie.Windowing.Window
+    name: Window
+  - name: .
+  - uid: Pie.Windowing.Window.OnKeyDown
+    name: OnKeyDown
+- uid: Pie.Windowing.Window.OnKeyUp
+  commentId: T:Pie.Windowing.Window.OnKeyUp
+  parent: Pie.Windowing
+  name: Window.OnKeyUp
+  nameWithType: Window.OnKeyUp
+  fullName: Pie.Windowing.Window.OnKeyUp
+  spec.csharp:
+  - uid: Pie.Windowing.Window
+    name: Window
+  - name: .
+  - uid: Pie.Windowing.Window.OnKeyUp
+    name: OnKeyUp
+  spec.vb:
+  - uid: Pie.Windowing.Window
+    name: Window
+  - name: .
+  - uid: Pie.Windowing.Window.OnKeyUp
+    name: OnKeyUp
+- uid: Pie.Windowing.Window.OnMouseButtonDown
+  commentId: T:Pie.Windowing.Window.OnMouseButtonDown
+  parent: Pie.Windowing
+  name: Window.OnMouseButtonDown
+  nameWithType: Window.OnMouseButtonDown
+  fullName: Pie.Windowing.Window.OnMouseButtonDown
+  spec.csharp:
+  - uid: Pie.Windowing.Window
+    name: Window
+  - name: .
+  - uid: Pie.Windowing.Window.OnMouseButtonDown
+    name: OnMouseButtonDown
+  spec.vb:
+  - uid: Pie.Windowing.Window
+    name: Window
+  - name: .
+  - uid: Pie.Windowing.Window.OnMouseButtonDown
+    name: OnMouseButtonDown
+- uid: Pie.Windowing.Window.OnMouseButtonUp
+  commentId: T:Pie.Windowing.Window.OnMouseButtonUp
+  parent: Pie.Windowing
+  name: Window.OnMouseButtonUp
+  nameWithType: Window.OnMouseButtonUp
+  fullName: Pie.Windowing.Window.OnMouseButtonUp
+  spec.csharp:
+  - uid: Pie.Windowing.Window
+    name: Window
+  - name: .
+  - uid: Pie.Windowing.Window.OnMouseButtonUp
+    name: OnMouseButtonUp
+  spec.vb:
+  - uid: Pie.Windowing.Window
+    name: Window
+  - name: .
+  - uid: Pie.Windowing.Window.OnMouseButtonUp
+    name: OnMouseButtonUp
+- uid: Pie.Windowing.Window.OnMouseMove
+  commentId: T:Pie.Windowing.Window.OnMouseMove
+  parent: Pie.Windowing
+  name: Window.OnMouseMove
+  nameWithType: Window.OnMouseMove
+  fullName: Pie.Windowing.Window.OnMouseMove
+  spec.csharp:
+  - uid: Pie.Windowing.Window
+    name: Window
+  - name: .
+  - uid: Pie.Windowing.Window.OnMouseMove
+    name: OnMouseMove
+  spec.vb:
+  - uid: Pie.Windowing.Window
+    name: Window
+  - name: .
+  - uid: Pie.Windowing.Window.OnMouseMove
+    name: OnMouseMove
+- uid: Pie.Windowing.Window.OnScroll
+  commentId: T:Pie.Windowing.Window.OnScroll
+  parent: Pie.Windowing
+  name: Window.OnScroll
+  nameWithType: Window.OnScroll
+  fullName: Pie.Windowing.Window.OnScroll
+  spec.csharp:
+  - uid: Pie.Windowing.Window
+    name: Window
+  - name: .
+  - uid: Pie.Windowing.Window.OnScroll
+    name: OnScroll
+  spec.vb:
+  - uid: Pie.Windowing.Window
+    name: Window
+  - name: .
+  - uid: Pie.Windowing.Window.OnScroll
+    name: OnScroll
+- uid: Pie.Windowing.Window.OnTextInput
+  commentId: T:Pie.Windowing.Window.OnTextInput
+  parent: Pie.Windowing
+  name: Window.OnTextInput
+  nameWithType: Window.OnTextInput
+  fullName: Pie.Windowing.Window.OnTextInput
+  spec.csharp:
+  - uid: Pie.Windowing.Window
+    name: Window
+  - name: .
+  - uid: Pie.Windowing.Window.OnTextInput
+    name: OnTextInput
+  spec.vb:
+  - uid: Pie.Windowing.Window
+    name: Window
+  - name: .
+  - uid: Pie.Windowing.Window.OnTextInput
+    name: OnTextInput

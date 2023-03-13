@@ -1,0 +1,438 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pie.Text.Native.FT_Size_Request
+  commentId: T:Pie.Text.Native.FT_Size_Request
+  id: FT_Size_Request
+  parent: Pie.Text.Native
+  children:
+  - Pie.Text.Native.FT_Size_Request.Height
+  - Pie.Text.Native.FT_Size_Request.HoriResolution
+  - Pie.Text.Native.FT_Size_Request.Type
+  - Pie.Text.Native.FT_Size_Request.VertResolution
+  - Pie.Text.Native.FT_Size_Request.Width
+  langs:
+  - csharp
+  - vb
+  name: FT_Size_Request
+  nameWithType: FT_Size_Request
+  fullName: Pie.Text.Native.FT_Size_Request
+  type: Struct
+  source:
+    remote:
+      path: Pie.Text/Native/FT_Size_Request.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: FT_Size_Request
+    path: src/Pie/Pie.Text/Native/FT_Size_Request.cs
+    startLine: 4
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public struct FT_Size_Request
+    content.vb: Public Structure FT_Size_Request
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: Pie.Text.Native.FT_Size_Request.Type
+  commentId: F:Pie.Text.Native.FT_Size_Request.Type
+  id: Type
+  parent: Pie.Text.Native.FT_Size_Request
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: FT_Size_Request.Type
+  fullName: Pie.Text.Native.FT_Size_Request.Type
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FT_Size_Request.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Type
+    path: src/Pie/Pie.Text/Native/FT_Size_Request.cs
+    startLine: 7
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public FT_Size_Request_Type Type
+    return:
+      type: Pie.Text.Native.FT_Size_Request_Type
+    content.vb: Public Type As FT_Size_Request_Type
+- uid: Pie.Text.Native.FT_Size_Request.Width
+  commentId: F:Pie.Text.Native.FT_Size_Request.Width
+  id: Width
+  parent: Pie.Text.Native.FT_Size_Request
+  langs:
+  - csharp
+  - vb
+  name: Width
+  nameWithType: FT_Size_Request.Width
+  fullName: Pie.Text.Native.FT_Size_Request.Width
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FT_Size_Request.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Width
+    path: src/Pie/Pie.Text/Native/FT_Size_Request.cs
+    startLine: 8
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public CLong Width
+    return:
+      type: System.Runtime.InteropServices.CLong
+    content.vb: Public Width As CLong
+- uid: Pie.Text.Native.FT_Size_Request.Height
+  commentId: F:Pie.Text.Native.FT_Size_Request.Height
+  id: Height
+  parent: Pie.Text.Native.FT_Size_Request
+  langs:
+  - csharp
+  - vb
+  name: Height
+  nameWithType: FT_Size_Request.Height
+  fullName: Pie.Text.Native.FT_Size_Request.Height
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FT_Size_Request.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Height
+    path: src/Pie/Pie.Text/Native/FT_Size_Request.cs
+    startLine: 9
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public CLong Height
+    return:
+      type: System.Runtime.InteropServices.CLong
+    content.vb: Public Height As CLong
+- uid: Pie.Text.Native.FT_Size_Request.HoriResolution
+  commentId: F:Pie.Text.Native.FT_Size_Request.HoriResolution
+  id: HoriResolution
+  parent: Pie.Text.Native.FT_Size_Request
+  langs:
+  - csharp
+  - vb
+  name: HoriResolution
+  nameWithType: FT_Size_Request.HoriResolution
+  fullName: Pie.Text.Native.FT_Size_Request.HoriResolution
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FT_Size_Request.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: HoriResolution
+    path: src/Pie/Pie.Text/Native/FT_Size_Request.cs
+    startLine: 10
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public uint HoriResolution
+    return:
+      type: System.UInt32
+    content.vb: Public HoriResolution As UInteger
+- uid: Pie.Text.Native.FT_Size_Request.VertResolution
+  commentId: F:Pie.Text.Native.FT_Size_Request.VertResolution
+  id: VertResolution
+  parent: Pie.Text.Native.FT_Size_Request
+  langs:
+  - csharp
+  - vb
+  name: VertResolution
+  nameWithType: FT_Size_Request.VertResolution
+  fullName: Pie.Text.Native.FT_Size_Request.VertResolution
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FT_Size_Request.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: VertResolution
+    path: src/Pie/Pie.Text/Native/FT_Size_Request.cs
+    startLine: 11
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public uint VertResolution
+    return:
+      type: System.UInt32
+    content.vb: Public VertResolution As UInteger
+references:
+- uid: Pie.Text.Native
+  commentId: N:Pie.Text.Native
+  name: Pie.Text.Native
+  nameWithType: Pie.Text.Native
+  fullName: Pie.Text.Native
+  spec.csharp:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Text
+    name: Text
+  - name: .
+  - uid: Pie.Text.Native
+    name: Native
+  spec.vb:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Text
+    name: Text
+  - name: .
+  - uid: Pie.Text.Native
+    name: Native
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Pie.Text.Native.FT_Size_Request_Type
+  commentId: T:Pie.Text.Native.FT_Size_Request_Type
+  parent: Pie.Text.Native
+  name: FT_Size_Request_Type
+  nameWithType: FT_Size_Request_Type
+  fullName: Pie.Text.Native.FT_Size_Request_Type
+- uid: System.Runtime.InteropServices.CLong
+  commentId: T:System.Runtime.InteropServices.CLong
+  parent: System.Runtime.InteropServices
+  isExternal: true
+  name: CLong
+  nameWithType: CLong
+  fullName: System.Runtime.InteropServices.CLong
+- uid: System.Runtime.InteropServices
+  commentId: N:System.Runtime.InteropServices
+  isExternal: true
+  name: System.Runtime.InteropServices
+  nameWithType: System.Runtime.InteropServices
+  fullName: System.Runtime.InteropServices
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Runtime
+    name: Runtime
+    isExternal: true
+  - name: .
+  - uid: System.Runtime.InteropServices
+    name: InteropServices
+    isExternal: true
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Runtime
+    name: Runtime
+    isExternal: true
+  - name: .
+  - uid: System.Runtime.InteropServices
+    name: InteropServices
+    isExternal: true
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger

@@ -1,0 +1,887 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pie.Audio.AudioDevice
+  commentId: T:Pie.Audio.AudioDevice
+  id: AudioDevice
+  parent: Pie.Audio
+  children:
+  - Pie.Audio.AudioDevice.#ctor(System.Int32,System.UInt16)
+  - Pie.Audio.AudioDevice.Dispose
+  langs:
+  - csharp
+  - vb
+  name: AudioDevice
+  nameWithType: AudioDevice
+  fullName: Pie.Audio.AudioDevice
+  type: Class
+  source:
+    remote:
+      path: Pie.Audio/AudioDevice.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: AudioDevice
+    path: src/Pie/Pie.Audio/AudioDevice.cs
+    startLine: 9
+  assemblies:
+  - Pie.Audio
+  namespace: Pie.Audio
+  summary: "\nAdds built-in audio playback to an <xref href=\"Pie.Audio.AudioSystem\" data-throw-if-not-resolved=\"false\"></xref> using SDL.\n"
+  example: []
+  syntax:
+    content: 'public class AudioDevice : AudioSystem, IDisposable'
+    content.vb: Public Class AudioDevice Inherits AudioSystem Implements IDisposable
+  inheritance:
+  - System.Object
+  - Pie.Audio.AudioSystem
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - Pie.Audio.AudioSystem.BufferFinished
+  - Pie.Audio.AudioSystem.CreateBuffer``1(Pie.Audio.BufferDescription,{T}[])
+  - Pie.Audio.AudioSystem.DeleteBuffer(Pie.Audio.AudioBuffer)
+  - Pie.Audio.AudioSystem.UpdateBuffer``1(Pie.Audio.AudioBuffer,{T}[])
+  - Pie.Audio.AudioSystem.PlayBuffer(Pie.Audio.AudioBuffer,System.UInt16,Pie.Audio.ChannelProperties)
+  - Pie.Audio.AudioSystem.QueueBuffer(Pie.Audio.AudioBuffer,System.UInt16)
+  - Pie.Audio.AudioSystem.SetChannelProperties(System.UInt16,Pie.Audio.ChannelProperties)
+  - Pie.Audio.AudioSystem.Resume(System.UInt16)
+  - Pie.Audio.AudioSystem.Pause(System.UInt16)
+  - Pie.Audio.AudioSystem.Stop(System.UInt16)
+  - Pie.Audio.AudioSystem.Advance
+  - Pie.Audio.AudioSystem.AdvanceBuffer(System.Single[]@)
+  - Pie.Audio.AudioSystem.AdvanceBuffer(System.Single*,System.UIntPtr)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Pie.Audio.AudioDevice.#ctor(System.Int32,System.UInt16)
+  commentId: M:Pie.Audio.AudioDevice.#ctor(System.Int32,System.UInt16)
+  id: '#ctor(System.Int32,System.UInt16)'
+  parent: Pie.Audio.AudioDevice
+  langs:
+  - csharp
+  - vb
+  name: AudioDevice(int, ushort)
+  nameWithType: AudioDevice.AudioDevice(int, ushort)
+  fullName: Pie.Audio.AudioDevice.AudioDevice(int, ushort)
+  type: Constructor
+  source:
+    remote:
+      path: Pie.Audio/AudioDevice.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: .ctor
+    path: src/Pie/Pie.Audio/AudioDevice.cs
+    startLine: 20
+  assemblies:
+  - Pie.Audio
+  namespace: Pie.Audio
+  summary: "\nCreate a new <xref href=\"Pie.Audio.AudioDevice\" data-throw-if-not-resolved=\"false\"></xref> with the given sample rate and channels.\n"
+  example: []
+  syntax:
+    content: public AudioDevice(int sampleRate, ushort channels)
+    parameters:
+    - id: sampleRate
+      type: System.Int32
+      description: The sample rate. Typical values include 44100 (CD quality) and 48000 (DAT quality).
+    - id: channels
+      type: System.UInt16
+      description: The number of channels. (Sounds that can be played at once).
+    content.vb: Public Sub New(sampleRate As Integer, channels As UShort)
+  overload: Pie.Audio.AudioDevice.#ctor*
+  exceptions:
+  - type: System.Exception
+    commentId: T:System.Exception
+    description: Thrown if SDL fails to initialize.
+  nameWithType.vb: AudioDevice.New(Integer, UShort)
+  fullName.vb: Pie.Audio.AudioDevice.New(Integer, UShort)
+  name.vb: New(Integer, UShort)
+- uid: Pie.Audio.AudioDevice.Dispose
+  commentId: M:Pie.Audio.AudioDevice.Dispose
+  id: Dispose
+  parent: Pie.Audio.AudioDevice
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: AudioDevice.Dispose()
+  fullName: Pie.Audio.AudioDevice.Dispose()
+  type: Method
+  source:
+    remote:
+      path: Pie.Audio/AudioDevice.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Dispose
+    path: src/Pie/Pie.Audio/AudioDevice.cs
+    startLine: 43
+  assemblies:
+  - Pie.Audio
+  namespace: Pie.Audio
+  syntax:
+    content: public override void Dispose()
+    content.vb: Public Overrides Sub Dispose()
+  overridden: Pie.Audio.AudioSystem.Dispose
+  overload: Pie.Audio.AudioDevice.Dispose*
+references:
+- uid: Pie.Audio.AudioSystem
+  commentId: T:Pie.Audio.AudioSystem
+  parent: Pie.Audio
+  name: AudioSystem
+  nameWithType: AudioSystem
+  fullName: Pie.Audio.AudioSystem
+- uid: Pie.Audio
+  commentId: N:Pie.Audio
+  name: Pie.Audio
+  nameWithType: Pie.Audio
+  fullName: Pie.Audio
+  spec.csharp:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Audio
+    name: Audio
+  spec.vb:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Audio
+    name: Audio
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: Pie.Audio.AudioSystem.BufferFinished
+  commentId: E:Pie.Audio.AudioSystem.BufferFinished
+  parent: Pie.Audio.AudioSystem
+  name: BufferFinished
+  nameWithType: AudioSystem.BufferFinished
+  fullName: Pie.Audio.AudioSystem.BufferFinished
+- uid: Pie.Audio.AudioSystem.CreateBuffer``1(Pie.Audio.BufferDescription,{T}[])
+  commentId: M:Pie.Audio.AudioSystem.CreateBuffer``1(Pie.Audio.BufferDescription,``0[])
+  parent: Pie.Audio.AudioSystem
+  definition: Pie.Audio.AudioSystem.CreateBuffer``1(Pie.Audio.BufferDescription,``0[])
+  name: CreateBuffer<T>(BufferDescription, T[])
+  nameWithType: AudioSystem.CreateBuffer<T>(BufferDescription, T[])
+  fullName: Pie.Audio.AudioSystem.CreateBuffer<T>(Pie.Audio.BufferDescription, T[])
+  nameWithType.vb: AudioSystem.CreateBuffer(Of T)(BufferDescription, T())
+  fullName.vb: Pie.Audio.AudioSystem.CreateBuffer(Of T)(Pie.Audio.BufferDescription, T())
+  name.vb: CreateBuffer(Of T)(BufferDescription, T())
+  spec.csharp:
+  - uid: Pie.Audio.AudioSystem.CreateBuffer``1(Pie.Audio.BufferDescription,``0[])
+    name: CreateBuffer
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: Pie.Audio.BufferDescription
+    name: BufferDescription
+  - name: ','
+  - name: " "
+  - name: T
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: Pie.Audio.AudioSystem.CreateBuffer``1(Pie.Audio.BufferDescription,``0[])
+    name: CreateBuffer
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: Pie.Audio.BufferDescription
+    name: BufferDescription
+  - name: ','
+  - name: " "
+  - name: T
+  - name: (
+  - name: )
+  - name: )
+- uid: Pie.Audio.AudioSystem.DeleteBuffer(Pie.Audio.AudioBuffer)
+  commentId: M:Pie.Audio.AudioSystem.DeleteBuffer(Pie.Audio.AudioBuffer)
+  parent: Pie.Audio.AudioSystem
+  name: DeleteBuffer(AudioBuffer)
+  nameWithType: AudioSystem.DeleteBuffer(AudioBuffer)
+  fullName: Pie.Audio.AudioSystem.DeleteBuffer(Pie.Audio.AudioBuffer)
+  spec.csharp:
+  - uid: Pie.Audio.AudioSystem.DeleteBuffer(Pie.Audio.AudioBuffer)
+    name: DeleteBuffer
+  - name: (
+  - uid: Pie.Audio.AudioBuffer
+    name: AudioBuffer
+  - name: )
+  spec.vb:
+  - uid: Pie.Audio.AudioSystem.DeleteBuffer(Pie.Audio.AudioBuffer)
+    name: DeleteBuffer
+  - name: (
+  - uid: Pie.Audio.AudioBuffer
+    name: AudioBuffer
+  - name: )
+- uid: Pie.Audio.AudioSystem.UpdateBuffer``1(Pie.Audio.AudioBuffer,{T}[])
+  commentId: M:Pie.Audio.AudioSystem.UpdateBuffer``1(Pie.Audio.AudioBuffer,``0[])
+  parent: Pie.Audio.AudioSystem
+  definition: Pie.Audio.AudioSystem.UpdateBuffer``1(Pie.Audio.AudioBuffer,``0[])
+  name: UpdateBuffer<T>(AudioBuffer, T[])
+  nameWithType: AudioSystem.UpdateBuffer<T>(AudioBuffer, T[])
+  fullName: Pie.Audio.AudioSystem.UpdateBuffer<T>(Pie.Audio.AudioBuffer, T[])
+  nameWithType.vb: AudioSystem.UpdateBuffer(Of T)(AudioBuffer, T())
+  fullName.vb: Pie.Audio.AudioSystem.UpdateBuffer(Of T)(Pie.Audio.AudioBuffer, T())
+  name.vb: UpdateBuffer(Of T)(AudioBuffer, T())
+  spec.csharp:
+  - uid: Pie.Audio.AudioSystem.UpdateBuffer``1(Pie.Audio.AudioBuffer,``0[])
+    name: UpdateBuffer
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: Pie.Audio.AudioBuffer
+    name: AudioBuffer
+  - name: ','
+  - name: " "
+  - name: T
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: Pie.Audio.AudioSystem.UpdateBuffer``1(Pie.Audio.AudioBuffer,``0[])
+    name: UpdateBuffer
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: Pie.Audio.AudioBuffer
+    name: AudioBuffer
+  - name: ','
+  - name: " "
+  - name: T
+  - name: (
+  - name: )
+  - name: )
+- uid: Pie.Audio.AudioSystem.PlayBuffer(Pie.Audio.AudioBuffer,System.UInt16,Pie.Audio.ChannelProperties)
+  commentId: M:Pie.Audio.AudioSystem.PlayBuffer(Pie.Audio.AudioBuffer,System.UInt16,Pie.Audio.ChannelProperties)
+  parent: Pie.Audio.AudioSystem
+  isExternal: true
+  name: PlayBuffer(AudioBuffer, ushort, ChannelProperties)
+  nameWithType: AudioSystem.PlayBuffer(AudioBuffer, ushort, ChannelProperties)
+  fullName: Pie.Audio.AudioSystem.PlayBuffer(Pie.Audio.AudioBuffer, ushort, Pie.Audio.ChannelProperties)
+  nameWithType.vb: AudioSystem.PlayBuffer(AudioBuffer, UShort, ChannelProperties)
+  fullName.vb: Pie.Audio.AudioSystem.PlayBuffer(Pie.Audio.AudioBuffer, UShort, Pie.Audio.ChannelProperties)
+  name.vb: PlayBuffer(AudioBuffer, UShort, ChannelProperties)
+  spec.csharp:
+  - uid: Pie.Audio.AudioSystem.PlayBuffer(Pie.Audio.AudioBuffer,System.UInt16,Pie.Audio.ChannelProperties)
+    name: PlayBuffer
+  - name: (
+  - uid: Pie.Audio.AudioBuffer
+    name: AudioBuffer
+  - name: ','
+  - name: " "
+  - uid: System.UInt16
+    name: ushort
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Pie.Audio.ChannelProperties
+    name: ChannelProperties
+  - name: )
+  spec.vb:
+  - uid: Pie.Audio.AudioSystem.PlayBuffer(Pie.Audio.AudioBuffer,System.UInt16,Pie.Audio.ChannelProperties)
+    name: PlayBuffer
+  - name: (
+  - uid: Pie.Audio.AudioBuffer
+    name: AudioBuffer
+  - name: ','
+  - name: " "
+  - uid: System.UInt16
+    name: UShort
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Pie.Audio.ChannelProperties
+    name: ChannelProperties
+  - name: )
+- uid: Pie.Audio.AudioSystem.QueueBuffer(Pie.Audio.AudioBuffer,System.UInt16)
+  commentId: M:Pie.Audio.AudioSystem.QueueBuffer(Pie.Audio.AudioBuffer,System.UInt16)
+  parent: Pie.Audio.AudioSystem
+  isExternal: true
+  name: QueueBuffer(AudioBuffer, ushort)
+  nameWithType: AudioSystem.QueueBuffer(AudioBuffer, ushort)
+  fullName: Pie.Audio.AudioSystem.QueueBuffer(Pie.Audio.AudioBuffer, ushort)
+  nameWithType.vb: AudioSystem.QueueBuffer(AudioBuffer, UShort)
+  fullName.vb: Pie.Audio.AudioSystem.QueueBuffer(Pie.Audio.AudioBuffer, UShort)
+  name.vb: QueueBuffer(AudioBuffer, UShort)
+  spec.csharp:
+  - uid: Pie.Audio.AudioSystem.QueueBuffer(Pie.Audio.AudioBuffer,System.UInt16)
+    name: QueueBuffer
+  - name: (
+  - uid: Pie.Audio.AudioBuffer
+    name: AudioBuffer
+  - name: ','
+  - name: " "
+  - uid: System.UInt16
+    name: ushort
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Pie.Audio.AudioSystem.QueueBuffer(Pie.Audio.AudioBuffer,System.UInt16)
+    name: QueueBuffer
+  - name: (
+  - uid: Pie.Audio.AudioBuffer
+    name: AudioBuffer
+  - name: ','
+  - name: " "
+  - uid: System.UInt16
+    name: UShort
+    isExternal: true
+  - name: )
+- uid: Pie.Audio.AudioSystem.SetChannelProperties(System.UInt16,Pie.Audio.ChannelProperties)
+  commentId: M:Pie.Audio.AudioSystem.SetChannelProperties(System.UInt16,Pie.Audio.ChannelProperties)
+  parent: Pie.Audio.AudioSystem
+  isExternal: true
+  name: SetChannelProperties(ushort, ChannelProperties)
+  nameWithType: AudioSystem.SetChannelProperties(ushort, ChannelProperties)
+  fullName: Pie.Audio.AudioSystem.SetChannelProperties(ushort, Pie.Audio.ChannelProperties)
+  nameWithType.vb: AudioSystem.SetChannelProperties(UShort, ChannelProperties)
+  fullName.vb: Pie.Audio.AudioSystem.SetChannelProperties(UShort, Pie.Audio.ChannelProperties)
+  name.vb: SetChannelProperties(UShort, ChannelProperties)
+  spec.csharp:
+  - uid: Pie.Audio.AudioSystem.SetChannelProperties(System.UInt16,Pie.Audio.ChannelProperties)
+    name: SetChannelProperties
+  - name: (
+  - uid: System.UInt16
+    name: ushort
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Pie.Audio.ChannelProperties
+    name: ChannelProperties
+  - name: )
+  spec.vb:
+  - uid: Pie.Audio.AudioSystem.SetChannelProperties(System.UInt16,Pie.Audio.ChannelProperties)
+    name: SetChannelProperties
+  - name: (
+  - uid: System.UInt16
+    name: UShort
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: Pie.Audio.ChannelProperties
+    name: ChannelProperties
+  - name: )
+- uid: Pie.Audio.AudioSystem.Resume(System.UInt16)
+  commentId: M:Pie.Audio.AudioSystem.Resume(System.UInt16)
+  parent: Pie.Audio.AudioSystem
+  isExternal: true
+  name: Resume(ushort)
+  nameWithType: AudioSystem.Resume(ushort)
+  fullName: Pie.Audio.AudioSystem.Resume(ushort)
+  nameWithType.vb: AudioSystem.Resume(UShort)
+  fullName.vb: Pie.Audio.AudioSystem.Resume(UShort)
+  name.vb: Resume(UShort)
+  spec.csharp:
+  - uid: Pie.Audio.AudioSystem.Resume(System.UInt16)
+    name: Resume
+  - name: (
+  - uid: System.UInt16
+    name: ushort
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Pie.Audio.AudioSystem.Resume(System.UInt16)
+    name: Resume
+  - name: (
+  - uid: System.UInt16
+    name: UShort
+    isExternal: true
+  - name: )
+- uid: Pie.Audio.AudioSystem.Pause(System.UInt16)
+  commentId: M:Pie.Audio.AudioSystem.Pause(System.UInt16)
+  parent: Pie.Audio.AudioSystem
+  isExternal: true
+  name: Pause(ushort)
+  nameWithType: AudioSystem.Pause(ushort)
+  fullName: Pie.Audio.AudioSystem.Pause(ushort)
+  nameWithType.vb: AudioSystem.Pause(UShort)
+  fullName.vb: Pie.Audio.AudioSystem.Pause(UShort)
+  name.vb: Pause(UShort)
+  spec.csharp:
+  - uid: Pie.Audio.AudioSystem.Pause(System.UInt16)
+    name: Pause
+  - name: (
+  - uid: System.UInt16
+    name: ushort
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Pie.Audio.AudioSystem.Pause(System.UInt16)
+    name: Pause
+  - name: (
+  - uid: System.UInt16
+    name: UShort
+    isExternal: true
+  - name: )
+- uid: Pie.Audio.AudioSystem.Stop(System.UInt16)
+  commentId: M:Pie.Audio.AudioSystem.Stop(System.UInt16)
+  parent: Pie.Audio.AudioSystem
+  isExternal: true
+  name: Stop(ushort)
+  nameWithType: AudioSystem.Stop(ushort)
+  fullName: Pie.Audio.AudioSystem.Stop(ushort)
+  nameWithType.vb: AudioSystem.Stop(UShort)
+  fullName.vb: Pie.Audio.AudioSystem.Stop(UShort)
+  name.vb: Stop(UShort)
+  spec.csharp:
+  - uid: Pie.Audio.AudioSystem.Stop(System.UInt16)
+    name: Stop
+  - name: (
+  - uid: System.UInt16
+    name: ushort
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Pie.Audio.AudioSystem.Stop(System.UInt16)
+    name: Stop
+  - name: (
+  - uid: System.UInt16
+    name: UShort
+    isExternal: true
+  - name: )
+- uid: Pie.Audio.AudioSystem.Advance
+  commentId: M:Pie.Audio.AudioSystem.Advance
+  parent: Pie.Audio.AudioSystem
+  name: Advance()
+  nameWithType: AudioSystem.Advance()
+  fullName: Pie.Audio.AudioSystem.Advance()
+  spec.csharp:
+  - uid: Pie.Audio.AudioSystem.Advance
+    name: Advance
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Pie.Audio.AudioSystem.Advance
+    name: Advance
+  - name: (
+  - name: )
+- uid: Pie.Audio.AudioSystem.AdvanceBuffer(System.Single[]@)
+  commentId: M:Pie.Audio.AudioSystem.AdvanceBuffer(System.Single[]@)
+  parent: Pie.Audio.AudioSystem
+  isExternal: true
+  name: AdvanceBuffer(ref float[])
+  nameWithType: AudioSystem.AdvanceBuffer(ref float[])
+  fullName: Pie.Audio.AudioSystem.AdvanceBuffer(ref float[])
+  nameWithType.vb: AudioSystem.AdvanceBuffer(Single())
+  fullName.vb: Pie.Audio.AudioSystem.AdvanceBuffer(Single())
+  name.vb: AdvanceBuffer(Single())
+  spec.csharp:
+  - uid: Pie.Audio.AudioSystem.AdvanceBuffer(System.Single[]@)
+    name: AdvanceBuffer
+  - name: (
+  - name: ref
+  - name: " "
+  - uid: System.Single
+    name: float
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: Pie.Audio.AudioSystem.AdvanceBuffer(System.Single[]@)
+    name: AdvanceBuffer
+  - name: (
+  - uid: System.Single
+    name: Single
+    isExternal: true
+  - name: (
+  - name: )
+  - name: )
+- uid: Pie.Audio.AudioSystem.AdvanceBuffer(System.Single*,System.UIntPtr)
+  commentId: M:Pie.Audio.AudioSystem.AdvanceBuffer(System.Single*,System.UIntPtr)
+  parent: Pie.Audio.AudioSystem
+  isExternal: true
+  name: AdvanceBuffer(float*, nuint)
+  nameWithType: AudioSystem.AdvanceBuffer(float*, nuint)
+  fullName: Pie.Audio.AudioSystem.AdvanceBuffer(float*, nuint)
+  nameWithType.vb: AudioSystem.AdvanceBuffer(Single*, UIntPtr)
+  fullName.vb: Pie.Audio.AudioSystem.AdvanceBuffer(Single*, System.UIntPtr)
+  name.vb: AdvanceBuffer(Single*, UIntPtr)
+  spec.csharp:
+  - uid: Pie.Audio.AudioSystem.AdvanceBuffer(System.Single*,System.UIntPtr)
+    name: AdvanceBuffer
+  - name: (
+  - uid: System.Single
+    name: float
+    isExternal: true
+  - name: '*'
+  - name: ','
+  - name: " "
+  - uid: System.UIntPtr
+    name: nuint
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Pie.Audio.AudioSystem.AdvanceBuffer(System.Single*,System.UIntPtr)
+    name: AdvanceBuffer
+  - name: (
+  - uid: System.Single
+    name: Single
+    isExternal: true
+  - name: '*'
+  - name: ','
+  - name: " "
+  - uid: System.UIntPtr
+    name: UIntPtr
+    isExternal: true
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Pie.Audio.AudioSystem.CreateBuffer``1(Pie.Audio.BufferDescription,``0[])
+  commentId: M:Pie.Audio.AudioSystem.CreateBuffer``1(Pie.Audio.BufferDescription,``0[])
+  name: CreateBuffer<T>(BufferDescription, T[])
+  nameWithType: AudioSystem.CreateBuffer<T>(BufferDescription, T[])
+  fullName: Pie.Audio.AudioSystem.CreateBuffer<T>(Pie.Audio.BufferDescription, T[])
+  nameWithType.vb: AudioSystem.CreateBuffer(Of T)(BufferDescription, T())
+  fullName.vb: Pie.Audio.AudioSystem.CreateBuffer(Of T)(Pie.Audio.BufferDescription, T())
+  name.vb: CreateBuffer(Of T)(BufferDescription, T())
+  spec.csharp:
+  - uid: Pie.Audio.AudioSystem.CreateBuffer``1(Pie.Audio.BufferDescription,``0[])
+    name: CreateBuffer
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: Pie.Audio.BufferDescription
+    name: BufferDescription
+  - name: ','
+  - name: " "
+  - name: T
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: Pie.Audio.AudioSystem.CreateBuffer``1(Pie.Audio.BufferDescription,``0[])
+    name: CreateBuffer
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: Pie.Audio.BufferDescription
+    name: BufferDescription
+  - name: ','
+  - name: " "
+  - name: T
+  - name: (
+  - name: )
+  - name: )
+- uid: Pie.Audio.AudioSystem.UpdateBuffer``1(Pie.Audio.AudioBuffer,``0[])
+  commentId: M:Pie.Audio.AudioSystem.UpdateBuffer``1(Pie.Audio.AudioBuffer,``0[])
+  name: UpdateBuffer<T>(AudioBuffer, T[])
+  nameWithType: AudioSystem.UpdateBuffer<T>(AudioBuffer, T[])
+  fullName: Pie.Audio.AudioSystem.UpdateBuffer<T>(Pie.Audio.AudioBuffer, T[])
+  nameWithType.vb: AudioSystem.UpdateBuffer(Of T)(AudioBuffer, T())
+  fullName.vb: Pie.Audio.AudioSystem.UpdateBuffer(Of T)(Pie.Audio.AudioBuffer, T())
+  name.vb: UpdateBuffer(Of T)(AudioBuffer, T())
+  spec.csharp:
+  - uid: Pie.Audio.AudioSystem.UpdateBuffer``1(Pie.Audio.AudioBuffer,``0[])
+    name: UpdateBuffer
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: Pie.Audio.AudioBuffer
+    name: AudioBuffer
+  - name: ','
+  - name: " "
+  - name: T
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: Pie.Audio.AudioSystem.UpdateBuffer``1(Pie.Audio.AudioBuffer,``0[])
+    name: UpdateBuffer
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: Pie.Audio.AudioBuffer
+    name: AudioBuffer
+  - name: ','
+  - name: " "
+  - name: T
+  - name: (
+  - name: )
+  - name: )
+- uid: Pie.Audio.AudioDevice
+  commentId: T:Pie.Audio.AudioDevice
+  name: AudioDevice
+  nameWithType: AudioDevice
+  fullName: Pie.Audio.AudioDevice
+- uid: System.Exception
+  commentId: T:System.Exception
+  parent: System
+  isExternal: true
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception
+- uid: Pie.Audio.AudioDevice.#ctor*
+  commentId: Overload:Pie.Audio.AudioDevice.#ctor
+  name: AudioDevice
+  nameWithType: AudioDevice.AudioDevice
+  fullName: Pie.Audio.AudioDevice.AudioDevice
+  nameWithType.vb: AudioDevice.New
+  fullName.vb: Pie.Audio.AudioDevice.New
+  name.vb: New
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.UInt16
+  commentId: T:System.UInt16
+  parent: System
+  isExternal: true
+  name: ushort
+  nameWithType: ushort
+  fullName: ushort
+  nameWithType.vb: UShort
+  fullName.vb: UShort
+  name.vb: UShort
+- uid: Pie.Audio.AudioSystem.Dispose
+  commentId: M:Pie.Audio.AudioSystem.Dispose
+  parent: Pie.Audio.AudioSystem
+  name: Dispose()
+  nameWithType: AudioSystem.Dispose()
+  fullName: Pie.Audio.AudioSystem.Dispose()
+  spec.csharp:
+  - uid: Pie.Audio.AudioSystem.Dispose
+    name: Dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Pie.Audio.AudioSystem.Dispose
+    name: Dispose
+  - name: (
+  - name: )
+- uid: Pie.Audio.AudioDevice.Dispose*
+  commentId: Overload:Pie.Audio.AudioDevice.Dispose
+  name: Dispose
+  nameWithType: AudioDevice.Dispose
+  fullName: Pie.Audio.AudioDevice.Dispose

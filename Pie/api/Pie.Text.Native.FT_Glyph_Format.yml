@@ -1,0 +1,220 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pie.Text.Native.FT_Glyph_Format
+  commentId: T:Pie.Text.Native.FT_Glyph_Format
+  id: FT_Glyph_Format
+  parent: Pie.Text.Native
+  children:
+  - Pie.Text.Native.FT_Glyph_Format.Bitmap
+  - Pie.Text.Native.FT_Glyph_Format.Composite
+  - Pie.Text.Native.FT_Glyph_Format.None
+  - Pie.Text.Native.FT_Glyph_Format.Outline
+  - Pie.Text.Native.FT_Glyph_Format.Plotter
+  - Pie.Text.Native.FT_Glyph_Format.SVG
+  langs:
+  - csharp
+  - vb
+  name: FT_Glyph_Format
+  nameWithType: FT_Glyph_Format
+  fullName: Pie.Text.Native.FT_Glyph_Format
+  type: Enum
+  source:
+    remote:
+      path: Pie.Text/Native/FT_Glyph_Format.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: FT_Glyph_Format
+    path: src/Pie/Pie.Text/Native/FT_Glyph_Format.cs
+    startLine: 2
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: 'public enum FT_Glyph_Format : uint'
+    content.vb: Public Enum FT_Glyph_Format As UInteger
+- uid: Pie.Text.Native.FT_Glyph_Format.None
+  commentId: F:Pie.Text.Native.FT_Glyph_Format.None
+  id: None
+  parent: Pie.Text.Native.FT_Glyph_Format
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: FT_Glyph_Format.None
+  fullName: Pie.Text.Native.FT_Glyph_Format.None
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FT_Glyph_Format.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: None
+    path: src/Pie/Pie.Text/Native/FT_Glyph_Format.cs
+    startLine: 4
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: None = 0
+    return:
+      type: Pie.Text.Native.FT_Glyph_Format
+- uid: Pie.Text.Native.FT_Glyph_Format.Composite
+  commentId: F:Pie.Text.Native.FT_Glyph_Format.Composite
+  id: Composite
+  parent: Pie.Text.Native.FT_Glyph_Format
+  langs:
+  - csharp
+  - vb
+  name: Composite
+  nameWithType: FT_Glyph_Format.Composite
+  fullName: Pie.Text.Native.FT_Glyph_Format.Composite
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FT_Glyph_Format.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Composite
+    path: src/Pie/Pie.Text/Native/FT_Glyph_Format.cs
+    startLine: 5
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: Composite = 1668246896
+    return:
+      type: Pie.Text.Native.FT_Glyph_Format
+- uid: Pie.Text.Native.FT_Glyph_Format.Bitmap
+  commentId: F:Pie.Text.Native.FT_Glyph_Format.Bitmap
+  id: Bitmap
+  parent: Pie.Text.Native.FT_Glyph_Format
+  langs:
+  - csharp
+  - vb
+  name: Bitmap
+  nameWithType: FT_Glyph_Format.Bitmap
+  fullName: Pie.Text.Native.FT_Glyph_Format.Bitmap
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FT_Glyph_Format.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Bitmap
+    path: src/Pie/Pie.Text/Native/FT_Glyph_Format.cs
+    startLine: 6
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: Bitmap = 1651078259
+    return:
+      type: Pie.Text.Native.FT_Glyph_Format
+- uid: Pie.Text.Native.FT_Glyph_Format.Outline
+  commentId: F:Pie.Text.Native.FT_Glyph_Format.Outline
+  id: Outline
+  parent: Pie.Text.Native.FT_Glyph_Format
+  langs:
+  - csharp
+  - vb
+  name: Outline
+  nameWithType: FT_Glyph_Format.Outline
+  fullName: Pie.Text.Native.FT_Glyph_Format.Outline
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FT_Glyph_Format.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Outline
+    path: src/Pie/Pie.Text/Native/FT_Glyph_Format.cs
+    startLine: 7
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: Outline = 1869968492
+    return:
+      type: Pie.Text.Native.FT_Glyph_Format
+- uid: Pie.Text.Native.FT_Glyph_Format.Plotter
+  commentId: F:Pie.Text.Native.FT_Glyph_Format.Plotter
+  id: Plotter
+  parent: Pie.Text.Native.FT_Glyph_Format
+  langs:
+  - csharp
+  - vb
+  name: Plotter
+  nameWithType: FT_Glyph_Format.Plotter
+  fullName: Pie.Text.Native.FT_Glyph_Format.Plotter
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FT_Glyph_Format.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Plotter
+    path: src/Pie/Pie.Text/Native/FT_Glyph_Format.cs
+    startLine: 8
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: Plotter = 1886154612
+    return:
+      type: Pie.Text.Native.FT_Glyph_Format
+- uid: Pie.Text.Native.FT_Glyph_Format.SVG
+  commentId: F:Pie.Text.Native.FT_Glyph_Format.SVG
+  id: SVG
+  parent: Pie.Text.Native.FT_Glyph_Format
+  langs:
+  - csharp
+  - vb
+  name: SVG
+  nameWithType: FT_Glyph_Format.SVG
+  fullName: Pie.Text.Native.FT_Glyph_Format.SVG
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FT_Glyph_Format.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: SVG
+    path: src/Pie/Pie.Text/Native/FT_Glyph_Format.cs
+    startLine: 9
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: SVG = 1398163232
+    return:
+      type: Pie.Text.Native.FT_Glyph_Format
+references:
+- uid: Pie.Text.Native
+  commentId: N:Pie.Text.Native
+  name: Pie.Text.Native
+  nameWithType: Pie.Text.Native
+  fullName: Pie.Text.Native
+  spec.csharp:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Text
+    name: Text
+  - name: .
+  - uid: Pie.Text.Native
+    name: Native
+  spec.vb:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Text
+    name: Text
+  - name: .
+  - uid: Pie.Text.Native
+    name: Native
+- uid: Pie.Text.Native.FT_Glyph_Format
+  commentId: T:Pie.Text.Native.FT_Glyph_Format
+  parent: Pie.Text.Native
+  name: FT_Glyph_Format
+  nameWithType: FT_Glyph_Format
+  fullName: Pie.Text.Native.FT_Glyph_Format

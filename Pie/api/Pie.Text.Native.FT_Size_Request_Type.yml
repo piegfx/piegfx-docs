@@ -1,0 +1,220 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pie.Text.Native.FT_Size_Request_Type
+  commentId: T:Pie.Text.Native.FT_Size_Request_Type
+  id: FT_Size_Request_Type
+  parent: Pie.Text.Native
+  children:
+  - Pie.Text.Native.FT_Size_Request_Type.BBox
+  - Pie.Text.Native.FT_Size_Request_Type.Cell
+  - Pie.Text.Native.FT_Size_Request_Type.Max
+  - Pie.Text.Native.FT_Size_Request_Type.Nominal
+  - Pie.Text.Native.FT_Size_Request_Type.RealDim
+  - Pie.Text.Native.FT_Size_Request_Type.Scales
+  langs:
+  - csharp
+  - vb
+  name: FT_Size_Request_Type
+  nameWithType: FT_Size_Request_Type
+  fullName: Pie.Text.Native.FT_Size_Request_Type
+  type: Enum
+  source:
+    remote:
+      path: Pie.Text/Native/FT_Size_Request_Type.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: FT_Size_Request_Type
+    path: src/Pie/Pie.Text/Native/FT_Size_Request_Type.cs
+    startLine: 2
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public enum FT_Size_Request_Type
+    content.vb: Public Enum FT_Size_Request_Type
+- uid: Pie.Text.Native.FT_Size_Request_Type.Nominal
+  commentId: F:Pie.Text.Native.FT_Size_Request_Type.Nominal
+  id: Nominal
+  parent: Pie.Text.Native.FT_Size_Request_Type
+  langs:
+  - csharp
+  - vb
+  name: Nominal
+  nameWithType: FT_Size_Request_Type.Nominal
+  fullName: Pie.Text.Native.FT_Size_Request_Type.Nominal
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FT_Size_Request_Type.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Nominal
+    path: src/Pie/Pie.Text/Native/FT_Size_Request_Type.cs
+    startLine: 4
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: Nominal = 0
+    return:
+      type: Pie.Text.Native.FT_Size_Request_Type
+- uid: Pie.Text.Native.FT_Size_Request_Type.RealDim
+  commentId: F:Pie.Text.Native.FT_Size_Request_Type.RealDim
+  id: RealDim
+  parent: Pie.Text.Native.FT_Size_Request_Type
+  langs:
+  - csharp
+  - vb
+  name: RealDim
+  nameWithType: FT_Size_Request_Type.RealDim
+  fullName: Pie.Text.Native.FT_Size_Request_Type.RealDim
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FT_Size_Request_Type.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: RealDim
+    path: src/Pie/Pie.Text/Native/FT_Size_Request_Type.cs
+    startLine: 5
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: RealDim = 1
+    return:
+      type: Pie.Text.Native.FT_Size_Request_Type
+- uid: Pie.Text.Native.FT_Size_Request_Type.BBox
+  commentId: F:Pie.Text.Native.FT_Size_Request_Type.BBox
+  id: BBox
+  parent: Pie.Text.Native.FT_Size_Request_Type
+  langs:
+  - csharp
+  - vb
+  name: BBox
+  nameWithType: FT_Size_Request_Type.BBox
+  fullName: Pie.Text.Native.FT_Size_Request_Type.BBox
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FT_Size_Request_Type.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: BBox
+    path: src/Pie/Pie.Text/Native/FT_Size_Request_Type.cs
+    startLine: 6
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: BBox = 2
+    return:
+      type: Pie.Text.Native.FT_Size_Request_Type
+- uid: Pie.Text.Native.FT_Size_Request_Type.Cell
+  commentId: F:Pie.Text.Native.FT_Size_Request_Type.Cell
+  id: Cell
+  parent: Pie.Text.Native.FT_Size_Request_Type
+  langs:
+  - csharp
+  - vb
+  name: Cell
+  nameWithType: FT_Size_Request_Type.Cell
+  fullName: Pie.Text.Native.FT_Size_Request_Type.Cell
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FT_Size_Request_Type.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Cell
+    path: src/Pie/Pie.Text/Native/FT_Size_Request_Type.cs
+    startLine: 7
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: Cell = 3
+    return:
+      type: Pie.Text.Native.FT_Size_Request_Type
+- uid: Pie.Text.Native.FT_Size_Request_Type.Scales
+  commentId: F:Pie.Text.Native.FT_Size_Request_Type.Scales
+  id: Scales
+  parent: Pie.Text.Native.FT_Size_Request_Type
+  langs:
+  - csharp
+  - vb
+  name: Scales
+  nameWithType: FT_Size_Request_Type.Scales
+  fullName: Pie.Text.Native.FT_Size_Request_Type.Scales
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FT_Size_Request_Type.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Scales
+    path: src/Pie/Pie.Text/Native/FT_Size_Request_Type.cs
+    startLine: 8
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: Scales = 4
+    return:
+      type: Pie.Text.Native.FT_Size_Request_Type
+- uid: Pie.Text.Native.FT_Size_Request_Type.Max
+  commentId: F:Pie.Text.Native.FT_Size_Request_Type.Max
+  id: Max
+  parent: Pie.Text.Native.FT_Size_Request_Type
+  langs:
+  - csharp
+  - vb
+  name: Max
+  nameWithType: FT_Size_Request_Type.Max
+  fullName: Pie.Text.Native.FT_Size_Request_Type.Max
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FT_Size_Request_Type.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Max
+    path: src/Pie/Pie.Text/Native/FT_Size_Request_Type.cs
+    startLine: 9
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: Max = 5
+    return:
+      type: Pie.Text.Native.FT_Size_Request_Type
+references:
+- uid: Pie.Text.Native
+  commentId: N:Pie.Text.Native
+  name: Pie.Text.Native
+  nameWithType: Pie.Text.Native
+  fullName: Pie.Text.Native
+  spec.csharp:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Text
+    name: Text
+  - name: .
+  - uid: Pie.Text.Native
+    name: Native
+  spec.vb:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Text
+    name: Text
+  - name: .
+  - uid: Pie.Text.Native
+    name: Native
+- uid: Pie.Text.Native.FT_Size_Request_Type
+  commentId: T:Pie.Text.Native.FT_Size_Request_Type
+  parent: Pie.Text.Native
+  name: FT_Size_Request_Type
+  nameWithType: FT_Size_Request_Type
+  fullName: Pie.Text.Native.FT_Size_Request_Type

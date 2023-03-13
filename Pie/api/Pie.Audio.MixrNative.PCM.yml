@@ -1,0 +1,357 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pie.Audio.MixrNative.PCM
+  commentId: T:Pie.Audio.MixrNative.PCM
+  id: MixrNative.PCM
+  parent: Pie.Audio
+  children:
+  - Pie.Audio.MixrNative.PCM.Data
+  - Pie.Audio.MixrNative.PCM.DataLength
+  - Pie.Audio.MixrNative.PCM.Format
+  langs:
+  - csharp
+  - vb
+  name: MixrNative.PCM
+  nameWithType: MixrNative.PCM
+  fullName: Pie.Audio.MixrNative.PCM
+  type: Struct
+  source:
+    remote:
+      path: Pie.Audio/MixrNative.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: PCM
+    path: src/Pie/Pie.Audio/MixrNative.cs
+    startLine: 67
+  assemblies:
+  - Pie.Audio
+  namespace: Pie.Audio
+  syntax:
+    content: public struct MixrNative.PCM
+    content.vb: Public Structure MixrNative.PCM
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: Pie.Audio.MixrNative.PCM.Data
+  commentId: F:Pie.Audio.MixrNative.PCM.Data
+  id: Data
+  parent: Pie.Audio.MixrNative.PCM
+  langs:
+  - csharp
+  - vb
+  name: Data
+  nameWithType: MixrNative.PCM.Data
+  fullName: Pie.Audio.MixrNative.PCM.Data
+  type: Field
+  source:
+    remote:
+      path: Pie.Audio/MixrNative.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Data
+    path: src/Pie/Pie.Audio/MixrNative.cs
+    startLine: 70
+  assemblies:
+  - Pie.Audio
+  namespace: Pie.Audio
+  syntax:
+    content: public readonly byte* Data
+    return:
+      type: System.Byte*
+    content.vb: Public ReadOnly Data As Byte*
+- uid: Pie.Audio.MixrNative.PCM.DataLength
+  commentId: F:Pie.Audio.MixrNative.PCM.DataLength
+  id: DataLength
+  parent: Pie.Audio.MixrNative.PCM
+  langs:
+  - csharp
+  - vb
+  name: DataLength
+  nameWithType: MixrNative.PCM.DataLength
+  fullName: Pie.Audio.MixrNative.PCM.DataLength
+  type: Field
+  source:
+    remote:
+      path: Pie.Audio/MixrNative.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: DataLength
+    path: src/Pie/Pie.Audio/MixrNative.cs
+    startLine: 71
+  assemblies:
+  - Pie.Audio
+  namespace: Pie.Audio
+  syntax:
+    content: public readonly nuint DataLength
+    return:
+      type: System.UIntPtr
+    content.vb: Public ReadOnly DataLength As UIntPtr
+- uid: Pie.Audio.MixrNative.PCM.Format
+  commentId: F:Pie.Audio.MixrNative.PCM.Format
+  id: Format
+  parent: Pie.Audio.MixrNative.PCM
+  langs:
+  - csharp
+  - vb
+  name: Format
+  nameWithType: MixrNative.PCM.Format
+  fullName: Pie.Audio.MixrNative.PCM.Format
+  type: Field
+  source:
+    remote:
+      path: Pie.Audio/MixrNative.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Format
+    path: src/Pie/Pie.Audio/MixrNative.cs
+    startLine: 72
+  assemblies:
+  - Pie.Audio
+  namespace: Pie.Audio
+  syntax:
+    content: public readonly AudioFormat Format
+    return:
+      type: Pie.Audio.AudioFormat
+    content.vb: Public ReadOnly Format As AudioFormat
+references:
+- uid: Pie.Audio
+  commentId: N:Pie.Audio
+  name: Pie.Audio
+  nameWithType: Pie.Audio
+  fullName: Pie.Audio
+  spec.csharp:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Audio
+    name: Audio
+  spec.vb:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Audio
+    name: Audio
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Byte*
+  isExternal: true
+  name: byte*
+  nameWithType: byte*
+  fullName: byte*
+  nameWithType.vb: Byte*
+  fullName.vb: Byte*
+  name.vb: Byte*
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+  - name: '*'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+  - name: '*'
+- uid: System.UIntPtr
+  commentId: T:System.UIntPtr
+  parent: System
+  isExternal: true
+  name: nuint
+  nameWithType: nuint
+  fullName: nuint
+  nameWithType.vb: UIntPtr
+  fullName.vb: System.UIntPtr
+  name.vb: UIntPtr
+- uid: Pie.Audio.AudioFormat
+  commentId: T:Pie.Audio.AudioFormat
+  parent: Pie.Audio
+  name: AudioFormat
+  nameWithType: AudioFormat
+  fullName: Pie.Audio.AudioFormat

@@ -1,0 +1,83 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pie.Audio.DataType
+  commentId: T:Pie.Audio.DataType
+  id: DataType
+  parent: Pie.Audio
+  children:
+  - Pie.Audio.DataType.Pcm
+  langs:
+  - csharp
+  - vb
+  name: DataType
+  nameWithType: DataType
+  fullName: Pie.Audio.DataType
+  type: Enum
+  source:
+    remote:
+      path: Pie.Audio/DataType.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: DataType
+    path: src/Pie/Pie.Audio/DataType.cs
+    startLine: 5
+  assemblies:
+  - Pie.Audio
+  namespace: Pie.Audio
+  summary: "\nBuffers can contain various types of data which is decoded during playback.\n"
+  example: []
+  syntax:
+    content: public enum DataType
+    content.vb: Public Enum DataType
+- uid: Pie.Audio.DataType.Pcm
+  commentId: F:Pie.Audio.DataType.Pcm
+  id: Pcm
+  parent: Pie.Audio.DataType
+  langs:
+  - csharp
+  - vb
+  name: Pcm
+  nameWithType: DataType.Pcm
+  fullName: Pie.Audio.DataType.Pcm
+  type: Field
+  source:
+    remote:
+      path: Pie.Audio/DataType.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Pcm
+    path: src/Pie/Pie.Audio/DataType.cs
+    startLine: 10
+  assemblies:
+  - Pie.Audio
+  namespace: Pie.Audio
+  summary: "\nThis buffer is a raw PCM buffer.\n"
+  example: []
+  syntax:
+    content: Pcm = 0
+    return:
+      type: Pie.Audio.DataType
+references:
+- uid: Pie.Audio
+  commentId: N:Pie.Audio
+  name: Pie.Audio
+  nameWithType: Pie.Audio
+  fullName: Pie.Audio
+  spec.csharp:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Audio
+    name: Audio
+  spec.vb:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Audio
+    name: Audio
+- uid: Pie.Audio.DataType
+  commentId: T:Pie.Audio.DataType
+  parent: Pie.Audio
+  name: DataType
+  nameWithType: DataType
+  fullName: Pie.Audio.DataType

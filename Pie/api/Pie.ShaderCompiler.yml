@@ -1,0 +1,163 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pie.ShaderCompiler
+  commentId: N:Pie.ShaderCompiler
+  id: Pie.ShaderCompiler
+  children:
+  - Pie.ShaderCompiler.Compiler
+  - Pie.ShaderCompiler.CompilerResult
+  - Pie.ShaderCompiler.Language
+  - Pie.ShaderCompiler.ReflectionInfo
+  - Pie.ShaderCompiler.ReflectionInfo.EntryPoint
+  - Pie.ShaderCompiler.ReflectionInfo.ShaderAttribute
+  - Pie.ShaderCompiler.ReflectionInfo.ShaderType
+  - Pie.ShaderCompiler.ReflectionInfo.ShaderType.MemberInfo
+  - Pie.ShaderCompiler.ReflectionInfo.UBOInfo
+  - Pie.ShaderCompiler.Stage
+  langs:
+  - csharp
+  - vb
+  name: Pie.ShaderCompiler
+  nameWithType: Pie.ShaderCompiler
+  fullName: Pie.ShaderCompiler
+  type: Namespace
+  assemblies:
+  - Pie.ShaderCompiler
+references:
+- uid: Pie.ShaderCompiler.Compiler
+  commentId: T:Pie.ShaderCompiler.Compiler
+  name: Compiler
+  nameWithType: Compiler
+  fullName: Pie.ShaderCompiler.Compiler
+- uid: Pie.ShaderCompiler.CompilerResult
+  commentId: T:Pie.ShaderCompiler.CompilerResult
+  parent: Pie.ShaderCompiler
+  name: CompilerResult
+  nameWithType: CompilerResult
+  fullName: Pie.ShaderCompiler.CompilerResult
+- uid: Pie.ShaderCompiler.Language
+  commentId: T:Pie.ShaderCompiler.Language
+  parent: Pie.ShaderCompiler
+  name: Language
+  nameWithType: Language
+  fullName: Pie.ShaderCompiler.Language
+- uid: Pie.ShaderCompiler.ReflectionInfo
+  commentId: T:Pie.ShaderCompiler.ReflectionInfo
+  parent: Pie.ShaderCompiler
+  name: ReflectionInfo
+  nameWithType: ReflectionInfo
+  fullName: Pie.ShaderCompiler.ReflectionInfo
+- uid: Pie.ShaderCompiler.ReflectionInfo.EntryPoint
+  commentId: T:Pie.ShaderCompiler.ReflectionInfo.EntryPoint
+  name: ReflectionInfo.EntryPoint
+  nameWithType: ReflectionInfo.EntryPoint
+  fullName: Pie.ShaderCompiler.ReflectionInfo.EntryPoint
+  spec.csharp:
+  - uid: Pie.ShaderCompiler.ReflectionInfo
+    name: ReflectionInfo
+  - name: .
+  - uid: Pie.ShaderCompiler.ReflectionInfo.EntryPoint
+    name: EntryPoint
+  spec.vb:
+  - uid: Pie.ShaderCompiler.ReflectionInfo
+    name: ReflectionInfo
+  - name: .
+  - uid: Pie.ShaderCompiler.ReflectionInfo.EntryPoint
+    name: EntryPoint
+- uid: Pie.ShaderCompiler.ReflectionInfo.ShaderType
+  commentId: T:Pie.ShaderCompiler.ReflectionInfo.ShaderType
+  name: ReflectionInfo.ShaderType
+  nameWithType: ReflectionInfo.ShaderType
+  fullName: Pie.ShaderCompiler.ReflectionInfo.ShaderType
+  spec.csharp:
+  - uid: Pie.ShaderCompiler.ReflectionInfo
+    name: ReflectionInfo
+  - name: .
+  - uid: Pie.ShaderCompiler.ReflectionInfo.ShaderType
+    name: ShaderType
+  spec.vb:
+  - uid: Pie.ShaderCompiler.ReflectionInfo
+    name: ReflectionInfo
+  - name: .
+  - uid: Pie.ShaderCompiler.ReflectionInfo.ShaderType
+    name: ShaderType
+- uid: Pie.ShaderCompiler.ReflectionInfo.ShaderType.MemberInfo
+  commentId: T:Pie.ShaderCompiler.ReflectionInfo.ShaderType.MemberInfo
+  name: ReflectionInfo.ShaderType.MemberInfo
+  nameWithType: ReflectionInfo.ShaderType.MemberInfo
+  fullName: Pie.ShaderCompiler.ReflectionInfo.ShaderType.MemberInfo
+  spec.csharp:
+  - uid: Pie.ShaderCompiler.ReflectionInfo
+    name: ReflectionInfo
+  - name: .
+  - uid: Pie.ShaderCompiler.ReflectionInfo.ShaderType
+    name: ShaderType
+  - name: .
+  - uid: Pie.ShaderCompiler.ReflectionInfo.ShaderType.MemberInfo
+    name: MemberInfo
+  spec.vb:
+  - uid: Pie.ShaderCompiler.ReflectionInfo
+    name: ReflectionInfo
+  - name: .
+  - uid: Pie.ShaderCompiler.ReflectionInfo.ShaderType
+    name: ShaderType
+  - name: .
+  - uid: Pie.ShaderCompiler.ReflectionInfo.ShaderType.MemberInfo
+    name: MemberInfo
+- uid: Pie.ShaderCompiler.ReflectionInfo.ShaderAttribute
+  commentId: T:Pie.ShaderCompiler.ReflectionInfo.ShaderAttribute
+  name: ReflectionInfo.ShaderAttribute
+  nameWithType: ReflectionInfo.ShaderAttribute
+  fullName: Pie.ShaderCompiler.ReflectionInfo.ShaderAttribute
+  spec.csharp:
+  - uid: Pie.ShaderCompiler.ReflectionInfo
+    name: ReflectionInfo
+  - name: .
+  - uid: Pie.ShaderCompiler.ReflectionInfo.ShaderAttribute
+    name: ShaderAttribute
+  spec.vb:
+  - uid: Pie.ShaderCompiler.ReflectionInfo
+    name: ReflectionInfo
+  - name: .
+  - uid: Pie.ShaderCompiler.ReflectionInfo.ShaderAttribute
+    name: ShaderAttribute
+- uid: Pie.ShaderCompiler.ReflectionInfo.UBOInfo
+  commentId: T:Pie.ShaderCompiler.ReflectionInfo.UBOInfo
+  name: ReflectionInfo.UBOInfo
+  nameWithType: ReflectionInfo.UBOInfo
+  fullName: Pie.ShaderCompiler.ReflectionInfo.UBOInfo
+  spec.csharp:
+  - uid: Pie.ShaderCompiler.ReflectionInfo
+    name: ReflectionInfo
+  - name: .
+  - uid: Pie.ShaderCompiler.ReflectionInfo.UBOInfo
+    name: UBOInfo
+  spec.vb:
+  - uid: Pie.ShaderCompiler.ReflectionInfo
+    name: ReflectionInfo
+  - name: .
+  - uid: Pie.ShaderCompiler.ReflectionInfo.UBOInfo
+    name: UBOInfo
+- uid: Pie.ShaderCompiler.Stage
+  commentId: T:Pie.ShaderCompiler.Stage
+  parent: Pie.ShaderCompiler
+  name: Stage
+  nameWithType: Stage
+  fullName: Pie.ShaderCompiler.Stage
+- uid: Pie.ShaderCompiler
+  commentId: N:Pie.ShaderCompiler
+  name: Pie.ShaderCompiler
+  nameWithType: Pie.ShaderCompiler
+  fullName: Pie.ShaderCompiler
+  spec.csharp:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.ShaderCompiler
+    name: ShaderCompiler
+  spec.vb:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.ShaderCompiler
+    name: ShaderCompiler

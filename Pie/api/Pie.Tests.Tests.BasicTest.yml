@@ -1,0 +1,534 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pie.Tests.Tests.BasicTest
+  commentId: T:Pie.Tests.Tests.BasicTest
+  id: BasicTest
+  parent: Pie.Tests.Tests
+  children:
+  - Pie.Tests.Tests.BasicTest.Draw(System.Double)
+  - Pie.Tests.Tests.BasicTest.Initialize
+  langs:
+  - csharp
+  - vb
+  name: BasicTest
+  nameWithType: BasicTest
+  fullName: Pie.Tests.Tests.BasicTest
+  type: Class
+  source:
+    remote:
+      path: Pie.Tests/Tests/BasicTest.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: BasicTest
+    path: src/Pie/Pie.Tests/Tests/BasicTest.cs
+    startLine: 11
+  assemblies:
+  - Pie.Tests
+  namespace: Pie.Tests.Tests
+  syntax:
+    content: 'public class BasicTest : TestBase, IDisposable'
+    content.vb: Public Class BasicTest Inherits TestBase Implements IDisposable
+  inheritance:
+  - System.Object
+  - Pie.Tests.TestBase
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - Pie.Tests.TestBase.Window
+  - Pie.Tests.TestBase.GraphicsDevice
+  - Pie.Tests.TestBase.Update(System.Double)
+  - Pie.Tests.TestBase.Run(Pie.Windowing.WindowSettings,Pie.GraphicsApi)
+  - Pie.Tests.TestBase.WindowOnResize(System.Drawing.Size)
+  - Pie.Tests.TestBase.Dispose
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Pie.Tests.Tests.BasicTest.Initialize
+  commentId: M:Pie.Tests.Tests.BasicTest.Initialize
+  id: Initialize
+  parent: Pie.Tests.Tests.BasicTest
+  langs:
+  - csharp
+  - vb
+  name: Initialize()
+  nameWithType: BasicTest.Initialize()
+  fullName: Pie.Tests.Tests.BasicTest.Initialize()
+  type: Method
+  source:
+    remote:
+      path: Pie.Tests/Tests/BasicTest.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Initialize
+    path: src/Pie/Pie.Tests/Tests/BasicTest.cs
+    startLine: 22
+  assemblies:
+  - Pie.Tests
+  namespace: Pie.Tests.Tests
+  syntax:
+    content: protected override void Initialize()
+    content.vb: Protected Overrides Sub Initialize()
+  overridden: Pie.Tests.TestBase.Initialize
+  overload: Pie.Tests.Tests.BasicTest.Initialize*
+- uid: Pie.Tests.Tests.BasicTest.Draw(System.Double)
+  commentId: M:Pie.Tests.Tests.BasicTest.Draw(System.Double)
+  id: Draw(System.Double)
+  parent: Pie.Tests.Tests.BasicTest
+  langs:
+  - csharp
+  - vb
+  name: Draw(double)
+  nameWithType: BasicTest.Draw(double)
+  fullName: Pie.Tests.Tests.BasicTest.Draw(double)
+  type: Method
+  source:
+    remote:
+      path: Pie.Tests/Tests/BasicTest.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Draw
+    path: src/Pie/Pie.Tests/Tests/BasicTest.cs
+    startLine: 65
+  assemblies:
+  - Pie.Tests
+  namespace: Pie.Tests.Tests
+  syntax:
+    content: protected override void Draw(double dt)
+    parameters:
+    - id: dt
+      type: System.Double
+    content.vb: Protected Overrides Sub Draw(dt As Double)
+  overridden: Pie.Tests.TestBase.Draw(System.Double)
+  overload: Pie.Tests.Tests.BasicTest.Draw*
+  nameWithType.vb: BasicTest.Draw(Double)
+  fullName.vb: Pie.Tests.Tests.BasicTest.Draw(Double)
+  name.vb: Draw(Double)
+references:
+- uid: Pie.Tests.Tests
+  commentId: N:Pie.Tests.Tests
+  name: Pie.Tests.Tests
+  nameWithType: Pie.Tests.Tests
+  fullName: Pie.Tests.Tests
+  spec.csharp:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Tests
+    name: Tests
+  - name: .
+  - uid: Pie.Tests.Tests
+    name: Tests
+  spec.vb:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Tests
+    name: Tests
+  - name: .
+  - uid: Pie.Tests.Tests
+    name: Tests
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Pie.Tests.TestBase
+  commentId: T:Pie.Tests.TestBase
+  parent: Pie.Tests
+  name: TestBase
+  nameWithType: TestBase
+  fullName: Pie.Tests.TestBase
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: Pie.Tests.TestBase.Window
+  commentId: F:Pie.Tests.TestBase.Window
+  parent: Pie.Tests.TestBase
+  name: Window
+  nameWithType: TestBase.Window
+  fullName: Pie.Tests.TestBase.Window
+- uid: Pie.Tests.TestBase.GraphicsDevice
+  commentId: F:Pie.Tests.TestBase.GraphicsDevice
+  parent: Pie.Tests.TestBase
+  name: GraphicsDevice
+  nameWithType: TestBase.GraphicsDevice
+  fullName: Pie.Tests.TestBase.GraphicsDevice
+- uid: Pie.Tests.TestBase.Update(System.Double)
+  commentId: M:Pie.Tests.TestBase.Update(System.Double)
+  parent: Pie.Tests.TestBase
+  isExternal: true
+  name: Update(double)
+  nameWithType: TestBase.Update(double)
+  fullName: Pie.Tests.TestBase.Update(double)
+  nameWithType.vb: TestBase.Update(Double)
+  fullName.vb: Pie.Tests.TestBase.Update(Double)
+  name.vb: Update(Double)
+  spec.csharp:
+  - uid: Pie.Tests.TestBase.Update(System.Double)
+    name: Update
+  - name: (
+  - uid: System.Double
+    name: double
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Pie.Tests.TestBase.Update(System.Double)
+    name: Update
+  - name: (
+  - uid: System.Double
+    name: Double
+    isExternal: true
+  - name: )
+- uid: Pie.Tests.TestBase.Run(Pie.Windowing.WindowSettings,Pie.GraphicsApi)
+  commentId: M:Pie.Tests.TestBase.Run(Pie.Windowing.WindowSettings,Pie.GraphicsApi)
+  parent: Pie.Tests.TestBase
+  name: Run(WindowSettings, GraphicsApi)
+  nameWithType: TestBase.Run(WindowSettings, GraphicsApi)
+  fullName: Pie.Tests.TestBase.Run(Pie.Windowing.WindowSettings, Pie.GraphicsApi)
+  spec.csharp:
+  - uid: Pie.Tests.TestBase.Run(Pie.Windowing.WindowSettings,Pie.GraphicsApi)
+    name: Run
+  - name: (
+  - uid: Pie.Windowing.WindowSettings
+    name: WindowSettings
+  - name: ','
+  - name: " "
+  - uid: Pie.GraphicsApi
+    name: GraphicsApi
+  - name: )
+  spec.vb:
+  - uid: Pie.Tests.TestBase.Run(Pie.Windowing.WindowSettings,Pie.GraphicsApi)
+    name: Run
+  - name: (
+  - uid: Pie.Windowing.WindowSettings
+    name: WindowSettings
+  - name: ','
+  - name: " "
+  - uid: Pie.GraphicsApi
+    name: GraphicsApi
+  - name: )
+- uid: Pie.Tests.TestBase.WindowOnResize(System.Drawing.Size)
+  commentId: M:Pie.Tests.TestBase.WindowOnResize(System.Drawing.Size)
+  parent: Pie.Tests.TestBase
+  isExternal: true
+  name: WindowOnResize(Size)
+  nameWithType: TestBase.WindowOnResize(Size)
+  fullName: Pie.Tests.TestBase.WindowOnResize(System.Drawing.Size)
+  spec.csharp:
+  - uid: Pie.Tests.TestBase.WindowOnResize(System.Drawing.Size)
+    name: WindowOnResize
+  - name: (
+  - uid: System.Drawing.Size
+    name: Size
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Pie.Tests.TestBase.WindowOnResize(System.Drawing.Size)
+    name: WindowOnResize
+  - name: (
+  - uid: System.Drawing.Size
+    name: Size
+    isExternal: true
+  - name: )
+- uid: Pie.Tests.TestBase.Dispose
+  commentId: M:Pie.Tests.TestBase.Dispose
+  parent: Pie.Tests.TestBase
+  name: Dispose()
+  nameWithType: TestBase.Dispose()
+  fullName: Pie.Tests.TestBase.Dispose()
+  spec.csharp:
+  - uid: Pie.Tests.TestBase.Dispose
+    name: Dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Pie.Tests.TestBase.Dispose
+    name: Dispose
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Pie.Tests
+  commentId: N:Pie.Tests
+  name: Pie.Tests
+  nameWithType: Pie.Tests
+  fullName: Pie.Tests
+  spec.csharp:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Tests
+    name: Tests
+  spec.vb:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Tests
+    name: Tests
+- uid: Pie.Tests.TestBase.Initialize
+  commentId: M:Pie.Tests.TestBase.Initialize
+  parent: Pie.Tests.TestBase
+  name: Initialize()
+  nameWithType: TestBase.Initialize()
+  fullName: Pie.Tests.TestBase.Initialize()
+  spec.csharp:
+  - uid: Pie.Tests.TestBase.Initialize
+    name: Initialize
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Pie.Tests.TestBase.Initialize
+    name: Initialize
+  - name: (
+  - name: )
+- uid: Pie.Tests.Tests.BasicTest.Initialize*
+  commentId: Overload:Pie.Tests.Tests.BasicTest.Initialize
+  name: Initialize
+  nameWithType: BasicTest.Initialize
+  fullName: Pie.Tests.Tests.BasicTest.Initialize
+- uid: Pie.Tests.TestBase.Draw(System.Double)
+  commentId: M:Pie.Tests.TestBase.Draw(System.Double)
+  parent: Pie.Tests.TestBase
+  isExternal: true
+  name: Draw(double)
+  nameWithType: TestBase.Draw(double)
+  fullName: Pie.Tests.TestBase.Draw(double)
+  nameWithType.vb: TestBase.Draw(Double)
+  fullName.vb: Pie.Tests.TestBase.Draw(Double)
+  name.vb: Draw(Double)
+  spec.csharp:
+  - uid: Pie.Tests.TestBase.Draw(System.Double)
+    name: Draw
+  - name: (
+  - uid: System.Double
+    name: double
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Pie.Tests.TestBase.Draw(System.Double)
+    name: Draw
+  - name: (
+  - uid: System.Double
+    name: Double
+    isExternal: true
+  - name: )
+- uid: Pie.Tests.Tests.BasicTest.Draw*
+  commentId: Overload:Pie.Tests.Tests.BasicTest.Draw
+  name: Draw
+  nameWithType: BasicTest.Draw
+  fullName: Pie.Tests.Tests.BasicTest.Draw
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double

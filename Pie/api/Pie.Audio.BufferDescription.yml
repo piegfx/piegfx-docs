@@ -1,0 +1,372 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pie.Audio.BufferDescription
+  commentId: T:Pie.Audio.BufferDescription
+  id: BufferDescription
+  parent: Pie.Audio
+  children:
+  - Pie.Audio.BufferDescription.#ctor(Pie.Audio.DataType,Pie.Audio.AudioFormat)
+  - Pie.Audio.BufferDescription.DataType
+  - Pie.Audio.BufferDescription.Format
+  langs:
+  - csharp
+  - vb
+  name: BufferDescription
+  nameWithType: BufferDescription
+  fullName: Pie.Audio.BufferDescription
+  type: Struct
+  source:
+    remote:
+      path: Pie.Audio/BufferDescription.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: BufferDescription
+    path: src/Pie/Pie.Audio/BufferDescription.cs
+    startLine: 7
+  assemblies:
+  - Pie.Audio
+  namespace: Pie.Audio
+  summary: "\n<xref href=\"Pie.Audio.BufferDescription\" data-throw-if-not-resolved=\"false\"></xref>s describe how an <xref href=\"Pie.Audio.AudioBuffer\" data-throw-if-not-resolved=\"false\"></xref> should be processed.\n"
+  example: []
+  syntax:
+    content: public struct BufferDescription
+    content.vb: Public Structure BufferDescription
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: Pie.Audio.BufferDescription.DataType
+  commentId: F:Pie.Audio.BufferDescription.DataType
+  id: DataType
+  parent: Pie.Audio.BufferDescription
+  langs:
+  - csharp
+  - vb
+  name: DataType
+  nameWithType: BufferDescription.DataType
+  fullName: Pie.Audio.BufferDescription.DataType
+  type: Field
+  source:
+    remote:
+      path: Pie.Audio/BufferDescription.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: DataType
+    path: src/Pie/Pie.Audio/BufferDescription.cs
+    startLine: 13
+  assemblies:
+  - Pie.Audio
+  namespace: Pie.Audio
+  summary: "\nThe buffer&apos;s <xref href=\"Pie.Audio.DataType\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public DataType DataType
+    return:
+      type: Pie.Audio.DataType
+    content.vb: Public DataType As DataType
+- uid: Pie.Audio.BufferDescription.Format
+  commentId: F:Pie.Audio.BufferDescription.Format
+  id: Format
+  parent: Pie.Audio.BufferDescription
+  langs:
+  - csharp
+  - vb
+  name: Format
+  nameWithType: BufferDescription.Format
+  fullName: Pie.Audio.BufferDescription.Format
+  type: Field
+  source:
+    remote:
+      path: Pie.Audio/BufferDescription.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Format
+    path: src/Pie/Pie.Audio/BufferDescription.cs
+    startLine: 18
+  assemblies:
+  - Pie.Audio
+  namespace: Pie.Audio
+  summary: "\nThe buffer&apos;s <xref href=\"Pie.Audio.AudioFormat\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public AudioFormat Format
+    return:
+      type: Pie.Audio.AudioFormat
+    content.vb: Public Format As AudioFormat
+- uid: Pie.Audio.BufferDescription.#ctor(Pie.Audio.DataType,Pie.Audio.AudioFormat)
+  commentId: M:Pie.Audio.BufferDescription.#ctor(Pie.Audio.DataType,Pie.Audio.AudioFormat)
+  id: '#ctor(Pie.Audio.DataType,Pie.Audio.AudioFormat)'
+  parent: Pie.Audio.BufferDescription
+  langs:
+  - csharp
+  - vb
+  name: BufferDescription(DataType, AudioFormat)
+  nameWithType: BufferDescription.BufferDescription(DataType, AudioFormat)
+  fullName: Pie.Audio.BufferDescription.BufferDescription(Pie.Audio.DataType, Pie.Audio.AudioFormat)
+  type: Constructor
+  source:
+    remote:
+      path: Pie.Audio/BufferDescription.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: .ctor
+    path: src/Pie/Pie.Audio/BufferDescription.cs
+    startLine: 25
+  assemblies:
+  - Pie.Audio
+  namespace: Pie.Audio
+  summary: "\nCreate a new <xref href=\"Pie.Audio.BufferDescription\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public BufferDescription(DataType dataType, AudioFormat format)
+    parameters:
+    - id: dataType
+      type: Pie.Audio.DataType
+      description: The buffer&apos;s <xref href="Pie.Audio.DataType" data-throw-if-not-resolved="false"></xref>.
+    - id: format
+      type: Pie.Audio.AudioFormat
+      description: The buffer&apos;s <xref href="Pie.Audio.AudioFormat" data-throw-if-not-resolved="false"></xref>.
+    content.vb: Public Sub New(dataType As DataType, format As AudioFormat)
+  overload: Pie.Audio.BufferDescription.#ctor*
+  nameWithType.vb: BufferDescription.New(DataType, AudioFormat)
+  fullName.vb: Pie.Audio.BufferDescription.New(Pie.Audio.DataType, Pie.Audio.AudioFormat)
+  name.vb: New(DataType, AudioFormat)
+references:
+- uid: Pie.Audio.BufferDescription
+  commentId: T:Pie.Audio.BufferDescription
+  parent: Pie.Audio
+  name: BufferDescription
+  nameWithType: BufferDescription
+  fullName: Pie.Audio.BufferDescription
+- uid: Pie.Audio.AudioBuffer
+  commentId: T:Pie.Audio.AudioBuffer
+  parent: Pie.Audio
+  name: AudioBuffer
+  nameWithType: AudioBuffer
+  fullName: Pie.Audio.AudioBuffer
+- uid: Pie.Audio
+  commentId: N:Pie.Audio
+  name: Pie.Audio
+  nameWithType: Pie.Audio
+  fullName: Pie.Audio
+  spec.csharp:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Audio
+    name: Audio
+  spec.vb:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Audio
+    name: Audio
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Pie.Audio.DataType
+  commentId: T:Pie.Audio.DataType
+  parent: Pie.Audio
+  name: DataType
+  nameWithType: DataType
+  fullName: Pie.Audio.DataType
+- uid: Pie.Audio.AudioFormat
+  commentId: T:Pie.Audio.AudioFormat
+  parent: Pie.Audio
+  name: AudioFormat
+  nameWithType: AudioFormat
+  fullName: Pie.Audio.AudioFormat
+- uid: Pie.Audio.BufferDescription.#ctor*
+  commentId: Overload:Pie.Audio.BufferDescription.#ctor
+  name: BufferDescription
+  nameWithType: BufferDescription.BufferDescription
+  fullName: Pie.Audio.BufferDescription.BufferDescription
+  nameWithType.vb: BufferDescription.New
+  fullName.vb: Pie.Audio.BufferDescription.New
+  name.vb: New

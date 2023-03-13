@@ -1,0 +1,73 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pie.Text
+  commentId: N:Pie.Text
+  id: Pie.Text
+  children:
+  - Pie.Text.Character
+  - Pie.Text.CharacterCollection
+  - Pie.Text.Face
+  - Pie.Text.FaceFlags
+  - Pie.Text.FreeType
+  - Pie.Text.FT_ListNode
+  langs:
+  - csharp
+  - vb
+  name: Pie.Text
+  nameWithType: Pie.Text
+  fullName: Pie.Text
+  type: Namespace
+  assemblies:
+  - Pie.Text
+references:
+- uid: Pie.Text.Character
+  commentId: T:Pie.Text.Character
+  parent: Pie.Text
+  name: Character
+  nameWithType: Character
+  fullName: Pie.Text.Character
+- uid: Pie.Text.CharacterCollection
+  commentId: T:Pie.Text.CharacterCollection
+  parent: Pie.Text
+  name: CharacterCollection
+  nameWithType: CharacterCollection
+  fullName: Pie.Text.CharacterCollection
+- uid: Pie.Text.Face
+  commentId: T:Pie.Text.Face
+  parent: Pie.Text
+  name: Face
+  nameWithType: Face
+  fullName: Pie.Text.Face
+- uid: Pie.Text.FaceFlags
+  commentId: T:Pie.Text.FaceFlags
+  parent: Pie.Text
+  name: FaceFlags
+  nameWithType: FaceFlags
+  fullName: Pie.Text.FaceFlags
+- uid: Pie.Text.FreeType
+  commentId: T:Pie.Text.FreeType
+  name: FreeType
+  nameWithType: FreeType
+  fullName: Pie.Text.FreeType
+- uid: Pie.Text.FT_ListNode
+  commentId: T:Pie.Text.FT_ListNode
+  name: FT_ListNode
+  nameWithType: FT_ListNode
+  fullName: Pie.Text.FT_ListNode
+- uid: Pie.Text
+  commentId: N:Pie.Text
+  name: Pie.Text
+  nameWithType: Pie.Text
+  fullName: Pie.Text
+  spec.csharp:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Text
+    name: Text
+  spec.vb:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Text
+    name: Text

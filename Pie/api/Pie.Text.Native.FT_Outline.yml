@@ -1,0 +1,482 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pie.Text.Native.FT_Outline
+  commentId: T:Pie.Text.Native.FT_Outline
+  id: FT_Outline
+  parent: Pie.Text.Native
+  children:
+  - Pie.Text.Native.FT_Outline.Contours
+  - Pie.Text.Native.FT_Outline.Flags
+  - Pie.Text.Native.FT_Outline.NumContours
+  - Pie.Text.Native.FT_Outline.NumPoints
+  - Pie.Text.Native.FT_Outline.Points
+  - Pie.Text.Native.FT_Outline.Tags
+  langs:
+  - csharp
+  - vb
+  name: FT_Outline
+  nameWithType: FT_Outline
+  fullName: Pie.Text.Native.FT_Outline
+  type: Struct
+  source:
+    remote:
+      path: Pie.Text/Native/FT_Outline.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: FT_Outline
+    path: src/Pie/Pie.Text/Native/FT_Outline.cs
+    startLine: 4
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public struct FT_Outline
+    content.vb: Public Structure FT_Outline
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: Pie.Text.Native.FT_Outline.NumContours
+  commentId: F:Pie.Text.Native.FT_Outline.NumContours
+  id: NumContours
+  parent: Pie.Text.Native.FT_Outline
+  langs:
+  - csharp
+  - vb
+  name: NumContours
+  nameWithType: FT_Outline.NumContours
+  fullName: Pie.Text.Native.FT_Outline.NumContours
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FT_Outline.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: NumContours
+    path: src/Pie/Pie.Text/Native/FT_Outline.cs
+    startLine: 7
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public short NumContours
+    return:
+      type: System.Int16
+    content.vb: Public NumContours As Short
+- uid: Pie.Text.Native.FT_Outline.NumPoints
+  commentId: F:Pie.Text.Native.FT_Outline.NumPoints
+  id: NumPoints
+  parent: Pie.Text.Native.FT_Outline
+  langs:
+  - csharp
+  - vb
+  name: NumPoints
+  nameWithType: FT_Outline.NumPoints
+  fullName: Pie.Text.Native.FT_Outline.NumPoints
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FT_Outline.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: NumPoints
+    path: src/Pie/Pie.Text/Native/FT_Outline.cs
+    startLine: 8
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public short NumPoints
+    return:
+      type: System.Int16
+    content.vb: Public NumPoints As Short
+- uid: Pie.Text.Native.FT_Outline.Points
+  commentId: F:Pie.Text.Native.FT_Outline.Points
+  id: Points
+  parent: Pie.Text.Native.FT_Outline
+  langs:
+  - csharp
+  - vb
+  name: Points
+  nameWithType: FT_Outline.Points
+  fullName: Pie.Text.Native.FT_Outline.Points
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FT_Outline.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Points
+    path: src/Pie/Pie.Text/Native/FT_Outline.cs
+    startLine: 10
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public FT_Vector* Points
+    return:
+      type: Pie.Text.Native.FT_Vector*
+    content.vb: Public Points As FT_Vector*
+- uid: Pie.Text.Native.FT_Outline.Tags
+  commentId: F:Pie.Text.Native.FT_Outline.Tags
+  id: Tags
+  parent: Pie.Text.Native.FT_Outline
+  langs:
+  - csharp
+  - vb
+  name: Tags
+  nameWithType: FT_Outline.Tags
+  fullName: Pie.Text.Native.FT_Outline.Tags
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FT_Outline.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Tags
+    path: src/Pie/Pie.Text/Native/FT_Outline.cs
+    startLine: 11
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public sbyte* Tags
+    return:
+      type: System.SByte*
+    content.vb: Public Tags As SByte*
+- uid: Pie.Text.Native.FT_Outline.Contours
+  commentId: F:Pie.Text.Native.FT_Outline.Contours
+  id: Contours
+  parent: Pie.Text.Native.FT_Outline
+  langs:
+  - csharp
+  - vb
+  name: Contours
+  nameWithType: FT_Outline.Contours
+  fullName: Pie.Text.Native.FT_Outline.Contours
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FT_Outline.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Contours
+    path: src/Pie/Pie.Text/Native/FT_Outline.cs
+    startLine: 12
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public short* Contours
+    return:
+      type: System.Int16*
+    content.vb: Public Contours As Short*
+- uid: Pie.Text.Native.FT_Outline.Flags
+  commentId: F:Pie.Text.Native.FT_Outline.Flags
+  id: Flags
+  parent: Pie.Text.Native.FT_Outline
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: FT_Outline.Flags
+  fullName: Pie.Text.Native.FT_Outline.Flags
+  type: Field
+  source:
+    remote:
+      path: Pie.Text/Native/FT_Outline.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: Flags
+    path: src/Pie/Pie.Text/Native/FT_Outline.cs
+    startLine: 14
+  assemblies:
+  - Pie.Text
+  namespace: Pie.Text.Native
+  syntax:
+    content: public int Flags
+    return:
+      type: System.Int32
+    content.vb: Public Flags As Integer
+references:
+- uid: Pie.Text.Native
+  commentId: N:Pie.Text.Native
+  name: Pie.Text.Native
+  nameWithType: Pie.Text.Native
+  fullName: Pie.Text.Native
+  spec.csharp:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Text
+    name: Text
+  - name: .
+  - uid: Pie.Text.Native
+    name: Native
+  spec.vb:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Text
+    name: Text
+  - name: .
+  - uid: Pie.Text.Native
+    name: Native
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: short
+  nameWithType: short
+  fullName: short
+  nameWithType.vb: Short
+  fullName.vb: Short
+  name.vb: Short
+- uid: Pie.Text.Native.FT_Vector*
+  isExternal: true
+  name: FT_Vector*
+  nameWithType: FT_Vector*
+  fullName: Pie.Text.Native.FT_Vector*
+  spec.csharp:
+  - uid: Pie.Text.Native.FT_Vector
+    name: FT_Vector
+  - name: '*'
+  spec.vb:
+  - uid: Pie.Text.Native.FT_Vector
+    name: FT_Vector
+  - name: '*'
+- uid: System.SByte*
+  isExternal: true
+  name: sbyte*
+  nameWithType: sbyte*
+  fullName: sbyte*
+  nameWithType.vb: SByte*
+  fullName.vb: SByte*
+  name.vb: SByte*
+  spec.csharp:
+  - uid: System.SByte
+    name: sbyte
+    isExternal: true
+  - name: '*'
+  spec.vb:
+  - uid: System.SByte
+    name: SByte
+    isExternal: true
+  - name: '*'
+- uid: System.Int16*
+  isExternal: true
+  name: short*
+  nameWithType: short*
+  fullName: short*
+  nameWithType.vb: Short*
+  fullName.vb: Short*
+  name.vb: Short*
+  spec.csharp:
+  - uid: System.Int16
+    name: short
+    isExternal: true
+  - name: '*'
+  spec.vb:
+  - uid: System.Int16
+    name: Short
+    isExternal: true
+  - name: '*'
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer

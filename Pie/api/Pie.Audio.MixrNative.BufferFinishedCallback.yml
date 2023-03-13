@@ -1,0 +1,77 @@
+### YamlMime:ManagedReference
+items:
+- uid: Pie.Audio.MixrNative.BufferFinishedCallback
+  commentId: T:Pie.Audio.MixrNative.BufferFinishedCallback
+  id: MixrNative.BufferFinishedCallback
+  parent: Pie.Audio
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: MixrNative.BufferFinishedCallback
+  nameWithType: MixrNative.BufferFinishedCallback
+  fullName: Pie.Audio.MixrNative.BufferFinishedCallback
+  type: Delegate
+  source:
+    remote:
+      path: Pie.Audio/MixrNative.cs
+      branch: master
+      repo: https://github.com/piegfx/Pie
+    id: BufferFinishedCallback
+    path: src/Pie/Pie.Audio/MixrNative.cs
+    startLine: 75
+  assemblies:
+  - Pie.Audio
+  namespace: Pie.Audio
+  syntax:
+    content: public delegate void MixrNative.BufferFinishedCallback(ushort channel, int buffer)
+    parameters:
+    - id: channel
+      type: System.UInt16
+    - id: buffer
+      type: System.Int32
+    content.vb: Public Delegate Sub MixrNative.BufferFinishedCallback(channel As UShort, buffer As Integer)
+references:
+- uid: Pie.Audio
+  commentId: N:Pie.Audio
+  name: Pie.Audio
+  nameWithType: Pie.Audio
+  fullName: Pie.Audio
+  spec.csharp:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Audio
+    name: Audio
+  spec.vb:
+  - uid: Pie
+    name: Pie
+  - name: .
+  - uid: Pie.Audio
+    name: Audio
+- uid: System.UInt16
+  commentId: T:System.UInt16
+  parent: System
+  isExternal: true
+  name: ushort
+  nameWithType: ushort
+  fullName: ushort
+  nameWithType.vb: UShort
+  fullName.vb: UShort
+  name.vb: UShort
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
