@@ -29,7 +29,7 @@ Let's install Easel into our project!
 
 The simplest way is to clone Easel into a parent directory.
 
-`cd` into the parent directory of your project's directory, and run `git clone -b renderer-revamp --recurse-submodules https://github.com/piegfx/Easel` to clone it.
+`cd` into the parent directory of your project's directory, and run `git clone --recurse-submodules https://github.com/piegfx/Easel` to clone it.
 
 Then, `cd` into the newly created Easel directory, and run `dotnet build`, to ensure everything is built and up-to-date.
 
